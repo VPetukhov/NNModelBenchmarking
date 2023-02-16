@@ -1,0 +1,80 @@
+1: 
+Learning to Bluff
+  The act of bluffing confounds game designers to this day. The very nature of
+bluffing is even open for debate, adding further complication to the process of
+creating intelligent virtual players that can bluff, and hence play,
+realistically. Through the use of intelligent, learning agents, and carefully
+designed agent outlooks, an agent can in fact learn to predict its opponents
+reactions based not only on its own cards, but on the actions of those around
+it. With this wider scope of understanding, an agent can in learn to bluff its
+opponents, with the action representing not an illogical action, as bluffing is
+often viewed, but rather as an act of maximising returns through an effective
+statistical optimisation. By using a tee dee lambda learning algorithm to
+continuously adapt neural network agent intelligence, agents have been shown to
+be able to learn to bluff without outside prompting, and even to learn to call
+each others bluffs in free, competitive play.
+
+2: 
+An Adaptive Strategy for the Classification of G-Protein Coupled
+  Receptors
+  One of the major problems in computational biology is the inability of
+existing classification models to incorporate expanding and new domain
+knowledge. This problem of static classification models is addressed in this
+paper by the introduction of incremental learning for problems in
+bioinformatics. Many machine learning tools have been applied to this problem
+using static machine learning structures such as neural networks or support
+vector machines that are unable to accommodate new information into their
+existing models. We utilize the fuzzy ARTMAP as an alternate machine learning
+system that has the ability of incrementally learning new data as it becomes
+available. The fuzzy ARTMAP is found to be comparable to many of the widespread
+machine learning systems. The use of an evolutionary strategy in the selection
+and combination of individual classifiers into an ensemble system, coupled with
+the incremental learning ability of the fuzzy ARTMAP is proven to be suitable
+as a pattern classifier. The algorithm presented is tested using data from the
+G-Coupled Protein Receptors Database and shows good accuracy of 83%. The system
+presented is also generally applicable, and can be used in problems in genomics
+and proteomics.
+
+3: 
+Non-Computability of Consciousness
+  With the great success in simulating many intelligent behaviors using
+computing devices, there has been an ongoing debate whether all conscious
+activities are computational processes. In this paper, the answer to this
+question is shown to be no. A certain phenomenon of consciousness is
+demonstrated to be fully represented as a computational process using a quantum
+computer. Based on the computability criterion discussed with Turing machines,
+the model constructed is shown to necessarily involve a non-computable element.
+The concept that this is solely a quantum effect and does not work for a
+classical case is also discussed.
+
+4: 
+Experimenting with recursive queries in database and logic programming
+  systems
+  This paper considers the problem of reasoning on massive amounts of (possibly
+distributed) data. Presently, existing proposals show some limitations: {\em
+(i)} the quantity of data that can be handled contemporarily is limited, due to
+the fact that reasoning is generally carried out in main-memory; {\em (ii)} the
+interaction with external (and independent) DBMSs is not trivial and, in
+several cases, not allowed at all; {\em (iii)} the efficiency of present
+implementations is still not sufficient for their utilization in complex
+reasoning tasks involving massive amounts of data. This paper provides a
+contribution in this setting; it presents a new system, called DLV$^{DB}$,
+which aims to solve these problems. Moreover, the paper reports the results of
+a thorough experimental analysis we have carried out for comparing our system
+with several state-of-the-art systems (both logic and databases) on some
+classical deductive problems; the other tested systems are: LDL++, XSB, Smodels
+and three top-level commercial DBMSs. DLV$^{DB}$ significantly outperforms even
+the commercial Database Systems on recursive queries. To appear in Theory and
+Practice of Logic Programming (TPLP)
+
+5: 
+Resource modalities in game semantics
+  The description of resources in game semantics has never achieved the
+simplicity and precision of linear logic, because of a misleading conception:
+the belief that linear logic is more primitive than game semantics. We advocate
+instead the contrary: that game semantics is conceptually more primitive than
+linear logic. Starting from this revised point of view, we design a categorical
+model of resources in game semantics, and construct an arena game model where
+the usual notion of bracketing is extended to multi- bracketing in order to
+capture various resource policies: linear, af&#64257;ne and exponential.
+

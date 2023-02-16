@@ -1,0 +1,57 @@
+Query:
+how to generate a picture with ai
+
+Results:
+1: 
+Title: The Road to Quantum Artificial Intelligence
+Abstract:
+  This paper overviews the basic principles and recent advances in the emerging field of Quantum Computation (QC), highlighting its potential application to Artificial Intelligence (AI). The paper provides a very brief introduction to basic QC issues like quantum registers, quantum gates and quantum algorithms and then it presents references, ideas and research guidelines on how QC can be used to deal with some basic AI problems, such as search and pattern matching, as soon as quantum computers become widely available. 
+
+2: 
+Title: Personalizing Image Search Results on Flickr
+Abstract:
+  The social media site Flickr allows users to upload their photos, annotate them with tags, submit them to groups, and also to form social networks by adding other users as contacts. Flickr offers multiple ways of browsing or searching it. One option is tag search, which returns all images tagged with a specific keyword. If the keyword is ambiguous, e.g., ``beetle'' could mean an insect or a car, tag search results will include many images that are not relevant to the sense the user had in mind when executing the query. We claim that users express their photography interests through the metadata they add in the form of contacts and image annotations. We show how to exploit this metadata to personalize search results for the user, thereby improving search performance. First, we show that we can significantly improve search precision by filtering tag search results by user's contacts or a larger social network that includes those contact's contacts. Secondly, we describe a probabilistic model that takes advantage of tag information to discover latent topics contained in the search results. The users' interests can similarly be described by the tags they used for annotating their images. The latent topics found by the model are then used to personalize search results by finding images on topics that are of interest to the user. 
+
+3: 
+Title: Evolutionary Optimisation Methods for Template Based Image Registration
+Abstract:
+  This paper investigates the use of evolutionary optimisation techniques to register a template with a scene image. An error function is created to measure the correspondence of the template to the image. The problem presented here is to optimise the horizontal, vertical and scaling parameters that register the template with the scene. The Genetic Algorithm, Simulated Annealing and Particle Swarm Optimisations are compared to a Nelder-Mead Simplex optimisation with starting points chosen in a pre-processing stage. The paper investigates the precision and accuracy of each method and shows that all four methods perform favourably for image registration. SA is the most precise, GA is the most accurate. PSO is a good mix of both and the Simplex method returns local minima the most. A pre-processing stage should be investigated for the evolutionary methods in order to improve performance. Discrete versions of the optimisation methods should be investigated to further improve computational performance. 
+
+4: 
+Title: Medical Image Segmentation and Localization using Deformable Templates
+Abstract:
+  This paper presents deformable templates as a tool for segmentation and localization of biological structures in medical images. Structures are represented by a prototype template, combined with a parametric warp mapping used to deform the original shape. The localization procedure is achieved using a multi-stage, multi-resolution algorithm de-signed to reduce computational complexity and time. The algorithm initially identifies regions in the image most likely to contain the desired objects and then examines these regions at progressively increasing resolutions. The final stage of the algorithm involves warping the prototype template to match the localized objects. The algorithm is presented along with the results of four example applications using MRI, x-ray and ultrasound images. 
+
+5: 
+Title: Ensemble Learning for Free with Evolutionary Algorithms ?
+Abstract:
+  Evolutionary Learning proceeds by evolving a population of classifiers, from which it generally returns (with some notable exceptions) the single best-of-run classifier as final result. In the meanwhile, Ensemble Learning, one of the most efficient approaches in supervised Machine Learning for the last decade, proceeds by building a population of diverse classifiers. Ensemble Learning with Evolutionary Computation thus receives increasing attention. The Evolutionary Ensemble Learning (EEL) approach presented in this paper features two contributions. First, a new fitness function, inspired by co-evolution and enforcing the classifier diversity, is presented. Further, a new selection criterion based on the classification margin is proposed. This criterion is used to extract the classifier ensemble from the final population only (Off-line) or incrementally along evolution (On-line). Experiments on a set of benchmark problems show that Off-line outperforms single-hypothesis evolutionary learning and state-of-art Boosting and generates smaller classifier ensembles. 
+
+6: 
+Title: Automatic Detection of Pulmonary Embolism using Computational
+  Intelligence
+Abstract:
+  This article describes the implementation of a system designed to automatically detect the presence of pulmonary embolism in lung scans. These images are firstly segmented, before alignment and feature extraction using PCA. The neural network was trained using the Hybrid Monte Carlo method, resulting in a committee of 250 neural networks and good results are obtained. 
+
+7: 
+Title: Non-Computability of Consciousness
+Abstract:
+  With the great success in simulating many intelligent behaviors using computing devices, there has been an ongoing debate whether all conscious activities are computational processes. In this paper, the answer to this question is shown to be no. A certain phenomenon of consciousness is demonstrated to be fully represented as a computational process using a quantum computer. Based on the computability criterion discussed with Turing machines, the model constructed is shown to necessarily involve a non-computable element. The concept that this is solely a quantum effect and does not work for a classical case is also discussed. 
+
+8: 
+Title: Temporal Reasoning without Transitive Tables
+Abstract:
+  Representing and reasoning about qualitative temporal information is an essential part of many artificial intelligence tasks. Lots of models have been proposed in the litterature for representing such temporal information. All derive from a point-based or an interval-based framework. One fundamental reasoning task that arises in applications of these frameworks is given by the following scheme: given possibly indefinite and incomplete knowledge of the binary relationships between some temporal objects, find the consistent scenarii between all these objects. All these models require transitive tables -- or similarly inference rules-- for solving such tasks. We have defined an alternative model, S-languages - to represent qualitative temporal information, based on the only two relations of \emph{precedence} and \emph{simultaneity}. In this paper, we show how this model enables to avoid transitive tables or inference rules to handle this kind of problem. 
+
+9: 
+Title: Intelligent location of simultaneously active acoustic emission sources:
+  Part II
+Abstract:
+  Part I describes an intelligent acoustic emission locator, while Part II discusses blind source separation, time delay estimation and location of two continuous acoustic emission sources.   Acoustic emission (AE) analysis is used for characterization and location of developing defects in materials. AE sources often generate a mixture of various statistically independent signals. A difficult problem of AE analysis is separation and characterization of signal components when the signals from various sources and the mode of mixing are unknown. Recently, blind source separation (BSS) by independent component analysis (ICA) has been used to solve these problems. The purpose of this paper is to demonstrate the applicability of ICA to locate two independent simultaneously active acoustic emission sources on an aluminum band specimen. The method is promising for non-destructive testing of aircraft frame structures by acoustic emission analysis. 
+
+10: 
+Title: Enhancement of Noisy Planar Nuclear Medicine Images using Mean Field
+  Annealing
+Abstract:
+  Nuclear medicine (NM) images inherently suffer from large amounts of noise and blur. The purpose of this research is to reduce the noise and blur while maintaining image integrity for improved diagnosis. The proposed solution is to increase image quality after the standard pre- and post-processing undertaken by a gamma camera system. Mean Field Annealing (MFA) is the image processing technique used in this research. It is a computational iterative technique that makes use of the Point Spread Function (PSF) and the noise associated with the NM image. MFA is applied to NM images with the objective of reducing noise while not compromising edge integrity. Using a sharpening filter as a post-processing technique (after MFA) yields image enhancement of planar NM images. 
+

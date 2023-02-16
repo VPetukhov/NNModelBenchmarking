@@ -1,0 +1,80 @@
+1: 
+The Road to Quantum Artificial Intelligence
+  This paper overviews the basic principles and recent advances in the emerging
+field of Quantum Computation (QC), highlighting its potential application to
+Artificial Intelligence (AI). The paper provides a very brief introduction to
+basic QC issues like quantum registers, quantum gates and quantum algorithms
+and then it presents references, ideas and research guidelines on how QC can be
+used to deal with some basic AI problems, such as search and pattern matching,
+as soon as quantum computers become widely available.
+
+2: 
+Personalizing Image Search Results on Flickr
+  The social media site Flickr allows users to upload their photos, annotate
+them with tags, submit them to groups, and also to form social networks by
+adding other users as contacts. Flickr offers multiple ways of browsing or
+searching it. One option is tag search, which returns all images tagged with a
+specific keyword. If the keyword is ambiguous, e.g., ``beetle'' could mean an
+insect or a car, tag search results will include many images that are not
+relevant to the sense the user had in mind when executing the query. We claim
+that users express their photography interests through the metadata they add in
+the form of contacts and image annotations. We show how to exploit this
+metadata to personalize search results for the user, thereby improving search
+performance. First, we show that we can significantly improve search precision
+by filtering tag search results by user's contacts or a larger social network
+that includes those contact's contacts. Secondly, we describe a probabilistic
+model that takes advantage of tag information to discover latent topics
+contained in the search results. The users' interests can similarly be
+described by the tags they used for annotating their images. The latent topics
+found by the model are then used to personalize search results by finding
+images on topics that are of interest to the user.
+
+3: 
+Evolutionary Optimisation Methods for Template Based Image Registration
+  This paper investigates the use of evolutionary optimisation techniques to
+register a template with a scene image. An error function is created to measure
+the correspondence of the template to the image. The problem presented here is
+to optimise the horizontal, vertical and scaling parameters that register the
+template with the scene. The Genetic Algorithm, Simulated Annealing and
+Particle Swarm Optimisations are compared to a Nelder-Mead Simplex optimisation
+with starting points chosen in a pre-processing stage. The paper investigates
+the precision and accuracy of each method and shows that all four methods
+perform favourably for image registration. SA is the most precise, GA is the
+most accurate. PSO is a good mix of both and the Simplex method returns local
+minima the most. A pre-processing stage should be investigated for the
+evolutionary methods in order to improve performance. Discrete versions of the
+optimisation methods should be investigated to further improve computational
+performance.
+
+4: 
+Medical Image Segmentation and Localization using Deformable Templates
+  This paper presents deformable templates as a tool for segmentation and
+localization of biological structures in medical images. Structures are
+represented by a prototype template, combined with a parametric warp mapping
+used to deform the original shape. The localization procedure is achieved using
+a multi-stage, multi-resolution algorithm de-signed to reduce computational
+complexity and time. The algorithm initially identifies regions in the image
+most likely to contain the desired objects and then examines these regions at
+progressively increasing resolutions. The final stage of the algorithm involves
+warping the prototype template to match the localized objects. The algorithm is
+presented along with the results of four example applications using MRI, x-ray
+and ultrasound images.
+
+5: 
+Ensemble Learning for Free with Evolutionary Algorithms ?
+  Evolutionary Learning proceeds by evolving a population of classifiers, from
+which it generally returns (with some notable exceptions) the single
+best-of-run classifier as final result. In the meanwhile, Ensemble Learning,
+one of the most efficient approaches in supervised Machine Learning for the
+last decade, proceeds by building a population of diverse classifiers. Ensemble
+Learning with Evolutionary Computation thus receives increasing attention. The
+Evolutionary Ensemble Learning (EEL) approach presented in this paper features
+two contributions. First, a new fitness function, inspired by co-evolution and
+enforcing the classifier diversity, is presented. Further, a new selection
+criterion based on the classification margin is proposed. This criterion is
+used to extract the classifier ensemble from the final population only
+(Off-line) or incrementally along evolution (On-line). Experiments on a set of
+benchmark problems show that Off-line outperforms single-hypothesis
+evolutionary learning and state-of-art Boosting and generates smaller
+classifier ensembles.
+

@@ -1,0 +1,90 @@
+1: 
+Ensemble Learning for Free with Evolutionary Algorithms ?
+  Evolutionary Learning proceeds by evolving a population of classifiers, from
+which it generally returns (with some notable exceptions) the single
+best-of-run classifier as final result. In the meanwhile, Ensemble Learning,
+one of the most efficient approaches in supervised Machine Learning for the
+last decade, proceeds by building a population of diverse classifiers. Ensemble
+Learning with Evolutionary Computation thus receives increasing attention. The
+Evolutionary Ensemble Learning (EEL) approach presented in this paper features
+two contributions. First, a new fitness function, inspired by co-evolution and
+enforcing the classifier diversity, is presented. Further, a new selection
+criterion based on the classification margin is proposed. This criterion is
+used to extract the classifier ensemble from the final population only
+(Off-line) or incrementally along evolution (On-line). Experiments on a set of
+benchmark problems show that Off-line outperforms single-hypothesis
+evolutionary learning and state-of-art Boosting and generates smaller
+classifier ensembles.
+
+2: 
+Statistical Mechanics of Nonlinear On-line Learning for Ensemble
+  Teachers
+  We analyze the generalization performance of a student in a model composed of
+nonlinear perceptrons: a true teacher, ensemble teachers, and the student. We
+calculate the generalization error of the student analytically or numerically
+using statistical mechanics in the framework of on-line learning. We treat two
+well-known learning rules: Hebbian learning and perceptron learning. As a
+result, it is proven that the nonlinear model shows qualitatively different
+behaviors from the linear model. Moreover, it is clarified that Hebbian
+learning and perceptron learning show qualitatively different behaviors from
+each other. In Hebbian learning, we can analytically obtain the solutions. In
+this case, the generalization error monotonically decreases. The steady value
+of the generalization error is independent of the learning rate. The larger the
+number of teachers is and the more variety the ensemble teachers have, the
+smaller the generalization error is. In perceptron learning, we have to
+numerically obtain the solutions. In this case, the dynamical behaviors of the
+generalization error are non-monotonic. The smaller the learning rate is, the
+larger the number of teachers is; and the more variety the ensemble teachers
+have, the smaller the minimum value of the generalization error is.
+
+3: 
+Multi-Dimensional Recurrent Neural Networks
+  Recurrent neural networks (RNNs) have proved effective at one dimensional
+sequence learning tasks, such as speech and online handwriting recognition.
+Some of the properties that make RNNs suitable for such tasks, for example
+robustness to input warping, and the ability to access contextual information,
+are also desirable in multidimensional domains. However, there has so far been
+no direct way of applying RNNs to data with more than one spatio-temporal
+dimension. This paper introduces multi-dimensional recurrent neural networks
+(MDRNNs), thereby extending the potential applicability of RNNs to vision,
+video processing, medical imaging and many other areas, while avoiding the
+scaling problems that have plagued other multi-dimensional models. Experimental
+results are provided for two image segmentation tasks.
+
+4: 
+A neural network approach to ordinal regression
+  Ordinal regression is an important type of learning, which has properties of
+both classification and regression. Here we describe a simple and effective
+approach to adapt a traditional neural network to learn ordinal categories. Our
+approach is a generalization of the perceptron method for ordinal regression.
+On several benchmark datasets, our method (NNRank) outperforms a neural network
+classification method. Compared with the ordinal regression methods using
+Gaussian processes and support vector machines, NNRank achieves comparable
+performance. Moreover, NNRank has the advantages of traditional neural
+networks: learning in both online and batch modes, handling very large training
+datasets, and making rapid predictions. These features make NNRank a useful and
+complementary tool for large-scale data processing tasks such as information
+retrieval, web page ranking, collaborative filtering, and protein ranking in
+Bioinformatics.
+
+5: 
+An Adaptive Strategy for the Classification of G-Protein Coupled
+  Receptors
+  One of the major problems in computational biology is the inability of
+existing classification models to incorporate expanding and new domain
+knowledge. This problem of static classification models is addressed in this
+paper by the introduction of incremental learning for problems in
+bioinformatics. Many machine learning tools have been applied to this problem
+using static machine learning structures such as neural networks or support
+vector machines that are unable to accommodate new information into their
+existing models. We utilize the fuzzy ARTMAP as an alternate machine learning
+system that has the ability of incrementally learning new data as it becomes
+available. The fuzzy ARTMAP is found to be comparable to many of the widespread
+machine learning systems. The use of an evolutionary strategy in the selection
+and combination of individual classifiers into an ensemble system, coupled with
+the incremental learning ability of the fuzzy ARTMAP is proven to be suitable
+as a pattern classifier. The algorithm presented is tested using data from the
+G-Coupled Protein Receptors Database and shows good accuracy of 83%. The system
+presented is also generally applicable, and can be used in problems in genomics
+and proteomics.
+

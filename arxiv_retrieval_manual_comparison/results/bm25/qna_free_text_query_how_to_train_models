@@ -1,0 +1,58 @@
+Query:
+how to train models
+
+Results:
+1: 
+Title: Impact of Training Dataset Size on Neural Answer Selection Models
+Abstract:
+  It is held as a truism that deep neural networks require large datasets to train effective models. However, large datasets, especially with high-quality labels, can be expensive to obtain. This study sets out to investigate (i) how large a dataset must be to train well-performing models, and (ii) what impact can be shown from fractional changes to the dataset size. A practical method to investigate these questions is to train a collection of deep neural answer selection models using fractional subsets of varying sizes of an initial dataset. We observe that dataset size has a conspicuous lack of effect on the training of some of these models, bringing the underlying algorithms into question. 
+
+2: 
+Title: Discourse-Based Objectives for Fast Unsupervised Sentence Representation
+  Learning
+Abstract:
+  This work presents a novel objective function for the unsupervised training of neural network sentence encoders. It exploits signals from paragraph-level discourse coherence to train these models to understand text. Our objective is purely discriminative, allowing us to train models many times faster than was possible under prior methods, and it yields models which perform well in extrinsic evaluations. 
+
+3: 
+Title: Learning Body-Aware 3D Shape Generative Models
+Abstract:
+  The shape of many objects in the built environment is dictated by their relationships to the human body: how will a person interact with this object? Existing data-driven generative models of 3D shapes produce plausible objects but do not reason about the relationship of those objects to the human body. In this paper, we learn body-aware generative models of 3D shapes. Specifically, we train generative models of chairs, an ubiquitous shape category, which can be conditioned on a given body shape or sitting pose. The body-shape-conditioned models produce chairs which will be comfortable for a person with the given body shape; the pose-conditioned models produce chairs which accommodate the given sitting pose. To train these models, we define a "sitting pose matching" metric and a novel "sitting comfort" metric. Calculating these metrics requires an expensive optimization to sit the body into the chair, which is too slow to be used as a loss function for training a generative model. Thus, we train neural networks to efficiently approximate these metrics. We use our approach to train three body-aware generative shape models: a structured part-based generator, a point cloud generator, and an implicit surface generator. In all cases, our approach produces models which adapt their output chair shapes to input human body specifications. 
+
+4: 
+Title: Adaptive Transfer Learning: a simple but effective transfer learning
+Abstract:
+  Transfer learning (TL) leverages previously obtained knowledge to learn new tasks efficiently and has been used to train deep learning (DL) models with limited amount of data. When TL is applied to DL, pretrained (teacher) models are fine-tuned to build domain specific (student) models. This fine-tuning relies on the fact that DL model can be decomposed to classifiers and feature extractors, and a line of studies showed that the same feature extractors can be used to train classifiers on multiple tasks. Furthermore, recent studies proposed multiple algorithms that can fine-tune teacher models' feature extractors to train student models more efficiently. We note that regardless of the fine-tuning of feature extractors, the classifiers of student models are trained with final outputs of feature extractors (i.e., the outputs of penultimate layers). However, a recent study suggested that feature maps in ResNets across layers could be functionally equivalent, raising the possibility that feature maps inside the feature extractors can also be used to train student models' classifiers. Inspired by this study, we tested if feature maps in the hidden layers of the teacher models can be used to improve the student models' accuracy (i.e., TL's efficiency). Specifically, we developed 'adaptive transfer learning (ATL)', which can choose an optimal set of feature maps for TL, and tested it in the few-shot learning setting. Our empirical evaluations suggest that ATL can help DL models learn more efficiently, especially when available examples are limited. 
+
+5: 
+Title: Synthetic vascular structure generation for unsupervised pre-training in
+  CTA segmentation tasks
+Abstract:
+  Large enough computed tomography (CT) data sets to train supervised deep models are often hard to come by. One contributing issue is the amount of manual labor that goes into creating ground truth labels, specially for volumetric data. In this research, we train a U-net architecture at a vessel segmentation task that can be used to provide insights when treating stroke patients. We create a computational model that generates synthetic vascular structures which can be blended into unlabeled CT scans of the head. This unsupervised approached to labelling is used to pre-train deep segmentation models, which are later fine-tuned on real examples to achieve an increase in accuracy compared to models trained exclusively on a hand-labeled data set. 
+
+6: 
+Title: Training Large-Vocabulary Neural Language Models by Private Federated
+  Learning for Resource-Constrained Devices
+Abstract:
+  Federated Learning (FL) is a technique to train models using data distributed across devices. Differential Privacy (DP) provides a formal privacy guarantee for sensitive data. Our goal is to train a large neural network language model (NNLM) on compute-constrained devices while preserving privacy using FL and DP. However, the DP-noise introduced to the model increases as the model size grows, which often prevents convergence. We propose Partial Embedding Updates (PEU), a novel technique to decrease noise by decreasing payload size. Furthermore, we adopt Low Rank Adaptation (LoRA) and Noise Contrastive Estimation (NCE) to reduce the memory demands of large models on compute-constrained devices. This combination of techniques makes it possible to train large-vocabulary language models while preserving accuracy and privacy. 
+
+7: 
+Title: Curb Your Carbon Emissions: Benchmarking Carbon Emissions in Machine
+  Translation
+Abstract:
+  In recent times, there has been definitive progress in the field of NLP, with its applications growing as the utility of our language models increases with advances in their performance. However, these models require a large amount of computational power and data to train, consequently leading to large carbon footprints. Therefore, it is imperative that we study the carbon efficiency and look for alternatives to reduce the overall environmental impact of training models, in particular large language models. In our work, we assess the performance of models for machine translation, across multiple language pairs to assess the difference in computational power required to train these models for each of these language pairs and examine the various components of these models to analyze aspects of our pipeline that can be optimized to reduce these carbon emissions. 
+
+8: 
+Title: How Important is the Train-Validation Split in Meta-Learning?
+Abstract:
+  Meta-learning aims to perform fast adaptation on a new task through learning a "prior" from multiple existing tasks. A common practice in meta-learning is to perform a train-validation split (\emph{train-val method}) where the prior adapts to the task on one split of the data, and the resulting predictor is evaluated on another split. Despite its prevalence, the importance of the train-validation split is not well understood either in theory or in practice, particularly in comparison to the more direct \emph{train-train method}, which uses all the per-task data for both training and evaluation.   We provide a detailed theoretical study on whether and when the train-validation split is helpful in the linear centroid meta-learning problem. In the agnostic case, we show that the expected loss of the train-val method is minimized at the optimal prior for meta testing, and this is not the case for the train-train method in general without structural assumptions on the data. In contrast, in the realizable case where the data are generated from linear models, we show that both the train-val and train-train losses are minimized at the optimal prior in expectation. Further, perhaps surprisingly, our main result shows that the train-train method achieves a \emph{strictly better} excess loss in this realizable case, even when the regularization parameter and split ratio are optimally tuned for both methods. Our results highlight that sample splitting may not always be preferable, especially when the data is realizable by the model. We validate our theories by experimentally showing that the train-train method can indeed outperform the train-val method, on both simulations and real meta-learning tasks. 
+
+9: 
+Title: Thai Wav2Vec2.0 with CommonVoice V8
+Abstract:
+  Recently, Automatic Speech Recognition (ASR), a system that converts audio into text, has caught a lot of attention in the machine learning community. Thus, a lot of publicly available models were released in HuggingFace. However, most of these ASR models are available in English; only a minority of the models are available in Thai. Additionally, most of the Thai ASR models are closed-sourced, and the performance of existing open-sourced models lacks robustness. To address this problem, we train a new ASR model on a pre-trained XLSR-Wav2Vec model with the Thai CommonVoice corpus V8 and train a trigram language model to boost the performance of our ASR model. We hope that our models will be beneficial to individuals and the ASR community in Thailand. 
+
+10: 
+Title: DeepHashing using TripletLoss
+Abstract:
+  Hashing is one of the most efficient techniques for approximate nearest neighbour search for large scale image retrieval. Most of the techniques are based on hand-engineered features and do not give optimal results all the time. Deep Convolutional Neural Networks have proven to generate very effective representation of images that are used for various computer vision tasks and inspired by this there have been several Deep Hashing models like Wang et al. (2016) have been proposed. These models train on the triplet loss function which can be used to train models with superior representation capabilities. Taking the latest advancements in training using the triplet loss I propose new techniques that help the Deep Hash-ing models train more faster and efficiently. Experiment result1show that using the more efficient techniques for training on the triplet loss, we have obtained a 5%percent improvement in our model compared to the original work of Wang et al.(2016). Using a larger model and more training data we can drastically improve the performance using the techniques we propose 
+

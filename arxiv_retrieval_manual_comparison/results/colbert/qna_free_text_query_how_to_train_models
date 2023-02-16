@@ -1,0 +1,56 @@
+Query:
+how to train models
+
+Results:
+1: 
+Title: Bayesian approach to rough set
+Abstract:
+  This paper proposes an approach to training rough set models using Bayesian framework trained using Markov Chain Monte Carlo (MCMC) method. The prior probabilities are constructed from the prior knowledge that good rough set models have fewer rules. Markov Chain Monte Carlo sampling is conducted through sampling in the rough set granule space and Metropolis algorithm is used as an acceptance criteria. The proposed method is tested to estimate the risk of HIV given demographic data. The results obtained shows that the proposed approach is able to achieve an average accuracy of 58% with the accuracy varying up to 66%. In addition the Bayesian rough set give the probabilities of the estimated HIV status as well as the linguistic rules describing how the demographic parameters drive the risk of HIV. 
+
+2: 
+Title: Fault Classification in Cylinders Using Multilayer Perceptrons, Support
+  Vector Machines and Guassian Mixture Models
+Abstract:
+  Gaussian mixture models (GMM) and support vector machines (SVM) are introduced to classify faults in a population of cylindrical shells. The proposed procedures are tested on a population of 20 cylindrical shells and their performance is compared to the procedure, which uses multi-layer perceptrons (MLP). The modal properties extracted from vibration data are used to train the GMM, SVM and MLP. It is observed that the GMM produces 98%, SVM produces 94% classification accuracy while the MLP produces 88% classification rates. 
+
+3: 
+Title: A study of structural properties on profiles HMMs
+Abstract:
+  Motivation: Profile hidden Markov Models (pHMMs) are a popular and very useful tool in the detection of the remote homologue protein families. Unfortunately, their performance is not always satisfactory when proteins are in the 'twilight zone'. We present HMMER-STRUCT, a model construction algorithm and tool that tries to improve pHMM performance by using structural information while training pHMMs. As a first step, HMMER-STRUCT constructs a set of pHMMs. Each pHMM is constructed by weighting each residue in an aligned protein according to a specific structural property of the residue. Properties used were primary, secondary and tertiary structures, accessibility and packing. HMMER-STRUCT then prioritizes the results by voting. Results: We used the SCOP database to perform our experiments. Throughout, we apply leave-one-family-out cross-validation over protein superfamilies. First, we used the MAMMOTH-mult structural aligner to align the training set proteins. Then, we performed two sets of experiments. In a first experiment, we compared structure weighted models against standard pHMMs and against each other. In a second experiment, we compared the voting model against individual pHMMs. We compare method performance through ROC curves and through Precision/Recall curves, and assess significance through the paired two tailed t-test. Our results show significant performance improvements of all structurally weighted models over default HMMER, and a significant improvement in sensitivity of the combined models over both the original model and the structurally weighted models. 
+
+4: 
+Title: Response Prediction of Structural System Subject to Earthquake Motions
+  using Artificial Neural Network
+Abstract:
+  This paper uses Artificial Neural Network (ANN) models to compute response of structural system subject to Indian earthquakes at Chamoli and Uttarkashi ground motion data. The system is first trained for a single real earthquake data. The trained ANN architecture is then used to simulate earthquakes with various intensities and it was found that the predicted responses given by ANN model are accurate for practical purposes. When the ANN is trained by a part of the ground motion data, it can also identify the responses of the structural system well. In this way the safeness of the structural systems may be predicted in case of future earthquakes without waiting for the earthquake to occur for the lessons. Time period and the corresponding maximum response of the building for an earthquake has been evaluated, which is again trained to predict the maximum response of the building at different time periods. The trained time period versus maximum response ANN model is also tested for real earthquake data of other place, which was not used in the training and was found to be in good agreement. 
+
+5: 
+Title: A Novel Model of Working Set Selection for SMO Decomposition Methods
+Abstract:
+  In the process of training Support Vector Machines (SVMs) by decomposition methods, working set selection is an important technique, and some exciting schemes were employed into this field. To improve working set selection, we propose a new model for working set selection in sequential minimal optimization (SMO) decomposition methods. In this model, it selects B as working set without reselection. Some properties are given by simple proof, and experiments demonstrate that the proposed method is in general faster than existing methods. 
+
+6: 
+Title: Bayesian Approach to Neuro-Rough Models
+Abstract:
+  This paper proposes a neuro-rough model based on multi-layered perceptron and rough set. The neuro-rough model is then tested on modelling the risk of HIV from demographic data. The model is formulated using Bayesian framework and trained using Monte Carlo method and Metropolis criterion. When the model was tested to estimate the risk of HIV infection given the demographic data it was found to give the accuracy of 62%. The proposed model is able to combine the accuracy of the Bayesian MLP model and the transparency of Bayesian rough set model. 
+
+7: 
+Title: High-dimensional variable selection
+Abstract:
+  This paper explores the following question: what kind of statistical guarantees can be given when doing variable selection in high-dimensional models? In particular, we look at the error rates and power of some multi-stage regression methods. In the first stage we fit a set of candidate models. In the second stage we select one model by cross-validation. In the third stage we use hypothesis testing to eliminate some variables. We refer to the first two stages as "screening" and the last stage as "cleaning." We consider three screening methods: the lasso, marginal regression, and forward stepwise regression. Our method gives consistent variable selection under certain conditions. 
+
+8: 
+Title: Towards understanding and modelling office daily life
+Abstract:
+  Measuring and modeling human behavior is a very complex task. In this paper we present our initial thoughts on modeling and automatic recognition of some human activities in an office. We argue that to successfully model human activities, we need to consider both individual behavior and group dynamics. To demonstrate these theoretical approaches, we introduce an experimental system for analyzing everyday activity in our office. 
+
+9: 
+Title: On the monotonization of the training set
+Abstract:
+  We consider the problem of minimal correction of the training set to make it consistent with monotonic constraints. This problem arises during analysis of data sets via techniques that require monotone data. We show that this problem is NP-hard in general and is equivalent to finding a maximal independent set in special orgraphs. Practically important cases of that problem considered in detail. These are the cases when a partial order given on the replies set is a total order or has a dimension 2. We show that the second case can be reduced to maximization of a quadratic convex function on a convex set. For this case we construct an approximate polynomial algorithm based on convex optimization. 
+
+10: 
+Title: Direct Optimization of Ranking Measures
+Abstract:
+  Web page ranking and collaborative filtering require the optimization of sophisticated performance measures. Current Support Vector approaches are unable to optimize them directly and focus on pairwise comparisons instead. We present a new approach which allows direct optimization of the relevant loss functions. This is achieved via structured estimation in Hilbert spaces. It is most related to Max-Margin-Markov networks optimization of multivariate performance measures. Key to our approach is that during training the ranking problem can be viewed as a linear assignment problem, which can be solved by the Hungarian Marriage algorithm. At test time, a sort operation is sufficient, as our algorithm assigns a relevance score to every (document, query) pair. Experiments show that the our algorithm is fast and that it works very well. 
+

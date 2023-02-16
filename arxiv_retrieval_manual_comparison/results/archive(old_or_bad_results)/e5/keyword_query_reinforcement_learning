@@ -1,0 +1,90 @@
+1: 
+Multi-Agent Reinforcement Learning: A Report on Challenges and
+  Approaches
+  Reinforcement Learning (RL) is a learning paradigm concerned with learning to
+control a system so as to maximize an objective over the long term. This
+approach to learning has received immense interest in recent times and success
+manifests itself in the form of human-level performance on games like
+\textit{Go}. While RL is emerging as a practical component in real-life
+systems, most successes have been in Single Agent domains. This report will
+instead specifically focus on challenges that are unique to Multi-Agent Systems
+interacting in mixed cooperative and competitive environments. The report
+concludes with advances in the paradigm of training Multi-Agent Systems called
+\textit{Decentralized Actor, Centralized Critic}, based on an extension of MDPs
+called \textit{Decentralized Partially Observable MDP}s, which has seen a
+renewed interest lately.
+
+2: 
+Reinforcement Learning in R
+  Reinforcement learning refers to a group of methods from artificial
+intelligence where an agent performs learning through trial and error. It
+differs from supervised learning, since reinforcement learning requires no
+explicit labels; instead, the agent interacts continuously with its
+environment. That is, the agent starts in a specific state and then performs an
+action, based on which it transitions to a new state and, depending on the
+outcome, receives a reward. Different strategies (e.g. Q-learning) have been
+proposed to maximize the overall reward, resulting in a so-called policy, which
+defines the best possible action in each state. Mathematically, this process
+can be formalized by a Markov decision process and it has been implemented by
+packages in R; however, there is currently no package available for
+reinforcement learning. As a remedy, this paper demonstrates how to perform
+reinforcement learning in R and, for this purpose, introduces the
+ReinforcementLearning package. The package provides a remarkably flexible
+framework and is easily applied to a wide range of different problems. We
+demonstrate its use by drawing upon common examples from the literature (e.g.
+finding optimal game strategies).
+
+3: 
+A Survey on Reinforcement Learning Methods in Character Animation
+  Reinforcement Learning is an area of Machine Learning focused on how agents
+can be trained to make sequential decisions, and achieve a particular goal
+within an arbitrary environment. While learning, they repeatedly take actions
+based on their observation of the environment, and receive appropriate rewards
+which define the objective. This experience is then used to progressively
+improve the policy controlling the agent's behavior, typically represented by a
+neural network. This trained module can then be reused for similar problems,
+which makes this approach promising for the animation of autonomous, yet
+reactive characters in simulators, video games or virtual reality environments.
+This paper surveys the modern Deep Reinforcement Learning methods and discusses
+their possible applications in Character Animation, from skeletal control of a
+single, physically-based character to navigation controllers for individual
+agents and virtual crowds. It also describes the practical side of training DRL
+systems, comparing the different frameworks available to build such agents.
+
+4: 
+A Real-Time Model-Based Reinforcement Learning Architecture for Robot
+  Control
+  Reinforcement Learning (RL) is a method for learning decision-making tasks
+that could enable robots to learn and adapt to their situation on-line. For an
+RL algorithm to be practical for robotic control tasks, it must learn in very
+few actions, while continually taking those actions in real-time. Existing
+model-based RL methods learn in relatively few actions, but typically take too
+much time between each action for practical on-line learning. In this paper, we
+present a novel parallel architecture for model-based RL that runs in real-time
+by 1) taking advantage of sample-based approximate planning methods and 2)
+parallelizing the acting, model learning, and planning processes such that the
+acting process is sufficiently fast for typical robot control cycles. We
+demonstrate that algorithms using this architecture perform nearly as well as
+methods using the typical sequential architecture when both are given unlimited
+time, and greatly out-perform these methods on tasks that require real-time
+actions such as controlling an autonomous vehicle.
+
+5: 
+Reinforcement Learning
+  Reinforcement learning (RL) is a general framework for adaptive control,
+which has proven to be efficient in many domains, e.g., board games, video
+games or autonomous vehicles. In such problems, an agent faces a sequential
+decision-making problem where, at every time step, it observes its state,
+performs an action, receives a reward and moves to a new state. An RL agent
+learns by trial and error a good policy (or controller) based on observations
+and numeric reward feedback on the previously performed action. In this
+chapter, we present the basic framework of RL and recall the two main families
+of approaches that have been developed to learn a good policy. The first one,
+which is value-based, consists in estimating the value of an optimal policy,
+value from which a policy can be recovered, while the other, called policy
+search, directly works in a policy space. Actor-critic methods can be seen as a
+policy search technique where the policy value that is learned guides the
+policy improvement. Besides, we give an overview of some extensions of the
+standard RL framework, notably when risk-averse behavior needs to be taken into
+account or when rewards are not available or not known.
+

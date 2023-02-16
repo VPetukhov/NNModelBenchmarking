@@ -1,0 +1,89 @@
+1: 
+Deep Learning Training on Multi-Instance GPUs
+  Deep learning training is an expensive process that extensively uses GPUs,
+but not all model training saturates the modern powerful GPUs. Multi-Instance
+GPU (MIG) is a new technology introduced by NVIDIA that can partition a GPU to
+better fit workloads that don't require all the memory and compute resources of
+a full GPU. In this paper, we examine the performance of a MIG-enabled A100 GPU
+under deep learning workloads of three sizes focusing on image recognition
+training with ResNet models. We investigate the behavior of these workloads
+when running in isolation on a variety of MIG instances allowed by the GPU in
+addition to running them in parallel on homogeneous instances co-located on the
+same GPU.
+  Our results demonstrate that employing MIG can significantly improve the
+utilization of the GPU when the workload is too small to utilize the whole GPU
+in isolation. By training multiple small models in parallel, more work can be
+performed by the GPU per unit of time, despite the increase in time-per-epoch,
+leading to $\sim$3 times the throughput. In contrast, for medium and
+large-sized workloads, which already utilize the whole GPU well on their own,
+MIG only provides marginal performance improvements. Nevertheless, we observe
+that training models in parallel using separate MIG partitions does not exhibit
+interference underlining the value of having a functionality like MIG on modern
+GPUs.
+
+2: 
+A Multigrid Method for Efficiently Training Video Models
+  Training competitive deep video models is an order of magnitude slower than
+training their counterpart image models. Slow training causes long research
+cycles, which hinders progress in video understanding research. Following
+standard practice for training image models, video model training assumes a
+fixed mini-batch shape: a specific number of clips, frames, and spatial size.
+However, what is the optimal shape? High resolution models perform well, but
+train slowly. Low resolution models train faster, but they are inaccurate.
+Inspired by multigrid methods in numerical optimization, we propose to use
+variable mini-batch shapes with different spatial-temporal resolutions that are
+varied according to a schedule. The different shapes arise from resampling the
+training data on multiple sampling grids. Training is accelerated by scaling up
+the mini-batch size and learning rate when shrinking the other dimensions. We
+empirically demonstrate a general and robust grid schedule that yields a
+significant out-of-the-box training speedup without a loss in accuracy for
+different models (I3D, non-local, SlowFast), datasets (Kinetics,
+Something-Something, Charades), and training settings (with and without
+pre-training, 128 GPUs or 1 GPU). As an illustrative example, the proposed
+multigrid method trains a ResNet-50 SlowFast network 4.5x faster (wall-clock
+time, same hardware) while also improving accuracy (+0.8% absolute) on
+Kinetics-400 compared to the baseline training method. Code is available
+online.
+
+3: 
+XGBoost: Scalable GPU Accelerated Learning
+  We describe the multi-GPU gradient boosting algorithm implemented in the
+XGBoost library (https://github.com/dmlc/xgboost). Our algorithm allows fast,
+scalable training on multi-GPU systems with all of the features of the XGBoost
+library. We employ data compression techniques to minimise the usage of scarce
+GPU memory while still allowing highly efficient implementation. Using our
+algorithm we show that it is possible to process 115 million training instances
+in under three minutes on a publicly available cloud computing instance. The
+algorithm is implemented using end-to-end GPU parallelism, with prediction,
+gradient calculation, feature quantisation, decision tree construction and
+evaluation phases all computed on device.
+
+4: 
+Data-parallel distributed training of very large models beyond GPU
+  capacity
+  GPUs have limited memory and it is difficult to train wide and/or deep models
+that cause the training process to go out of memory. It is shown in this paper
+how an open source tool called Large Model Support (LMS) can utilize a high
+bandwidth NVLink connection between CPUs and GPUs to accomplish training of
+deep convolutional networks. LMS performs tensor swapping between CPU memory
+and GPU memory such that only a minimal number of tensors required in a
+training step are kept in the GPU memory. It is also shown how LMS can be
+combined with an MPI based distributed deep learning module to train models in
+a data-parallel fashion across multiple GPUs, such that each GPU is utilizing
+the CPU memory for tensor swapping. The hardware architecture that enables the
+high bandwidth GPU link with the CPU is discussed as well as the associated set
+of software tools that are available as the PowerAI package.
+
+5: 
+Scaling Neural Machine Translation
+  Sequence to sequence learning models still require several days to reach
+state of the art performance on large benchmark datasets using a single
+machine. This paper shows that reduced precision and large batch training can
+speedup training by nearly 5x on a single 8-GPU machine with careful tuning and
+implementation. On WMT'14 English-German translation, we match the accuracy of
+Vaswani et al. (2017) in under 5 hours when training on 8 GPUs and we obtain a
+new state of the art of 29.3 BLEU after training for 85 minutes on 128 GPUs. We
+further improve these results to 29.8 BLEU by training on the much larger
+Paracrawl dataset. On the WMT'14 English-French task, we obtain a
+state-of-the-art BLEU of 43.2 in 8.5 hours on 128 GPUs.
+

@@ -1,0 +1,92 @@
+1: 
+Vanishing Curvature and the Power of Adaptive Methods in Randomly
+  Initialized Deep Networks
+  This paper revisits the so-called vanishing gradient phenomenon, which
+commonly occurs in deep randomly initialized neural networks. Leveraging an
+in-depth analysis of neural chains, we first show that vanishing gradients
+cannot be circumvented when the network width scales with less than O(depth),
+even when initialized with the popular Xavier and He initializations. Second,
+we extend the analysis to second-order derivatives and show that random i.i.d.
+initialization also gives rise to Hessian matrices with eigenspectra that
+vanish as networks grow in depth. Whenever this happens, optimizers are
+initialized in a very flat, saddle point-like plateau, which is particularly
+hard to escape with stochastic gradient descent (SGD) as its escaping time is
+inversely related to curvature. We believe that this observation is crucial for
+fully understanding (a) historical difficulties of training deep nets with
+vanilla SGD, (b) the success of adaptive gradient methods (which naturally
+adapt to curvature and thus quickly escape flat plateaus) and (c) the
+effectiveness of modern architectural components like residual connections and
+normalization layers.
+
+2: 
+Training of Deep Neural Networks based on Distance Measures using
+  RMSProp
+  The vanishing gradient problem was a major obstacle for the success of deep
+learning. In recent years it was gradually alleviated through multiple
+different techniques. However the problem was not really overcome in a
+fundamental way, since it is inherent to neural networks with activation
+functions based on dot products. In a series of papers, we are going to analyze
+alternative neural network structures which are not based on dot products. In
+this first paper, we revisit neural networks built up of layers based on
+distance measures and Gaussian activation functions. These kinds of networks
+were only sparsely used in the past since they are hard to train when using
+plain stochastic gradient descent methods. We show that by using Root Mean
+Square Propagation (RMSProp) it is possible to efficiently learn multi-layer
+neural networks. Furthermore we show that when appropriately initialized these
+kinds of neural networks suffer much less from the vanishing and exploding
+gradient problem than traditional neural networks even for deep networks.
+
+3: 
+Bidirectionally Self-Normalizing Neural Networks
+  The problem of vanishing and exploding gradients has been a long-standing
+obstacle that hinders the effective training of neural networks. Despite
+various tricks and techniques that have been employed to alleviate the problem
+in practice, there still lacks satisfactory theories or provable solutions. In
+this paper, we address the problem from the perspective of high-dimensional
+probability theory. We provide a rigorous result that shows, under mild
+conditions, how the vanishing/exploding gradients problem disappears with high
+probability if the neural networks have sufficient width. Our main idea is to
+constrain both forward and backward signal propagation in a nonlinear neural
+network through a new class of activation functions, namely Gaussian-Poincar\'e
+normalized functions, and orthogonal weight matrices. Experiments on both
+synthetic and real-world data validate our theory and confirm its effectiveness
+on very deep neural networks when applied in practice.
+
+4: 
+h-detach: Modifying the LSTM Gradient Towards Better Optimization
+  Recurrent neural networks are known for their notorious exploding and
+vanishing gradient problem (EVGP). This problem becomes more evident in tasks
+where the information needed to correctly solve them exist over long time
+scales, because EVGP prevents important gradient components from being
+back-propagated adequately over a large number of steps. We introduce a simple
+stochastic algorithm (\textit{h}-detach) that is specific to LSTM optimization
+and targeted towards addressing this problem. Specifically, we show that when
+the LSTM weights are large, the gradient components through the linear path
+(cell state) in the LSTM computational graph get suppressed. Based on the
+hypothesis that these components carry information about long term dependencies
+(which we show empirically), their suppression can prevent LSTMs from capturing
+them. Our algorithm\footnote{Our code is available at
+https://github.com/bhargav104/h-detach.} prevents gradients flowing through
+this path from getting suppressed, thus allowing the LSTM to capture such
+dependencies better. We show significant improvements over vanilla LSTM
+gradient based training in terms of convergence speed, robustness to seed and
+learning rate, and generalization using our modification of LSTM gradient on
+various benchmark datasets.
+
+5: 
+Regularization and Reparameterization Avoid Vanishing Gradients in
+  Sigmoid-Type Networks
+  Deep learning requires several design choices, such as the nodes' activation
+functions and the widths, types, and arrangements of the layers. One
+consideration when making these choices is the vanishing-gradient problem,
+which is the phenomenon of algorithms getting stuck at suboptimal points due to
+small gradients. In this paper, we revisit the vanishing-gradient problem in
+the context of sigmoid-type activation. We use mathematical arguments to
+highlight two different sources of the phenomenon, namely large individual
+parameters and effects across layers, and to illustrate two simple remedies,
+namely regularization and rescaling. We then demonstrate the effectiveness of
+the two remedies in practice. In view of the vanishing-gradient problem being a
+main reason why tanh and other sigmoid-type activation has become much less
+popular than relu-type activation, our results bring sigmoid-type activation
+back to the table.
+

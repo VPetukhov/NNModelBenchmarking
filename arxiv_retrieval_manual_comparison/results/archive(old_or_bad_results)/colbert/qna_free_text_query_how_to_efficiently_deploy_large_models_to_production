@@ -1,0 +1,82 @@
+1: 
+Robust Multi-Cellular Developmental Design
+  This paper introduces a continuous model for Multi-cellular Developmental
+Design. The cells are fixed on a 2D grid and exchange "chemicals" with their
+neighbors during the growth process. The quantity of chemicals that a cell
+produces, as well as the differentiation value of the cell in the phenotype,
+are controlled by a Neural Network (the genotype) that takes as inputs the
+chemicals produced by the neighboring cells at the previous time step. In the
+proposed model, the number of iterations of the growth process is not
+pre-determined, but emerges during evolution: only organisms for which the
+growth process stabilizes give a phenotype (the stable state), others are
+declared nonviable. The optimization of the controller is done using the NEAT
+algorithm, that optimizes both the topology and the weights of the Neural
+Networks. Though each cell only receives local information from its neighbors,
+the experimental results of the proposed approach on the 'flags' problems (the
+phenotype must match a given 2D pattern) are almost as good as those of a
+direct regression approach using the same model with global information.
+Moreover, the resulting multi-cellular organisms exhibit almost perfect
+self-healing characteristics.
+
+2: 
+Virtual Sensor Based Fault Detection and Classification on a Plasma Etch
+  Reactor
+  The SEMATECH sponsored J-88-E project teaming Texas Instruments with
+NeuroDyne (et al.) focused on Fault Detection and Classification (FDC) on a Lam
+9600 aluminum plasma etch reactor, used in the process of semiconductor
+fabrication. Fault classification was accomplished by implementing a series of
+virtual sensor models which used data from real sensors (Lam Station sensors,
+Optical Emission Spectroscopy, and RF Monitoring) to predict recipe setpoints
+and wafer state characteristics. Fault detection and classification were
+performed by comparing predicted recipe and wafer state values with expected
+values. Models utilized include linear PLS, Polynomial PLS, and Neural Network
+PLS. Prediction of recipe setpoints based upon sensor data provides a
+capability for cross-checking that the machine is maintaining the desired
+setpoints. Wafer state characteristics such as Line Width Reduction and
+Remaining Oxide were estimated on-line using these same process sensors (Lam,
+OES, RFM). Wafer-to-wafer measurement of these characteristics in a production
+setting (where typically this information may be only sparsely available, if at
+all, after batch processing runs with numerous wafers have been completed)
+would provide important information to the operator that the process is or is
+not producing wafers within acceptable bounds of product quality. Production
+yield is increased, and correspondingly per unit cost is reduced, by providing
+the operator with the opportunity to adjust the process or machine before
+etching more wafers.
+
+3: 
+A Novel Model of Working Set Selection for SMO Decomposition Methods
+  In the process of training Support Vector Machines (SVMs) by decomposition
+methods, working set selection is an important technique, and some exciting
+schemes were employed into this field. To improve working set selection, we
+propose a new model for working set selection in sequential minimal
+optimization (SMO) decomposition methods. In this model, it selects B as
+working set without reselection. Some properties are given by simple proof, and
+experiments demonstrate that the proposed method is in general faster than
+existing methods.
+
+4: 
+Comparing Robustness of Pairwise and Multiclass Neural-Network Systems
+  for Face Recognition
+  Noise, corruptions and variations in face images can seriously hurt the
+performance of face recognition systems. To make such systems robust,
+multiclass neuralnetwork classifiers capable of learning from noisy data have
+been suggested. However on large face data sets such systems cannot provide the
+robustness at a high level. In this paper we explore a pairwise neural-network
+system as an alternative approach to improving the robustness of face
+recognition. In our experiments this approach is shown to outperform the
+multiclass neural-network system in terms of the predictive accuracy on the
+face images corrupted by noise.
+
+5: 
+Structural Health Monitoring Using Neural Network Based Vibrational
+  System Identification
+  Composite fabrication technologies now provide the means for producing
+high-strength, low-weight panels, plates, spars and other structural components
+which use embedded fiber optic sensors and piezoelectric transducers. These
+materials, often referred to as smart structures, make it possible to sense
+internal characteristics, such as delaminations or structural degradation. In
+this effort we use neural network based techniques for modeling and analyzing
+dynamic structural information for recognizing structural defects. This yields
+an adaptable system which gives a measure of structural integrity for composite
+structures.
+

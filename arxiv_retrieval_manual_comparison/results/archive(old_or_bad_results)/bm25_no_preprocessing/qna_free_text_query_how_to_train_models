@@ -1,0 +1,59 @@
+Query:
+how to train models
+
+Results:
+1: 
+Title: Interpretable machine learning models: a physics-based view
+Abstract:
+  To understand changes in physical systems and facilitate decisions, explaining how model predictions are made is crucial. We use model-based interpretability, where models of physical systems are constructed by composing basic constructs that explain locally how energy is exchanged and transformed. We use the port Hamiltonian (p-H) formalism to describe the basic constructs that contain physically interpretable processes commonly found in the behavior of physical systems. We describe how we can build models out of the p-H constructs and how we can train them. In addition we show how we can impose physical properties such as dissipativity that ensure numerical stability of the training process. We give examples on how to build and train models for describing the behavior of two physical systems: the inverted pendulum and swarm dynamics. 
+
+2: 
+Title: Scaling Recurrent Neural Network Language Models
+Abstract:
+  This paper investigates the scaling properties of Recurrent Neural Network Language Models (RNNLMs). We discuss how to train very large RNNs on GPUs and address the questions of how RNNLMs scale with respect to model size, training-set size, computational costs and memory. Our analysis shows that despite being more costly to train, RNNLMs obtain much lower perplexities on standard benchmarks than n-gram models. We train the largest known RNNs and present relative word error rates gains of 18% on an ASR task. We also present the new lowest perplexities on the recently released billion word language modelling benchmark, 1 BLEU point gain on machine translation and a 17% relative hit rate gain in word prediction. 
+
+3: 
+Title: Impact of Training Dataset Size on Neural Answer Selection Models
+Abstract:
+  It is held as a truism that deep neural networks require large datasets to train effective models. However, large datasets, especially with high-quality labels, can be expensive to obtain. This study sets out to investigate (i) how large a dataset must be to train well-performing models, and (ii) what impact can be shown from fractional changes to the dataset size. A practical method to investigate these questions is to train a collection of deep neural answer selection models using fractional subsets of varying sizes of an initial dataset. We observe that dataset size has a conspicuous lack of effect on the training of some of these models, bringing the underlying algorithms into question. 
+
+4: 
+Title: Low Shot Learning with Untrained Neural Networks for Imaging Inverse
+  Problems
+Abstract:
+  Employing deep neural networks as natural image priors to solve inverse problems either requires large amounts of data to sufficiently train expressive generative models or can succeed with no data via untrained neural networks. However, very few works have considered how to interpolate between these no- to high-data regimes. In particular, how can one use the availability of a small amount of data (even $5-25$ examples) to one's advantage in solving these inverse problems and can a system's performance increase as the amount of data increases as well? In this work, we consider solving linear inverse problems when given a small number of examples of images that are drawn from the same distribution as the image of interest. Comparing to untrained neural networks that use no data, we show how one can pre-train a neural network with a few given examples to improve reconstruction results in compressed sensing and semantic image recovery problems such as colorization. Our approach leads to improved reconstruction as the amount of available data increases and is on par with fully trained generative models, while requiring less than $1 \%$ of the data needed to train a generative model. 
+
+5: 
+Title: Neurally-Guided Procedural Models: Amortized Inference for Procedural
+  Graphics Programs using Neural Networks
+Abstract:
+  Probabilistic inference algorithms such as Sequential Monte Carlo (SMC) provide powerful tools for constraining procedural models in computer graphics, but they require many samples to produce desirable results. In this paper, we show how to create procedural models which learn how to satisfy constraints. We augment procedural models with neural networks which control how the model makes random choices based on the output it has generated thus far. We call such models neurally-guided procedural models. As a pre-computation, we train these models to maximize the likelihood of example outputs generated via SMC. They are then used as efficient SMC importance samplers, generating high-quality results with very few samples. We evaluate our method on L-system-like models with image-based constraints. Given a desired quality threshold, neurally-guided models can generate satisfactory results up to 10x faster than unguided models. 
+
+6: 
+Title: Search Spaces for Neural Model Training
+Abstract:
+  While larger neural models are pushing the boundaries of what deep learning can do, often more weights are needed to train models rather than to run inference for tasks. This paper seeks to understand this behavior using search spaces -- adding weights creates extra degrees of freedom that form new paths for optimization (or wider search spaces) rendering neural model training more effective. We then show how we can augment search spaces to train sparse models attaining competitive scores across dozens of deep learning workloads. They are also are tolerant of structures targeting current hardware, opening avenues for training and inference acceleration. Our work encourages research to explore beyond massive neural models being used today. 
+
+7: 
+Title: Performance-Efficiency Trade-Offs in Adapting Language Models to Text
+  Classification Tasks
+Abstract:
+  Pre-trained language models (LMs) obtain state-of-the-art performance when adapted to text classification tasks. However, when using such models in real-world applications, efficiency considerations are paramount. In this paper, we study how different training procedures that adapt LMs to text classification perform, as we vary model and train set size. More specifically, we compare standard fine-tuning, prompting, and knowledge distillation (KD) when the teacher was trained with either fine-tuning or prompting. Our findings suggest that even though fine-tuning and prompting work well to train large LMs on large train sets, there are more efficient alternatives that can reduce compute or data cost. Interestingly, we find that prompting combined with KD can reduce compute and data cost at the same time. 
+
+8: 
+Title: Variational f-divergence Minimization
+Abstract:
+  Probabilistic models are often trained by maximum likelihood, which corresponds to minimizing a specific f-divergence between the model and data distribution. In light of recent successes in training Generative Adversarial Networks, alternative non-likelihood training criteria have been proposed. Whilst not necessarily statistically efficient, these alternatives may better match user requirements such as sharp image generation. A general variational method for training probabilistic latent variable models using maximum likelihood is well established; however, how to train latent variable models using other f-divergences is comparatively unknown. We discuss a variational approach that, when combined with the recently introduced Spread Divergence, can be applied to train a large class of latent variable models using any f-divergence. 
+
+9: 
+Title: Measuring global properties of neural generative model outputs via
+  generating mathematical objects
+Abstract:
+  We train deep generative models on datasets of reflexive polytopes. This enables us to compare how well the models have picked up on various global properties of generated samples. Our datasets are complete in the sense that every single example, up to changes of coordinate, is included in the dataset. Using this property we also perform tests checking to what extent the models are merely memorizing the data. We also train models on the same dataset represented in two different ways, enabling us to measure which form is easiest to learn from. We use these experiments to show that deep generative models can learn to generate geometric objects with non-trivial global properties, and that the models learn some underlying properties of the objects rather than simply memorizing the data. 
+
+10: 
+Title: How Cute is Pikachu? Gathering and Ranking Pok\'emon Properties from
+  Data with Pok\'emon Word Embeddings
+Abstract:
+  We present different methods for obtaining descriptive properties automatically for the 151 original Pok\'emon. We train several different word embeddings models on a crawled Pok\'emon corpus, and use them to rank automatically English adjectives based on how characteristic they are to a given Pok\'emon. Based on our experiments, it is better to train a model with domain specific data than to use a pretrained model. Word2Vec produces less noise in the results than fastText model. Furthermore, we expand the list of properties for each Pok\'emon automatically. However, none of the methods is spot on and there is a considerable amount of noise in the different semantic models. Our models have been released on Zenodo. 
+

@@ -1,0 +1,55 @@
+Query:
+attention is all you need
+
+Results:
+1: 
+Title: Architecture for Pseudo Acausal Evolvable Embedded Systems
+Abstract:
+  Advances in semiconductor technology are contributing to the increasing complexity in the design of embedded systems. Architectures with novel techniques such as evolvable nature and autonomous behavior have engrossed lot of attention. This paper demonstrates conceptually evolvable embedded systems can be characterized basing on acausal nature. It is noted that in acausal systems, future input needs to be known, here we make a mechanism such that the system predicts the future inputs and exhibits pseudo acausal nature. An embedded system that uses theoretical framework of acausality is proposed. Our method aims at a novel architecture that features the hardware evolability and autonomous behavior alongside pseudo acausality. Various aspects of this architecture are discussed in detail along with the limitations. 
+
+2: 
+Title: Towards understanding and modelling office daily life
+Abstract:
+  Measuring and modeling human behavior is a very complex task. In this paper we present our initial thoughts on modeling and automatic recognition of some human activities in an office. We argue that to successfully model human activities, we need to consider both individual behavior and group dynamics. To demonstrate these theoretical approaches, we introduce an experimental system for analyzing everyday activity in our office. 
+
+3: 
+Title: Direct Optimization of Ranking Measures
+Abstract:
+  Web page ranking and collaborative filtering require the optimization of sophisticated performance measures. Current Support Vector approaches are unable to optimize them directly and focus on pairwise comparisons instead. We present a new approach which allows direct optimization of the relevant loss functions. This is achieved via structured estimation in Hilbert spaces. It is most related to Max-Margin-Markov networks optimization of multivariate performance measures. Key to our approach is that during training the ranking problem can be viewed as a linear assignment problem, which can be solved by the Hungarian Marriage algorithm. At test time, a sort operation is sufficient, as our algorithm assigns a relevance score to every (document, query) pair. Experiments show that the our algorithm is fast and that it works very well. 
+
+4: 
+Title: On the monotonization of the training set
+Abstract:
+  We consider the problem of minimal correction of the training set to make it consistent with monotonic constraints. This problem arises during analysis of data sets via techniques that require monotone data. We show that this problem is NP-hard in general and is equivalent to finding a maximal independent set in special orgraphs. Practically important cases of that problem considered in detail. These are the cases when a partial order given on the replies set is a total order or has a dimension 2. We show that the second case can be reduced to maximization of a quadratic convex function on a convex set. For this case we construct an approximate polynomial algorithm based on convex optimization. 
+
+5: 
+Title: Artificial Neural Networks and Support Vector Machines for Water Demand
+  Time Series Forecasting
+Abstract:
+  Water plays a pivotal role in many physical processes, and most importantly in sustaining human life, animal life and plant life. Water supply entities therefore have the responsibility to supply clean and safe water at the rate required by the consumer. It is therefore necessary to implement mechanisms and systems that can be employed to predict both short-term and long-term water demands. The increasingly growing field of computational intelligence techniques has been proposed as an efficient tool in the modelling of dynamic phenomena. The primary objective of this paper is to compare the efficiency of two computational intelligence techniques in water demand forecasting. The techniques under comparison are the Artificial Neural Networks (ANNs) and the Support Vector Machines (SVMs). In this study it was observed that the ANNs perform better than the SVMs. This performance is measured against the generalisation ability of the two. 
+
+6: 
+Title: Personalizing Image Search Results on Flickr
+Abstract:
+  The social media site Flickr allows users to upload their photos, annotate them with tags, submit them to groups, and also to form social networks by adding other users as contacts. Flickr offers multiple ways of browsing or searching it. One option is tag search, which returns all images tagged with a specific keyword. If the keyword is ambiguous, e.g., ``beetle'' could mean an insect or a car, tag search results will include many images that are not relevant to the sense the user had in mind when executing the query. We claim that users express their photography interests through the metadata they add in the form of contacts and image annotations. We show how to exploit this metadata to personalize search results for the user, thereby improving search performance. First, we show that we can significantly improve search precision by filtering tag search results by user's contacts or a larger social network that includes those contact's contacts. Secondly, we describe a probabilistic model that takes advantage of tag information to discover latent topics contained in the search results. The users' interests can similarly be described by the tags they used for annotating their images. The latent topics found by the model are then used to personalize search results by finding images on topics that are of interest to the user. 
+
+7: 
+Title: Temporal Reasoning without Transitive Tables
+Abstract:
+  Representing and reasoning about qualitative temporal information is an essential part of many artificial intelligence tasks. Lots of models have been proposed in the litterature for representing such temporal information. All derive from a point-based or an interval-based framework. One fundamental reasoning task that arises in applications of these frameworks is given by the following scheme: given possibly indefinite and incomplete knowledge of the binary relationships between some temporal objects, find the consistent scenarii between all these objects. All these models require transitive tables -- or similarly inference rules-- for solving such tasks. We have defined an alternative model, S-languages - to represent qualitative temporal information, based on the only two relations of \emph{precedence} and \emph{simultaneity}. In this paper, we show how this model enables to avoid transitive tables or inference rules to handle this kind of problem. 
+
+8: 
+Title: Clustering with Lattices in the Analysis of Graph Patterns
+Abstract:
+  Mining frequent subgraphs is an area of research where we have a given set of graphs (each graph can be seen as a transaction), and we search for (connected) subgraphs contained in many of these graphs. In this work we will discuss techniques used in our framework Lattice2SAR for mining and analysing frequent subgraph data and their corresponding lattice information. Lattice information is provided by the graph mining algorithm gSpan; it contains all supergraph-subgraph relations of the frequent subgraph patterns -- and their supports.   Lattice2SAR is in particular used in the analysis of frequent graph patterns where the graphs are molecules and the frequent subgraphs are fragments. In the analysis of fragments one is interested in the molecules where patterns occur. This data can be very extensive and in this paper we focus on a technique of making it better available by using the lattice information in our clustering. Now we can reduce the number of times the highly compressed occurrence data needs to be accessed by the user. The user does not have to browse all the occurrence data in search of patterns occurring in the same molecules. Instead one can directly see which frequent subgraphs are of interest. 
+
+9: 
+Title: On the Development of Text Input Method - Lessons Learned
+Abstract:
+  Intelligent Input Methods (IM) are essential for making text entries in many East Asian scripts, but their application to other languages has not been fully explored. This paper discusses how such tools can contribute to the development of computer processing of other oriental languages. We propose a design philosophy that regards IM as a text service platform, and treats the study of IM as a cross disciplinary subject from the perspectives of software engineering, human-computer interaction (HCI), and natural language processing (NLP). We discuss these three perspectives and indicate a number of possible future research directions. 
+
+10: 
+Title: Exploiting Social Annotation for Automatic Resource Discovery
+Abstract:
+  Information integration applications, such as mediators or mashups, that require access to information resources currently rely on users manually discovering and integrating them in the application. Manual resource discovery is a slow process, requiring the user to sift through results obtained via keyword-based search. Although search methods have advanced to include evidence from document contents, its metadata and the contents and link structure of the referring pages, they still do not adequately cover information sources -- often called ``the hidden Web''-- that dynamically generate documents in response to a query. The recently popular social bookmarking sites, which allow users to annotate and share metadata about various information sources, provide rich evidence for resource discovery. In this paper, we describe a probabilistic model of the user annotation process in a social bookmarking system del.icio.us. We then use the model to automatically find resources relevant to a particular information domain. Our experimental results on data obtained from \emph{del.icio.us} show this approach as a promising method for helping automate the resource discovery task. 
+

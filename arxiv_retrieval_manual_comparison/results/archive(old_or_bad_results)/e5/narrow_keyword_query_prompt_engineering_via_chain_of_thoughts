@@ -1,0 +1,84 @@
+1: 
+Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
+  We explore how generating a chain of thought -- a series of intermediate
+reasoning steps -- significantly improves the ability of large language models
+to perform complex reasoning. In particular, we show how such reasoning
+abilities emerge naturally in sufficiently large language models via a simple
+method called chain of thought prompting, where a few chain of thought
+demonstrations are provided as exemplars in prompting. Experiments on three
+large language models show that chain of thought prompting improves performance
+on a range of arithmetic, commonsense, and symbolic reasoning tasks. The
+empirical gains can be striking. For instance, prompting a 540B-parameter
+language model with just eight chain of thought exemplars achieves state of the
+art accuracy on the GSM8K benchmark of math word problems, surpassing even
+finetuned GPT-3 with a verifier.
+
+2: 
+Legal Prompting: Teaching a Language Model to Think Like a Lawyer
+  Large language models that are capable of zero or few-shot prompting
+approaches have given rise to the new research area of prompt engineering.
+Recent advances showed that for example Chain-of-Thought (CoT) prompts can
+improve arithmetic or common sense tasks significantly. We explore how such
+approaches fare with legal reasoning tasks and take the COLIEE entailment task
+based on the Japanese Bar exam for testing zero-shot/few-shot and fine-tuning
+approaches. Our findings show that while CoT prompting and fine-tuning with
+explanations approaches show improvements, the best results are produced by
+prompts that are derived from specific legal reasoning techniques such as IRAC
+(Issue, Rule, Application, Conclusion). Based on our experiments we improve the
+2021 best result from 0.7037 accuracy to 0.8148 accuracy and beat the 2022 best
+system of 0.6789 accuracy with an accuracy of 0.7431.
+
+3: 
+Chain of Explanation: New Prompting Method to Generate Higher Quality
+  Natural Language Explanation for Implicit Hate Speech
+  Recent studies have exploited advanced generative language models to generate
+Natural Language Explanations (NLE) for why a certain text could be hateful. We
+propose the Chain of Explanation Prompting method, inspired by the chain of
+thoughts study \cite{wei2022chain}, to generate high-quality NLE for implicit
+hate speech. We build a benchmark based on the selected mainstream Pre-trained
+Language Models (PLMs), including GPT-2, GPT-Neo, OPT, T5, and BART, with
+various evaluation metrics from lexical, semantic, and faithful aspects. To
+further evaluate the quality of the generated NLE from human perceptions, we
+hire human annotators to score the informativeness and clarity of the generated
+NLE. Then, we inspect which automatic evaluation metric could be best
+correlated with the human-annotated informativeness and clarity metric scores.
+
+4: 
+Self-Consistency Improves Chain of Thought Reasoning in Language Models
+  Chain-of-thought prompting combined with pre-trained large language models
+has achieved encouraging results on complex reasoning tasks. In this paper, we
+propose a new decoding strategy, self-consistency, to replace the naive greedy
+decoding used in chain-of-thought prompting. It first samples a diverse set of
+reasoning paths instead of only taking the greedy one, and then selects the
+most consistent answer by marginalizing out the sampled reasoning paths.
+Self-consistency leverages the intuition that a complex reasoning problem
+typically admits multiple different ways of thinking leading to its unique
+correct answer. Our extensive empirical evaluation shows that self-consistency
+boosts the performance of chain-of-thought prompting with a striking margin on
+a range of popular arithmetic and commonsense reasoning benchmarks, including
+GSM8K (+17.9%), SVAMP (+11.0%), AQuA (+12.2%), StrategyQA (+6.4%) and
+ARC-challenge (+3.9%).
+
+5: 
+Large Language Models Are Human-Level Prompt Engineers
+  By conditioning on natural language instructions, large language models
+(LLMs) have displayed impressive capabilities as general-purpose computers.
+However, task performance depends significantly on the quality of the prompt
+used to steer the model, and most effective prompts have been handcrafted by
+humans. Inspired by classical program synthesis and the human approach to
+prompt engineering, we propose Automatic Prompt Engineer (APE) for automatic
+instruction generation and selection. In our method, we treat the instruction
+as the "program," optimized by searching over a pool of instruction candidates
+proposed by an LLM in order to maximize a chosen score function. To evaluate
+the quality of the selected instruction, we evaluate the zero-shot performance
+of another LLM following the selected instruction. Experiments on 24 NLP tasks
+show that our automatically generated instructions outperform the prior LLM
+baseline by a large margin and achieve better or comparable performance to the
+instructions generated by human annotators on 19/24 tasks. We conduct extensive
+qualitative and quantitative analyses to explore the performance of APE. We
+show that APE-engineered prompts can be applied to steer models toward
+truthfulness and/or informativeness, as well as to improve few-shot learning
+performance by simply prepending them to standard in-context learning prompts.
+Please check out our webpage at
+https://sites.google.com/view/automatic-prompt-engineer.
+

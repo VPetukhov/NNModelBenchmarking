@@ -1,0 +1,67 @@
+1: 
+Morphing Ensemble Kalman Filters
+  A new type of ensemble filter is proposed, which combines an ensemble Kalman
+filter (EnKF) with the ideas of morphing and registration from image
+processing. This results in filters suitable for nonlinear problems whose
+solutions exhibit moving coherent features, such as thin interfaces in wildfire
+modeling. The ensemble members are represented as the composition of one common
+state with a spatial transformation, called registration mapping, plus a
+residual. A fully automatic registration method is used that requires only
+gridded data, so the features in the model state do not need to be identified
+by the user. The morphing EnKF operates on a transformed state consisting of
+the registration mapping and the residual. Essentially, the morphing EnKF uses
+intermediate states obtained by morphing instead of linear combinations of the
+states.
+
+2: 
+Arabic Speech Recognition System using CMU-Sphinx4
+  In this paper we present the creation of an Arabic version of Automated
+Speech Recognition System (ASR). This system is based on the open source
+Sphinx-4, from the Carnegie Mellon University. Which is a speech recognition
+system based on discrete hidden Markov models (HMMs). We investigate the
+changes that must be made to the model to adapt Arabic voice recognition.
+  Keywords: Speech recognition, Acoustic model, Arabic language, HMMs,
+CMUSphinx-4, Artificial intelligence.
+
+3: 
+Introduction to Arabic Speech Recognition Using CMUSphinx System
+  In this paper Arabic was investigated from the speech recognition problem
+point of view. We propose a novel approach to build an Arabic Automated Speech
+Recognition System (ASR). This system is based on the open source CMU Sphinx-4,
+from the Carnegie Mellon University. CMU Sphinx is a large-vocabulary;
+speaker-independent, continuous speech recognition system based on discrete
+Hidden Markov Models (HMMs). We build a model using utilities from the
+OpenSource CMU Sphinx. We will demonstrate the possible adaptability of this
+system to Arabic voice recognition.
+
+4: 
+HMM Speaker Identification Using Linear and Non-linear Merging
+  Techniques
+  Speaker identification is a powerful, non-invasive and in-expensive biometric
+technique. The recognition accuracy, however, deteriorates when noise levels
+affect a specific band of frequency. In this paper, we present a sub-band based
+speaker identification that intends to improve the live testing performance.
+Each frequency sub-band is processed and classified independently. We also
+compare the linear and non-linear merging techniques for the sub-bands
+recognizer. Support vector machines and Gaussian Mixture models are the
+non-linear merging techniques that are investigated. Results showed that the
+sub-band based method used with linear merging techniques enormously improved
+the performance of the speaker identification over the performance of wide-band
+recognizers when tested live. A live testing improvement of 9.78% was achieved
+
+5: 
+Temporal Reasoning without Transitive Tables
+  Representing and reasoning about qualitative temporal information is an
+essential part of many artificial intelligence tasks. Lots of models have been
+proposed in the litterature for representing such temporal information. All
+derive from a point-based or an interval-based framework. One fundamental
+reasoning task that arises in applications of these frameworks is given by the
+following scheme: given possibly indefinite and incomplete knowledge of the
+binary relationships between some temporal objects, find the consistent
+scenarii between all these objects. All these models require transitive tables
+-- or similarly inference rules-- for solving such tasks. We have defined an
+alternative model, S-languages - to represent qualitative temporal information,
+based on the only two relations of \emph{precedence} and \emph{simultaneity}.
+In this paper, we show how this model enables to avoid transitive tables or
+inference rules to handle this kind of problem.
+

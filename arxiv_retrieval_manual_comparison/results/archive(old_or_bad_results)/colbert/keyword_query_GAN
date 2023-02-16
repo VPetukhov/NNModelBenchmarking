@@ -1,0 +1,73 @@
+1: 
+Equivalence of LP Relaxation and Max-Product for Weighted Matching in
+  General Graphs
+  Max-product belief propagation is a local, iterative algorithm to find the
+mode/MAP estimate of a probability distribution. While it has been successfully
+employed in a wide variety of applications, there are relatively few
+theoretical guarantees of convergence and correctness for general loopy graphs
+that may have many short cycles. Of these, even fewer provide exact ``necessary
+and sufficient'' characterizations.
+  In this paper we investigate the problem of using max-product to find the
+maximum weight matching in an arbitrary graph with edge weights. This is done
+by first constructing a probability distribution whose mode corresponds to the
+optimal matching, and then running max-product. Weighted matching can also be
+posed as an integer program, for which there is an LP relaxation. This
+relaxation is not always tight. In this paper we show that \begin{enumerate}
+\item If the LP relaxation is tight, then max-product always converges, and
+that too to the correct answer. \item If the LP relaxation is loose, then
+max-product does not converge. \end{enumerate} This provides an exact,
+data-dependent characterization of max-product performance, and a precise
+connection to LP relaxation, which is a well-studied optimization technique.
+Also, since LP relaxation is known to be tight for bipartite graphs, our
+results generalize other recent results on using max-product to find weighted
+matchings in bipartite graphs.
+
+2: 
+Artificial Intelligence for Conflict Management
+  Militarised conflict is one of the risks that have a significant impact on
+society. Militarised Interstate Dispute (MID) is defined as an outcome of
+interstate interactions, which result on either peace or conflict. Effective
+prediction of the possibility of conflict between states is an important
+decision support tool for policy makers. In a previous research, neural
+networks (NNs) have been implemented to predict the MID. Support Vector
+Machines (SVMs) have proven to be very good prediction techniques and are
+introduced for the prediction of MIDs in this study and compared to neural
+networks. The results show that SVMs predict MID better than NNs while NNs give
+more consistent and easy to interpret sensitivity analysis than SVMs.
+
+3: 
+The Parameter-Less Self-Organizing Map algorithm
+  The Parameter-Less Self-Organizing Map (PLSOM) is a new neural network
+algorithm based on the Self-Organizing Map (SOM). It eliminates the need for a
+learning rate and annealing schemes for learning rate and neighbourhood size.
+We discuss the relative performance of the PLSOM and the SOM and demonstrate
+some tasks in which the SOM fails but the PLSOM performs satisfactory. Finally
+we discuss some example applications of the PLSOM and present a proof of
+ordering under certain limited conditions.
+
+4: 
+Getting started in probabilistic graphical models
+  Probabilistic graphical models (PGMs) have become a popular tool for
+computational analysis of biological data in a variety of domains. But, what
+exactly are they and how do they work? How can we use PGMs to discover patterns
+that are biologically relevant? And to what extent can PGMs help us formulate
+new hypotheses that are testable at the bench? This note sketches out some
+answers and illustrates the main ideas behind the statistical approach to
+biological pattern discovery.
+
+5: 
+A neural network approach to ordinal regression
+  Ordinal regression is an important type of learning, which has properties of
+both classification and regression. Here we describe a simple and effective
+approach to adapt a traditional neural network to learn ordinal categories. Our
+approach is a generalization of the perceptron method for ordinal regression.
+On several benchmark datasets, our method (NNRank) outperforms a neural network
+classification method. Compared with the ordinal regression methods using
+Gaussian processes and support vector machines, NNRank achieves comparable
+performance. Moreover, NNRank has the advantages of traditional neural
+networks: learning in both online and batch modes, handling very large training
+datasets, and making rapid predictions. These features make NNRank a useful and
+complementary tool for large-scale data processing tasks such as information
+retrieval, web page ranking, collaborative filtering, and protein ranking in
+Bioinformatics.
+

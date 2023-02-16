@@ -1,0 +1,57 @@
+Similiarity query for paper Unet
+Query:
+There is large consent that successful training of deep networks requires many thousand annotated training samples. In this paper, we present a network and training strategy that relies on the strong use of data augmentation to use the available annotated samples more efficiently. The architecture consists of a contracting path to capture context and a symmetric expanding path that enables precise localization. We show that such a network can be trained end-to-end from very few images and outperforms the prior best method (a sliding-window convolutional network) on the ISBI challenge for segmentation of neuronal structures in electron microscopic stacks. Using the same network trained on transmitted light microscopy images (phase contrast and DIC) we won the ISBI cell tracking challenge 2015 in these categories by a large margin. Moreover, the network is fast. Segmentation of a 512x512 image takes less than a second on a recent GPU. The full implementation (based on Caffe) and the trained networks are available at this http URL
+
+Results:
+1: 
+Title: Bayesian approach to rough set
+Abstract:
+  This paper proposes an approach to training rough set models using Bayesian framework trained using Markov Chain Monte Carlo (MCMC) method. The prior probabilities are constructed from the prior knowledge that good rough set models have fewer rules. Markov Chain Monte Carlo sampling is conducted through sampling in the rough set granule space and Metropolis algorithm is used as an acceptance criteria. The proposed method is tested to estimate the risk of HIV given demographic data. The results obtained shows that the proposed approach is able to achieve an average accuracy of 58% with the accuracy varying up to 66%. In addition the Bayesian rough set give the probabilities of the estimated HIV status as well as the linguistic rules describing how the demographic parameters drive the risk of HIV. 
+
+2: 
+Title: Direct Optimization of Ranking Measures
+Abstract:
+  Web page ranking and collaborative filtering require the optimization of sophisticated performance measures. Current Support Vector approaches are unable to optimize them directly and focus on pairwise comparisons instead. We present a new approach which allows direct optimization of the relevant loss functions. This is achieved via structured estimation in Hilbert spaces. It is most related to Max-Margin-Markov networks optimization of multivariate performance measures. Key to our approach is that during training the ranking problem can be viewed as a linear assignment problem, which can be solved by the Hungarian Marriage algorithm. At test time, a sort operation is sufficient, as our algorithm assigns a relevance score to every (document, query) pair. Experiments show that the our algorithm is fast and that it works very well. 
+
+3: 
+Title: Network statistics on early English Syntax: Structural criteria
+Abstract:
+  This paper includes a reflection on the role of networks in the study of English language acquisition, as well as a collection of practical criteria to annotate free-speech corpora from children utterances. At the theoretical level, the main claim of this paper is that syntactic networks should be interpreted as the outcome of the use of the syntactic machinery. Thus, the intrinsic features of such machinery are not accessible directly from (known) network properties. Rather, what one can see are the global patterns of its use and, thus, a global view of the power and organization of the underlying grammar. Taking a look into more practical issues, the paper examines how to build a net from the projection of syntactic relations. Recall that, as opposed to adult grammars, early-child language has not a well-defined concept of structure. To overcome such difficulty, we develop a set of systematic criteria assuming constituency hierarchy and a grammar based on lexico-thematic relations. At the end, what we obtain is a well defined corpora annotation that enables us i) to perform statistics on the size of structures and ii) to build a network from syntactic relations over which we can perform the standard measures of complexity. We also provide a detailed example. 
+
+4: 
+Title: A neural network approach to ordinal regression
+Abstract:
+  Ordinal regression is an important type of learning, which has properties of both classification and regression. Here we describe a simple and effective approach to adapt a traditional neural network to learn ordinal categories. Our approach is a generalization of the perceptron method for ordinal regression. On several benchmark datasets, our method (NNRank) outperforms a neural network classification method. Compared with the ordinal regression methods using Gaussian processes and support vector machines, NNRank achieves comparable performance. Moreover, NNRank has the advantages of traditional neural networks: learning in both online and batch modes, handling very large training datasets, and making rapid predictions. These features make NNRank a useful and complementary tool for large-scale data processing tasks such as information retrieval, web page ranking, collaborative filtering, and protein ranking in Bioinformatics. 
+
+5: 
+Title: Response Prediction of Structural System Subject to Earthquake Motions
+  using Artificial Neural Network
+Abstract:
+  This paper uses Artificial Neural Network (ANN) models to compute response of structural system subject to Indian earthquakes at Chamoli and Uttarkashi ground motion data. The system is first trained for a single real earthquake data. The trained ANN architecture is then used to simulate earthquakes with various intensities and it was found that the predicted responses given by ANN model are accurate for practical purposes. When the ANN is trained by a part of the ground motion data, it can also identify the responses of the structural system well. In this way the safeness of the structural systems may be predicted in case of future earthquakes without waiting for the earthquake to occur for the lessons. Time period and the corresponding maximum response of the building for an earthquake has been evaluated, which is again trained to predict the maximum response of the building at different time periods. The trained time period versus maximum response ANN model is also tested for real earthquake data of other place, which was not used in the training and was found to be in good agreement. 
+
+6: 
+Title: Automatic Detection of Pulmonary Embolism using Computational
+  Intelligence
+Abstract:
+  This article describes the implementation of a system designed to automatically detect the presence of pulmonary embolism in lung scans. These images are firstly segmented, before alignment and feature extraction using PCA. The neural network was trained using the Hybrid Monte Carlo method, resulting in a committee of 250 neural networks and good results are obtained. 
+
+7: 
+Title: Multi-Dimensional Recurrent Neural Networks
+Abstract:
+  Recurrent neural networks (RNNs) have proved effective at one dimensional sequence learning tasks, such as speech and online handwriting recognition. Some of the properties that make RNNs suitable for such tasks, for example robustness to input warping, and the ability to access contextual information, are also desirable in multidimensional domains. However, there has so far been no direct way of applying RNNs to data with more than one spatio-temporal dimension. This paper introduces multi-dimensional recurrent neural networks (MDRNNs), thereby extending the potential applicability of RNNs to vision, video processing, medical imaging and many other areas, while avoiding the scaling problems that have plagued other multi-dimensional models. Experimental results are provided for two image segmentation tasks. 
+
+8: 
+Title: Ensemble Learning for Free with Evolutionary Algorithms ?
+Abstract:
+  Evolutionary Learning proceeds by evolving a population of classifiers, from which it generally returns (with some notable exceptions) the single best-of-run classifier as final result. In the meanwhile, Ensemble Learning, one of the most efficient approaches in supervised Machine Learning for the last decade, proceeds by building a population of diverse classifiers. Ensemble Learning with Evolutionary Computation thus receives increasing attention. The Evolutionary Ensemble Learning (EEL) approach presented in this paper features two contributions. First, a new fitness function, inspired by co-evolution and enforcing the classifier diversity, is presented. Further, a new selection criterion based on the classification margin is proposed. This criterion is used to extract the classifier ensemble from the final population only (Off-line) or incrementally along evolution (On-line). Experiments on a set of benchmark problems show that Off-line outperforms single-hypothesis evolutionary learning and state-of-art Boosting and generates smaller classifier ensembles. 
+
+9: 
+Title: On the monotonization of the training set
+Abstract:
+  We consider the problem of minimal correction of the training set to make it consistent with monotonic constraints. This problem arises during analysis of data sets via techniques that require monotone data. We show that this problem is NP-hard in general and is equivalent to finding a maximal independent set in special orgraphs. Practically important cases of that problem considered in detail. These are the cases when a partial order given on the replies set is a total order or has a dimension 2. We show that the second case can be reduced to maximization of a quadratic convex function on a convex set. For this case we construct an approximate polynomial algorithm based on convex optimization. 
+
+10: 
+Title: On-Line Condition Monitoring using Computational Intelligence
+Abstract:
+  This paper presents bushing condition monitoring frameworks that use multi-layer perceptrons (MLP), radial basis functions (RBF) and support vector machines (SVM) classifiers. The first level of the framework determines if the bushing is faulty or not while the second level determines the type of fault. The diagnostic gases in the bushings are analyzed using the dissolve gas analysis. MLP gives superior performance in terms of accuracy and training time than SVM and RBF. In addition, an on-line bushing condition monitoring approach, which is able to adapt to newly acquired data are introduced. This approach is able to accommodate new classes that are introduced by incoming data and is implemented using an incremental learning algorithm that uses MLP. The testing results improved from 67.5% to 95.8% as new data were introduced and the testing results improved from 60% to 95.3% as new conditions were introduced. On average the confidence value of the framework on its decision was 0.92. 
+

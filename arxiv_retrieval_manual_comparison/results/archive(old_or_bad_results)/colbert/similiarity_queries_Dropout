@@ -1,0 +1,84 @@
+1: 
+An Adaptive Strategy for the Classification of G-Protein Coupled
+  Receptors
+  One of the major problems in computational biology is the inability of
+existing classification models to incorporate expanding and new domain
+knowledge. This problem of static classification models is addressed in this
+paper by the introduction of incremental learning for problems in
+bioinformatics. Many machine learning tools have been applied to this problem
+using static machine learning structures such as neural networks or support
+vector machines that are unable to accommodate new information into their
+existing models. We utilize the fuzzy ARTMAP as an alternate machine learning
+system that has the ability of incrementally learning new data as it becomes
+available. The fuzzy ARTMAP is found to be comparable to many of the widespread
+machine learning systems. The use of an evolutionary strategy in the selection
+and combination of individual classifiers into an ensemble system, coupled with
+the incremental learning ability of the fuzzy ARTMAP is proven to be suitable
+as a pattern classifier. The algorithm presented is tested using data from the
+G-Coupled Protein Receptors Database and shows good accuracy of 83%. The system
+presented is also generally applicable, and can be used in problems in genomics
+and proteomics.
+
+2: 
+Comparing Robustness of Pairwise and Multiclass Neural-Network Systems
+  for Face Recognition
+  Noise, corruptions and variations in face images can seriously hurt the
+performance of face recognition systems. To make such systems robust,
+multiclass neuralnetwork classifiers capable of learning from noisy data have
+been suggested. However on large face data sets such systems cannot provide the
+robustness at a high level. In this paper we explore a pairwise neural-network
+system as an alternative approach to improving the robustness of face
+recognition. In our experiments this approach is shown to outperform the
+multiclass neural-network system in terms of the predictive accuracy on the
+face images corrupted by noise.
+
+3: 
+Multi-Dimensional Recurrent Neural Networks
+  Recurrent neural networks (RNNs) have proved effective at one dimensional
+sequence learning tasks, such as speech and online handwriting recognition.
+Some of the properties that make RNNs suitable for such tasks, for example
+robustness to input warping, and the ability to access contextual information,
+are also desirable in multidimensional domains. However, there has so far been
+no direct way of applying RNNs to data with more than one spatio-temporal
+dimension. This paper introduces multi-dimensional recurrent neural networks
+(MDRNNs), thereby extending the potential applicability of RNNs to vision,
+video processing, medical imaging and many other areas, while avoiding the
+scaling problems that have plagued other multi-dimensional models. Experimental
+results are provided for two image segmentation tasks.
+
+4: 
+A neural network approach to ordinal regression
+  Ordinal regression is an important type of learning, which has properties of
+both classification and regression. Here we describe a simple and effective
+approach to adapt a traditional neural network to learn ordinal categories. Our
+approach is a generalization of the perceptron method for ordinal regression.
+On several benchmark datasets, our method (NNRank) outperforms a neural network
+classification method. Compared with the ordinal regression methods using
+Gaussian processes and support vector machines, NNRank achieves comparable
+performance. Moreover, NNRank has the advantages of traditional neural
+networks: learning in both online and batch modes, handling very large training
+datasets, and making rapid predictions. These features make NNRank a useful and
+complementary tool for large-scale data processing tasks such as information
+retrieval, web page ranking, collaborative filtering, and protein ranking in
+Bioinformatics.
+
+5: 
+Experimenting with recursive queries in database and logic programming
+  systems
+  This paper considers the problem of reasoning on massive amounts of (possibly
+distributed) data. Presently, existing proposals show some limitations: {\em
+(i)} the quantity of data that can be handled contemporarily is limited, due to
+the fact that reasoning is generally carried out in main-memory; {\em (ii)} the
+interaction with external (and independent) DBMSs is not trivial and, in
+several cases, not allowed at all; {\em (iii)} the efficiency of present
+implementations is still not sufficient for their utilization in complex
+reasoning tasks involving massive amounts of data. This paper provides a
+contribution in this setting; it presents a new system, called DLV$^{DB}$,
+which aims to solve these problems. Moreover, the paper reports the results of
+a thorough experimental analysis we have carried out for comparing our system
+with several state-of-the-art systems (both logic and databases) on some
+classical deductive problems; the other tested systems are: LDL++, XSB, Smodels
+and three top-level commercial DBMSs. DLV$^{DB}$ significantly outperforms even
+the commercial Database Systems on recursive queries. To appear in Theory and
+Practice of Logic Programming (TPLP)
+

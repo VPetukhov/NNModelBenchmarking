@@ -1,0 +1,60 @@
+Query:
+statistical methods
+
+Results:
+1: 
+Title: Evaluating Urbanization from Satellite and Aerial Images by means of a
+  statistical approach to the texture analysis
+Abstract:
+  Statistical methods are usually applied in the processing of digital images for the analysis of the textures displayed by them. Aiming to evaluate the urbanization of a given location from satellite or aerial images, here we consider a simple processing to distinguish in them the 'urban' from the 'rural' texture. The method is based on the mean values and the standard deviations of the colour tones of image pixels. The processing of the input images allows to obtain some maps from which a quantitative evaluation of the textures can be obtained. 
+
+2: 
+Title: On the role of benchmarking data sets and simulations in method
+  comparison studies
+Abstract:
+  Method comparisons are essential to provide recommendations and guidance for applied researchers, who often have to choose from a plethora of available approaches. While many comparisons exist in the literature, these are often not neutral but favour a novel method. Apart from the choice of design and a proper reporting of the findings, there are different approaches concerning the underlying data for such method comparison studies. Most manuscripts on statistical methodology rely on simulation studies and provide a single real-world data set as an example to motivate and illustrate the methodology investigated. In the context of supervised learning, in contrast, methods are often evaluated using so-called benchmarking data sets, i.e. real-world data that serve as gold standard in the community. Simulation studies, on the other hand, are much less common in this context. The aim of this paper is to investigate differences and similarities between these approaches, to discuss their advantages and disadvantages and ultimately to develop new approaches to the evaluation of methods picking the best of both worlds. To this aim, we borrow ideas from different contexts such as mixed methods research and Clinical Scenario Evaluation. 
+
+3: 
+Title: Applications of statistical causal inference in software engineering
+Abstract:
+  This paper reviews existing work in software engineering that applies statistical causal inference methods. These methods aim at estimating causal effects from observational data. The review covers 32 papers published between 2010 and 2022. Our results show that the application of statistical causal inference methods is relatively recent and that the corresponding research community remains relatively fragmented. 
+
+4: 
+Title: Why Comparing Single Performance Scores Does Not Allow to Draw
+  Conclusions About Machine Learning Approaches
+Abstract:
+  Developing state-of-the-art approaches for specific tasks is a major driving force in our research community. Depending on the prestige of the task, publishing it can come along with a lot of visibility. The question arises how reliable are our evaluation methodologies to compare approaches?   One common methodology to identify the state-of-the-art is to partition data into a train, a development and a test set. Researchers can train and tune their approach on some part of the dataset and then select the model that worked best on the development set for a final evaluation on unseen test data. Test scores from different approaches are compared, and performance differences are tested for statistical significance.   In this publication, we show that there is a high risk that a statistical significance in this type of evaluation is not due to a superior learning approach. Instead, there is a high risk that the difference is due to chance. For example for the CoNLL 2003 NER dataset we observed in up to 26% of the cases type I errors (false positives) with a threshold of p < 0.05, i.e., falsely concluding a statistically significant difference between two identical approaches.   We prove that this evaluation setup is unsuitable to compare learning approaches. We formalize alternative evaluation setups based on score distributions. 
+
+5: 
+Title: Notes on computational-to-statistical gaps: predictions using
+  statistical physics
+Abstract:
+  In these notes we describe heuristics to predict computational-to-statistical gaps in certain statistical problems. These are regimes in which the underlying statistical problem is information-theoretically possible although no efficient algorithm exists, rendering the problem essentially unsolvable for large instances. The methods we describe here are based on mature, albeit non-rigorous, tools from statistical physics.   These notes are based on a lecture series given by the authors at the Courant Institute of Mathematical Sciences in New York City, on May 16th, 2017. 
+
+6: 
+Title: A fuzzy take on the logical issues of statistical hypothesis testing
+Abstract:
+  Statistical Hypothesis Testing (SHT) is a class of inference methods whereby one makes use of empirical data to test a hypothesis and often emit a judgment about whether to reject it or not. In this paper we focus on the logical aspect of this strategy, which is largely independent of the adopted school of thought, at least within the various frequentist approaches. We identify SHT as taking the form of an unsound argument from Modus Tollens in classical logic, and, in order to rescue SHT from this difficulty, we propose that it can instead be grounded in t-norm based fuzzy logics. We reformulate the frequentists' SHT logic by making use of a fuzzy extension of modus Tollens to develop a model of truth valuation for its premises. Importantly, we show that it is possible to preserve the soundness of Modus Tollens by exploring the various conventions involved with constructing fuzzy negations and fuzzy implications (namely, the S and R conventions). We find that under the S convention, it is possible to conduct the Modus Tollens inference argument using Zadeh's compositional extension and any possible t-norm. Under the R convention we find that this is not necessarily the case, but that by mixing R-implication with S-negation we can salvage the product t-norm, for example. In conclusion, we have shown that fuzzy logic is a legitimate framework to discuss and address the difficulties plaguing frequentist interpretations of SHT. 
+
+7: 
+Title: Using Deep Neural Networks to Automate Large Scale Statistical Analysis
+  for Big Data Applications
+Abstract:
+  Statistical analysis (SA) is a complex process to deduce population properties from analysis of data. It usually takes a well-trained analyst to successfully perform SA, and it becomes extremely challenging to apply SA to big data applications. We propose to use deep neural networks to automate the SA process. In particular, we propose to construct convolutional neural networks (CNNs) to perform automatic model selection and parameter estimation, two most important SA tasks. We refer to the resulting CNNs as the neural model selector and the neural model estimator, respectively, which can be properly trained using labeled data systematically generated from candidate models. Simulation study shows that both the selector and estimator demonstrate excellent performances. The idea and proposed framework can be further extended to automate the entire SA process and have the potential to revolutionize how SA is performed in big data analytics. 
+
+8: 
+Title: A Primer on Private Statistics
+Abstract:
+  Differentially private statistical estimation has seen a flurry of developments over the last several years. Study has been divided into two schools of thought, focusing on empirical statistics versus population statistics. We suggest that these two lines of work are more similar than different by giving examples of methods that were initially framed for empirical statistics, but can be applied just as well to population statistics. We also provide a thorough coverage of recent work in this area. 
+
+9: 
+Title: Utilizing Statistical Dialogue Act Processing in Verbmobil
+Abstract:
+  In this paper, we present a statistical approach for dialogue act processing in the dialogue component of the speech-to-speech translation system \vm. Statistics in dialogue processing is used to predict follow-up dialogue acts. As an application example we show how it supports repair when unexpected dialogue states occur. 
+
+10: 
+Title: A Heuristic Bayesian Approach to Knowledge Acquisition: Application to
+  Analysis of Tissue-Type Plasminogen Activator
+Abstract:
+  This paper describes a heuristic Bayesian method for computing probability distributions from experimental data, based upon the multivariate normal form of the influence diagram. An example illustrates its use in medical technology assessment. This approach facilitates the integration of results from different studies, and permits a medical expert to make proper assessments without considerable statistical training. 
+

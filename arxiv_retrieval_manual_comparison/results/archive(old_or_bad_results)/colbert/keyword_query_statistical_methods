@@ -1,0 +1,70 @@
+1: 
+High-dimensional variable selection
+  This paper explores the following question: what kind of statistical
+guarantees can be given when doing variable selection in high-dimensional
+models? In particular, we look at the error rates and power of some multi-stage
+regression methods. In the first stage we fit a set of candidate models. In the
+second stage we select one model by cross-validation. In the third stage we use
+hypothesis testing to eliminate some variables. We refer to the first two
+stages as "screening" and the last stage as "cleaning." We consider three
+screening methods: the lasso, marginal regression, and forward stepwise
+regression. Our method gives consistent variable selection under certain
+conditions.
+
+2: 
+Efficient independent component analysis
+  Independent component analysis (ICA) has been widely used for blind source
+separation in many fields such as brain imaging analysis, signal processing and
+telecommunication. Many statistical techniques based on M-estimates have been
+proposed for estimating the mixing matrix. Recently, several nonparametric
+methods have been developed, but in-depth analysis of asymptotic efficiency has
+not been available. We analyze ICA using semiparametric theories and propose a
+straightforward estimate based on the efficient score function by using
+B-spline approximations. The estimate is asymptotically efficient under
+moderate conditions and exhibits better performance than standard ICA methods
+in a variety of simulations.
+
+3: 
+An Independent Evaluation of Subspace Face Recognition Algorithms
+  This paper explores a comparative study of both the linear and kernel
+implementations of three of the most popular Appearance-based Face Recognition
+projection classes, these being the methodologies of Principal Component
+Analysis, Linear Discriminant Analysis and Independent Component Analysis. The
+experimental procedure provides a platform of equal working conditions and
+examines the ten algorithms in the categories of expression, illumination,
+occlusion and temporal delay. The results are then evaluated based on a
+sequential combination of assessment tools that facilitate both intuitive and
+statistical decisiveness among the intra and interclass comparisons. The best
+categorical algorithms are then incorporated into a hybrid methodology, where
+the advantageous effects of fusion strategies are considered.
+
+4: 
+Bayesian approach to rough set
+  This paper proposes an approach to training rough set models using Bayesian
+framework trained using Markov Chain Monte Carlo (MCMC) method. The prior
+probabilities are constructed from the prior knowledge that good rough set
+models have fewer rules. Markov Chain Monte Carlo sampling is conducted through
+sampling in the rough set granule space and Metropolis algorithm is used as an
+acceptance criteria. The proposed method is tested to estimate the risk of HIV
+given demographic data. The results obtained shows that the proposed approach
+is able to achieve an average accuracy of 58% with the accuracy varying up to
+66%. In addition the Bayesian rough set give the probabilities of the estimated
+HIV status as well as the linguistic rules describing how the demographic
+parameters drive the risk of HIV.
+
+5: 
+Fuzzy Artmap and Neural Network Approach to Online Processing of Inputs
+  with Missing Values
+  An ensemble based approach for dealing with missing data, without predicting
+or imputing the missing values is proposed. This technique is suitable for
+online operations of neural networks and as a result, is used for online
+condition monitoring. The proposed technique is tested in both classification
+and regression problems. An ensemble of Fuzzy-ARTMAPs is used for
+classification whereas an ensemble of multi-layer perceptrons is used for the
+regression problem. Results obtained using this ensemble-based technique are
+compared to those obtained using a combination of auto-associative neural
+networks and genetic algorithms and findings show that this method can perform
+up to 9% better in regression problems. Another advantage of the proposed
+technique is that it eliminates the need for finding the best estimate of the
+data, and hence, saves time.
+

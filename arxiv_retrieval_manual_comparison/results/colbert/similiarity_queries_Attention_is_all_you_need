@@ -1,0 +1,59 @@
+Similiarity query for paper Attention is all you need
+Query:
+The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.
+
+Results:
+1: 
+Title: Multi-Dimensional Recurrent Neural Networks
+Abstract:
+  Recurrent neural networks (RNNs) have proved effective at one dimensional sequence learning tasks, such as speech and online handwriting recognition. Some of the properties that make RNNs suitable for such tasks, for example robustness to input warping, and the ability to access contextual information, are also desirable in multidimensional domains. However, there has so far been no direct way of applying RNNs to data with more than one spatio-temporal dimension. This paper introduces multi-dimensional recurrent neural networks (MDRNNs), thereby extending the potential applicability of RNNs to vision, video processing, medical imaging and many other areas, while avoiding the scaling problems that have plagued other multi-dimensional models. Experimental results are provided for two image segmentation tasks. 
+
+2: 
+Title: Robust Multi-Cellular Developmental Design
+Abstract:
+  This paper introduces a continuous model for Multi-cellular Developmental Design. The cells are fixed on a 2D grid and exchange "chemicals" with their neighbors during the growth process. The quantity of chemicals that a cell produces, as well as the differentiation value of the cell in the phenotype, are controlled by a Neural Network (the genotype) that takes as inputs the chemicals produced by the neighboring cells at the previous time step. In the proposed model, the number of iterations of the growth process is not pre-determined, but emerges during evolution: only organisms for which the growth process stabilizes give a phenotype (the stable state), others are declared nonviable. The optimization of the controller is done using the NEAT algorithm, that optimizes both the topology and the weights of the Neural Networks. Though each cell only receives local information from its neighbors, the experimental results of the proposed approach on the 'flags' problems (the phenotype must match a given 2D pattern) are almost as good as those of a direct regression approach using the same model with global information. Moreover, the resulting multi-cellular organisms exhibit almost perfect self-healing characteristics. 
+
+3: 
+Title: Mixed membership stochastic blockmodels
+Abstract:
+  Observations consisting of measurements on relationships for pairs of objects arise in many settings, such as protein interaction and gene regulatory networks, collections of author-recipient email, and social networks. Analyzing such data with probabilisic models can be delicate because the simple exchangeability assumptions underlying many boilerplate models no longer hold. In this paper, we describe a latent variable model of such data called the mixed membership stochastic blockmodel. This model extends blockmodels for relational data to ones which capture mixed membership latent relational structure, thus providing an object-specific low-dimensional representation. We develop a general variational inference algorithm for fast approximate posterior inference. We explore applications to social and protein interaction networks. 
+
+4: 
+Title: A neural network approach to ordinal regression
+Abstract:
+  Ordinal regression is an important type of learning, which has properties of both classification and regression. Here we describe a simple and effective approach to adapt a traditional neural network to learn ordinal categories. Our approach is a generalization of the perceptron method for ordinal regression. On several benchmark datasets, our method (NNRank) outperforms a neural network classification method. Compared with the ordinal regression methods using Gaussian processes and support vector machines, NNRank achieves comparable performance. Moreover, NNRank has the advantages of traditional neural networks: learning in both online and batch modes, handling very large training datasets, and making rapid predictions. These features make NNRank a useful and complementary tool for large-scale data processing tasks such as information retrieval, web page ranking, collaborative filtering, and protein ranking in Bioinformatics. 
+
+5: 
+Title: Loop corrections for message passing algorithms in continuous variable
+  models
+Abstract:
+  In this paper we derive the equations for Loop Corrected Belief Propagation on a continuous variable Gaussian model. Using the exactness of the averages for belief propagation for Gaussian models, a different way of obtaining the covariances is found, based on Belief Propagation on cavity graphs. We discuss the relation of this loop correction algorithm to Expectation Propagation algorithms for the case in which the model is no longer Gaussian, but slightly perturbed by nonlinear terms. 
+
+6: 
+Title: Morphing Ensemble Kalman Filters
+Abstract:
+  A new type of ensemble filter is proposed, which combines an ensemble Kalman filter (EnKF) with the ideas of morphing and registration from image processing. This results in filters suitable for nonlinear problems whose solutions exhibit moving coherent features, such as thin interfaces in wildfire modeling. The ensemble members are represented as the composition of one common state with a spatial transformation, called registration mapping, plus a residual. A fully automatic registration method is used that requires only gridded data, so the features in the model state do not need to be identified by the user. The morphing EnKF operates on a transformed state consisting of the registration mapping and the residual. Essentially, the morphing EnKF uses intermediate states obtained by morphing instead of linear combinations of the states. 
+
+7: 
+Title: Local Area Damage Detection in Composite Structures Using Piezoelectric
+  Transducers
+Abstract:
+  An integrated and automated smart structures approach for structural health monitoring is presented, utilizing an array of piezoelectric transducers attached to or embedded within the structure for both actuation and sensing. The system actively interrogates the structure via broadband excitation of multiple actuators across a desired frequency range. The structure's vibration signature is then characterized by computing the transfer functions between each actuator/sensor pair, and compared to the baseline signature. Experimental results applying the system to local area damage detection in a MD Explorer rotorcraft composite flexbeam are presented. 
+
+8: 
+Title: Structural Health Monitoring Using Neural Network Based Vibrational
+  System Identification
+Abstract:
+  Composite fabrication technologies now provide the means for producing high-strength, low-weight panels, plates, spars and other structural components which use embedded fiber optic sensors and piezoelectric transducers. These materials, often referred to as smart structures, make it possible to sense internal characteristics, such as delaminations or structural degradation. In this effort we use neural network based techniques for modeling and analyzing dynamic structural information for recognizing structural defects. This yields an adaptable system which gives a measure of structural integrity for composite structures. 
+
+9: 
+Title: Fuzzy Artmap and Neural Network Approach to Online Processing of Inputs
+  with Missing Values
+Abstract:
+  An ensemble based approach for dealing with missing data, without predicting or imputing the missing values is proposed. This technique is suitable for online operations of neural networks and as a result, is used for online condition monitoring. The proposed technique is tested in both classification and regression problems. An ensemble of Fuzzy-ARTMAPs is used for classification whereas an ensemble of multi-layer perceptrons is used for the regression problem. Results obtained using this ensemble-based technique are compared to those obtained using a combination of auto-associative neural networks and genetic algorithms and findings show that this method can perform up to 9% better in regression problems. Another advantage of the proposed technique is that it eliminates the need for finding the best estimate of the data, and hence, saves time. 
+
+10: 
+Title: A study of structural properties on profiles HMMs
+Abstract:
+  Motivation: Profile hidden Markov Models (pHMMs) are a popular and very useful tool in the detection of the remote homologue protein families. Unfortunately, their performance is not always satisfactory when proteins are in the 'twilight zone'. We present HMMER-STRUCT, a model construction algorithm and tool that tries to improve pHMM performance by using structural information while training pHMMs. As a first step, HMMER-STRUCT constructs a set of pHMMs. Each pHMM is constructed by weighting each residue in an aligned protein according to a specific structural property of the residue. Properties used were primary, secondary and tertiary structures, accessibility and packing. HMMER-STRUCT then prioritizes the results by voting. Results: We used the SCOP database to perform our experiments. Throughout, we apply leave-one-family-out cross-validation over protein superfamilies. First, we used the MAMMOTH-mult structural aligner to align the training set proteins. Then, we performed two sets of experiments. In a first experiment, we compared structure weighted models against standard pHMMs and against each other. In a second experiment, we compared the voting model against individual pHMMs. We compare method performance through ROC curves and through Precision/Recall curves, and assess significance through the paired two tailed t-test. Our results show significant performance improvements of all structurally weighted models over default HMMER, and a significant improvement in sensitivity of the combined models over both the original model and the structurally weighted models. 
+

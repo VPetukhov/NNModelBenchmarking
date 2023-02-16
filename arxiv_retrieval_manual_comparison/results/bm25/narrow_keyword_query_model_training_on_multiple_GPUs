@@ -1,0 +1,60 @@
+Query:
+model training on multiple GPUs
+
+Results:
+1: 
+Title: CROSSBOW: Scaling Deep Learning with Small Batch Sizes on Multi-GPU
+  Servers
+Abstract:
+  Deep learning models are trained on servers with many GPUs, and training must scale with the number of GPUs. Systems such as TensorFlow and Caffe2 train models with parallel synchronous stochastic gradient descent: they process a batch of training data at a time, partitioned across GPUs, and average the resulting partial gradients to obtain an updated global model. To fully utilise all GPUs, systems must increase the batch size, which hinders statistical efficiency. Users tune hyper-parameters such as the learning rate to compensate for this, which is complex and model-specific.   We describe CROSSBOW, a new single-server multi-GPU system for training deep learning models that enables users to freely choose their preferred batch size - however small - while scaling to multiple GPUs. CROSSBOW uses many parallel model replicas and avoids reduced statistical efficiency through a new synchronous training method. We introduce SMA, a synchronous variant of model averaging in which replicas independently explore the solution space with gradient descent, but adjust their search synchronously based on the trajectory of a globally-consistent average model. CROSSBOW achieves high hardware efficiency with small batch sizes by potentially training multiple model replicas per GPU, automatically tuning the number of replicas to maximise throughput. Our experiments show that CROSSBOW improves the training time of deep learning models on an 8-GPU server by 1.3-4x compared to TensorFlow. 
+
+2: 
+Title: Experiments on Parallel Training of Deep Neural Network using Model
+  Averaging
+Abstract:
+  In this work we apply model averaging to parallel training of deep neural network (DNN). Parallelization is done in a model averaging manner. Data is partitioned and distributed to different nodes for local model updates, and model averaging across nodes is done every few minibatches. We use multiple GPUs for data parallelization, and Message Passing Interface (MPI) for communication between nodes, which allows us to perform model averaging frequently without losing much time on communication. We investigate the effectiveness of Natural Gradient Stochastic Gradient Descent (NG-SGD) and Restricted Boltzmann Machine (RBM) pretraining for parallel training in model-averaging framework, and explore the best setups in term of different learning rate schedules, averaging frequencies and minibatch sizes. It is shown that NG-SGD and RBM pretraining benefits parameter-averaging based model training. On the 300h Switchboard dataset, a 9.3 times speedup is achieved using 16 GPUs and 17 times speedup using 32 GPUs with limited decoding accuracy loss. 
+
+3: 
+Title: Data-parallel distributed training of very large models beyond GPU
+  capacity
+Abstract:
+  GPUs have limited memory and it is difficult to train wide and/or deep models that cause the training process to go out of memory. It is shown in this paper how an open source tool called Large Model Support (LMS) can utilize a high bandwidth NVLink connection between CPUs and GPUs to accomplish training of deep convolutional networks. LMS performs tensor swapping between CPU memory and GPU memory such that only a minimal number of tensors required in a training step are kept in the GPU memory. It is also shown how LMS can be combined with an MPI based distributed deep learning module to train models in a data-parallel fashion across multiple GPUs, such that each GPU is utilizing the CPU memory for tensor swapping. The hardware architecture that enables the high bandwidth GPU link with the CPU is discussed as well as the associated set of software tools that are available as the PowerAI package. 
+
+4: 
+Title: Efficient and Robust Parallel DNN Training through Model Parallelism on
+  Multi-GPU Platform
+Abstract:
+  The training process of Deep Neural Network (DNN) is compute-intensive, often taking days to weeks to train a DNN model. Therefore, parallel execution of DNN training on GPUs is a widely adopted approach to speed up the process nowadays. Due to the implementation simplicity, data parallelism is currently the most commonly used parallelization method. Nonetheless, data parallelism suffers from excessive inter-GPU communication overhead due to frequent weight synchronization among GPUs. Another approach is pipelined model parallelism, which partitions a DNN model among GPUs, and processes multiple mini-batches concurrently. This approach can significantly reduce inter-GPU communication cost compared to data parallelism. However, pipelined model parallelism faces the weight staleness issue; that is, gradients are computed with stale weights, leading to training instability and accuracy loss. In this paper, we present a pipelined model parallel execution method that enables high GPU utilization while maintaining robust training accuracy via a novel weight prediction technique, SpecTrain. Experimental results show that our proposal achieves up to 8.91x speedup compared to data parallelism on a 4-GPU platform while maintaining comparable model accuracy. 
+
+5: 
+Title: Hybrid Data-Model Parallel Training for Sequence-to-Sequence Recurrent
+  Neural Network Machine Translation
+Abstract:
+  Reduction of training time is an important issue in many tasks like patent translation involving neural networks. Data parallelism and model parallelism are two common approaches for reducing training time using multiple graphics processing units (GPUs) on one machine. In this paper, we propose a hybrid data-model parallel approach for sequence-to-sequence (Seq2Seq) recurrent neural network (RNN) machine translation. We apply a model parallel approach to the RNN encoder-decoder part of the Seq2Seq model and a data parallel approach to the attention-softmax part of the model. We achieved a speed-up of 4.13 to 4.20 times when using 4 GPUs compared with the training speed when using 1 GPU without affecting machine translation accuracy as measured in terms of BLEU scores. 
+
+6: 
+Title: fairseq: A Fast, Extensible Toolkit for Sequence Modeling
+Abstract:
+  fairseq is an open-source sequence modeling toolkit that allows researchers and developers to train custom models for translation, summarization, language modeling, and other text generation tasks. The toolkit is based on PyTorch and supports distributed training across multiple GPUs and machines. We also support fast mixed-precision training and inference on modern GPUs. A demo video can be found at https://www.youtube.com/watch?v=OtgDdWtHvto 
+
+7: 
+Title: Highly-scalable, physics-informed GANs for learning solutions of
+  stochastic PDEs
+Abstract:
+  Uncertainty quantification for forward and inverse problems is a central challenge across physical and biomedical disciplines. We address this challenge for the problem of modeling subsurface flow at the Hanford Site by combining stochastic computational models with observational data using physics-informed GAN models. The geographic extent, spatial heterogeneity, and multiple correlation length scales of the Hanford Site require training a computationally intensive GAN model to thousands of dimensions. We develop a hierarchical scheme for exploiting domain parallelism, map discriminators and generators to multiple GPUs, and employ efficient communication schemes to ensure training stability and convergence. We developed a highly optimized implementation of this scheme that scales to 27,500 NVIDIA Volta GPUs and 4584 nodes on the Summit supercomputer with a 93.1% scaling efficiency, achieving peak and sustained half-precision rates of 1228 PF/s and 1207 PF/s. 
+
+8: 
+Title: FastMoE: A Fast Mixture-of-Expert Training System
+Abstract:
+  Mixture-of-Expert (MoE) presents a strong potential in enlarging the size of language model to trillions of parameters. However, training trillion-scale MoE requires algorithm and system co-design for a well-tuned high performance distributed training system. Unfortunately, the only existing platform that meets the requirements strongly depends on Google's hardware (TPU) and software (Mesh Tensorflow) stack, and is not open and available to the public, especially GPU and PyTorch communities.   In this paper, we present FastMoE, a distributed MoE training system based on PyTorch with common accelerators. The system provides a hierarchical interface for both flexible model design and easy adaption to different applications, such as Transformer-XL and Megatron-LM. Different from direct implementation of MoE models using PyTorch, the training speed is highly optimized in FastMoE by sophisticated high-performance acceleration skills. The system supports placing different experts on multiple GPUs across multiple nodes, enabling enlarging the number of experts linearly against the number of GPUs. The source of FastMoE is available at https://github.com/laekov/fastmoe under Apache-2 license. 
+
+9: 
+Title: Deep Learning Training on Multi-Instance GPUs
+Abstract:
+  Deep learning training is an expensive process that extensively uses GPUs, but not all model training saturates the modern powerful GPUs. Multi-Instance GPU (MIG) is a new technology introduced by NVIDIA that can partition a GPU to better fit workloads that don't require all the memory and compute resources of a full GPU. In this paper, we examine the performance of a MIG-enabled A100 GPU under deep learning workloads of three sizes focusing on image recognition training with ResNet models. We investigate the behavior of these workloads when running in isolation on a variety of MIG instances allowed by the GPU in addition to running them in parallel on homogeneous instances co-located on the same GPU.   Our results demonstrate that employing MIG can significantly improve the utilization of the GPU when the workload is too small to utilize the whole GPU in isolation. By training multiple small models in parallel, more work can be performed by the GPU per unit of time, despite the increase in time-per-epoch, leading to $\sim$3 times the throughput. In contrast, for medium and large-sized workloads, which already utilize the whole GPU well on their own, MIG only provides marginal performance improvements. Nevertheless, we observe that training models in parallel using separate MIG partitions does not exhibit interference underlining the value of having a functionality like MIG on modern GPUs. 
+
+10: 
+Title: One weird trick for parallelizing convolutional neural networks
+Abstract:
+  I present a new way to parallelize the training of convolutional neural networks across multiple GPUs. The method scales significantly better than all alternatives when applied to modern convolutional neural networks. 
+

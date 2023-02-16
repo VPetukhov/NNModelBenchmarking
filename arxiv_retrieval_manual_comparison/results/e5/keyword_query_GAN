@@ -1,0 +1,58 @@
+Query:
+GAN
+
+Results:
+1: 
+Title: On the Performance of Generative Adversarial Network (GAN) Variants: A
+  Clinical Data Study
+Abstract:
+  Generative Adversarial Network (GAN) is a useful type of Neural Networks in various types of applications including generative models and feature extraction. Various types of GANs are being researched with different insights, resulting in a diverse family of GANs with a better performance in each generation. This review focuses on various GANs categorized by their common traits. 
+
+2: 
+Title: Generative Adversarial Nets: Can we generate a new dataset based on only
+  one training set?
+Abstract:
+  A generative adversarial network (GAN) is a class of machine learning frameworks designed by Goodfellow et al. in 2014. In the GAN framework, the generative model is pitted against an adversary: a discriminative model that learns to determine whether a sample is from the model distribution or the data distribution. GAN generates new samples from the same distribution as the training set. In this work, we aim to generate a new dataset that has a different distribution from the training set. In addition, the Jensen-Shannon divergence between the distributions of the generative and training datasets can be controlled by some target $\delta \in [0, 1]$. Our work is motivated by applications in generating new kinds of rice that have similar characteristics as good rice. 
+
+3: 
+Title: Semi-Supervised Learning with GANs: Revisiting Manifold Regularization
+Abstract:
+  GANS are powerful generative models that are able to model the manifold of natural images. We leverage this property to perform manifold regularization by approximating the Laplacian norm using a Monte Carlo approximation that is easily computed with the GAN. When incorporated into the feature-matching GAN of Improved GAN, we achieve state-of-the-art results for GAN-based semi-supervised learning on the CIFAR-10 dataset, with a method that is significantly easier to implement than competing methods. 
+
+4: 
+Title: StudioGAN: A Taxonomy and Benchmark of GANs for Image Synthesis
+Abstract:
+  Generative Adversarial Network (GAN) is one of the state-of-the-art generative models for realistic image synthesis. While training and evaluating GAN becomes increasingly important, the current GAN research ecosystem does not provide reliable benchmarks for which the evaluation is conducted consistently and fairly. Furthermore, because there are few validated GAN implementations, researchers devote considerable time to reproducing baselines. We study the taxonomy of GAN approaches and present a new open-source library named StudioGAN. StudioGAN supports 7 GAN architectures, 9 conditioning methods, 4 adversarial losses, 13 regularization modules, 3 differentiable augmentations, 7 evaluation metrics, and 5 evaluation backbones. With our training and evaluation protocol, we present a large-scale benchmark using various datasets (CIFAR10, ImageNet, AFHQv2, FFHQ, and Baby/Papa/Granpa-ImageNet) and 3 different evaluation backbones (InceptionV3, SwAV, and Swin Transformer). Unlike other benchmarks used in the GAN community, we train representative GANs, including BigGAN, StyleGAN2, and StyleGAN3, in a unified training pipeline and quantify generation performance with 7 evaluation metrics. The benchmark evaluates other cutting-edge generative models(e.g., StyleGAN-XL, ADM, MaskGIT, and RQ-Transformer). StudioGAN provides GAN implementations, training, and evaluation scripts with the pre-trained weights. StudioGAN is available at https://github.com/POSTECH-CVLab/PyTorch-StudioGAN. 
+
+5: 
+Title: Texture Synthesis with Spatial Generative Adversarial Networks
+Abstract:
+  Generative adversarial networks (GANs) are a recent approach to train generative models of data, which have been shown to work particularly well on image data. In the current paper we introduce a new model for texture synthesis based on GAN learning. By extending the input noise distribution space from a single vector to a whole spatial tensor, we create an architecture with properties well suited to the task of texture synthesis, which we call spatial GAN (SGAN). To our knowledge, this is the first successful completely data-driven texture synthesis method based on GANs.   Our method has the following features which make it a state of the art algorithm for texture synthesis: high image quality of the generated textures, very high scalability w.r.t. the output texture size, fast real-time forward generation, the ability to fuse multiple diverse source images in complex textures. To illustrate these capabilities we present multiple experiments with different classes of texture images and use cases. We also discuss some limitations of our method with respect to the types of texture images it can synthesize, and compare it to other neural techniques for texture generation. 
+
+6: 
+Title: A Novel Measure to Evaluate Generative Adversarial Networks Based on
+  Direct Analysis of Generated Images
+Abstract:
+  The Generative Adversarial Network (GAN) is a state-of-the-art technique in the field of deep learning. A number of recent papers address the theory and applications of GANs in various fields of image processing. Fewer studies, however, have directly evaluated GAN outputs. Those that have been conducted focused on using classification performance, e.g., Inception Score (IS) and statistical metrics, e.g., Fr\'echet Inception Distance (FID). Here, we consider a fundamental way to evaluate GANs by directly analyzing the images they generate, instead of using them as inputs to other classifiers. We characterize the performance of a GAN as an image generator according to three aspects: 1) Creativity: non-duplication of the real images. 2) Inheritance: generated images should have the same style, which retains key features of the real images. 3) Diversity: generated images are different from each other. A GAN should not generate a few different images repeatedly. Based on the three aspects of ideal GANs, we have designed the Likeness Score (LS) to evaluate GAN performance, and have applied it to evaluate several typical GANs. We compared our proposed measure with two commonly used GAN evaluation methods: IS and FID, and four additional measures. Furthermore, we discuss how these evaluations could help us deepen our understanding of GANs and improve their performance. 
+
+7: 
+Title: GLeaD: Improving GANs with A Generator-Leading Task
+Abstract:
+  Generative adversarial network (GAN) is formulated as a two-player game between a generator (G) and a discriminator (D), where D is asked to differentiate whether an image comes from real data or is produced by G. Under such a formulation, D plays as the rule maker and hence tends to dominate the competition. Towards a fairer game in GANs, we propose a new paradigm for adversarial training, which makes G assign a task to D as well. Specifically, given an image, we expect D to extract representative features that can be adequately decoded by G to reconstruct the input. That way, instead of learning freely, D is urged to align with the view of G for domain classification. Experimental results on various datasets demonstrate the substantial superiority of our approach over the baselines. For instance, we improve the FID of StyleGAN2 from 4.30 to 2.55 on LSUN Bedroom and from 4.04 to 2.82 on LSUN Church. We believe that the pioneering attempt present in this work could inspire the community with better designed generator-leading tasks for GAN improvement. 
+
+8: 
+Title: Distributed Generative Adversarial Net
+Abstract:
+  Recently the Generative Adversarial Network has become a hot topic. Considering the application of GAN in multi-user environment, we propose Distributed-GAN. It enables multiple users to train with their own data locally and generates more diverse samples. Users don't need to share data with each other to avoid the leakage of privacy. In recent years, commercial companies have launched cloud platforms based on artificial intelligence to provide model for users who lack computing power. We hope our work can inspire these companies to provide more powerful AI services. 
+
+9: 
+Title: Improving GANs Using Optimal Transport
+Abstract:
+  We present Optimal Transport GAN (OT-GAN), a variant of generative adversarial nets minimizing a new metric measuring the distance between the generator distribution and the data distribution. This metric, which we call mini-batch energy distance, combines optimal transport in primal form with an energy distance defined in an adversarially learned feature space, resulting in a highly discriminative distance function with unbiased mini-batch gradients. Experimentally we show OT-GAN to be highly stable when trained with large mini-batches, and we present state-of-the-art results on several popular benchmark problems for image generation. 
+
+10: 
+Title: Evolutionary Generative Adversarial Networks with Crossover Based
+  Knowledge Distillation
+Abstract:
+  Generative Adversarial Networks (GAN) is an adversarial model, and it has been demonstrated to be effective for various generative tasks. However, GAN and its variants also suffer from many training problems, such as mode collapse and gradient vanish. In this paper, we firstly propose a general crossover operator, which can be widely applied to GANs using evolutionary strategies. Then we design an evolutionary GAN framework C-GAN based on it. And we combine the crossover operator with evolutionary generative adversarial networks (EGAN) to implement the evolutionary generative adversarial networks with crossover (CE-GAN). Under the premise that a variety of loss functions are used as mutation operators to generate mutation individuals, we evaluate the generated samples and allow the mutation individuals to learn experiences from the output in a knowledge distillation manner, imitating the best output outcome, resulting in better offspring. Then, we greedily selected the best offspring as parents for subsequent training using discriminator as evaluator. Experiments on real datasets demonstrate the effectiveness of CE-GAN and show that our method is competitive in terms of generated images quality and time efficiency. 
+

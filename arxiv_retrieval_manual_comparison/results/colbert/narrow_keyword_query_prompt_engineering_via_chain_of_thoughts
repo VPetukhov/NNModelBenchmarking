@@ -1,0 +1,56 @@
+Query:
+prompt engineering via chain of thoughts
+
+Results:
+1: 
+Title: Condition Monitoring of HV Bushings in the Presence of Missing Data
+  Using Evolutionary Computing
+Abstract:
+  The work proposes the application of neural networks with particle swarm optimisation (PSO) and genetic algorithms (GA) to compensate for missing data in classifying high voltage bushings. The classification is done using DGA data from 60966 bushings based on IEEEc57.104, IEC599 and IEEE production rates methods for oil impregnated paper (OIP) bushings. PSO and GA were compared in terms of accuracy and computational efficiency. Both GA and PSO simulations were able to estimate missing data values to an average 95% accuracy when only one variable was missing. However PSO rapidly deteriorated to 66% accuracy with two variables missing simultaneously, compared to 84% for GA. The data estimated using GA was found to classify the conditions of bushings than the PSO. 
+
+2: 
+Title: Evolving Symbolic Controllers
+Abstract:
+  The idea of symbolic controllers tries to bridge the gap between the top-down manual design of the controller architecture, as advocated in Brooks' subsumption architecture, and the bottom-up designer-free approach that is now standard within the Evolutionary Robotics community. The designer provides a set of elementary behavior, and evolution is given the goal of assembling them to solve complex tasks. Two experiments are presented, demonstrating the efficiency and showing the recursiveness of this approach. In particular, the sensitivity with respect to the proposed elementary behaviors, and the robustness w.r.t. generalization of the resulting controllers are studied in detail. 
+
+3: 
+Title: Using artificial intelligence for data reduction in mechanical
+  engineering
+Abstract:
+  In this paper artificial neural networks and support vector machines are used to reduce the amount of vibration data that is required to estimate the Time Domain Average of a gear vibration signal. Two models for estimating the time domain average of a gear vibration signal are proposed. The models are tested on data from an accelerated gear life test rig. Experimental results indicate that the required data for calculating the Time Domain Average of a gear vibration signal can be reduced by up to 75% when the proposed models are implemented. 
+
+4: 
+Title: Architecture for Pseudo Acausal Evolvable Embedded Systems
+Abstract:
+  Advances in semiconductor technology are contributing to the increasing complexity in the design of embedded systems. Architectures with novel techniques such as evolvable nature and autonomous behavior have engrossed lot of attention. This paper demonstrates conceptually evolvable embedded systems can be characterized basing on acausal nature. It is noted that in acausal systems, future input needs to be known, here we make a mechanism such that the system predicts the future inputs and exhibits pseudo acausal nature. An embedded system that uses theoretical framework of acausality is proposed. Our method aims at a novel architecture that features the hardware evolability and autonomous behavior alongside pseudo acausality. Various aspects of this architecture are discussed in detail along with the limitations. 
+
+5: 
+Title: Multi-Dimensional Recurrent Neural Networks
+Abstract:
+  Recurrent neural networks (RNNs) have proved effective at one dimensional sequence learning tasks, such as speech and online handwriting recognition. Some of the properties that make RNNs suitable for such tasks, for example robustness to input warping, and the ability to access contextual information, are also desirable in multidimensional domains. However, there has so far been no direct way of applying RNNs to data with more than one spatio-temporal dimension. This paper introduces multi-dimensional recurrent neural networks (MDRNNs), thereby extending the potential applicability of RNNs to vision, video processing, medical imaging and many other areas, while avoiding the scaling problems that have plagued other multi-dimensional models. Experimental results are provided for two image segmentation tasks. 
+
+6: 
+Title: Towards understanding and modelling office daily life
+Abstract:
+  Measuring and modeling human behavior is a very complex task. In this paper we present our initial thoughts on modeling and automatic recognition of some human activities in an office. We argue that to successfully model human activities, we need to consider both individual behavior and group dynamics. To demonstrate these theoretical approaches, we introduce an experimental system for analyzing everyday activity in our office. 
+
+7: 
+Title: Artificial Intelligence for Conflict Management
+Abstract:
+  Militarised conflict is one of the risks that have a significant impact on society. Militarised Interstate Dispute (MID) is defined as an outcome of interstate interactions, which result on either peace or conflict. Effective prediction of the possibility of conflict between states is an important decision support tool for policy makers. In a previous research, neural networks (NNs) have been implemented to predict the MID. Support Vector Machines (SVMs) have proven to be very good prediction techniques and are introduced for the prediction of MIDs in this study and compared to neural networks. The results show that SVMs predict MID better than NNs while NNs give more consistent and easy to interpret sensitivity analysis than SVMs. 
+
+8: 
+Title: On the Development of Text Input Method - Lessons Learned
+Abstract:
+  Intelligent Input Methods (IM) are essential for making text entries in many East Asian scripts, but their application to other languages has not been fully explored. This paper discusses how such tools can contribute to the development of computer processing of other oriental languages. We propose a design philosophy that regards IM as a text service platform, and treats the study of IM as a cross disciplinary subject from the perspectives of software engineering, human-computer interaction (HCI), and natural language processing (NLP). We discuss these three perspectives and indicate a number of possible future research directions. 
+
+9: 
+Title: A neural network approach to ordinal regression
+Abstract:
+  Ordinal regression is an important type of learning, which has properties of both classification and regression. Here we describe a simple and effective approach to adapt a traditional neural network to learn ordinal categories. Our approach is a generalization of the perceptron method for ordinal regression. On several benchmark datasets, our method (NNRank) outperforms a neural network classification method. Compared with the ordinal regression methods using Gaussian processes and support vector machines, NNRank achieves comparable performance. Moreover, NNRank has the advantages of traditional neural networks: learning in both online and batch modes, handling very large training datasets, and making rapid predictions. These features make NNRank a useful and complementary tool for large-scale data processing tasks such as information retrieval, web page ranking, collaborative filtering, and protein ranking in Bioinformatics. 
+
+10: 
+Title: Exploiting Social Annotation for Automatic Resource Discovery
+Abstract:
+  Information integration applications, such as mediators or mashups, that require access to information resources currently rely on users manually discovering and integrating them in the application. Manual resource discovery is a slow process, requiring the user to sift through results obtained via keyword-based search. Although search methods have advanced to include evidence from document contents, its metadata and the contents and link structure of the referring pages, they still do not adequately cover information sources -- often called ``the hidden Web''-- that dynamically generate documents in response to a query. The recently popular social bookmarking sites, which allow users to annotate and share metadata about various information sources, provide rich evidence for resource discovery. In this paper, we describe a probabilistic model of the user annotation process in a social bookmarking system del.icio.us. We then use the model to automatically find resources relevant to a particular information domain. Our experimental results on data obtained from \emph{del.icio.us} show this approach as a promising method for helping automate the resource discovery task. 
+

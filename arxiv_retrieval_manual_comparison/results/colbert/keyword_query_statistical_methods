@@ -1,0 +1,56 @@
+Query:
+statistical methods
+
+Results:
+1: 
+Title: High-dimensional variable selection
+Abstract:
+  This paper explores the following question: what kind of statistical guarantees can be given when doing variable selection in high-dimensional models? In particular, we look at the error rates and power of some multi-stage regression methods. In the first stage we fit a set of candidate models. In the second stage we select one model by cross-validation. In the third stage we use hypothesis testing to eliminate some variables. We refer to the first two stages as "screening" and the last stage as "cleaning." We consider three screening methods: the lasso, marginal regression, and forward stepwise regression. Our method gives consistent variable selection under certain conditions. 
+
+2: 
+Title: Efficient independent component analysis
+Abstract:
+  Independent component analysis (ICA) has been widely used for blind source separation in many fields such as brain imaging analysis, signal processing and telecommunication. Many statistical techniques based on M-estimates have been proposed for estimating the mixing matrix. Recently, several nonparametric methods have been developed, but in-depth analysis of asymptotic efficiency has not been available. We analyze ICA using semiparametric theories and propose a straightforward estimate based on the efficient score function by using B-spline approximations. The estimate is asymptotically efficient under moderate conditions and exhibits better performance than standard ICA methods in a variety of simulations. 
+
+3: 
+Title: An Independent Evaluation of Subspace Face Recognition Algorithms
+Abstract:
+  This paper explores a comparative study of both the linear and kernel implementations of three of the most popular Appearance-based Face Recognition projection classes, these being the methodologies of Principal Component Analysis, Linear Discriminant Analysis and Independent Component Analysis. The experimental procedure provides a platform of equal working conditions and examines the ten algorithms in the categories of expression, illumination, occlusion and temporal delay. The results are then evaluated based on a sequential combination of assessment tools that facilitate both intuitive and statistical decisiveness among the intra and interclass comparisons. The best categorical algorithms are then incorporated into a hybrid methodology, where the advantageous effects of fusion strategies are considered. 
+
+4: 
+Title: Bayesian approach to rough set
+Abstract:
+  This paper proposes an approach to training rough set models using Bayesian framework trained using Markov Chain Monte Carlo (MCMC) method. The prior probabilities are constructed from the prior knowledge that good rough set models have fewer rules. Markov Chain Monte Carlo sampling is conducted through sampling in the rough set granule space and Metropolis algorithm is used as an acceptance criteria. The proposed method is tested to estimate the risk of HIV given demographic data. The results obtained shows that the proposed approach is able to achieve an average accuracy of 58% with the accuracy varying up to 66%. In addition the Bayesian rough set give the probabilities of the estimated HIV status as well as the linguistic rules describing how the demographic parameters drive the risk of HIV. 
+
+5: 
+Title: Fuzzy Artmap and Neural Network Approach to Online Processing of Inputs
+  with Missing Values
+Abstract:
+  An ensemble based approach for dealing with missing data, without predicting or imputing the missing values is proposed. This technique is suitable for online operations of neural networks and as a result, is used for online condition monitoring. The proposed technique is tested in both classification and regression problems. An ensemble of Fuzzy-ARTMAPs is used for classification whereas an ensemble of multi-layer perceptrons is used for the regression problem. Results obtained using this ensemble-based technique are compared to those obtained using a combination of auto-associative neural networks and genetic algorithms and findings show that this method can perform up to 9% better in regression problems. Another advantage of the proposed technique is that it eliminates the need for finding the best estimate of the data, and hence, saves time. 
+
+6: 
+Title: Intelligent location of simultaneously active acoustic emission sources:
+  Part II
+Abstract:
+  Part I describes an intelligent acoustic emission locator, while Part II discusses blind source separation, time delay estimation and location of two continuous acoustic emission sources.   Acoustic emission (AE) analysis is used for characterization and location of developing defects in materials. AE sources often generate a mixture of various statistically independent signals. A difficult problem of AE analysis is separation and characterization of signal components when the signals from various sources and the mode of mixing are unknown. Recently, blind source separation (BSS) by independent component analysis (ICA) has been used to solve these problems. The purpose of this paper is to demonstrate the applicability of ICA to locate two independent simultaneously active acoustic emission sources on an aluminum band specimen. The method is promising for non-destructive testing of aircraft frame structures by acoustic emission analysis. 
+
+7: 
+Title: A Novel Model of Working Set Selection for SMO Decomposition Methods
+Abstract:
+  In the process of training Support Vector Machines (SVMs) by decomposition methods, working set selection is an important technique, and some exciting schemes were employed into this field. To improve working set selection, we propose a new model for working set selection in sequential minimal optimization (SMO) decomposition methods. In this model, it selects B as working set without reselection. Some properties are given by simple proof, and experiments demonstrate that the proposed method is in general faster than existing methods. 
+
+8: 
+Title: Evolutionary Optimisation Methods for Template Based Image Registration
+Abstract:
+  This paper investigates the use of evolutionary optimisation techniques to register a template with a scene image. An error function is created to measure the correspondence of the template to the image. The problem presented here is to optimise the horizontal, vertical and scaling parameters that register the template with the scene. The Genetic Algorithm, Simulated Annealing and Particle Swarm Optimisations are compared to a Nelder-Mead Simplex optimisation with starting points chosen in a pre-processing stage. The paper investigates the precision and accuracy of each method and shows that all four methods perform favourably for image registration. SA is the most precise, GA is the most accurate. PSO is a good mix of both and the Simplex method returns local minima the most. A pre-processing stage should be investigated for the evolutionary methods in order to improve performance. Discrete versions of the optimisation methods should be investigated to further improve computational performance. 
+
+9: 
+Title: An Automated Evaluation Metric for Chinese Text Entry
+Abstract:
+  In this paper, we propose an automated evaluation metric for text entry. We also consider possible improvements to existing text entry evaluation metrics, such as the minimum string distance error rate, keystrokes per character, cost per correction, and a unified approach proposed by MacKenzie, so they can accommodate the special characteristics of Chinese text. Current methods lack an integrated concern about both typing speed and accuracy for Chinese text entry evaluation. Our goal is to remove the bias that arises due to human factors. First, we propose a new metric, called the correction penalty (P), based on Fitts' law and Hick's law. Next, we transform it into the approximate amortized cost (AAC) of information theory. An analysis of the AAC of Chinese text input methods with different context lengths is also presented. 
+
+10: 
+Title: Getting started in probabilistic graphical models
+Abstract:
+  Probabilistic graphical models (PGMs) have become a popular tool for computational analysis of biological data in a variety of domains. But, what exactly are they and how do they work? How can we use PGMs to discover patterns that are biologically relevant? And to what extent can PGMs help us formulate new hypotheses that are testable at the bench? This note sketches out some answers and illustrates the main ideas behind the statistical approach to biological pattern discovery. 
+

@@ -1,0 +1,90 @@
+1: 
+Approaches to Artificial General Intelligence: An Analysis
+  This paper is an analysis of the different methods proposed to achieve AGI,
+including Human Brain Emulation, AIXI and Integrated Cognitive Architecture.
+First, the definition of AGI as used in this paper has been defined, and its
+requirements have been stated. For each proposed method mentioned, the method
+in question was summarized and its key processes were detailed, showcasing how
+it functioned. Then, each method listed was analyzed, taking various factors
+into consideration, such as technological requirements, computational ability,
+and adequacy to the requirements. It was concluded that while there are various
+methods to achieve AGI that could work, such as Human Brain Emulation and
+Integrated Cognitive Architectures, the most promising method to achieve AGI is
+Integrated Cognitive Architectures. This is because Human Brain Emulation was
+found to require scanning technologies that will most likely not be available
+until the 2030s, making it unlikely to be created before then. Moreover,
+Integrated Cognitive Architectures has reduced computational requirements and a
+suitable functionality for General Intelligence, making it the most likely way
+to achieve AGI.
+
+2: 
+Measuring Intelligence through Games
+  Artificial general intelligence (AGI) refers to research aimed at tackling
+the full problem of artificial intelligence, that is, create truly intelligent
+agents. This sets it apart from most AI research which aims at solving
+relatively narrow domains, such as character recognition, motion planning, or
+increasing player satisfaction in games. But how do we know when an agent is
+truly intelligent? A common point of reference in the AGI community is Legg and
+Hutter's formal definition of universal intelligence, which has the appeal of
+simplicity and generality but is unfortunately incomputable. Games of various
+kinds are commonly used as benchmarks for "narrow" AI research, as they are
+considered to have many important properties. We argue that many of these
+properties carry over to the testing of general intelligence as well. We then
+sketch how such testing could practically be carried out. The central part of
+this sketch is an extension of universal intelligence to deal with finite time,
+and the use of sampling of the space of games expressed in a suitably biased
+game description language.
+
+3: 
+Mesarovician Abstract Learning Systems
+  The solution methods used to realize artificial general intelligence (AGI)
+may not contain the formalism needed to adequately model and characterize AGI.
+In particular, current approaches to learning hold notions of problem domain
+and problem task as fundamental precepts, but it is hardly apparent that an AGI
+encountered in the wild will be discernable into a set of domain-task pairings.
+Nor is it apparent that the outcomes of AGI in a system can be well expressed
+in terms of domain and task, or as consequences thereof. Thus, there is both a
+practical and theoretical use for meta-theories of learning which do not
+express themselves explicitly in terms of solution methods. General systems
+theory offers such a meta-theory. Herein, Mesarovician abstract systems theory
+is used as a super-structure for learning. Abstract learning systems are
+formulated. Subsequent elaboration stratifies the assumptions of learning
+systems into a hierarchy and considers the hierarchy such stratification
+projects onto learning theory. The presented Mesarovician abstract learning
+systems theory calls back to the founding motivations of artificial
+intelligence research by focusing on the thinking participants directly, in
+this case, learning systems, in contrast to the contemporary focus on the
+problems thinking participants solve.
+
+4: 
+Analysis of Algorithms and Partial Algorithms
+  We present an alternative methodology for the analysis of algorithms, based
+on the concept of expected discounted reward. This methodology naturally
+handles algorithms that do not always terminate, so it can (theoretically) be
+used with partial algorithms for undecidable problems, such as those found in
+artificial general intelligence (AGI) and automated theorem proving. We mention
+an approach to self-improving AGI enabled by this methodology.
+  Aug 2017 addendum: This article was originally written with multiple
+audiences in mind. It is really best put in the following terms. Goertzel,
+Hutter, Legg, and others have developed a definition of an intelligence score
+for a general abstract agent: expected lifetime reward in a random environment.
+AIXI is generally the optimal agent according to this score, but there may be
+reasons to analyze other agents and compare score values. If we want to use
+this definition of intelligence in practice, perhaps we can start by analyzing
+some simple agents. Common algorithms can be thought of as simple agents
+(environment is input, reward is based on running time) so we take the goal of
+applying the agent intelligence score to algorithms. That is, we want to find,
+what are the IQ scores of algorithms? We can do some very simple analysis, but
+the real answer is that even for simple algorithms, the intelligence score is
+too difficult to work with in practice.
+
+5: 
+An AGI with Time-Inconsistent Preferences
+  This paper reveals a trap for artificial general intelligence (AGI) theorists
+who use economists' standard method of discounting. This trap is implicitly and
+falsely assuming that a rational AGI would have time-consistent preferences. An
+agent with time-inconsistent preferences knows that its future self will
+disagree with its current self concerning intertemporal decision making. Such
+an agent cannot automatically trust its future self to carry out plans that its
+current self considers optimal.
+

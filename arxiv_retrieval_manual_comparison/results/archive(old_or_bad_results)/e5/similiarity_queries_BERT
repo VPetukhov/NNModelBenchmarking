@@ -1,0 +1,87 @@
+1: 
+BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding
+  We introduce a new language representation model called BERT, which stands
+for Bidirectional Encoder Representations from Transformers. Unlike recent
+language representation models, BERT is designed to pre-train deep
+bidirectional representations from unlabeled text by jointly conditioning on
+both left and right context in all layers. As a result, the pre-trained BERT
+model can be fine-tuned with just one additional output layer to create
+state-of-the-art models for a wide range of tasks, such as question answering
+and language inference, without substantial task-specific architecture
+modifications.
+  BERT is conceptually simple and empirically powerful. It obtains new
+state-of-the-art results on eleven natural language processing tasks, including
+pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
+accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
+Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
+(5.1 point absolute improvement).
+
+2: 
+How to Fine-Tune BERT for Text Classification?
+  Language model pre-training has proven to be useful in learning universal
+language representations. As a state-of-the-art language model pre-training
+model, BERT (Bidirectional Encoder Representations from Transformers) has
+achieved amazing results in many language understanding tasks. In this paper,
+we conduct exhaustive experiments to investigate different fine-tuning methods
+of BERT on text classification task and provide a general solution for BERT
+fine-tuning. Finally, the proposed solution obtains new state-of-the-art
+results on eight widely-studied text classification datasets.
+
+3: 
+TRANS-BLSTM: Transformer with Bidirectional LSTM for Language
+  Understanding
+  Bidirectional Encoder Representations from Transformers (BERT) has recently
+achieved state-of-the-art performance on a broad range of NLP tasks including
+sentence classification, machine translation, and question answering. The BERT
+model architecture is derived primarily from the transformer. Prior to the
+transformer era, bidirectional Long Short-Term Memory (BLSTM) has been the
+dominant modeling architecture for neural machine translation and question
+answering. In this paper, we investigate how these two modeling techniques can
+be combined to create a more powerful model architecture. We propose a new
+architecture denoted as Transformer with BLSTM (TRANS-BLSTM) which has a BLSTM
+layer integrated to each transformer block, leading to a joint modeling
+framework for transformer and BLSTM. We show that TRANS-BLSTM models
+consistently lead to improvements in accuracy compared to BERT baselines in
+GLUE and SQuAD 1.1 experiments. Our TRANS-BLSTM model obtains an F1 score of
+94.01% on the SQuAD 1.1 development dataset, which is comparable to the
+state-of-the-art result.
+
+4: 
+Hierarchical Transformers for Long Document Classification
+  BERT, which stands for Bidirectional Encoder Representations from
+Transformers, is a recently introduced language representation model based upon
+the transfer learning paradigm. We extend its fine-tuning procedure to address
+one of its major limitations - applicability to inputs longer than a few
+hundred words, such as transcripts of human call conversations. Our method is
+conceptually simple. We segment the input into smaller chunks and feed each of
+them into the base model. Then, we propagate each output through a single
+recurrent layer, or another transformer, followed by a softmax activation. We
+obtain the final classification decision after the last segment has been
+consumed. We show that both BERT extensions are quick to fine-tune and converge
+after as little as 1 epoch of training on a small, domain-specific data set. We
+successfully apply them in three different tasks involving customer call
+satisfaction prediction and topic classification, and obtain a significant
+improvement over the baseline models in two of them.
+
+5: 
+Align, Mask and Select: A Simple Method for Incorporating Commonsense
+  Knowledge into Language Representation Models
+  The state-of-the-art pre-trained language representation models, such as
+Bidirectional Encoder Representations from Transformers (BERT), rarely
+incorporate commonsense knowledge or other knowledge explicitly. We propose a
+pre-training approach for incorporating commonsense knowledge into language
+representation models. We construct a commonsense-related multi-choice question
+answering dataset for pre-training a neural language representation model. The
+dataset is created automatically by our proposed "align, mask, and select"
+(AMS) method. We also investigate different pre-training tasks. Experimental
+results demonstrate that pre-training models using the proposed approach
+followed by fine-tuning achieve significant improvements over previous
+state-of-the-art models on two commonsense-related benchmarks, including
+CommonsenseQA and Winograd Schema Challenge. We also observe that fine-tuned
+models after the proposed pre-training approach maintain comparable performance
+on other NLP tasks, such as sentence classification and natural language
+inference tasks, compared to the original BERT models. These results verify
+that the proposed approach, while significantly improving commonsense-related
+NLP tasks, does not degrade the general language representation capabilities.
+

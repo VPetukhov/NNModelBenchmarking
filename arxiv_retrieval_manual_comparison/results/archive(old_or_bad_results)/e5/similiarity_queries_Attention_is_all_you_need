@@ -1,0 +1,81 @@
+1: 
+Attention Is All You Need
+  The dominant sequence transduction models are based on complex recurrent or
+convolutional neural networks in an encoder-decoder configuration. The best
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer, based
+solely on attention mechanisms, dispensing with recurrence and convolutions
+entirely. Experiments on two machine translation tasks show these models to be
+superior in quality while being more parallelizable and requiring significantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014
+English-to-German translation task, improving over the existing best results,
+including ensembles by over 2 BLEU. On the WMT 2014 English-to-French
+translation task, our model establishes a new single-model state-of-the-art
+BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction
+of the training costs of the best models from the literature. We show that the
+Transformer generalizes well to other tasks by applying it successfully to
+English constituency parsing both with large and limited training data.
+
+2: 
+Parallel Attention Mechanisms in Neural Machine Translation
+  Recent papers in neural machine translation have proposed the strict use of
+attention mechanisms over previous standards such as recurrent and
+convolutional neural networks (RNNs and CNNs). We propose that by running
+traditionally stacked encoding branches from encoder-decoder attention- focused
+architectures in parallel, that even more sequential operations can be removed
+from the model and thereby decrease training time. In particular, we modify the
+recently published attention-based architecture called Transformer by Google,
+by replacing sequential attention modules with parallel ones, reducing the
+amount of training time and substantially improving BLEU scores at the same
+time. Experiments over the English to German and English to French translation
+tasks show that our model establishes a new state of the art.
+
+3: 
+Modeling Recurrence for Transformer
+  Recently, the Transformer model that is based solely on attention mechanisms,
+has advanced the state-of-the-art on various machine translation tasks.
+However, recent studies reveal that the lack of recurrence hinders its further
+improvement of translation capacity. In response to this problem, we propose to
+directly model recurrence for Transformer with an additional recurrence
+encoder. In addition to the standard recurrent neural network, we introduce a
+novel attentive recurrent network to leverage the strengths of both attention
+and recurrent networks. Experimental results on the widely-used WMT14
+English-German and WMT17 Chinese-English translation tasks demonstrate the
+effectiveness of the proposed approach. Our studies also reveal that the
+proposed model benefits from a short-cut that bridges the source and target
+sequences with a single recurrent layer, which outperforms its deep
+counterpart.
+
+4: 
+Sequence-to-Sequence Models Can Directly Translate Foreign Speech
+  We present a recurrent encoder-decoder deep neural network architecture that
+directly translates speech in one language into text in another. The model does
+not explicitly transcribe the speech into text in the source language, nor does
+it require supervision from the ground truth source language transcription
+during training. We apply a slightly modified sequence-to-sequence with
+attention architecture that has previously been used for speech recognition and
+show that it can be repurposed for this more complex task, illustrating the
+power of attention-based models. A single model trained end-to-end obtains
+state-of-the-art performance on the Fisher Callhome Spanish-English speech
+translation task, outperforming a cascade of independently trained
+sequence-to-sequence speech recognition and machine translation models by 1.8
+BLEU points on the Fisher test set. In addition, we find that making use of the
+training data in both languages by multi-task training sequence-to-sequence
+speech translation and recognition models with a shared encoder network can
+improve performance by a further 1.4 BLEU points.
+
+5: 
+Joint Source-Target Self Attention with Locality Constraints
+  The dominant neural machine translation models are based on the
+encoder-decoder structure, and many of them rely on an unconstrained receptive
+field over source and target sequences. In this paper we study a new
+architecture that breaks with both conventions. Our simplified architecture
+consists in the decoder part of a transformer model, based on self-attention,
+but with locality constraints applied on the attention receptive field. As
+input for training, both source and target sentences are fed to the network,
+which is trained as a language model. At inference time, the target tokens are
+predicted autoregressively starting with the source sequence as previous
+tokens. The proposed model achieves a new state of the art of 35.7 BLEU on
+IWSLT'14 German-English and matches the best reported results in the literature
+on the WMT'14 English-German and WMT'14 English-French translation benchmarks.
+

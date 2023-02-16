@@ -1,0 +1,103 @@
+1: 
+U-Net: Convolutional Networks for Biomedical Image Segmentation
+  There is large consent that successful training of deep networks requires
+many thousand annotated training samples. In this paper, we present a network
+and training strategy that relies on the strong use of data augmentation to use
+the available annotated samples more efficiently. The architecture consists of
+a contracting path to capture context and a symmetric expanding path that
+enables precise localization. We show that such a network can be trained
+end-to-end from very few images and outperforms the prior best method (a
+sliding-window convolutional network) on the ISBI challenge for segmentation of
+neuronal structures in electron microscopic stacks. Using the same network
+trained on transmitted light microscopy images (phase contrast and DIC) we won
+the ISBI cell tracking challenge 2015 in these categories by a large margin.
+Moreover, the network is fast. Segmentation of a 512x512 image takes less than
+a second on a recent GPU. The full implementation (based on Caffe) and the
+trained networks are available at
+http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net .
+
+2: 
+Neuron Segmentation Using Deep Complete Bipartite Networks
+  In this paper, we consider the problem of automatically segmenting neuronal
+cells in dual-color confocal microscopy images. This problem is a key task in
+various quantitative analysis applications in neuroscience, such as tracing
+cell genesis in Danio rerio (zebrafish) brains. Deep learning, especially using
+fully convolutional networks (FCN), has profoundly changed segmentation
+research in biomedical imaging. We face two major challenges in this problem.
+First, neuronal cells may form dense clusters, making it difficult to correctly
+identify all individual cells (even to human experts). Consequently,
+segmentation results of the known FCN-type models are not accurate enough.
+Second, pixel-wise ground truth is difficult to obtain. Only a limited amount
+of approximate instance-wise annotation can be collected, which makes the
+training of FCN models quite cumbersome. We propose a new FCN-type deep
+learning model, called deep complete bipartite networks (CB-Net), and a new
+scheme for leveraging approximate instance-wise annotation to train our
+pixel-wise prediction model. Evaluated using seven real datasets, our proposed
+new CB-Net model outperforms the state-of-the-art FCN models and produces
+neuron segmentation results of remarkable quality
+
+3: 
+Instance Segmentation and Tracking with Cosine Embeddings and Recurrent
+  Hourglass Networks
+  Different to semantic segmentation, instance segmentation assigns unique
+labels to each individual instance of the same class. In this work, we propose
+a novel recurrent fully convolutional network architecture for tracking such
+instance segmentations over time. The network architecture incorporates
+convolutional gated recurrent units (ConvGRU) into a stacked hourglass network
+to utilize temporal video information. Furthermore, we train the network with a
+novel embedding loss based on cosine similarities, such that the network
+predicts unique embeddings for every instance throughout videos. Afterwards,
+these embeddings are clustered among subsequent video frames to create the
+final tracked instance segmentations. We evaluate the recurrent hourglass
+network by segmenting left ventricles in MR videos of the heart, where it
+outperforms a network that does not incorporate video information. Furthermore,
+we show applicability of the cosine embedding loss for segmenting leaf
+instances on still images of plants. Finally, we evaluate the framework for
+instance segmentation and tracking on six datasets of the ISBI celltracking
+challenge, where it shows state-of-the-art performance.
+
+4: 
+Organ Segmentation From Full-size CT Images Using Memory-Efficient FCN
+  In this work, we present a memory-efficient fully convolutional network (FCN)
+incorporated with several memory-optimized techniques to reduce the run-time
+GPU memory demand during training phase. In medical image segmentation tasks,
+subvolume cropping has become a common preprocessing. Subvolumes (or small
+patch volumes) were cropped to reduce GPU memory demand. However, small patch
+volumes capture less spatial context that leads to lower accuracy. As a pilot
+study, the purpose of this work is to propose a memory-efficient FCN which
+enables us to train the model on full size CT image directly without subvolume
+cropping, while maintaining the segmentation accuracy. We optimize our network
+from both architecture and implementation. With the development of computing
+hardware, such as graphics processing unit (GPU) and tensor processing unit
+(TPU), now deep learning applications is able to train networks with large
+datasets within acceptable time. Among these applications, semantic
+segmentation using fully convolutional network (FCN) also has gained a
+significant improvement against traditional image processing approaches in both
+computer vision and medical image processing fields. However, unlike general
+color images used in computer vision tasks, medical images have larger scales
+than color images such as 3D computed tomography (CT) images, micro CT images,
+and histopathological images. For training these medical images, the large
+demand of computing resource become a severe problem. In this paper, we present
+a memory-efficient FCN to tackle the high GPU memory demand challenge in organ
+segmentation problem from clinical CT images. The experimental results
+demonstrated that our GPU memory demand is about 40% of baseline architecture,
+parameter amount is about 30% of the baseline.
+
+5: 
+FDDWNet: A Lightweight Convolutional Neural Network for Real-time
+  Sementic Segmentation
+  This paper introduces a lightweight convolutional neural network, called
+FDDWNet, for real-time accurate semantic segmentation. In contrast to recent
+advances of lightweight networks that prefer to utilize shallow structure,
+FDDWNet makes an effort to design more deeper network architecture, while
+maintains faster inference speed and higher segmentation accuracy. Our network
+uses factorized dilated depth-wise separable convolutions (FDDWC) to learn
+feature representations from different scale receptive fields with fewer model
+parameters. Additionally, FDDWNet has multiple branches of skipped connections
+to gather context cues from intermediate convolution layers. The experiments
+show that FDDWNet only has 0.8M model size, while achieves 60 FPS running speed
+on a single RTX 2080Ti GPU with a 1024x512 input image. The comprehensive
+experiments demonstrate that our model achieves state-of-the-art results in
+terms of available speed and accuracy trade-off on CityScapes and CamVid
+datasets.
+

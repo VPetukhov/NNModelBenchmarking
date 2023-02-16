@@ -1,0 +1,46 @@
+Query:
+transformers
+
+Results:
+1: 
+Title: Evolving Symbolic Controllers
+Abstract:
+  The idea of symbolic controllers tries to bridge the gap between the top-down manual design of the controller architecture, as advocated in Brooks' subsumption architecture, and the bottom-up designer-free approach that is now standard within the Evolutionary Robotics community. The designer provides a set of elementary behavior, and evolution is given the goal of assembling them to solve complex tasks. Two experiments are presented, demonstrating the efficiency and showing the recursiveness of this approach. In particular, the sensitivity with respect to the proposed elementary behaviors, and the robustness w.r.t. generalization of the resulting controllers are studied in detail. 
+
+2: 
+Title: The World as Evolving Information
+Abstract:
+  This paper discusses the benefits of describing the world as information, especially in the study of the evolution of life and cognition. Traditional studies encounter problems because it is difficult to describe life and cognition in terms of matter and energy, since their laws are valid only at the physical scale. However, if matter and energy, as well as life and cognition, are described in terms of information, evolution can be described consistently as information becoming more complex.   The paper presents eight tentative laws of information, valid at multiple scales, which are generalizations of Darwinian, cybernetic, thermodynamic, psychological, philosophical, and complexity principles. These are further used to discuss the notions of life, cognition and their evolution. 
+
+3: 
+Title: Ensemble Learning for Free with Evolutionary Algorithms ?
+Abstract:
+  Evolutionary Learning proceeds by evolving a population of classifiers, from which it generally returns (with some notable exceptions) the single best-of-run classifier as final result. In the meanwhile, Ensemble Learning, one of the most efficient approaches in supervised Machine Learning for the last decade, proceeds by building a population of diverse classifiers. Ensemble Learning with Evolutionary Computation thus receives increasing attention. The Evolutionary Ensemble Learning (EEL) approach presented in this paper features two contributions. First, a new fitness function, inspired by co-evolution and enforcing the classifier diversity, is presented. Further, a new selection criterion based on the classification margin is proposed. This criterion is used to extract the classifier ensemble from the final population only (Off-line) or incrementally along evolution (On-line). Experiments on a set of benchmark problems show that Off-line outperforms single-hypothesis evolutionary learning and state-of-art Boosting and generates smaller classifier ensembles. 
+
+4: 
+Title: Evolutionary Optimisation Methods for Template Based Image Registration
+Abstract:
+  This paper investigates the use of evolutionary optimisation techniques to register a template with a scene image. An error function is created to measure the correspondence of the template to the image. The problem presented here is to optimise the horizontal, vertical and scaling parameters that register the template with the scene. The Genetic Algorithm, Simulated Annealing and Particle Swarm Optimisations are compared to a Nelder-Mead Simplex optimisation with starting points chosen in a pre-processing stage. The paper investigates the precision and accuracy of each method and shows that all four methods perform favourably for image registration. SA is the most precise, GA is the most accurate. PSO is a good mix of both and the Simplex method returns local minima the most. A pre-processing stage should be investigated for the evolutionary methods in order to improve performance. Discrete versions of the optimisation methods should be investigated to further improve computational performance. 
+
+5: 
+Title: Robust Multi-Cellular Developmental Design
+Abstract:
+  This paper introduces a continuous model for Multi-cellular Developmental Design. The cells are fixed on a 2D grid and exchange "chemicals" with their neighbors during the growth process. The quantity of chemicals that a cell produces, as well as the differentiation value of the cell in the phenotype, are controlled by a Neural Network (the genotype) that takes as inputs the chemicals produced by the neighboring cells at the previous time step. In the proposed model, the number of iterations of the growth process is not pre-determined, but emerges during evolution: only organisms for which the growth process stabilizes give a phenotype (the stable state), others are declared nonviable. The optimization of the controller is done using the NEAT algorithm, that optimizes both the topology and the weights of the Neural Networks. Though each cell only receives local information from its neighbors, the experimental results of the proposed approach on the 'flags' problems (the phenotype must match a given 2D pattern) are almost as good as those of a direct regression approach using the same model with global information. Moreover, the resulting multi-cellular organisms exhibit almost perfect self-healing characteristics. 
+
+6: 
+Title: Modeling Epidemic Spread in Synthetic Populations - Virtual Plagues in
+  Massively Multiplayer Online Games
+Abstract:
+  A virtual plague is a process in which a behavior-affecting property spreads among characters in a Massively Multiplayer Online Game (MMOG). The MMOG individuals constitute a synthetic population, and the game can be seen as a form of interactive executable model for studying disease spread, albeit of a very special kind. To a game developer maintaining an MMOG, recognizing, monitoring, and ultimately controlling a virtual plague is important, regardless of how it was initiated. The prospect of using tools, methods and theory from the field of epidemiology to do this seems natural and appealing. We will address the feasibility of such a prospect, first by considering some basic measures used in epidemiology, then by pointing out the differences between real world epidemics and virtual plagues. We also suggest directions for MMOG developer control through epidemiological modeling. Our aim is understanding the properties of virtual plagues, rather than trying to eliminate them or mitigate their effects, as would be in the case of real infectious disease. 
+
+7: 
+Title: An Adaptive Strategy for the Classification of G-Protein Coupled
+  Receptors
+Abstract:
+  One of the major problems in computational biology is the inability of existing classification models to incorporate expanding and new domain knowledge. This problem of static classification models is addressed in this paper by the introduction of incremental learning for problems in bioinformatics. Many machine learning tools have been applied to this problem using static machine learning structures such as neural networks or support vector machines that are unable to accommodate new information into their existing models. We utilize the fuzzy ARTMAP as an alternate machine learning system that has the ability of incrementally learning new data as it becomes available. The fuzzy ARTMAP is found to be comparable to many of the widespread machine learning systems. The use of an evolutionary strategy in the selection and combination of individual classifiers into an ensemble system, coupled with the incremental learning ability of the fuzzy ARTMAP is proven to be suitable as a pattern classifier. The algorithm presented is tested using data from the G-Coupled Protein Receptors Database and shows good accuracy of 83%. The system presented is also generally applicable, and can be used in problems in genomics and proteomics. 
+
+8: 
+Title: The Parameter-Less Self-Organizing Map algorithm
+Abstract:
+  The Parameter-Less Self-Organizing Map (PLSOM) is a new neural network algorithm based on the Self-Organizing Map (SOM). It eliminates the need for a learning rate and annealing schemes for learning rate and neighbourhood size. We discuss the relative performance of the PLSOM and the SOM and demonstrate some tasks in which the SOM fails but the PLSOM performs satisfactory. Finally we discuss some example applications of the PLSOM and present a proof of ordering under certain limited conditions. 
+

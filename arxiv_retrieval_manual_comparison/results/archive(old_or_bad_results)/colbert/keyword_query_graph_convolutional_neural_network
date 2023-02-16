@@ -1,0 +1,86 @@
+1: 
+A neural network approach to ordinal regression
+  Ordinal regression is an important type of learning, which has properties of
+both classification and regression. Here we describe a simple and effective
+approach to adapt a traditional neural network to learn ordinal categories. Our
+approach is a generalization of the perceptron method for ordinal regression.
+On several benchmark datasets, our method (NNRank) outperforms a neural network
+classification method. Compared with the ordinal regression methods using
+Gaussian processes and support vector machines, NNRank achieves comparable
+performance. Moreover, NNRank has the advantages of traditional neural
+networks: learning in both online and batch modes, handling very large training
+datasets, and making rapid predictions. These features make NNRank a useful and
+complementary tool for large-scale data processing tasks such as information
+retrieval, web page ranking, collaborative filtering, and protein ranking in
+Bioinformatics.
+
+2: 
+The Parameter-Less Self-Organizing Map algorithm
+  The Parameter-Less Self-Organizing Map (PLSOM) is a new neural network
+algorithm based on the Self-Organizing Map (SOM). It eliminates the need for a
+learning rate and annealing schemes for learning rate and neighbourhood size.
+We discuss the relative performance of the PLSOM and the SOM and demonstrate
+some tasks in which the SOM fails but the PLSOM performs satisfactory. Finally
+we discuss some example applications of the PLSOM and present a proof of
+ordering under certain limited conditions.
+
+3: 
+Multi-Dimensional Recurrent Neural Networks
+  Recurrent neural networks (RNNs) have proved effective at one dimensional
+sequence learning tasks, such as speech and online handwriting recognition.
+Some of the properties that make RNNs suitable for such tasks, for example
+robustness to input warping, and the ability to access contextual information,
+are also desirable in multidimensional domains. However, there has so far been
+no direct way of applying RNNs to data with more than one spatio-temporal
+dimension. This paper introduces multi-dimensional recurrent neural networks
+(MDRNNs), thereby extending the potential applicability of RNNs to vision,
+video processing, medical imaging and many other areas, while avoiding the
+scaling problems that have plagued other multi-dimensional models. Experimental
+results are provided for two image segmentation tasks.
+
+4: 
+Response Prediction of Structural System Subject to Earthquake Motions
+  using Artificial Neural Network
+  This paper uses Artificial Neural Network (ANN) models to compute response of
+structural system subject to Indian earthquakes at Chamoli and Uttarkashi
+ground motion data. The system is first trained for a single real earthquake
+data. The trained ANN architecture is then used to simulate earthquakes with
+various intensities and it was found that the predicted responses given by ANN
+model are accurate for practical purposes. When the ANN is trained by a part of
+the ground motion data, it can also identify the responses of the structural
+system well. In this way the safeness of the structural systems may be
+predicted in case of future earthquakes without waiting for the earthquake to
+occur for the lessons. Time period and the corresponding maximum response of
+the building for an earthquake has been evaluated, which is again trained to
+predict the maximum response of the building at different time periods. The
+trained time period versus maximum response ANN model is also tested for real
+earthquake data of other place, which was not used in the training and was
+found to be in good agreement.
+
+5: 
+Sensor Networks with Random Links: Topology Design for Distributed
+  Consensus
+  In a sensor network, in practice, the communication among sensors is subject
+to:(1) errors or failures at random times; (3) costs; and(2) constraints since
+sensors and networks operate under scarce resources, such as power, data rate,
+or communication. The signal-to-noise ratio (SNR) is usually a main factor in
+determining the probability of error (or of communication failure) in a link.
+These probabilities are then a proxy for the SNR under which the links operate.
+The paper studies the problem of designing the topology, i.e., assigning the
+probabilities of reliable communication among sensors (or of link failures) to
+maximize the rate of convergence of average consensus, when the link
+communication costs are taken into account, and there is an overall
+communication budget constraint. To consider this problem, we address a number
+of preliminary issues: (1) model the network as a random topology; (2)
+establish necessary and sufficient conditions for mean square sense (mss) and
+almost sure (a.s.) convergence of average consensus when network links fail;
+and, in particular, (3) show that a necessary and sufficient condition for both
+mss and a.s. convergence is for the algebraic connectivity of the mean graph
+describing the network topology to be strictly positive. With these results, we
+formulate topology design, subject to random link failures and to a
+communication cost constraint, as a constrained convex optimization problem to
+which we apply semidefinite programming techniques. We show by an extensive
+numerical study that the optimal design improves significantly the convergence
+speed of the consensus algorithm and can achieve the asymptotic performance of
+a non-random network at a fraction of the communication cost.
+

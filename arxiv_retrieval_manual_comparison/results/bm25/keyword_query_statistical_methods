@@ -1,0 +1,59 @@
+Query:
+statistical methods
+
+Results:
+1: 
+Title: Online Bootstrap Inference For Policy Evaluation in Reinforcement
+  Learning
+Abstract:
+  The recent emergence of reinforcement learning has created a demand for robust statistical inference methods for the parameter estimates computed using these algorithms. Existing methods for statistical inference in online learning are restricted to settings involving independently sampled observations, while existing statistical inference methods in reinforcement learning (RL) are limited to the batch setting. The online bootstrap is a flexible and efficient approach for statistical inference in linear stochastic approximation algorithms, but its efficacy in settings involving Markov noise, such as RL, has yet to be explored. In this paper, we study the use of the online bootstrap method for statistical inference in RL. In particular, we focus on the temporal difference (TD) learning and Gradient TD (GTD) learning algorithms, which are themselves special instances of linear stochastic approximation under Markov noise. The method is shown to be distributionally consistent for statistical inference in policy evaluation, and numerical experiments are included to demonstrate the effectiveness of this algorithm at statistical inference tasks across a range of real RL environments. 
+
+2: 
+Title: Machine Learning in Official Statistics
+Abstract:
+  In the first half of 2018, the Federal Statistical Office of Germany (Destatis) carried out a "Proof of Concept Machine Learning" as part of its Digital Agenda. A major component of this was surveys on the use of machine learning methods in official statistics, which were conducted at selected national and international statistical institutions and among the divisions of Destatis. It was of particular interest to find out in which statistical areas and for which tasks machine learning is used and which methods are applied. This paper is intended to make the results of the surveys publicly accessible. 
+
+3: 
+Title: Intercomparison of Machine Learning Methods for Statistical Downscaling:
+  The Case of Daily and Extreme Precipitation
+Abstract:
+  Statistical downscaling of global climate models (GCMs) allows researchers to study local climate change effects decades into the future. A wide range of statistical models have been applied to downscaling GCMs but recent advances in machine learning have not been explored. In this paper, we compare four fundamental statistical methods, Bias Correction Spatial Disaggregation (BCSD), Ordinary Least Squares, Elastic-Net, and Support Vector Machine, with three more advanced machine learning methods, Multi-task Sparse Structure Learning (MSSL), BCSD coupled with MSSL, and Convolutional Neural Networks to downscale daily precipitation in the Northeast United States. Metrics to evaluate of each method's ability to capture daily anomalies, large scale climate shifts, and extremes are analyzed. We find that linear methods, led by BCSD, consistently outperform non-linear approaches. The direct application of state-of-the-art machine learning methods to statistical downscaling does not provide improvements over simpler, longstanding approaches. 
+
+4: 
+Title: Probabilistic Integration: A Role in Statistical Computation?
+Abstract:
+  A research frontier has emerged in scientific computation, wherein numerical error is regarded as a source of epistemic uncertainty that can be modelled. This raises several statistical challenges, including the design of statistical methods that enable the coherent propagation of probabilities through a (possibly deterministic) computational work-flow. This paper examines the case for probabilistic numerical methods in routine statistical computation. Our focus is on numerical integration, where a probabilistic integrator is equipped with a full distribution over its output that reflects the presence of an unknown numerical error. Our main technical contribution is to establish, for the first time, rates of posterior contraction for these methods. These show that probabilistic integrators can in principle enjoy the "best of both worlds", leveraging the sampling efficiency of Monte Carlo methods whilst providing a principled route to assess the impact of numerical error on scientific conclusions. Several substantial applications are provided for illustration and critical evaluation, including examples from statistical modelling, computer graphics and a computer model for an oil reservoir. 
+
+5: 
+Title: Consistency of Causal Inference under the Additive Noise Model
+Abstract:
+  We analyze a family of methods for statistical causal inference from sample under the so-called Additive Noise Model. While most work on the subject has concentrated on establishing the soundness of the Additive Noise Model, the statistical consistency of the resulting inference methods has received little attention. We derive general conditions under which the given family of inference methods consistently infers the causal direction in a nonparametric setting. 
+
+6: 
+Title: Applications of statistical causal inference in software engineering
+Abstract:
+  This paper reviews existing work in software engineering that applies statistical causal inference methods. These methods aim at estimating causal effects from observational data. The review covers 32 papers published between 2010 and 2022. Our results show that the application of statistical causal inference methods is relatively recent and that the corresponding research community remains relatively fragmented. 
+
+7: 
+Title: Notes on computational-to-statistical gaps: predictions using
+  statistical physics
+Abstract:
+  In these notes we describe heuristics to predict computational-to-statistical gaps in certain statistical problems. These are regimes in which the underlying statistical problem is information-theoretically possible although no efficient algorithm exists, rendering the problem essentially unsolvable for large instances. The methods we describe here are based on mature, albeit non-rigorous, tools from statistical physics.   These notes are based on a lecture series given by the authors at the Courant Institute of Mathematical Sciences in New York City, on May 16th, 2017. 
+
+8: 
+Title: Universal Consistency and Robustness of Localized Support Vector
+  Machines
+Abstract:
+  The massive amount of available data potentially used to discover patters in machine learning is a challenge for kernel based algorithms with respect to runtime and storage capacities. Local approaches might help to relieve these issues. From a statistical point of view local approaches allow additionally to deal with different structures in the data in different ways. This paper analyses properties of localized kernel based, non-parametric statistical machine learning methods, in particular of support vector machines (SVMs) and methods close to them. We will show there that locally learnt kernel methods are universal consistent. Furthermore, we give an upper bound for the maxbias in order to show statistical robustness of the proposed method. 
+
+9: 
+Title: Statistical Mechanics Algorithm for Response to Targets (SMART)
+Abstract:
+  It is proposed to apply modern methods of nonlinear nonequilibrium statistical mechanics to develop software algorithms that will optimally respond to targets within short response times with minimal computer resources. This Statistical Mechanics Algorithm for Response to Targets (SMART) can be developed with a view towards its future implementation into a hardwired Statistical Algorithm Multiprocessor (SAM) to enhance the efficiency and speed of response to targets (SMART_SAM). 
+
+10: 
+Title: Combined statistical and model based texture features for improved image
+  classification
+Abstract:
+  This paper aims to improve the accuracy of texture classification based on extracting texture features using five different texture methods and classifying the patterns using a naive Bayesian classifier. Three statistical-based and two model-based methods are used to extract texture features from eight different texture images, then their accuracy is ranked after using each method individually and in pairs. The accuracy improved up to 97.01% when model based -Gaussian Markov random field (GMRF) and fractional Brownian motion (fBm) - were used together for classification as compared to the highest achieved using each of the five different methods alone; and proved to be better in classifying as compared to statistical methods. Also, using GMRF with statistical based methods, such as Gray level co-occurrence (GLCM) and run-length (RLM) matrices, improved the overall accuracy to 96.94% and 96.55%; respectively. 
+

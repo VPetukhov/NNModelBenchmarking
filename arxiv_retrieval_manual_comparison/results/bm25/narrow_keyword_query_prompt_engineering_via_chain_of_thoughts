@@ -1,0 +1,58 @@
+Query:
+prompt engineering via chain of thoughts
+
+Results:
+1: 
+Title: Unsupervised Prompt Learning for Vision-Language Models
+Abstract:
+  Contrastive vision-language models like CLIP have shown great progress in transfer learning. In the inference stage, the proper text description, also known as prompt, needs to be carefully designed to correctly classify the given images. In order to avoid laborious prompt engineering, recent works such as CoOp, CLIP-Adapter and Tip-Adapter propose to adapt vision-language models for downstream image recognition tasks on a small set of labeled data. Though promising improvements are achieved, requiring labeled data from the target datasets may restrict the scalability. In this paper, we explore a different scenario, in which the labels of the target datasets are unprovided, and we present an unsupervised prompt learning (UPL) approach to avoid prompt engineering while simultaneously improving transfer performance of CLIP-like vision-language models. As far as we know, UPL is the first work to introduce unsupervised learning into prompt learning. Experimentally, our UPL outperforms original CLIP with prompt engineering on ImageNet as well as other 10 datasets. An enhanced version of UPL is even competitive with the 8-shot CoOp and the 8-shot TIP-Adapter on most datasets. Code and models are available at https://github.com/tonyhuang2022/UPL. 
+
+2: 
+Title: An Information-theoretic Approach to Prompt Engineering Without Ground
+  Truth Labels
+Abstract:
+  Pre-trained language models derive substantial linguistic and factual knowledge from the massive corpora on which they are trained, and prompt engineering seeks to align these models to specific tasks. Unfortunately, existing prompt engineering methods require significant amounts of labeled data, access to model parameters, or both. We introduce a new method for selecting prompt templates \textit{without labeled examples} and \textit{without direct access to the model}. Specifically, over a set of candidate templates, we choose the template that maximizes the mutual information between the input and the corresponding model output. Across 8 datasets representing 7 distinct NLP tasks, we show that when a template has high mutual information, it also has high accuracy on the task. On the largest model, selecting prompts with our method gets 90\% of the way from the average prompt accuracy to the best prompt accuracy and requires no ground truth labels. 
+
+3: 
+Title: StyleMC: Multi-Channel Based Fast Text-Guided Image Generation and
+  Manipulation
+Abstract:
+  Discovering meaningful directions in the latent space of GANs to manipulate semantic attributes typically requires large amounts of labeled data. Recent work aims to overcome this limitation by leveraging the power of Contrastive Language-Image Pre-training (CLIP), a joint text-image model. While promising, these methods require several hours of preprocessing or training to achieve the desired manipulations. In this paper, we present StyleMC, a fast and efficient method for text-driven image generation and manipulation. StyleMC uses a CLIP-based loss and an identity loss to manipulate images via a single text prompt without significantly affecting other attributes. Unlike prior work, StyleMC requires only a few seconds of training per text prompt to find stable global directions, does not require prompt engineering and can be used with any pre-trained StyleGAN2 model. We demonstrate the effectiveness of our method and compare it to state-of-the-art methods. Our code can be found at http://catlab-team.github.io/stylemc. 
+
+4: 
+Title: What GPT Knows About Who is Who
+Abstract:
+  Coreference resolution -- which is a crucial task for understanding discourse and language at large -- has yet to witness widespread benefits from large language models (LLMs). Moreover, coreference resolution systems largely rely on supervised labels, which are highly expensive and difficult to annotate, thus making it ripe for prompt engineering. In this paper, we introduce a QA-based prompt-engineering method and discern \textit{generative}, pre-trained LLMs' abilities and limitations toward the task of coreference resolution. Our experiments show that GPT-2 and GPT-Neo can return valid answers, but that their capabilities to identify coreferent mentions are limited and prompt-sensitive, leading to inconsistent results. 
+
+5: 
+Title: The Infinite Index: Information Retrieval on Generative Text-To-Image
+  Models
+Abstract:
+  Conditional generative models such as DALL-E and Stable Diffusion generate images based on a user-defined text, the prompt. Finding and refining prompts that produce a desired image has become the art of prompt engineering. Generative models do not provide a built-in retrieval model for a user's information need expressed through prompts. In light of an extensive literature review, we reframe prompt engineering for generative models as interactive text-based retrieval on a novel kind of "infinite index". We apply these insights for the first time in a case study on image generation for game design with an expert. Finally, we envision how active learning may help to guide the retrieval of generated images. 
+
+6: 
+Title: A Taxonomy of Prompt Modifiers for Text-To-Image Generation
+Abstract:
+  Text-to-image generation has seen an explosion of interest since 2021. Today, beautiful and intriguing digital images and artworks can be synthesized from textual inputs ("prompts") with deep generative models. Online communities around text-to-image generation and AI generated art have quickly emerged. This paper identifies six types of prompt modifiers used by practitioners in the online community based on a 3-month ethnographic study. The novel taxonomy of prompt modifiers provides researchers a conceptual starting point for investigating the practice of text-to-image generation, but may also help practitioners of AI generated art improve their images. We further outline how prompt modifiers are applied in the practice of "prompt engineering." We discuss research opportunities of this novel creative practice in the field of Human-Computer Interaction (HCI). The paper concludes with a discussion of broader implications of prompt engineering from the perspective of Human-AI Interaction (HAI) in future applications beyond the use case of text-to-image generation and AI generated art. 
+
+7: 
+Title: Chaining Simultaneous Thoughts for Numerical Reasoning
+Abstract:
+  Given that rich information is hidden behind ubiquitous numbers in text, numerical reasoning over text should be an essential skill of AI systems. To derive precise equations to solve numerical reasoning problems, previous work focused on modeling the structures of equations, and has proposed various structured decoders. Though structure modeling proves to be effective, these structured decoders construct a single equation in a pre-defined autoregressive order, potentially placing an unnecessary restriction on how a model should grasp the reasoning process. Intuitively, humans may have numerous pieces of thoughts popping up in no pre-defined order; thoughts are not limited to the problem at hand, and can even be concerned with other related problems. By comparing diverse thoughts and chaining relevant pieces, humans are less prone to errors. In this paper, we take this inspiration and propose CANTOR, a numerical reasoner that models reasoning steps using a directed acyclic graph where we produce diverse reasoning steps simultaneously without pre-defined decoding dependencies, and compare and chain relevant ones to reach a solution. Extensive experiments demonstrated the effectiveness of CANTOR under both fully-supervised and weakly-supervised settings. 
+
+8: 
+Title: Legal Prompting: Teaching a Language Model to Think Like a Lawyer
+Abstract:
+  Large language models that are capable of zero or few-shot prompting approaches have given rise to the new research area of prompt engineering. Recent advances showed that for example Chain-of-Thought (CoT) prompts can improve arithmetic or common sense tasks significantly. We explore how such approaches fare with legal reasoning tasks and take the COLIEE entailment task based on the Japanese Bar exam for testing zero-shot/few-shot and fine-tuning approaches. Our findings show that while CoT prompting and fine-tuning with explanations approaches show improvements, the best results are produced by prompts that are derived from specific legal reasoning techniques such as IRAC (Issue, Rule, Application, Conclusion). Based on our experiments we improve the 2021 best result from 0.7037 accuracy to 0.8148 accuracy and beat the 2022 best system of 0.6789 accuracy with an accuracy of 0.7431. 
+
+9: 
+Title: Complexity-Based Prompting for Multi-Step Reasoning
+Abstract:
+  We study the task of prompting large-scale language models to perform multi-step reasoning. Existing work shows that when prompted with a chain of thoughts (CoT), sequences of short sentences describing intermediate reasoning steps towards a final answer, large language models can generate new reasoning chains and predict answers for new inputs. A central question is which reasoning examples make the most effective prompts. In this work, we propose complexity-based prompting, a simple and effective example selection scheme for multi-step reasoning. We show that prompts with higher reasoning complexity, i.e., chains with more reasoning steps, achieve substantially better performance on math word reasoning tasks over strong baselines. We further extend our complexity-based criteria from prompting (selecting inputs) to decoding (selecting outputs), where we sample multiple reasoning chains from the model, then choose the majority of generated answers from complex reasoning chains (over simple chains). When used to prompt GPT-3, our approach substantially improves multi-step reasoning accuracy, with an 8.6% absolute improvement on GSM8K, and 6.4% on MathQA. Compared with existing example selection schemes like manual tuning or retrieval-based selection, selection based on reasoning complexity is intuitive, easy to implement, and annotation-efficient. Further results demonstrate the robustness of our methods under format perturbation and distribution shift. 
+
+10: 
+Title: What Changes Can Large-scale Language Models Bring? Intensive Study on
+  HyperCLOVA: Billions-scale Korean Generative Pretrained Transformers
+Abstract:
+  GPT-3 shows remarkable in-context learning ability of large-scale language models (LMs) trained on hundreds of billion scale data. Here we address some remaining issues less reported by the GPT-3 paper, such as a non-English LM, the performances of different sized models, and the effect of recently introduced prompt optimization on in-context learning. To achieve this, we introduce HyperCLOVA, a Korean variant of 82B GPT-3 trained on a Korean-centric corpus of 560B tokens. Enhanced by our Korean-specific tokenization, HyperCLOVA with our training configuration shows state-of-the-art in-context zero-shot and few-shot learning performances on various downstream tasks in Korean. Also, we show the performance benefits of prompt-based learning and demonstrate how it can be integrated into the prompt engineering pipeline. Then we discuss the possibility of materializing the No Code AI paradigm by providing AI prototyping capabilities to non-experts of ML by introducing HyperCLOVA studio, an interactive prompt engineering interface. Lastly, we demonstrate the potential of our methods with three successful in-house applications. 
+

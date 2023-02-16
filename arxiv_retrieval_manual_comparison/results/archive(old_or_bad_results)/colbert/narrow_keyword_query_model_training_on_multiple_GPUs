@@ -1,0 +1,67 @@
+1: 
+Fault Classification in Cylinders Using Multilayer Perceptrons, Support
+  Vector Machines and Guassian Mixture Models
+  Gaussian mixture models (GMM) and support vector machines (SVM) are
+introduced to classify faults in a population of cylindrical shells. The
+proposed procedures are tested on a population of 20 cylindrical shells and
+their performance is compared to the procedure, which uses multi-layer
+perceptrons (MLP). The modal properties extracted from vibration data are used
+to train the GMM, SVM and MLP. It is observed that the GMM produces 98%, SVM
+produces 94% classification accuracy while the MLP produces 88% classification
+rates.
+
+2: 
+Bayesian Approach to Neuro-Rough Models
+  This paper proposes a neuro-rough model based on multi-layered perceptron and
+rough set. The neuro-rough model is then tested on modelling the risk of HIV
+from demographic data. The model is formulated using Bayesian framework and
+trained using Monte Carlo method and Metropolis criterion. When the model was
+tested to estimate the risk of HIV infection given the demographic data it was
+found to give the accuracy of 62%. The proposed model is able to combine the
+accuracy of the Bayesian MLP model and the transparency of Bayesian rough set
+model.
+
+3: 
+Response Prediction of Structural System Subject to Earthquake Motions
+  using Artificial Neural Network
+  This paper uses Artificial Neural Network (ANN) models to compute response of
+structural system subject to Indian earthquakes at Chamoli and Uttarkashi
+ground motion data. The system is first trained for a single real earthquake
+data. The trained ANN architecture is then used to simulate earthquakes with
+various intensities and it was found that the predicted responses given by ANN
+model are accurate for practical purposes. When the ANN is trained by a part of
+the ground motion data, it can also identify the responses of the structural
+system well. In this way the safeness of the structural systems may be
+predicted in case of future earthquakes without waiting for the earthquake to
+occur for the lessons. Time period and the corresponding maximum response of
+the building for an earthquake has been evaluated, which is again trained to
+predict the maximum response of the building at different time periods. The
+trained time period versus maximum response ANN model is also tested for real
+earthquake data of other place, which was not used in the training and was
+found to be in good agreement.
+
+4: 
+A Novel Model of Working Set Selection for SMO Decomposition Methods
+  In the process of training Support Vector Machines (SVMs) by decomposition
+methods, working set selection is an important technique, and some exciting
+schemes were employed into this field. To improve working set selection, we
+propose a new model for working set selection in sequential minimal
+optimization (SMO) decomposition methods. In this model, it selects B as
+working set without reselection. Some properties are given by simple proof, and
+experiments demonstrate that the proposed method is in general faster than
+existing methods.
+
+5: 
+Bayesian approach to rough set
+  This paper proposes an approach to training rough set models using Bayesian
+framework trained using Markov Chain Monte Carlo (MCMC) method. The prior
+probabilities are constructed from the prior knowledge that good rough set
+models have fewer rules. Markov Chain Monte Carlo sampling is conducted through
+sampling in the rough set granule space and Metropolis algorithm is used as an
+acceptance criteria. The proposed method is tested to estimate the risk of HIV
+given demographic data. The results obtained shows that the proposed approach
+is able to achieve an average accuracy of 58% with the accuracy varying up to
+66%. In addition the Bayesian rough set give the probabilities of the estimated
+HIV status as well as the linguistic rules describing how the demographic
+parameters drive the risk of HIV.
+

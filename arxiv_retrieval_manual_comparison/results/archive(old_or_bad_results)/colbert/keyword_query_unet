@@ -1,0 +1,83 @@
+1: 
+Determining full conditional independence by low-order conditioning
+  A concentration graph associated with a random vector is an undirected graph
+where each vertex corresponds to one random variable in the vector. The absence
+of an edge between any pair of vertices (or variables) is equivalent to full
+conditional independence between these two variables given all the other
+variables. In the multivariate Gaussian case, the absence of an edge
+corresponds to a zero coefficient in the precision matrix, which is the inverse
+of the covariance matrix. It is well known that this concentration graph
+represents some of the conditional independencies in the distribution of the
+associated random vector. These conditional independencies correspond to the
+"separations" or absence of edges in that graph. In this paper we assume that
+there are no other independencies present in the probability distribution than
+those represented by the graph. This property is called the perfect
+Markovianity of the probability distribution with respect to the associated
+concentration graph. We prove in this paper that this particular concentration
+graph, the one associated with a perfect Markov distribution, can be determined
+by only conditioning on a limited number of variables. We demonstrate that this
+number is equal to the maximum size of the minimal separators in the
+concentration graph.
+
+2: 
+The Parameter-Less Self-Organizing Map algorithm
+  The Parameter-Less Self-Organizing Map (PLSOM) is a new neural network
+algorithm based on the Self-Organizing Map (SOM). It eliminates the need for a
+learning rate and annealing schemes for learning rate and neighbourhood size.
+We discuss the relative performance of the PLSOM and the SOM and demonstrate
+some tasks in which the SOM fails but the PLSOM performs satisfactory. Finally
+we discuss some example applications of the PLSOM and present a proof of
+ordering under certain limited conditions.
+
+3: 
+Using Genetic Algorithms to Optimise Rough Set Partition Sizes for HIV
+  Data Analysis
+  In this paper, we present a method to optimise rough set partition sizes, to
+which rule extraction is performed on HIV data. The genetic algorithm
+optimisation technique is used to determine the partition sizes of a rough set
+in order to maximise the rough sets prediction accuracy. The proposed method is
+tested on a set of demographic properties of individuals obtained from the
+South African antenatal survey. Six demographic variables were used in the
+analysis, these variables are; race, age of mother, education, gravidity,
+parity, and age of father, with the outcome or decision being either HIV
+positive or negative. Rough set theory is chosen based on the fact that it is
+easy to interpret the extracted rules. The prediction accuracy of equal width
+bin partitioning is 57.7% while the accuracy achieved after optimising the
+partitions is 72.8%. Several other methods have been used to analyse the HIV
+data and their results are stated and compared to that of rough set theory
+(RST).
+
+4: 
+Soft constraint abstraction based on semiring homomorphism
+  The semiring-based constraint satisfaction problems (semiring CSPs), proposed
+by Bistarelli, Montanari and Rossi \cite{BMR97}, is a very general framework of
+soft constraints. In this paper we propose an abstraction scheme for soft
+constraints that uses semiring homomorphism. To find optimal solutions of the
+concrete problem, the idea is, first working in the abstract problem and
+finding its optimal solutions, then using them to solve the concrete problem.
+  In particular, we show that a mapping preserves optimal solutions if and only
+if it is an order-reflecting semiring homomorphism. Moreover, for a semiring
+homomorphism $\alpha$ and a problem $P$ over $S$, if $t$ is optimal in
+$\alpha(P)$, then there is an optimal solution $\bar{t}$ of $P$ such that
+$\bar{t}$ has the same value as $t$ in $\alpha(P)$.
+
+5: 
+Experimenting with recursive queries in database and logic programming
+  systems
+  This paper considers the problem of reasoning on massive amounts of (possibly
+distributed) data. Presently, existing proposals show some limitations: {\em
+(i)} the quantity of data that can be handled contemporarily is limited, due to
+the fact that reasoning is generally carried out in main-memory; {\em (ii)} the
+interaction with external (and independent) DBMSs is not trivial and, in
+several cases, not allowed at all; {\em (iii)} the efficiency of present
+implementations is still not sufficient for their utilization in complex
+reasoning tasks involving massive amounts of data. This paper provides a
+contribution in this setting; it presents a new system, called DLV$^{DB}$,
+which aims to solve these problems. Moreover, the paper reports the results of
+a thorough experimental analysis we have carried out for comparing our system
+with several state-of-the-art systems (both logic and databases) on some
+classical deductive problems; the other tested systems are: LDL++, XSB, Smodels
+and three top-level commercial DBMSs. DLV$^{DB}$ significantly outperforms even
+the commercial Database Systems on recursive queries. To appear in Theory and
+Practice of Logic Programming (TPLP)
+

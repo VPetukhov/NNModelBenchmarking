@@ -1,0 +1,57 @@
+Query:
+generative adversarial network
+
+Results:
+1: 
+Title: A neural network approach to ordinal regression
+Abstract:
+  Ordinal regression is an important type of learning, which has properties of both classification and regression. Here we describe a simple and effective approach to adapt a traditional neural network to learn ordinal categories. Our approach is a generalization of the perceptron method for ordinal regression. On several benchmark datasets, our method (NNRank) outperforms a neural network classification method. Compared with the ordinal regression methods using Gaussian processes and support vector machines, NNRank achieves comparable performance. Moreover, NNRank has the advantages of traditional neural networks: learning in both online and batch modes, handling very large training datasets, and making rapid predictions. These features make NNRank a useful and complementary tool for large-scale data processing tasks such as information retrieval, web page ranking, collaborative filtering, and protein ranking in Bioinformatics. 
+
+2: 
+Title: Modeling Computations in a Semantic Network
+Abstract:
+  Semantic network research has seen a resurgence from its early history in the cognitive sciences with the inception of the Semantic Web initiative. The Semantic Web effort has brought forth an array of technologies that support the encoding, storage, and querying of the semantic network data structure at the world stage. Currently, the popular conception of the Semantic Web is that of a data modeling medium where real and conceptual entities are related in semantically meaningful ways. However, new models have emerged that explicitly encode procedural information within the semantic network substrate. With these new technologies, the Semantic Web has evolved from a data modeling medium to a computational medium. This article provides a classification of existing computational modeling efforts and the requirements of supporting technologies that will aid in the further growth of this burgeoning domain. 
+
+3: 
+Title: Network statistics on early English Syntax: Structural criteria
+Abstract:
+  This paper includes a reflection on the role of networks in the study of English language acquisition, as well as a collection of practical criteria to annotate free-speech corpora from children utterances. At the theoretical level, the main claim of this paper is that syntactic networks should be interpreted as the outcome of the use of the syntactic machinery. Thus, the intrinsic features of such machinery are not accessible directly from (known) network properties. Rather, what one can see are the global patterns of its use and, thus, a global view of the power and organization of the underlying grammar. Taking a look into more practical issues, the paper examines how to build a net from the projection of syntactic relations. Recall that, as opposed to adult grammars, early-child language has not a well-defined concept of structure. To overcome such difficulty, we develop a set of systematic criteria assuming constituency hierarchy and a grammar based on lexico-thematic relations. At the end, what we obtain is a well defined corpora annotation that enables us i) to perform statistics on the size of structures and ii) to build a network from syntactic relations over which we can perform the standard measures of complexity. We also provide a detailed example. 
+
+4: 
+Title: Direct Optimization of Ranking Measures
+Abstract:
+  Web page ranking and collaborative filtering require the optimization of sophisticated performance measures. Current Support Vector approaches are unable to optimize them directly and focus on pairwise comparisons instead. We present a new approach which allows direct optimization of the relevant loss functions. This is achieved via structured estimation in Hilbert spaces. It is most related to Max-Margin-Markov networks optimization of multivariate performance measures. Key to our approach is that during training the ranking problem can be viewed as a linear assignment problem, which can be solved by the Hungarian Marriage algorithm. At test time, a sort operation is sufficient, as our algorithm assigns a relevance score to every (document, query) pair. Experiments show that the our algorithm is fast and that it works very well. 
+
+5: 
+Title: Comparing Robustness of Pairwise and Multiclass Neural-Network Systems
+  for Face Recognition
+Abstract:
+  Noise, corruptions and variations in face images can seriously hurt the performance of face recognition systems. To make such systems robust, multiclass neuralnetwork classifiers capable of learning from noisy data have been suggested. However on large face data sets such systems cannot provide the robustness at a high level. In this paper we explore a pairwise neural-network system as an alternative approach to improving the robustness of face recognition. In our experiments this approach is shown to outperform the multiclass neural-network system in terms of the predictive accuracy on the face images corrupted by noise. 
+
+6: 
+Title: Multi-Dimensional Recurrent Neural Networks
+Abstract:
+  Recurrent neural networks (RNNs) have proved effective at one dimensional sequence learning tasks, such as speech and online handwriting recognition. Some of the properties that make RNNs suitable for such tasks, for example robustness to input warping, and the ability to access contextual information, are also desirable in multidimensional domains. However, there has so far been no direct way of applying RNNs to data with more than one spatio-temporal dimension. This paper introduces multi-dimensional recurrent neural networks (MDRNNs), thereby extending the potential applicability of RNNs to vision, video processing, medical imaging and many other areas, while avoiding the scaling problems that have plagued other multi-dimensional models. Experimental results are provided for two image segmentation tasks. 
+
+7: 
+Title: A Study in a Hybrid Centralised-Swarm Agent Community
+Abstract:
+  This paper describes a systems architecture for a hybrid Centralised/Swarm based multi-agent system. The issue of local goal assignment for agents is investigated through the use of a global agent which teaches the agents responses to given situations. We implement a test problem in the form of a Pursuit game, where the Multi-Agent system is a set of captor agents. The agents learn solutions to certain board positions from the global agent if they are unable to find a solution. The captor agents learn through the use of multi-layer perceptron neural networks. The global agent is able to solve board positions through the use of a Genetic Algorithm. The cooperation between agents and the results of the simulation are discussed here. . 
+
+8: 
+Title: General-Purpose Computing on a Semantic Network Substrate
+Abstract:
+  This article presents a model of general-purpose computing on a semantic network substrate. The concepts presented are applicable to any semantic network representation. However, due to the standards and technological infrastructure devoted to the Semantic Web effort, this article is presented from this point of view. In the proposed model of computing, the application programming interface, the run-time program, and the state of the computing virtual machine are all represented in the Resource Description Framework (RDF). The implementation of the concepts presented provides a practical computing paradigm that leverages the highly-distributed and standardized representational-layer of the Semantic Web. 
+
+9: 
+Title: Fuzzy Artmap and Neural Network Approach to Online Processing of Inputs
+  with Missing Values
+Abstract:
+  An ensemble based approach for dealing with missing data, without predicting or imputing the missing values is proposed. This technique is suitable for online operations of neural networks and as a result, is used for online condition monitoring. The proposed technique is tested in both classification and regression problems. An ensemble of Fuzzy-ARTMAPs is used for classification whereas an ensemble of multi-layer perceptrons is used for the regression problem. Results obtained using this ensemble-based technique are compared to those obtained using a combination of auto-associative neural networks and genetic algorithms and findings show that this method can perform up to 9% better in regression problems. Another advantage of the proposed technique is that it eliminates the need for finding the best estimate of the data, and hence, saves time. 
+
+10: 
+Title: Condition Monitoring of HV Bushings in the Presence of Missing Data
+  Using Evolutionary Computing
+Abstract:
+  The work proposes the application of neural networks with particle swarm optimisation (PSO) and genetic algorithms (GA) to compensate for missing data in classifying high voltage bushings. The classification is done using DGA data from 60966 bushings based on IEEEc57.104, IEC599 and IEEE production rates methods for oil impregnated paper (OIP) bushings. PSO and GA were compared in terms of accuracy and computational efficiency. Both GA and PSO simulations were able to estimate missing data values to an average 95% accuracy when only one variable was missing. However PSO rapidly deteriorated to 66% accuracy with two variables missing simultaneously, compared to 84% for GA. The data estimated using GA was found to classify the conditions of bushings than the PSO. 
+

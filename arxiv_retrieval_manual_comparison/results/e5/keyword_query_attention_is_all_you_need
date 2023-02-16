@@ -1,0 +1,58 @@
+Query:
+attention is all you need
+
+Results:
+1: 
+Title: Thank you for Attention: A survey on Attention-based Artificial Neural
+  Networks for Automatic Speech Recognition
+Abstract:
+  Attention is a very popular and effective mechanism in artificial neural network-based sequence-to-sequence models. In this survey paper, a comprehensive review of the different attention models used in developing automatic speech recognition systems is provided. The paper focuses on the development and evolution of attention models for offline and streaming speech recognition within recurrent neural network- and Transformer- based architectures. 
+
+2: 
+Title: Should attention be all we need? The epistemic and ethical implications
+  of unification in machine learning
+Abstract:
+  "Attention is all you need" has become a fundamental precept in machine learning research. Originally designed for machine translation, transformers and the attention mechanisms that underpin them now find success across many problem domains. With the apparent domain-agnostic success of transformers, many researchers are excited that similar model architectures can be successfully deployed across diverse applications in vision, language and beyond. We consider the benefits and risks of these waves of unification on both epistemic and ethical fronts. On the epistemic side, we argue that many of the arguments in favor of unification in the natural sciences fail to transfer over to the machine learning case, or transfer over only under assumptions that might not hold. Unification also introduces epistemic risks related to portability, path dependency, methodological diversity, and increased black-boxing. On the ethical side, we discuss risks emerging from epistemic concerns, further marginalizing underrepresented perspectives, the centralization of power, and having fewer models across more domains of application 
+
+3: 
+Title: Grid Partitioned Attention: Efficient TransformerApproximation with
+  Inductive Bias for High Resolution Detail Generation
+Abstract:
+  Attention is a general reasoning mechanism than can flexibly deal with image information, but its memory requirements had made it so far impractical for high resolution image generation. We present Grid Partitioned Attention (GPA), a new approximate attention algorithm that leverages a sparse inductive bias for higher computational and memory efficiency in image domains: queries attend only to few keys, spatially close queries attend to close keys due to correlations. Our paper introduces the new attention layer, analyzes its complexity and how the trade-off between memory usage and model power can be tuned by the hyper-parameters.We will show how such attention enables novel deep learning architectures with copying modules that are especially useful for conditional image generation tasks like pose morphing. Our contributions are (i) algorithm and code1of the novel GPA layer, (ii) a novel deep attention-copying architecture, and (iii) new state-of-the art experimental results in human pose morphing generation benchmarks. 
+
+4: 
+Title: Deep Neural Networks on EEG Signals to Predict Auditory Attention Score
+  Using Gramian Angular Difference Field
+Abstract:
+  Auditory attention is a selective type of hearing in which people focus their attention intentionally on a specific source of a sound or spoken words whilst ignoring or inhibiting other auditory stimuli. In some sense, the auditory attention score of an individual shows the focus the person can have in auditory tasks. The recent advancements in deep learning and in the non-invasive technologies recording neural activity beg the question, can deep learning along with technologies such as electroencephalography (EEG) be used to predict the auditory attention score of an individual? In this paper, we focus on this very problem of estimating a person's auditory attention level based on their brain's electrical activity captured using 14-channeled EEG signals. More specifically, we deal with attention estimation as a regression problem. The work has been performed on the publicly available Phyaat dataset. The concept of Gramian Angular Difference Field (GADF) has been used to convert time-series EEG data into an image having 14 channels, enabling us to train various deep learning models such as 2D CNN, 3D CNN, and convolutional autoencoders. Their performances have been compared amongst themselves as well as with the work done previously. Amongst the different models we tried, 2D CNN gave the best performance. It outperformed the existing methods by a decent margin of 0.22 mean absolute error (MAE). 
+
+5: 
+Title: Long Short-Term Attention
+Abstract:
+  Attention is an important cognition process of humans, which helps humans concentrate on critical information during their perception and learning. However, although many machine learning models can remember information of data, they have no the attention mechanism. For example, the long short-term memory (LSTM) network is able to remember sequential information, but it cannot pay special attention to part of the sequences. In this paper, we present a novel model called long short-term attention (LSTA), which seamlessly integrates the attention mechanism into the inner cell of LSTM. More than processing long short term dependencies, LSTA can focus on important information of the sequences with the attention mechanism. Extensive experiments demonstrate that LSTA outperforms LSTM and related models on the sequence learning tasks. 
+
+6: 
+Title: Neural Attention Models in Deep Learning: Survey and Taxonomy
+Abstract:
+  Attention is a state of arousal capable of dealing with limited processing bottlenecks in human beings by focusing selectively on one piece of information while ignoring other perceptible information. For decades, concepts and functions of attention have been studied in philosophy, psychology, neuroscience, and computing. Currently, this property has been widely explored in deep neural networks. Many different neural attention models are now available and have been a very active research area over the past six years. From the theoretical standpoint of attention, this survey provides a critical analysis of major neural attention models. Here we propose a taxonomy that corroborates with theoretical aspects that predate Deep Learning. Our taxonomy provides an organizational structure that asks new questions and structures the understanding of existing attentional mechanisms. In particular, 17 criteria derived from psychology and neuroscience classic studies are formulated for qualitative comparison and critical analysis on the 51 main models found on a set of more than 650 papers analyzed. Also, we highlight several theoretical issues that have not yet been explored, including discussions about biological plausibility, highlight current research trends, and provide insights for the future. 
+
+7: 
+Title: Attention Mesh: High-fidelity Face Mesh Prediction in Real-time
+Abstract:
+  We present Attention Mesh, a lightweight architecture for 3D face mesh prediction that uses attention to semantically meaningful regions. Our neural network is designed for real-time on-device inference and runs at over 50 FPS on a Pixel 2 phone. Our solution enables applications like AR makeup, eye tracking and AR puppeteering that rely on highly accurate landmarks for eye and lips regions. Our main contribution is a unified network architecture that achieves the same accuracy on facial landmarks as a multi-stage cascaded approach, while being 30 percent faster. 
+
+8: 
+Title: Structural analysis of an all-purpose question answering model
+Abstract:
+  Attention is a key component of the now ubiquitous pre-trained language models. By learning to focus on relevant pieces of information, these Transformer-based architectures have proven capable of tackling several tasks at once and sometimes even surpass their single-task counterparts. To better understand this phenomenon, we conduct a structural analysis of a new all-purpose question answering model that we introduce. Surprisingly, this model retains single-task performance even in the absence of a strong transfer effect between tasks. Through attention head importance scoring, we observe that attention heads specialize in a particular task and that some heads are more conducive to learning than others in both the multi-task and single-task settings. 
+
+9: 
+Title: All-to-key Attention for Arbitrary Style Transfer
+Abstract:
+  Attention-based arbitrary style transfer studies have shown promising performance in synthesizing vivid local style details. They typically use the all-to-all attention mechanism: each position of content features is fully matched to all positions of style features. However, all-to-all attention tends to generate distorted style patterns and has quadratic complexity. It virtually limits both the effectiveness and efficiency of arbitrary style transfer. In this paper, we rethink what kind of attention mechanism is more appropriate for arbitrary style transfer. Our answer is a novel all-to-key attention mechanism: each position of content features is matched to key positions of style features. Specifically, it integrates two newly proposed attention forms: distributed and progressive attention. Distributed attention assigns attention to multiple key positions; Progressive attention pays attention from coarse to fine. All-to-key attention promotes the matching of diverse and reasonable style patterns and has linear complexity. The resultant module, dubbed StyA2K, has fine properties in rendering reasonable style textures and maintaining consistent local structure. Qualitative and quantitative experiments demonstrate that our method achieves superior results than state-of-the-art approaches. 
+
+10: 
+Title: Influence Patterns for Explaining Information Flow in BERT
+Abstract:
+  While attention is all you need may be proving true, we do not know why: attention-based transformer models such as BERT are superior but how information flows from input tokens to output predictions are unclear. We introduce influence patterns, abstractions of sets of paths through a transformer model. Patterns quantify and localize the flow of information to paths passing through a sequence of model nodes. Experimentally, we find that significant portion of information flow in BERT goes through skip connections instead of attention heads. We further show that consistency of patterns across instances is an indicator of BERT's performance. Finally, We demonstrate that patterns account for far more model performance than previous attention-based and layer-based methods. 
+

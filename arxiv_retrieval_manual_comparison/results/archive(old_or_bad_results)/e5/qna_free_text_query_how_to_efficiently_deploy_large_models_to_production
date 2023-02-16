@@ -1,0 +1,97 @@
+1: 
+Go Wide, Then Narrow: Efficient Training of Deep Thin Networks
+  For deploying a deep learning model into production, it needs to be both
+accurate and compact to meet the latency and memory constraints. This usually
+results in a network that is deep (to ensure performance) and yet thin (to
+improve computational efficiency). In this paper, we propose an efficient
+method to train a deep thin network with a theoretic guarantee. Our method is
+motivated by model compression. It consists of three stages. First, we
+sufficiently widen the deep thin network and train it until convergence. Then,
+we use this well-trained deep wide network to warm up (or initialize) the
+original deep thin network. This is achieved by layerwise imitation, that is,
+forcing the thin network to mimic the intermediate outputs of the wide network
+from layer to layer. Finally, we further fine tune this already
+well-initialized deep thin network. The theoretical guarantee is established by
+using the neural mean field analysis. It demonstrates the advantage of our
+layerwise imitation approach over backpropagation. We also conduct large-scale
+empirical experiments to validate the proposed method. By training with our
+method, ResNet50 can outperform ResNet101, and BERT Base can be comparable with
+BERT Large, when ResNet101 and BERT Large are trained under the standard
+training procedures as in the literature.
+
+2: 
+InferBench: Understanding Deep Learning Inference Serving with an
+  Automatic Benchmarking System
+  Deep learning (DL) models have become core modules for many applications.
+However, deploying these models without careful performance benchmarking that
+considers both hardware and software's impact often leads to poor service and
+costly operational expenditure. To facilitate DL models' deployment, we
+implement an automatic and comprehensive benchmark system for DL developers. To
+accomplish benchmark-related tasks, the developers only need to prepare a
+configuration file consisting of a few lines of code. Our system, deployed to a
+leader server in DL clusters, will dispatch users' benchmark jobs to follower
+workers. Next, the corresponding requests, workload, and even models can be
+generated automatically by the system to conduct DL serving benchmarks.
+Finally, developers can leverage many analysis tools and models in our system
+to gain insights into the trade-offs of different system configurations. In
+addition, a two-tier scheduler is incorporated to avoid unnecessary
+interference and improve average job compilation time by up to 1.43x
+(equivalent of 30\% reduction). Our system design follows the best practice in
+DL clusters operations to expedite day-to-day DL service evaluation efforts by
+the developers. We conduct many benchmark experiments to provide in-depth and
+comprehensive evaluations. We believe these results are of great values as
+guidelines for DL service configuration and resource allocation.
+
+3: 
+Model Selection for Production System via Automated Online Experiments
+  A challenge that machine learning practitioners in the industry face is the
+task of selecting the best model to deploy in production. As a model is often
+an intermediate component of a production system, online controlled experiments
+such as A/B tests yield the most reliable estimation of the effectiveness of
+the whole system, but can only compare two or a few models due to budget
+constraints. We propose an automated online experimentation mechanism that can
+efficiently perform model selection from a large pool of models with a small
+number of online experiments. We derive the probability distribution of the
+metric of interest that contains the model uncertainty from our Bayesian
+surrogate model trained using historical logs. Our method efficiently
+identifies the best model by sequentially selecting and deploying a list of
+models from the candidate set that balance exploration-exploitation. Using
+simulations based on real data, we demonstrate the effectiveness of our method
+on two different tasks.
+
+4: 
+Optimizing Multi-GPU Parallelization Strategies for Deep Learning
+  Training
+  Deploying deep learning (DL) models across multiple compute devices to train
+large and complex models continues to grow in importance because of the demand
+for faster and more frequent training. Data parallelism (DP) is the most widely
+used parallelization strategy, but as the number of devices in data parallel
+training grows, so does the communication overhead between devices.
+Additionally, a larger aggregate batch size per step leads to statistical
+efficiency loss, i.e., a larger number of epochs are required to converge to a
+desired accuracy. These factors affect overall training time and beyond a
+certain number of devices, the speedup from leveraging DP begins to scale
+poorly. In addition to DP, each training step can be accelerated by exploiting
+model parallelism (MP). This work explores hybrid parallelization, where each
+data parallel worker is comprised of more than one device, across which the
+model dataflow graph (DFG) is split using MP. We show that at scale, hybrid
+training will be more effective at minimizing end-to-end training time than
+exploiting DP alone. We project that for Inception-V3, GNMT, and BigLSTM, the
+hybrid strategy provides an end-to-end training speedup of at least 26.5%, 8%,
+and 22% respectively compared to what DP alone can achieve at scale.
+
+5: 
+Celeritas: Fast Optimizer for Large Dataflow Graphs
+  The rapidly enlarging neural network models are becoming increasingly
+challenging to run on a single device. Hence model parallelism over multiple
+devices is critical to guarantee the efficiency of training large models.
+Recent proposals fall short either in long processing time or poor performance.
+Therefore, we propose Celeritas, a fast framework for optimizing device
+placement for large models. Celeritas employs a simple but efficient model
+parallelization strategy in the Standard Evaluation, and generates placement
+policies through a series of scheduling algorithms. We conduct experiments to
+deploy and evaluate Celeritas on numerous large models. The results show that
+Celeritas not only reduces the placement policy generation time by 26.4\% but
+also improves the model running time by 34.2\% compared to most advanced
+methods.
+

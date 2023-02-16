@@ -1,0 +1,88 @@
+1: 
+Multi-Task Self-Training for Learning General Representations
+  Despite the fast progress in training specialized models for various tasks,
+learning a single general model that works well for many tasks is still
+challenging for computer vision. Here we introduce multi-task self-training
+(MuST), which harnesses the knowledge in independent specialized teacher models
+(e.g., ImageNet model on classification) to train a single general student
+model. Our approach has three steps. First, we train specialized teachers
+independently on labeled datasets. We then use the specialized teachers to
+label an unlabeled dataset to create a multi-task pseudo labeled dataset.
+Finally, the dataset, which now contains pseudo labels from teacher models
+trained on different datasets/tasks, is then used to train a student model with
+multi-task learning. We evaluate the feature representations of the student
+model on 6 vision tasks including image recognition (classification, detection,
+segmentation)and 3D geometry estimation (depth and surface normal estimation).
+MuST is scalable with unlabeled or partially labeled datasets and outperforms
+both specialized supervised models and self-supervised models when training on
+large scale datasets. Lastly, we show MuST can improve upon already strong
+checkpoints trained with billions of examples. The results suggest
+self-training is a promising direction to aggregate labeled and unlabeled
+training data for learning general feature representations.
+
+2: 
+Dive into Big Model Training
+  The increasing scale of model size and continuous improvement of performance
+herald the arrival of the Big Model era. In this report, we explore what and
+how the big model training works by diving into training objectives and
+training methodologies. Specifically,training objectives describe how to
+leverage web-scale data to develop extremely capable and incredibly large
+models based on self-supervised learning, and training methodologies which are
+based on distributed training describe how to make big model training a
+reality. We summarize the existing training methodologies into three main
+categories: training parallelism, memory-saving technologies, and model
+sparsity design. Training parallelism can be categorized into data, pipeline,
+and tensor parallelism according to the dimension of parallelism that takes
+place. Memory-saving technologies are orthogonal and complementary to training
+parallelism. And model sparsity design further scales up the model size with a
+constant computational cost. A continuously updated paper list of big model
+training is provided at https://github.com/qhliu26/BM-Training.
+
+3: 
+Unsupervised Training for 3D Morphable Model Regression
+  We present a method for training a regression network from image pixels to 3D
+morphable model coordinates using only unlabeled photographs. The training loss
+is based on features from a facial recognition network, computed on-the-fly by
+rendering the predicted faces with a differentiable renderer. To make training
+from features feasible and avoid network fooling effects, we introduce three
+objectives: a batch distribution loss that encourages the output distribution
+to match the distribution of the morphable model, a loopback loss that ensures
+the network can correctly reinterpret its own output, and a multi-view identity
+loss that compares the features of the predicted 3D face and the input
+photograph from multiple viewing angles. We train a regression network using
+these objectives, a set of unlabeled photographs, and the morphable model
+itself, and demonstrate state-of-the-art results.
+
+4: 
+Training Transformers Together
+  The infrastructure necessary for training state-of-the-art models is becoming
+overly expensive, which makes training such models affordable only to large
+corporations and institutions. Recent work proposes several methods for
+training such models collaboratively, i.e., by pooling together hardware from
+many independent parties and training a shared model over the Internet. In this
+demonstration, we collaboratively trained a text-to-image transformer similar
+to OpenAI DALL-E. We invited the viewers to join the ongoing training run,
+showing them instructions on how to contribute using the available hardware. We
+explained how to address the engineering challenges associated with such a
+training run (slow communication, limited memory, uneven performance between
+devices, and security concerns) and discussed how the viewers can set up
+collaborative training runs themselves. Finally, we show that the resulting
+model generates images of reasonable quality on a number of prompts.
+
+5: 
+Multitask Emotion Recognition with Incomplete Labels
+  We train a unified model to perform three tasks: facial action unit
+detection, expression classification, and valence-arousal estimation. We
+address two main challenges of learning the three tasks. First, most existing
+datasets are highly imbalanced. Second, most existing datasets do not contain
+labels for all three tasks. To tackle the first challenge, we apply data
+balancing techniques to experimental datasets. To tackle the second challenge,
+we propose an algorithm for the multitask model to learn from missing
+(incomplete) labels. This algorithm has two steps. We first train a teacher
+model to perform all three tasks, where each instance is trained by the ground
+truth label of its corresponding task. Secondly, we refer to the outputs of the
+teacher model as the soft labels. We use the soft labels and the ground truth
+to train the student model. We find that most of the student models outperform
+their teacher model on all the three tasks. Finally, we use model ensembling to
+boost performance further on the three tasks.
+

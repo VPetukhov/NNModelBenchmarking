@@ -1,0 +1,91 @@
+1: 
+Bidirectionally Self-Normalizing Neural Networks
+  The problem of vanishing and exploding gradients has been a long-standing
+obstacle that hinders the effective training of neural networks. Despite
+various tricks and techniques that have been employed to alleviate the problem
+in practice, there still lacks satisfactory theories or provable solutions. In
+this paper, we address the problem from the perspective of high-dimensional
+probability theory. We provide a rigorous result that shows, under mild
+conditions, how the vanishing/exploding gradients problem disappears with high
+probability if the neural networks have sufficient width. Our main idea is to
+constrain both forward and backward signal propagation in a nonlinear neural
+network through a new class of activation functions, namely Gaussian-Poincar\'e
+normalized functions, and orthogonal weight matrices. Experiments on both
+synthetic and real-world data validate our theory and confirm its effectiveness
+on very deep neural networks when applied in practice.
+
+2: 
+Training of Deep Neural Networks based on Distance Measures using
+  RMSProp
+  The vanishing gradient problem was a major obstacle for the success of deep
+learning. In recent years it was gradually alleviated through multiple
+different techniques. However the problem was not really overcome in a
+fundamental way, since it is inherent to neural networks with activation
+functions based on dot products. In a series of papers, we are going to analyze
+alternative neural network structures which are not based on dot products. In
+this first paper, we revisit neural networks built up of layers based on
+distance measures and Gaussian activation functions. These kinds of networks
+were only sparsely used in the past since they are hard to train when using
+plain stochastic gradient descent methods. We show that by using Root Mean
+Square Propagation (RMSProp) it is possible to efficiently learn multi-layer
+neural networks. Furthermore we show that when appropriately initialized these
+kinds of neural networks suffer much less from the vanishing and exploding
+gradient problem than traditional neural networks even for deep networks.
+
+3: 
+Vanishing Curvature and the Power of Adaptive Methods in Randomly
+  Initialized Deep Networks
+  This paper revisits the so-called vanishing gradient phenomenon, which
+commonly occurs in deep randomly initialized neural networks. Leveraging an
+in-depth analysis of neural chains, we first show that vanishing gradients
+cannot be circumvented when the network width scales with less than O(depth),
+even when initialized with the popular Xavier and He initializations. Second,
+we extend the analysis to second-order derivatives and show that random i.i.d.
+initialization also gives rise to Hessian matrices with eigenspectra that
+vanish as networks grow in depth. Whenever this happens, optimizers are
+initialized in a very flat, saddle point-like plateau, which is particularly
+hard to escape with stochastic gradient descent (SGD) as its escaping time is
+inversely related to curvature. We believe that this observation is crucial for
+fully understanding (a) historical difficulties of training deep nets with
+vanilla SGD, (b) the success of adaptive gradient methods (which naturally
+adapt to curvature and thus quickly escape flat plateaus) and (c) the
+effectiveness of modern architectural components like residual connections and
+normalization layers.
+
+4: 
+On the difficulty of training Recurrent Neural Networks
+  There are two widely known issues with properly training Recurrent Neural
+Networks, the vanishing and the exploding gradient problems detailed in Bengio
+et al. (1994). In this paper we attempt to improve the understanding of the
+underlying issues by exploring these problems from an analytical, a geometric
+and a dynamical systems perspective. Our analysis is used to justify a simple
+yet effective solution. We propose a gradient norm clipping strategy to deal
+with exploding gradients and a soft constraint for the vanishing gradients
+problem. We validate empirically our hypothesis and proposed solutions in the
+experimental section.
+
+5: 
+Stabilizing Gradients for Deep Neural Networks via Efficient SVD
+  Parameterization
+  Vanishing and exploding gradients are two of the main obstacles in training
+deep neural networks, especially in capturing long range dependencies in
+recurrent neural networks~(RNNs). In this paper, we present an efficient
+parametrization of the transition matrix of an RNN that allows us to stabilize
+the gradients that arise in its training. Specifically, we parameterize the
+transition matrix by its singular value decomposition(SVD), which allows us to
+explicitly track and control its singular values. We attain efficiency by using
+tools that are common in numerical linear algebra, namely Householder
+reflectors for representing the orthogonal matrices that arise in the SVD. By
+explicitly controlling the singular values, our proposed Spectral-RNN method
+allows us to easily solve the exploding gradient problem and we observe that it
+empirically solves the vanishing gradient issue to a large extent. We note that
+the SVD parameterization can be used for any rectangular weight matrix, hence
+it can be easily extended to any deep neural network, such as a multi-layer
+perceptron. Theoretically, we demonstrate that our parameterization does not
+lose any expressive power, and show how it controls generalization of RNN for
+the classification task. %, and show how it potentially makes the optimization
+process easier. Our extensive experimental results also demonstrate that the
+proposed framework converges faster, and has good generalization, especially in
+capturing long range dependencies, as shown on the synthetic addition and copy
+tasks, as well as on MNIST and Penn Tree Bank data sets.
+

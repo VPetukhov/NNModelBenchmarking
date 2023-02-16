@@ -1,0 +1,59 @@
+1: 
+When BERT Fails -- The Limits of EHR Classification
+  Transformers are powerful text representation learners, useful for all kinds
+of clinical decision support tasks. Although they outperform baselines on
+readmission prediction, they are not infallible. Here, we look into one such
+failure case, and report patterns that lead to inferior predictive performance.
+
+2: 
+Vision Transformers: State of the Art and Research Challenges
+  Transformers have achieved great success in natural language processing. Due
+to the powerful capability of self-attention mechanism in transformers,
+researchers develop the vision transformers for a variety of computer vision
+tasks, such as image recognition, object detection, image segmentation, pose
+estimation, and 3D reconstruction. This paper presents a comprehensive overview
+of the literature on different architecture designs and training tricks
+(including self-supervised learning) for vision transformers. Our goal is to
+provide a systematic review with the open research opportunities.
+
+3: 
+Tensor-to-Image: Image-to-Image Translation with Vision Transformers
+  Transformers gain huge attention since they are first introduced and have a
+wide range of applications. Transformers start to take over all areas of deep
+learning and the Vision transformers paper also proved that they can be used
+for computer vision tasks. In this paper, we utilized a vision
+transformer-based custom-designed model, tensor-to-image, for the image to
+image translation. With the help of self-attention, our model was able to
+generalize and apply to different problems without a single modification.
+
+4: 
+HuggingFace's Transformers: State-of-the-art Natural Language Processing
+  Recent progress in natural language processing has been driven by advances in
+both model architecture and model pretraining. Transformer architectures have
+facilitated building higher-capacity models and pretraining has made it
+possible to effectively utilize this capacity for a wide variety of tasks.
+\textit{Transformers} is an open-source library with the goal of opening up
+these advances to the wider machine learning community. The library consists of
+carefully engineered state-of-the art Transformer architectures under a unified
+API. Backing this library is a curated collection of pretrained models made by
+and available for the community. \textit{Transformers} is designed to be
+extensible by researchers, simple for practitioners, and fast and robust in
+industrial deployments. The library is available at
+\url{https://github.com/huggingface/transformers}.
+
+5: 
+Fine-tuning Vision Transformers for the Prediction of State Variables in
+  Ising Models
+  Transformers are state-of-the-art deep learning models that are composed of
+stacked attention and point-wise, fully connected layers designed for handling
+sequential data. Transformers are not only ubiquitous throughout Natural
+Language Processing (NLP), but, recently, they have inspired a new wave of
+Computer Vision (CV) applications research. In this work, a Vision Transformer
+(ViT) is applied to predict the state variables of 2-dimensional Ising model
+simulations. Our experiments show that ViT outperform state-of-the-art
+Convolutional Neural Networks (CNN) when using a small number of microstate
+images from the Ising model corresponding to various boundary conditions and
+temperatures. This work opens the possibility of applying ViT to other
+simulations, and raises interesting research directions on how attention maps
+can learn about the underlying physics governing different phenomena.
+

@@ -1,0 +1,87 @@
+1: 
+An Adaptive Strategy for the Classification of G-Protein Coupled
+  Receptors
+  One of the major problems in computational biology is the inability of
+existing classification models to incorporate expanding and new domain
+knowledge. This problem of static classification models is addressed in this
+paper by the introduction of incremental learning for problems in
+bioinformatics. Many machine learning tools have been applied to this problem
+using static machine learning structures such as neural networks or support
+vector machines that are unable to accommodate new information into their
+existing models. We utilize the fuzzy ARTMAP as an alternate machine learning
+system that has the ability of incrementally learning new data as it becomes
+available. The fuzzy ARTMAP is found to be comparable to many of the widespread
+machine learning systems. The use of an evolutionary strategy in the selection
+and combination of individual classifiers into an ensemble system, coupled with
+the incremental learning ability of the fuzzy ARTMAP is proven to be suitable
+as a pattern classifier. The algorithm presented is tested using data from the
+G-Coupled Protein Receptors Database and shows good accuracy of 83%. The system
+presented is also generally applicable, and can be used in problems in genomics
+and proteomics.
+
+2: 
+The on-line shortest path problem under partial monitoring
+  The on-line shortest path problem is considered under various models of
+partial monitoring. Given a weighted directed acyclic graph whose edge weights
+can change in an arbitrary (adversarial) way, a decision maker has to choose in
+each round of a game a path between two distinguished vertices such that the
+loss of the chosen path (defined as the sum of the weights of its composing
+edges) be as small as possible. In a setting generalizing the multi-armed
+bandit problem, after choosing a path, the decision maker learns only the
+weights of those edges that belong to the chosen path. For this problem, an
+algorithm is given whose average cumulative loss in n rounds exceeds that of
+the best path, matched off-line to the entire sequence of the edge weights, by
+a quantity that is proportional to 1/\sqrt{n} and depends only polynomially on
+the number of edges of the graph. The algorithm can be implemented with linear
+complexity in the number of rounds n and in the number of edges. An extension
+to the so-called label efficient setting is also given, in which the decision
+maker is informed about the weights of the edges corresponding to the chosen
+path at a total of m << n time instances. Another extension is shown where the
+decision maker competes against a time-varying path, a generalization of the
+problem of tracking the best expert. A version of the multi-armed bandit
+setting for shortest path is also discussed where the decision maker learns
+only the total weight of the chosen path but not the weights of the individual
+edges on the path. Applications to routing in packet switched networks along
+with simulation results are also presented.
+
+3: 
+Comparing Robustness of Pairwise and Multiclass Neural-Network Systems
+  for Face Recognition
+  Noise, corruptions and variations in face images can seriously hurt the
+performance of face recognition systems. To make such systems robust,
+multiclass neuralnetwork classifiers capable of learning from noisy data have
+been suggested. However on large face data sets such systems cannot provide the
+robustness at a high level. In this paper we explore a pairwise neural-network
+system as an alternative approach to improving the robustness of face
+recognition. In our experiments this approach is shown to outperform the
+multiclass neural-network system in terms of the predictive accuracy on the
+face images corrupted by noise.
+
+4: 
+An Independent Evaluation of Subspace Face Recognition Algorithms
+  This paper explores a comparative study of both the linear and kernel
+implementations of three of the most popular Appearance-based Face Recognition
+projection classes, these being the methodologies of Principal Component
+Analysis, Linear Discriminant Analysis and Independent Component Analysis. The
+experimental procedure provides a platform of equal working conditions and
+examines the ten algorithms in the categories of expression, illumination,
+occlusion and temporal delay. The results are then evaluated based on a
+sequential combination of assessment tools that facilitate both intuitive and
+statistical decisiveness among the intra and interclass comparisons. The best
+categorical algorithms are then incorporated into a hybrid methodology, where
+the advantageous effects of fusion strategies are considered.
+
+5: 
+Multi-Dimensional Recurrent Neural Networks
+  Recurrent neural networks (RNNs) have proved effective at one dimensional
+sequence learning tasks, such as speech and online handwriting recognition.
+Some of the properties that make RNNs suitable for such tasks, for example
+robustness to input warping, and the ability to access contextual information,
+are also desirable in multidimensional domains. However, there has so far been
+no direct way of applying RNNs to data with more than one spatio-temporal
+dimension. This paper introduces multi-dimensional recurrent neural networks
+(MDRNNs), thereby extending the potential applicability of RNNs to vision,
+video processing, medical imaging and many other areas, while avoiding the
+scaling problems that have plagued other multi-dimensional models. Experimental
+results are provided for two image segmentation tasks.
+

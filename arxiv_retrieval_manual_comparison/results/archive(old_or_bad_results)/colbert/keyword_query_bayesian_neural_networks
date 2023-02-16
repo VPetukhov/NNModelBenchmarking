@@ -1,0 +1,64 @@
+1: 
+Multi-Dimensional Recurrent Neural Networks
+  Recurrent neural networks (RNNs) have proved effective at one dimensional
+sequence learning tasks, such as speech and online handwriting recognition.
+Some of the properties that make RNNs suitable for such tasks, for example
+robustness to input warping, and the ability to access contextual information,
+are also desirable in multidimensional domains. However, there has so far been
+no direct way of applying RNNs to data with more than one spatio-temporal
+dimension. This paper introduces multi-dimensional recurrent neural networks
+(MDRNNs), thereby extending the potential applicability of RNNs to vision,
+video processing, medical imaging and many other areas, while avoiding the
+scaling problems that have plagued other multi-dimensional models. Experimental
+results are provided for two image segmentation tasks.
+
+2: 
+The Parameter-Less Self-Organizing Map algorithm
+  The Parameter-Less Self-Organizing Map (PLSOM) is a new neural network
+algorithm based on the Self-Organizing Map (SOM). It eliminates the need for a
+learning rate and annealing schemes for learning rate and neighbourhood size.
+We discuss the relative performance of the PLSOM and the SOM and demonstrate
+some tasks in which the SOM fails but the PLSOM performs satisfactory. Finally
+we discuss some example applications of the PLSOM and present a proof of
+ordering under certain limited conditions.
+
+3: 
+A neural network approach to ordinal regression
+  Ordinal regression is an important type of learning, which has properties of
+both classification and regression. Here we describe a simple and effective
+approach to adapt a traditional neural network to learn ordinal categories. Our
+approach is a generalization of the perceptron method for ordinal regression.
+On several benchmark datasets, our method (NNRank) outperforms a neural network
+classification method. Compared with the ordinal regression methods using
+Gaussian processes and support vector machines, NNRank achieves comparable
+performance. Moreover, NNRank has the advantages of traditional neural
+networks: learning in both online and batch modes, handling very large training
+datasets, and making rapid predictions. These features make NNRank a useful and
+complementary tool for large-scale data processing tasks such as information
+retrieval, web page ranking, collaborative filtering, and protein ranking in
+Bioinformatics.
+
+4: 
+Automatic Detection of Pulmonary Embolism using Computational
+  Intelligence
+  This article describes the implementation of a system designed to
+automatically detect the presence of pulmonary embolism in lung scans. These
+images are firstly segmented, before alignment and feature extraction using
+PCA. The neural network was trained using the Hybrid Monte Carlo method,
+resulting in a committee of 250 neural networks and good results are obtained.
+
+5: 
+Condition Monitoring of HV Bushings in the Presence of Missing Data
+  Using Evolutionary Computing
+  The work proposes the application of neural networks with particle swarm
+optimisation (PSO) and genetic algorithms (GA) to compensate for missing data
+in classifying high voltage bushings. The classification is done using DGA data
+from 60966 bushings based on IEEEc57.104, IEC599 and IEEE production rates
+methods for oil impregnated paper (OIP) bushings. PSO and GA were compared in
+terms of accuracy and computational efficiency. Both GA and PSO simulations
+were able to estimate missing data values to an average 95% accuracy when only
+one variable was missing. However PSO rapidly deteriorated to 66% accuracy with
+two variables missing simultaneously, compared to 84% for GA. The data
+estimated using GA was found to classify the conditions of bushings than the
+PSO.
+

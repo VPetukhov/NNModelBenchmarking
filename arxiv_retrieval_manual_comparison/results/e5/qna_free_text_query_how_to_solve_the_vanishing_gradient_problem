@@ -1,0 +1,59 @@
+Query:
+how to solve the vanishing gradient problem
+
+Results:
+1: 
+Title: Bidirectionally Self-Normalizing Neural Networks
+Abstract:
+  The problem of vanishing and exploding gradients has been a long-standing obstacle that hinders the effective training of neural networks. Despite various tricks and techniques that have been employed to alleviate the problem in practice, there still lacks satisfactory theories or provable solutions. In this paper, we address the problem from the perspective of high-dimensional probability theory. We provide a rigorous result that shows, under mild conditions, how the vanishing/exploding gradients problem disappears with high probability if the neural networks have sufficient width. Our main idea is to constrain both forward and backward signal propagation in a nonlinear neural network through a new class of activation functions, namely Gaussian-Poincar\'e normalized functions, and orthogonal weight matrices. Experiments on both synthetic and real-world data validate our theory and confirm its effectiveness on very deep neural networks when applied in practice. 
+
+2: 
+Title: Training of Deep Neural Networks based on Distance Measures using
+  RMSProp
+Abstract:
+  The vanishing gradient problem was a major obstacle for the success of deep learning. In recent years it was gradually alleviated through multiple different techniques. However the problem was not really overcome in a fundamental way, since it is inherent to neural networks with activation functions based on dot products. In a series of papers, we are going to analyze alternative neural network structures which are not based on dot products. In this first paper, we revisit neural networks built up of layers based on distance measures and Gaussian activation functions. These kinds of networks were only sparsely used in the past since they are hard to train when using plain stochastic gradient descent methods. We show that by using Root Mean Square Propagation (RMSProp) it is possible to efficiently learn multi-layer neural networks. Furthermore we show that when appropriately initialized these kinds of neural networks suffer much less from the vanishing and exploding gradient problem than traditional neural networks even for deep networks. 
+
+3: 
+Title: Vanishing Curvature and the Power of Adaptive Methods in Randomly
+  Initialized Deep Networks
+Abstract:
+  This paper revisits the so-called vanishing gradient phenomenon, which commonly occurs in deep randomly initialized neural networks. Leveraging an in-depth analysis of neural chains, we first show that vanishing gradients cannot be circumvented when the network width scales with less than O(depth), even when initialized with the popular Xavier and He initializations. Second, we extend the analysis to second-order derivatives and show that random i.i.d. initialization also gives rise to Hessian matrices with eigenspectra that vanish as networks grow in depth. Whenever this happens, optimizers are initialized in a very flat, saddle point-like plateau, which is particularly hard to escape with stochastic gradient descent (SGD) as its escaping time is inversely related to curvature. We believe that this observation is crucial for fully understanding (a) historical difficulties of training deep nets with vanilla SGD, (b) the success of adaptive gradient methods (which naturally adapt to curvature and thus quickly escape flat plateaus) and (c) the effectiveness of modern architectural components like residual connections and normalization layers. 
+
+4: 
+Title: On the difficulty of training Recurrent Neural Networks
+Abstract:
+  There are two widely known issues with properly training Recurrent Neural Networks, the vanishing and the exploding gradient problems detailed in Bengio et al. (1994). In this paper we attempt to improve the understanding of the underlying issues by exploring these problems from an analytical, a geometric and a dynamical systems perspective. Our analysis is used to justify a simple yet effective solution. We propose a gradient norm clipping strategy to deal with exploding gradients and a soft constraint for the vanishing gradients problem. We validate empirically our hypothesis and proposed solutions in the experimental section. 
+
+5: 
+Title: Stabilizing Gradients for Deep Neural Networks via Efficient SVD
+  Parameterization
+Abstract:
+  Vanishing and exploding gradients are two of the main obstacles in training deep neural networks, especially in capturing long range dependencies in recurrent neural networks~(RNNs). In this paper, we present an efficient parametrization of the transition matrix of an RNN that allows us to stabilize the gradients that arise in its training. Specifically, we parameterize the transition matrix by its singular value decomposition(SVD), which allows us to explicitly track and control its singular values. We attain efficiency by using tools that are common in numerical linear algebra, namely Householder reflectors for representing the orthogonal matrices that arise in the SVD. By explicitly controlling the singular values, our proposed Spectral-RNN method allows us to easily solve the exploding gradient problem and we observe that it empirically solves the vanishing gradient issue to a large extent. We note that the SVD parameterization can be used for any rectangular weight matrix, hence it can be easily extended to any deep neural network, such as a multi-layer perceptron. Theoretically, we demonstrate that our parameterization does not lose any expressive power, and show how it controls generalization of RNN for the classification task. %, and show how it potentially makes the optimization process easier. Our extensive experimental results also demonstrate that the proposed framework converges faster, and has good generalization, especially in capturing long range dependencies, as shown on the synthetic addition and copy tasks, as well as on MNIST and Penn Tree Bank data sets. 
+
+6: 
+Title: Regularization and Reparameterization Avoid Vanishing Gradients in
+  Sigmoid-Type Networks
+Abstract:
+  Deep learning requires several design choices, such as the nodes' activation functions and the widths, types, and arrangements of the layers. One consideration when making these choices is the vanishing-gradient problem, which is the phenomenon of algorithms getting stuck at suboptimal points due to small gradients. In this paper, we revisit the vanishing-gradient problem in the context of sigmoid-type activation. We use mathematical arguments to highlight two different sources of the phenomenon, namely large individual parameters and effects across layers, and to illustrate two simple remedies, namely regularization and rescaling. We then demonstrate the effectiveness of the two remedies in practice. In view of the vanishing-gradient problem being a main reason why tanh and other sigmoid-type activation has become much less popular than relu-type activation, our results bring sigmoid-type activation back to the table. 
+
+7: 
+Title: Gradient Boosts the Approximate Vanishing Ideal
+Abstract:
+  In the last decade, the approximate vanishing ideal and its basis construction algorithms have been extensively studied in computer algebra and machine learning as a general model to reconstruct the algebraic variety on which noisy data approximately lie. In particular, the basis construction algorithms developed in machine learning are widely used in applications across many fields because of their monomial-order-free property; however, they lose many of the theoretical properties of computer-algebraic algorithms. In this paper, we propose general methods that equip monomial-order-free algorithms with several advantageous theoretical properties. Specifically, we exploit the gradient to (i) sidestep the spurious vanishing problem in polynomial time to remove symbolically trivial redundant bases, (ii) achieve consistent output with respect to the translation and scaling of input, and (iii) remove nontrivially redundant bases. The proposed methods work in a fully numerical manner, whereas existing algorithms require the awkward monomial order or exponentially costly (and mostly symbolic) computation to realize properties (i) and (iii). To our knowledge, property (ii) has not been achieved by any existing basis construction algorithm of the approximate vanishing ideal. 
+
+8: 
+Title: On orthogonality and learning recurrent networks with long term
+  dependencies
+Abstract:
+  It is well known that it is challenging to train deep neural networks and recurrent neural networks for tasks that exhibit long term dependencies. The vanishing or exploding gradient problem is a well known issue associated with these challenges. One approach to addressing vanishing and exploding gradients is to use either soft or hard constraints on weight matrices so as to encourage or enforce orthogonality. Orthogonal matrices preserve gradient norm during backpropagation and may therefore be a desirable property. This paper explores issues with optimization convergence, speed and gradient stability when encouraging or enforcing orthogonality. To perform this analysis, we propose a weight matrix factorization and parameterization strategy through which we can bound matrix norms and therein control the degree of expansivity induced during backpropagation. We find that hard constraints on orthogonality can negatively affect the speed of convergence and model performance. 
+
+9: 
+Title: High Order Recurrent Neural Networks for Acoustic Modelling
+Abstract:
+  Vanishing long-term gradients are a major issue in training standard recurrent neural networks (RNNs), which can be alleviated by long short-term memory (LSTM) models with memory cells. However, the extra parameters associated with the memory cells mean an LSTM layer has four times as many parameters as an RNN with the same hidden vector size. This paper addresses the vanishing gradient problem using a high order RNN (HORNN) which has additional connections from multiple previous time steps. Speech recognition experiments using British English multi-genre broadcast (MGB3) data showed that the proposed HORNN architectures for rectified linear unit and sigmoid activation functions reduced word error rates (WER) by 4.2% and 6.3% over the corresponding RNNs, and gave similar WERs to a (projected) LSTM while using only 20%--50% of the recurrent layer parameters and computation. 
+
+10: 
+Title: h-detach: Modifying the LSTM Gradient Towards Better Optimization
+Abstract:
+  Recurrent neural networks are known for their notorious exploding and vanishing gradient problem (EVGP). This problem becomes more evident in tasks where the information needed to correctly solve them exist over long time scales, because EVGP prevents important gradient components from being back-propagated adequately over a large number of steps. We introduce a simple stochastic algorithm (\textit{h}-detach) that is specific to LSTM optimization and targeted towards addressing this problem. Specifically, we show that when the LSTM weights are large, the gradient components through the linear path (cell state) in the LSTM computational graph get suppressed. Based on the hypothesis that these components carry information about long term dependencies (which we show empirically), their suppression can prevent LSTMs from capturing them. Our algorithm\footnote{Our code is available at https://github.com/bhargav104/h-detach.} prevents gradients flowing through this path from getting suppressed, thus allowing the LSTM to capture such dependencies better. We show significant improvements over vanilla LSTM gradient based training in terms of convergence speed, robustness to seed and learning rate, and generalization using our modification of LSTM gradient on various benchmark datasets. 
+

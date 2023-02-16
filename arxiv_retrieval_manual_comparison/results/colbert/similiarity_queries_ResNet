@@ -1,0 +1,58 @@
+Similiarity query for paper ResNet
+Query:
+Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers---8x deeper than VGG nets but still having lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers. The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28% relative improvement on the COCO object detection dataset. Deep residual nets are foundations of our submissions to ILSVRC & COCO 2015 competitions, where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation.
+
+Results:
+1: 
+Title: A neural network approach to ordinal regression
+Abstract:
+  Ordinal regression is an important type of learning, which has properties of both classification and regression. Here we describe a simple and effective approach to adapt a traditional neural network to learn ordinal categories. Our approach is a generalization of the perceptron method for ordinal regression. On several benchmark datasets, our method (NNRank) outperforms a neural network classification method. Compared with the ordinal regression methods using Gaussian processes and support vector machines, NNRank achieves comparable performance. Moreover, NNRank has the advantages of traditional neural networks: learning in both online and batch modes, handling very large training datasets, and making rapid predictions. These features make NNRank a useful and complementary tool for large-scale data processing tasks such as information retrieval, web page ranking, collaborative filtering, and protein ranking in Bioinformatics. 
+
+2: 
+Title: An Adaptive Strategy for the Classification of G-Protein Coupled
+  Receptors
+Abstract:
+  One of the major problems in computational biology is the inability of existing classification models to incorporate expanding and new domain knowledge. This problem of static classification models is addressed in this paper by the introduction of incremental learning for problems in bioinformatics. Many machine learning tools have been applied to this problem using static machine learning structures such as neural networks or support vector machines that are unable to accommodate new information into their existing models. We utilize the fuzzy ARTMAP as an alternate machine learning system that has the ability of incrementally learning new data as it becomes available. The fuzzy ARTMAP is found to be comparable to many of the widespread machine learning systems. The use of an evolutionary strategy in the selection and combination of individual classifiers into an ensemble system, coupled with the incremental learning ability of the fuzzy ARTMAP is proven to be suitable as a pattern classifier. The algorithm presented is tested using data from the G-Coupled Protein Receptors Database and shows good accuracy of 83%. The system presented is also generally applicable, and can be used in problems in genomics and proteomics. 
+
+3: 
+Title: Multi-Dimensional Recurrent Neural Networks
+Abstract:
+  Recurrent neural networks (RNNs) have proved effective at one dimensional sequence learning tasks, such as speech and online handwriting recognition. Some of the properties that make RNNs suitable for such tasks, for example robustness to input warping, and the ability to access contextual information, are also desirable in multidimensional domains. However, there has so far been no direct way of applying RNNs to data with more than one spatio-temporal dimension. This paper introduces multi-dimensional recurrent neural networks (MDRNNs), thereby extending the potential applicability of RNNs to vision, video processing, medical imaging and many other areas, while avoiding the scaling problems that have plagued other multi-dimensional models. Experimental results are provided for two image segmentation tasks. 
+
+4: 
+Title: Bayesian approach to rough set
+Abstract:
+  This paper proposes an approach to training rough set models using Bayesian framework trained using Markov Chain Monte Carlo (MCMC) method. The prior probabilities are constructed from the prior knowledge that good rough set models have fewer rules. Markov Chain Monte Carlo sampling is conducted through sampling in the rough set granule space and Metropolis algorithm is used as an acceptance criteria. The proposed method is tested to estimate the risk of HIV given demographic data. The results obtained shows that the proposed approach is able to achieve an average accuracy of 58% with the accuracy varying up to 66%. In addition the Bayesian rough set give the probabilities of the estimated HIV status as well as the linguistic rules describing how the demographic parameters drive the risk of HIV. 
+
+5: 
+Title: The Parameter-Less Self-Organizing Map algorithm
+Abstract:
+  The Parameter-Less Self-Organizing Map (PLSOM) is a new neural network algorithm based on the Self-Organizing Map (SOM). It eliminates the need for a learning rate and annealing schemes for learning rate and neighbourhood size. We discuss the relative performance of the PLSOM and the SOM and demonstrate some tasks in which the SOM fails but the PLSOM performs satisfactory. Finally we discuss some example applications of the PLSOM and present a proof of ordering under certain limited conditions. 
+
+6: 
+Title: Direct Optimization of Ranking Measures
+Abstract:
+  Web page ranking and collaborative filtering require the optimization of sophisticated performance measures. Current Support Vector approaches are unable to optimize them directly and focus on pairwise comparisons instead. We present a new approach which allows direct optimization of the relevant loss functions. This is achieved via structured estimation in Hilbert spaces. It is most related to Max-Margin-Markov networks optimization of multivariate performance measures. Key to our approach is that during training the ranking problem can be viewed as a linear assignment problem, which can be solved by the Hungarian Marriage algorithm. At test time, a sort operation is sufficient, as our algorithm assigns a relevance score to every (document, query) pair. Experiments show that the our algorithm is fast and that it works very well. 
+
+7: 
+Title: Comparing Robustness of Pairwise and Multiclass Neural-Network Systems
+  for Face Recognition
+Abstract:
+  Noise, corruptions and variations in face images can seriously hurt the performance of face recognition systems. To make such systems robust, multiclass neuralnetwork classifiers capable of learning from noisy data have been suggested. However on large face data sets such systems cannot provide the robustness at a high level. In this paper we explore a pairwise neural-network system as an alternative approach to improving the robustness of face recognition. In our experiments this approach is shown to outperform the multiclass neural-network system in terms of the predictive accuracy on the face images corrupted by noise. 
+
+8: 
+Title: On-Line Condition Monitoring using Computational Intelligence
+Abstract:
+  This paper presents bushing condition monitoring frameworks that use multi-layer perceptrons (MLP), radial basis functions (RBF) and support vector machines (SVM) classifiers. The first level of the framework determines if the bushing is faulty or not while the second level determines the type of fault. The diagnostic gases in the bushings are analyzed using the dissolve gas analysis. MLP gives superior performance in terms of accuracy and training time than SVM and RBF. In addition, an on-line bushing condition monitoring approach, which is able to adapt to newly acquired data are introduced. This approach is able to accommodate new classes that are introduced by incoming data and is implemented using an incremental learning algorithm that uses MLP. The testing results improved from 67.5% to 95.8% as new data were introduced and the testing results improved from 60% to 95.3% as new conditions were introduced. On average the confidence value of the framework on its decision was 0.92. 
+
+9: 
+Title: Response Prediction of Structural System Subject to Earthquake Motions
+  using Artificial Neural Network
+Abstract:
+  This paper uses Artificial Neural Network (ANN) models to compute response of structural system subject to Indian earthquakes at Chamoli and Uttarkashi ground motion data. The system is first trained for a single real earthquake data. The trained ANN architecture is then used to simulate earthquakes with various intensities and it was found that the predicted responses given by ANN model are accurate for practical purposes. When the ANN is trained by a part of the ground motion data, it can also identify the responses of the structural system well. In this way the safeness of the structural systems may be predicted in case of future earthquakes without waiting for the earthquake to occur for the lessons. Time period and the corresponding maximum response of the building for an earthquake has been evaluated, which is again trained to predict the maximum response of the building at different time periods. The trained time period versus maximum response ANN model is also tested for real earthquake data of other place, which was not used in the training and was found to be in good agreement. 
+
+10: 
+Title: On the monotonization of the training set
+Abstract:
+  We consider the problem of minimal correction of the training set to make it consistent with monotonic constraints. This problem arises during analysis of data sets via techniques that require monotone data. We show that this problem is NP-hard in general and is equivalent to finding a maximal independent set in special orgraphs. Practically important cases of that problem considered in detail. These are the cases when a partial order given on the replies set is a total order or has a dimension 2. We show that the second case can be reduced to maximization of a quadratic convex function on a convex set. For this case we construct an approximate polynomial algorithm based on convex optimization. 
+

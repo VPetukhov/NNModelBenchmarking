@@ -1,0 +1,57 @@
+Query:
+prompt engineering via chain of thoughts
+
+Results:
+1: 
+Title: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
+Abstract:
+  We explore how generating a chain of thought -- a series of intermediate reasoning steps -- significantly improves the ability of large language models to perform complex reasoning. In particular, we show how such reasoning abilities emerge naturally in sufficiently large language models via a simple method called chain of thought prompting, where a few chain of thought demonstrations are provided as exemplars in prompting. Experiments on three large language models show that chain of thought prompting improves performance on a range of arithmetic, commonsense, and symbolic reasoning tasks. The empirical gains can be striking. For instance, prompting a 540B-parameter language model with just eight chain of thought exemplars achieves state of the art accuracy on the GSM8K benchmark of math word problems, surpassing even finetuned GPT-3 with a verifier. 
+
+2: 
+Title: Legal Prompting: Teaching a Language Model to Think Like a Lawyer
+Abstract:
+  Large language models that are capable of zero or few-shot prompting approaches have given rise to the new research area of prompt engineering. Recent advances showed that for example Chain-of-Thought (CoT) prompts can improve arithmetic or common sense tasks significantly. We explore how such approaches fare with legal reasoning tasks and take the COLIEE entailment task based on the Japanese Bar exam for testing zero-shot/few-shot and fine-tuning approaches. Our findings show that while CoT prompting and fine-tuning with explanations approaches show improvements, the best results are produced by prompts that are derived from specific legal reasoning techniques such as IRAC (Issue, Rule, Application, Conclusion). Based on our experiments we improve the 2021 best result from 0.7037 accuracy to 0.8148 accuracy and beat the 2022 best system of 0.6789 accuracy with an accuracy of 0.7431. 
+
+3: 
+Title: Chain of Explanation: New Prompting Method to Generate Higher Quality
+  Natural Language Explanation for Implicit Hate Speech
+Abstract:
+  Recent studies have exploited advanced generative language models to generate Natural Language Explanations (NLE) for why a certain text could be hateful. We propose the Chain of Explanation Prompting method, inspired by the chain of thoughts study \cite{wei2022chain}, to generate high-quality NLE for implicit hate speech. We build a benchmark based on the selected mainstream Pre-trained Language Models (PLMs), including GPT-2, GPT-Neo, OPT, T5, and BART, with various evaluation metrics from lexical, semantic, and faithful aspects. To further evaluate the quality of the generated NLE from human perceptions, we hire human annotators to score the informativeness and clarity of the generated NLE. Then, we inspect which automatic evaluation metric could be best correlated with the human-annotated informativeness and clarity metric scores. 
+
+4: 
+Title: Self-Consistency Improves Chain of Thought Reasoning in Language Models
+Abstract:
+  Chain-of-thought prompting combined with pre-trained large language models has achieved encouraging results on complex reasoning tasks. In this paper, we propose a new decoding strategy, self-consistency, to replace the naive greedy decoding used in chain-of-thought prompting. It first samples a diverse set of reasoning paths instead of only taking the greedy one, and then selects the most consistent answer by marginalizing out the sampled reasoning paths. Self-consistency leverages the intuition that a complex reasoning problem typically admits multiple different ways of thinking leading to its unique correct answer. Our extensive empirical evaluation shows that self-consistency boosts the performance of chain-of-thought prompting with a striking margin on a range of popular arithmetic and commonsense reasoning benchmarks, including GSM8K (+17.9%), SVAMP (+11.0%), AQuA (+12.2%), StrategyQA (+6.4%) and ARC-challenge (+3.9%). 
+
+5: 
+Title: Large Language Models Are Human-Level Prompt Engineers
+Abstract:
+  By conditioning on natural language instructions, large language models (LLMs) have displayed impressive capabilities as general-purpose computers. However, task performance depends significantly on the quality of the prompt used to steer the model, and most effective prompts have been handcrafted by humans. Inspired by classical program synthesis and the human approach to prompt engineering, we propose Automatic Prompt Engineer (APE) for automatic instruction generation and selection. In our method, we treat the instruction as the "program," optimized by searching over a pool of instruction candidates proposed by an LLM in order to maximize a chosen score function. To evaluate the quality of the selected instruction, we evaluate the zero-shot performance of another LLM following the selected instruction. Experiments on 24 NLP tasks show that our automatically generated instructions outperform the prior LLM baseline by a large margin and achieve better or comparable performance to the instructions generated by human annotators on 19/24 tasks. We conduct extensive qualitative and quantitative analyses to explore the performance of APE. We show that APE-engineered prompts can be applied to steer models toward truthfulness and/or informativeness, as well as to improve few-shot learning performance by simply prepending them to standard in-context learning prompts. Please check out our webpage at https://sites.google.com/view/automatic-prompt-engineer. 
+
+6: 
+Title: On Second Thought, Let's Not Think Step by Step! Bias and Toxicity in
+  Zero-Shot Reasoning
+Abstract:
+  Generating a chain of thought (CoT) can increase large language model (LLM) performance on a wide range of tasks. Zero-shot CoT evaluations, however, have been conducted primarily on logical tasks (e.g. arithmetic, commonsense QA). In this paper, we perform a controlled evaluation of zero-shot CoT across two sensitive domains: harmful questions and stereotype benchmarks. We find that using zero-shot CoT reasoning in a prompt can significantly increase a model's likelihood to produce undesirable output. Without future advances in alignment or explicit mitigation instructions, zero-shot CoT should be avoided on tasks where models can make inferences about marginalized groups or harmful topics. 
+
+7: 
+Title: Large Language Models Are Reasoning Teachers
+Abstract:
+  Language models (LMs) have demonstrated remarkable performance on downstream tasks, using in-context exemplars or human instructions. Recent works have shown that chain-of-thought (CoT) prompting can elicit models to solve complex reasoning tasks, step-by-step. However, the efficacy of prompt-based CoT methods is restricted to very large LMs such as GPT-3 (175B), thus limiting deployability. In this paper, we revisit the fine-tuning approach to enable complex reasoning in smaller LMs, optimized to efficiently perform a specific task. We propose Fine-tune-CoT, a method that leverages the capabilities of very large LMs to generate reasoning samples and teach smaller models via fine-tuning. We evaluate our method on publicly available LMs across a wide range of complex tasks and model sizes. We find that Fine-tune-CoT enables substantial reasoning capability in small models, whereas previous prompt-based baselines exhibit near-random performance. Student models can even outperform the teacher in some tasks while reducing model size requirements by several orders of magnitude. We conduct extensive ablations and sample studies to understand the reasoning capabilities of student models. We also identify several important nuances that have been overlooked in concurrent fine-tuning works on CoT and address them in our analysis. 
+
+8: 
+Title: Arguments to Key Points Mapping with Prompt-based Learning
+Abstract:
+  Handling and digesting a huge amount of information in an efficient manner has been a long-term demand in modern society. Some solutions to map key points (short textual summaries capturing essential information and filtering redundancies) to a large number of arguments/opinions have been provided recently (Bar-Haim et al., 2020). To complement the full picture of the argument-to-keypoint mapping task, we mainly propose two approaches in this paper. The first approach is to incorporate prompt engineering for fine-tuning the pre-trained language models (PLMs). The second approach utilizes prompt-based learning in PLMs to generate intermediary texts, which are then combined with the original argument-keypoint pairs and fed as inputs to a classifier, thereby mapping them. Furthermore, we extend the experiments to cross/in-domain to conduct an in-depth analysis. In our evaluation, we find that i) using prompt engineering in a more direct way (Approach 1) can yield promising results and improve the performance; ii) Approach 2 performs considerably worse than Approach 1 due to the negation issue of the PLM. 
+
+9: 
+Title: Teaching Small Language Models to Reason
+Abstract:
+  Chain of thought prompting successfully improves the reasoning capabilities of large language models, achieving state of the art results on a range of datasets. However, these reasoning capabilities only appear to emerge in models with a size of over 100 billion parameters. In this paper, we explore the transfer of such reasoning capabilities to models with less than 100 billion parameters via knowledge distillation. Specifically, we finetune a student model on the chain of thought outputs generated by a larger teacher model. Our experiments show that the proposed method improves task performance across arithmetic, commonsense and symbolic reasoning datasets. For example, the accuracy of T5 XXL on GSM8K improves from 8.11% to 21.99% when finetuned on PaLM-540B generated chains of thought. 
+
+10: 
+Title: Towards Understanding Chain-of-Thought Prompting: An Empirical Study of
+  What Matters
+Abstract:
+  Chain-of-Thought (CoT) prompting can dramatically improve the multi-step reasoning abilities of large language models (LLMs). CoT explicitly encourages the LLM to generate intermediate rationales for solving a problem, by providing a series of reasoning steps in the demonstrations. Despite its success, there is still little understanding of what makes CoT prompting effective and which aspects of the demonstrated reasoning steps contribute to its performance. In this paper, we show that CoT reasoning is possible even with invalid demonstrations - prompting with invalid reasoning steps can achieve over 80-90% of the performance obtained using CoT under various metrics, while still generating coherent lines of reasoning during inference. Further experiments show that other aspects of the rationales, such as being relevant to the query and correctly ordering the reasoning steps, are much more important for effective CoT reasoning. Overall, these findings both deepen our understanding of CoT prompting, and open up new questions regarding LLMs' capability to learn to reason in context. 
+

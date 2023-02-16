@@ -1,0 +1,79 @@
+1: 
+Traffic map prediction using UNet based deep convolutional neural
+  network
+  This paper describes our UNet based deep convolutional neural network
+approach on the Traffic4cast challenge 2019. Challenges task is to predict
+future traffic flow volume, heading and speed on high resolution whole city
+map. We used UNet based deep convolutional neural network to train predictive
+model for the short term traffic forecast. On each convolution block, layers
+are densely connected with subsequent layers like a DenseNet. Trained and
+evaluated on the real world data set collected from three distinct cities in
+the world, our method achieved best performance in this challenge.
+
+2: 
+UNet++: A Nested U-Net Architecture for Medical Image Segmentation
+  In this paper, we present UNet++, a new, more powerful architecture for
+medical image segmentation. Our architecture is essentially a deeply-supervised
+encoder-decoder network where the encoder and decoder sub-networks are
+connected through a series of nested, dense skip pathways. The re-designed skip
+pathways aim at reducing the semantic gap between the feature maps of the
+encoder and decoder sub-networks. We argue that the optimizer would deal with
+an easier learning task when the feature maps from the decoder and encoder
+networks are semantically similar. We have evaluated UNet++ in comparison with
+U-Net and wide U-Net architectures across multiple medical image segmentation
+tasks: nodule segmentation in the low-dose CT scans of chest, nuclei
+segmentation in the microscopy images, liver segmentation in abdominal CT
+scans, and polyp segmentation in colonoscopy videos. Our experiments
+demonstrate that UNet++ with deep supervision achieves an average IoU gain of
+3.9 and 3.4 points over U-Net and wide U-Net, respectively.
+
+3: 
+Context Aware 3D UNet for Brain Tumor Segmentation
+  Deep convolutional neural network (CNN) achieves remarkable performance for
+medical image analysis. UNet is the primary source in the performance of 3D CNN
+architectures for medical imaging tasks, including brain tumor segmentation.
+The skip connection in the UNet architecture concatenates features from both
+encoder and decoder paths to extract multi-contextual information from image
+data. The multi-scaled features play an essential role in brain tumor
+segmentation. However, the limited use of features can degrade the performance
+of the UNet approach for segmentation. In this paper, we propose a modified
+UNet architecture for brain tumor segmentation. In the proposed architecture,
+we used densely connected blocks in both encoder and decoder paths to extract
+multi-contextual information from the concept of feature reusability. In
+addition, residual-inception blocks (RIB) are used to extract the local and
+global information by merging features of different kernel sizes. We validate
+the proposed architecture on the multi-modal brain tumor segmentation challenge
+(BRATS) 2020 testing dataset. The dice (DSC) scores of the whole tumor (WT),
+tumor core (TC), and enhancing tumor (ET) are 89.12%, 84.74%, and 79.12%,
+respectively.
+
+4: 
+End-to-End Deep Learning of Lane Detection and Path Prediction for
+  Real-Time Autonomous Driving
+  Inspired by the UNet architecture of semantic image segmentation, we propose
+a lightweight UNet using depthwise separable convolutions (DSUNet) for
+end-to-end learning of lane detection and path prediction (PP) in autonomous
+driving. We also design and integrate a PP algorithm with convolutional neural
+network (CNN) to form a simulation model (CNN-PP) that can be used to assess
+CNN's performance qualitatively, quantitatively, and dynamically in a host
+agent car driving along with other agents all in a real-time autonomous manner.
+DSUNet is 5.16x lighter in model size and 1.61x faster in inference than UNet.
+DSUNet-PP outperforms UNet-PP in mean average errors of predicted curvature and
+lateral offset for path planning in dynamic simulation. DSUNet-PP outperforms a
+modified UNet in lateral error, which is tested in a real car on real road.
+These results show that DSUNet is efficient and effective for lane detection
+and path prediction in autonomous driving.
+
+5: 
+Utilizing UNet for the future traffic map prediction task Traffic4cast
+  challenge 2020
+  This paper describes our UNet based experiments on the Traffic4cast challenge
+2020. Similar to the Traffic4cast challenge 2019, the task is to predict
+traffic flow volume, direction and speed on a high resolution map of three
+large cities worldwide. We mainly experimented with UNet based deep
+convolutional networks with various compositions of densely connected
+convolution layers, average pooling layers and max pooling layers. Three base
+UNet model types are tried and predictions are combined by averaging prediction
+scores or taking median value. Our method achieved best performance in this
+years newly built challenge dataset.
+

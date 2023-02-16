@@ -1,0 +1,59 @@
+Query:
+kernel augmentation for computed tomography
+
+Results:
+1: 
+Title: An Independent Evaluation of Subspace Face Recognition Algorithms
+Abstract:
+  This paper explores a comparative study of both the linear and kernel implementations of three of the most popular Appearance-based Face Recognition projection classes, these being the methodologies of Principal Component Analysis, Linear Discriminant Analysis and Independent Component Analysis. The experimental procedure provides a platform of equal working conditions and examines the ten algorithms in the categories of expression, illumination, occlusion and temporal delay. The results are then evaluated based on a sequential combination of assessment tools that facilitate both intuitive and statistical decisiveness among the intra and interclass comparisons. The best categorical algorithms are then incorporated into a hybrid methodology, where the advantageous effects of fusion strategies are considered. 
+
+2: 
+Title: Support vector machine for functional data classification
+Abstract:
+  In many applications, input data are sampled functions taking their values in infinite dimensional spaces rather than standard vectors. This fact has complex consequences on data analysis algorithms that motivate modifications of them. In fact most of the traditional data analysis tools for regression, classification and clustering have been adapted to functional inputs under the general name of functional Data Analysis (FDA). In this paper, we investigate the use of Support Vector Machines (SVMs) for functional data analysis and we focus on the problem of curves discrimination. SVMs are large margin classifier tools based on implicit non linear mappings of the considered data into high dimensional spaces thanks to kernels. We show how to define simple kernels that take into account the unctional nature of the data and lead to consistent classification. Experiments conducted on real world data emphasize the benefit of taking into account some functional aspects of the problems. 
+
+3: 
+Title: Medical Image Segmentation and Localization using Deformable Templates
+Abstract:
+  This paper presents deformable templates as a tool for segmentation and localization of biological structures in medical images. Structures are represented by a prototype template, combined with a parametric warp mapping used to deform the original shape. The localization procedure is achieved using a multi-stage, multi-resolution algorithm de-signed to reduce computational complexity and time. The algorithm initially identifies regions in the image most likely to contain the desired objects and then examines these regions at progressively increasing resolutions. The final stage of the algorithm involves warping the prototype template to match the localized objects. The algorithm is presented along with the results of four example applications using MRI, x-ray and ultrasound images. 
+
+4: 
+Title: The Parameter-Less Self-Organizing Map algorithm
+Abstract:
+  The Parameter-Less Self-Organizing Map (PLSOM) is a new neural network algorithm based on the Self-Organizing Map (SOM). It eliminates the need for a learning rate and annealing schemes for learning rate and neighbourhood size. We discuss the relative performance of the PLSOM and the SOM and demonstrate some tasks in which the SOM fails but the PLSOM performs satisfactory. Finally we discuss some example applications of the PLSOM and present a proof of ordering under certain limited conditions. 
+
+5: 
+Title: Response Prediction of Structural System Subject to Earthquake Motions
+  using Artificial Neural Network
+Abstract:
+  This paper uses Artificial Neural Network (ANN) models to compute response of structural system subject to Indian earthquakes at Chamoli and Uttarkashi ground motion data. The system is first trained for a single real earthquake data. The trained ANN architecture is then used to simulate earthquakes with various intensities and it was found that the predicted responses given by ANN model are accurate for practical purposes. When the ANN is trained by a part of the ground motion data, it can also identify the responses of the structural system well. In this way the safeness of the structural systems may be predicted in case of future earthquakes without waiting for the earthquake to occur for the lessons. Time period and the corresponding maximum response of the building for an earthquake has been evaluated, which is again trained to predict the maximum response of the building at different time periods. The trained time period versus maximum response ANN model is also tested for real earthquake data of other place, which was not used in the training and was found to be in good agreement. 
+
+6: 
+Title: Loop corrections for message passing algorithms in continuous variable
+  models
+Abstract:
+  In this paper we derive the equations for Loop Corrected Belief Propagation on a continuous variable Gaussian model. Using the exactness of the averages for belief propagation for Gaussian models, a different way of obtaining the covariances is found, based on Belief Propagation on cavity graphs. We discuss the relation of this loop correction algorithm to Expectation Propagation algorithms for the case in which the model is no longer Gaussian, but slightly perturbed by nonlinear terms. 
+
+7: 
+Title: Fault Classification using Pseudomodal Energies and Neuro-fuzzy
+  modelling
+Abstract:
+  This paper presents a fault classification method which makes use of a Takagi-Sugeno neuro-fuzzy model and Pseudomodal energies calculated from the vibration signals of cylindrical shells. The calculation of Pseudomodal Energies, for the purposes of condition monitoring, has previously been found to be an accurate method of extracting features from vibration signals. This calculation is therefore used to extract features from vibration signals obtained from a diverse population of cylindrical shells. Some of the cylinders in the population have faults in different substructures. The pseudomodal energies calculated from the vibration signals are then used as inputs to a neuro-fuzzy model. A leave-one-out cross-validation process is used to test the performance of the model. It is found that the neuro-fuzzy model is able to classify faults with an accuracy of 91.62%, which is higher than the previously used multilayer perceptron. 
+
+8: 
+Title: Local Area Damage Detection in Composite Structures Using Piezoelectric
+  Transducers
+Abstract:
+  An integrated and automated smart structures approach for structural health monitoring is presented, utilizing an array of piezoelectric transducers attached to or embedded within the structure for both actuation and sensing. The system actively interrogates the structure via broadband excitation of multiple actuators across a desired frequency range. The structure's vibration signature is then characterized by computing the transfer functions between each actuator/sensor pair, and compared to the baseline signature. Experimental results applying the system to local area damage detection in a MD Explorer rotorcraft composite flexbeam are presented. 
+
+9: 
+Title: Evolutionary Optimisation Methods for Template Based Image Registration
+Abstract:
+  This paper investigates the use of evolutionary optimisation techniques to register a template with a scene image. An error function is created to measure the correspondence of the template to the image. The problem presented here is to optimise the horizontal, vertical and scaling parameters that register the template with the scene. The Genetic Algorithm, Simulated Annealing and Particle Swarm Optimisations are compared to a Nelder-Mead Simplex optimisation with starting points chosen in a pre-processing stage. The paper investigates the precision and accuracy of each method and shows that all four methods perform favourably for image registration. SA is the most precise, GA is the most accurate. PSO is a good mix of both and the Simplex method returns local minima the most. A pre-processing stage should be investigated for the evolutionary methods in order to improve performance. Discrete versions of the optimisation methods should be investigated to further improve computational performance. 
+
+10: 
+Title: Using Genetic Algorithms to Optimise Rough Set Partition Sizes for HIV
+  Data Analysis
+Abstract:
+  In this paper, we present a method to optimise rough set partition sizes, to which rule extraction is performed on HIV data. The genetic algorithm optimisation technique is used to determine the partition sizes of a rough set in order to maximise the rough sets prediction accuracy. The proposed method is tested on a set of demographic properties of individuals obtained from the South African antenatal survey. Six demographic variables were used in the analysis, these variables are; race, age of mother, education, gravidity, parity, and age of father, with the outcome or decision being either HIV positive or negative. Rough set theory is chosen based on the fact that it is easy to interpret the extracted rules. The prediction accuracy of equal width bin partitioning is 57.7% while the accuracy achieved after optimising the partitions is 72.8%. Several other methods have been used to analyse the HIV data and their results are stated and compared to that of rough set theory (RST). 
+

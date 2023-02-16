@@ -1,0 +1,56 @@
+Query:
+how to improve quality of image segmentation
+
+Results:
+1: 
+Title: A Study of Image Pre-processing for Faster Object Recognition
+Abstract:
+  Quality of image always plays a vital role in in-creasing object recognition or classification rate. A good quality image gives better recognition or classification rate than any unprocessed noisy images. It is more difficult to extract features from such unprocessed images which in-turn reduces object recognition or classification rate. To overcome problems occurred due to low quality image, typically pre-processing is done before extracting features from the image. Our project proposes an image pre-processing method, so that the performance of selected Machine Learning algorithms or Deep Learning algorithms increases in terms of increased accuracy or reduced the number of training images. In the later part, we compare the performance results by using our method with the previous used approaches. 
+
+2: 
+Title: Enhanced Sharp-GAN For Histopathology Image Synthesis
+Abstract:
+  Histopathology image synthesis aims to address the data shortage issue in training deep learning approaches for accurate cancer detection. However, existing methods struggle to produce realistic images that have accurate nuclei boundaries and less artifacts, which limits the application in downstream tasks. To address the challenges, we propose a novel approach that enhances the quality of synthetic images by using nuclei topology and contour regularization. The proposed approach uses the skeleton map of nuclei to integrate nuclei topology and separate touching nuclei. In the loss function, we propose two new contour regularization terms that enhance the contrast between contour and non-contour pixels and increase the similarity between contour pixels. We evaluate the proposed approach on the two datasets using image quality metrics and a downstream task (nuclei segmentation). The proposed approach outperforms Sharp-GAN in all four image quality metrics on two datasets. By integrating 6k synthetic images from the proposed approach into training, a nuclei segmentation model achieves the state-of-the-art segmentation performance on TNBC dataset and its detection quality (DQ), segmentation quality (SQ), panoptic quality (PQ), and aggregated Jaccard index (AJI) is 0.855, 0.863, 0.691, and 0.683, respectively. 
+
+3: 
+Title: Robust Image Segmentation Quality Assessment
+Abstract:
+  Deep learning based image segmentation methods have achieved great success, even having human-level accuracy in some applications. However, due to the black box nature of deep learning, the best method may fail in some situations. Thus predicting segmentation quality without ground truth would be very crucial especially in clinical practice. Recently, people proposed to train neural networks to estimate the quality score by regression. Although it can achieve promising prediction accuracy, the network suffers robustness problem, e.g. it is vulnerable to adversarial attacks. In this paper, we propose to alleviate this problem by utilizing the difference between the input image and the reconstructed image, which is conditioned on the segmentation to be assessed, to lower the chance to overfit to the undesired image features from the original input image, and thus to increase the robustness. Results on ACDC17 dataset demonstrated our method is promising. 
+
+4: 
+Title: An Estimation Method of Measuring Image Quality for Compressed Images of
+  Human Face
+Abstract:
+  Nowadays digital image compression and decompression techniques are very much important. So our aim is to calculate the quality of face and other regions of the compressed image with respect to the original image. Image segmentation is typically used to locate objects and boundaries (lines, curves etc.)in images. After segmentation the image is changed into something which is more meaningful to analyze. Using Universal Image Quality Index(Q),Structural Similarity Index(SSIM) and Gradient-based Structural Similarity Index(G-SSIM) it can be shown that face region is less compressed than any other region of the image. 
+
+5: 
+Title: Combined Approach for Image Segmentation
+Abstract:
+  Many image segmentation techniques have been developed over the past two decades for segmenting the images, which help for object recognition, occlusion boundary estimation within motion or stereo systems, image compression, image editing.   In this, there is a combined approach for segmenting the image. By using histogram equalization to the input image, from which it gives contrast enhancement output image .After that by applying median filtering,which will remove noise from contrast output image . At last I applied fuzzy c-mean clustering algorithm to denoising output image, which give segmented output image. In this way it produce better segmented image with less computation time. 
+
+6: 
+Title: Improved Inference via Deep Input Transfer
+Abstract:
+  Although numerous improvements have been made in the field of image segmentation using convolutional neural networks, the majority of these improvements rely on training with larger datasets, model architecture modifications, novel loss functions, and better optimizers. In this paper, we propose a new segmentation performance boosting paradigm that relies on optimally modifying the network's input instead of the network itself. In particular, we leverage the gradients of a trained segmentation network with respect to the input to transfer it to a space where the segmentation accuracy improves. We test the proposed method on three publicly available medical image segmentation datasets: the ISIC 2017 Skin Lesion Segmentation dataset, the Shenzhen Chest X-Ray dataset, and the CVC-ColonDB dataset, for which our method achieves improvements of 5.8%, 0.5%, and 4.8% in the average Dice scores, respectively. 
+
+7: 
+Title: Clickstream analysis for crowd-based object segmentation with confidence
+Abstract:
+  With the rapidly increasing interest in machine learning based solutions for automatic image annotation, the availability of reference annotations for algorithm training is one of the major bottlenecks in the field. Crowdsourcing has evolved as a valuable option for low-cost and large-scale data annotation; however, quality control remains a major issue which needs to be addressed. To our knowledge, we are the first to analyze the annotation process to improve crowd-sourced image segmentation. Our method involves training a regressor to estimate the quality of a segmentation from the annotator's clickstream data. The quality estimation can be used to identify spam and weight individual annotations by their (estimated) quality when merging multiple segmentations of one image. Using a total of 29,000 crowd annotations performed on publicly available data of different object classes, we show that (1) our method is highly accurate in estimating the segmentation quality based on clickstream data, (2) outperforms state-of-the-art methods for merging multiple annotations. As the regressor does not need to be trained on the object class that it is applied to it can be regarded as a low-cost option for quality control and confidence analysis in the context of crowd-based image annotation. 
+
+8: 
+Title: High Quality Segmentation for Ultra High-resolution Images
+Abstract:
+  To segment 4K or 6K ultra high-resolution images needs extra computation consideration in image segmentation. Common strategies, such as down-sampling, patch cropping, and cascade model, cannot address well the balance issue between accuracy and computation cost. Motivated by the fact that humans distinguish among objects continuously from coarse to precise levels, we propose the Continuous Refinement Model~(CRM) for the ultra high-resolution segmentation refinement task. CRM continuously aligns the feature map with the refinement target and aggregates features to reconstruct these images' details. Besides, our CRM shows its significant generalization ability to fill the resolution gap between low-resolution training images and ultra high-resolution testing ones. We present quantitative performance evaluation and visualization to show that our proposed method is fast and effective on image segmentation refinement. Code will be released at https://github.com/dvlab-research/Entity. 
+
+9: 
+Title: Evaluating COPY-BLEND Augmentation for Low Level Vision Tasks
+Abstract:
+  Region modification-based data augmentation techniques have shown to improve performance for high level vision tasks (object detection, semantic segmentation, image classification, etc.) by encouraging underlying algorithms to focus on multiple discriminative features. However, as these techniques destroy spatial relationship with neighboring regions, performance can be deteriorated when using them to train algorithms designed for low level vision tasks (low light image enhancement, image dehazing, deblurring, etc.) where textural consistency between recovered and its neighboring regions is important to ensure effective performance. In this paper, we examine the efficacy of a simple copy-blend data augmentation technique that copies patches from noisy images and blends onto a clean image and vice versa to ensure that an underlying algorithm localizes and recovers affected regions resulting in increased perceptual quality of a recovered image. To assess performance improvement, we perform extensive experiments alongside different region modification-based augmentation techniques and report observations such as improved performance, reduced requirement for training dataset, and early convergence across tasks such as low light image enhancement, image dehazing and image deblurring without any modification to baseline algorithm. 
+
+10: 
+Title: Segmentasi Citra Menggunakan Metode Watershed Transform Berdasarkan
+  Image Enhancement Dalam Mendeteksi Embrio Telur
+Abstract:
+  Image processing can be applied in the detection of egg embryos. The egg embryos detection is processed using a segmentation process. The segmentation divides the image according to the area that is divided. This process requires improvement of the image that is processed to obtain optimal results. This study will analyze the detection of egg embryos based on image processing with image enhancement and the concept of segmentation using the watershed method. Image enhancement in preprocessing in image improvement uses a combination of Contrast Limited Adaptive Histogram Equalization (CLAHE) and Histogram Equalization (HE) methods. The grayscale egg image is corrected using the CLAHE method, and the results are reprocessed using HE. The image improvement results show that the CLAHE-HE combination method gives a clear picture of the object area of the egg image that has an embryo. The segmentation process using image conversion to black and white image and watershed segmentation can clearly show the object of a chicken egg that has an embryo. The results of segmentation can divide the area of the egg having embryos in a real and accurate way with a percentage \approx 98\%. 
+

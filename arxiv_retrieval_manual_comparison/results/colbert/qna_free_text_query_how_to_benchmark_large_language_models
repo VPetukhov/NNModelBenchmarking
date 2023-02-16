@@ -1,0 +1,55 @@
+Query:
+how to benchmark large language models
+
+Results:
+1: 
+Title: Introduction to Arabic Speech Recognition Using CMUSphinx System
+Abstract:
+  In this paper Arabic was investigated from the speech recognition problem point of view. We propose a novel approach to build an Arabic Automated Speech Recognition System (ASR). This system is based on the open source CMU Sphinx-4, from the Carnegie Mellon University. CMU Sphinx is a large-vocabulary; speaker-independent, continuous speech recognition system based on discrete Hidden Markov Models (HMMs). We build a model using utilities from the OpenSource CMU Sphinx. We will demonstrate the possible adaptability of this system to Arabic voice recognition. 
+
+2: 
+Title: Bayesian approach to rough set
+Abstract:
+  This paper proposes an approach to training rough set models using Bayesian framework trained using Markov Chain Monte Carlo (MCMC) method. The prior probabilities are constructed from the prior knowledge that good rough set models have fewer rules. Markov Chain Monte Carlo sampling is conducted through sampling in the rough set granule space and Metropolis algorithm is used as an acceptance criteria. The proposed method is tested to estimate the risk of HIV given demographic data. The results obtained shows that the proposed approach is able to achieve an average accuracy of 58% with the accuracy varying up to 66%. In addition the Bayesian rough set give the probabilities of the estimated HIV status as well as the linguistic rules describing how the demographic parameters drive the risk of HIV. 
+
+3: 
+Title: HMM Speaker Identification Using Linear and Non-linear Merging
+  Techniques
+Abstract:
+  Speaker identification is a powerful, non-invasive and in-expensive biometric technique. The recognition accuracy, however, deteriorates when noise levels affect a specific band of frequency. In this paper, we present a sub-band based speaker identification that intends to improve the live testing performance. Each frequency sub-band is processed and classified independently. We also compare the linear and non-linear merging techniques for the sub-bands recognizer. Support vector machines and Gaussian Mixture models are the non-linear merging techniques that are investigated. Results showed that the sub-band based method used with linear merging techniques enormously improved the performance of the speaker identification over the performance of wide-band recognizers when tested live. A live testing improvement of 9.78% was achieved 
+
+4: 
+Title: Temporal Reasoning without Transitive Tables
+Abstract:
+  Representing and reasoning about qualitative temporal information is an essential part of many artificial intelligence tasks. Lots of models have been proposed in the litterature for representing such temporal information. All derive from a point-based or an interval-based framework. One fundamental reasoning task that arises in applications of these frameworks is given by the following scheme: given possibly indefinite and incomplete knowledge of the binary relationships between some temporal objects, find the consistent scenarii between all these objects. All these models require transitive tables -- or similarly inference rules-- for solving such tasks. We have defined an alternative model, S-languages - to represent qualitative temporal information, based on the only two relations of \emph{precedence} and \emph{simultaneity}. In this paper, we show how this model enables to avoid transitive tables or inference rules to handle this kind of problem. 
+
+5: 
+Title: Personalizing Image Search Results on Flickr
+Abstract:
+  The social media site Flickr allows users to upload their photos, annotate them with tags, submit them to groups, and also to form social networks by adding other users as contacts. Flickr offers multiple ways of browsing or searching it. One option is tag search, which returns all images tagged with a specific keyword. If the keyword is ambiguous, e.g., ``beetle'' could mean an insect or a car, tag search results will include many images that are not relevant to the sense the user had in mind when executing the query. We claim that users express their photography interests through the metadata they add in the form of contacts and image annotations. We show how to exploit this metadata to personalize search results for the user, thereby improving search performance. First, we show that we can significantly improve search precision by filtering tag search results by user's contacts or a larger social network that includes those contact's contacts. Secondly, we describe a probabilistic model that takes advantage of tag information to discover latent topics contained in the search results. The users' interests can similarly be described by the tags they used for annotating their images. The latent topics found by the model are then used to personalize search results by finding images on topics that are of interest to the user. 
+
+6: 
+Title: Network statistics on early English Syntax: Structural criteria
+Abstract:
+  This paper includes a reflection on the role of networks in the study of English language acquisition, as well as a collection of practical criteria to annotate free-speech corpora from children utterances. At the theoretical level, the main claim of this paper is that syntactic networks should be interpreted as the outcome of the use of the syntactic machinery. Thus, the intrinsic features of such machinery are not accessible directly from (known) network properties. Rather, what one can see are the global patterns of its use and, thus, a global view of the power and organization of the underlying grammar. Taking a look into more practical issues, the paper examines how to build a net from the projection of syntactic relations. Recall that, as opposed to adult grammars, early-child language has not a well-defined concept of structure. To overcome such difficulty, we develop a set of systematic criteria assuming constituency hierarchy and a grammar based on lexico-thematic relations. At the end, what we obtain is a well defined corpora annotation that enables us i) to perform statistics on the size of structures and ii) to build a network from syntactic relations over which we can perform the standard measures of complexity. We also provide a detailed example. 
+
+7: 
+Title: A neural network approach to ordinal regression
+Abstract:
+  Ordinal regression is an important type of learning, which has properties of both classification and regression. Here we describe a simple and effective approach to adapt a traditional neural network to learn ordinal categories. Our approach is a generalization of the perceptron method for ordinal regression. On several benchmark datasets, our method (NNRank) outperforms a neural network classification method. Compared with the ordinal regression methods using Gaussian processes and support vector machines, NNRank achieves comparable performance. Moreover, NNRank has the advantages of traditional neural networks: learning in both online and batch modes, handling very large training datasets, and making rapid predictions. These features make NNRank a useful and complementary tool for large-scale data processing tasks such as information retrieval, web page ranking, collaborative filtering, and protein ranking in Bioinformatics. 
+
+8: 
+Title: High-dimensional variable selection
+Abstract:
+  This paper explores the following question: what kind of statistical guarantees can be given when doing variable selection in high-dimensional models? In particular, we look at the error rates and power of some multi-stage regression methods. In the first stage we fit a set of candidate models. In the second stage we select one model by cross-validation. In the third stage we use hypothesis testing to eliminate some variables. We refer to the first two stages as "screening" and the last stage as "cleaning." We consider three screening methods: the lasso, marginal regression, and forward stepwise regression. Our method gives consistent variable selection under certain conditions. 
+
+9: 
+Title: Arabic Speech Recognition System using CMU-Sphinx4
+Abstract:
+  In this paper we present the creation of an Arabic version of Automated Speech Recognition System (ASR). This system is based on the open source Sphinx-4, from the Carnegie Mellon University. Which is a speech recognition system based on discrete hidden Markov models (HMMs). We investigate the changes that must be made to the model to adapt Arabic voice recognition.   Keywords: Speech recognition, Acoustic model, Arabic language, HMMs, CMUSphinx-4, Artificial intelligence. 
+
+10: 
+Title: Compressed Regression
+Abstract:
+  Recent research has studied the role of sparsity in high dimensional regression and signal reconstruction, establishing theoretical limits for recovering sparse models from sparse data. This line of work shows that $\ell_1$-regularized least squares regression can accurately estimate a sparse linear model from $n$ noisy examples in $p$ dimensions, even if $p$ is much larger than $n$. In this paper we study a variant of this problem where the original $n$ input variables are compressed by a random linear transformation to $m \ll n$ examples in $p$ dimensions, and establish conditions under which a sparse linear model can be successfully recovered from the compressed data. A primary motivation for this compression procedure is to anonymize the data and preserve privacy by revealing little information about the original data. We characterize the number of random projections that are required for $\ell_1$-regularized compressed regression to identify the nonzero coefficients in the true model with probability approaching one, a property called ``sparsistence.'' In addition, we show that $\ell_1$-regularized compressed regression asymptotically predicts as well as an oracle linear model, a property called ``persistence.'' Finally, we characterize the privacy properties of the compression procedure in information-theoretic terms, establishing upper bounds on the mutual information between the compressed and uncompressed data that decay to zero. 
+

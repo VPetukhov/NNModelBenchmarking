@@ -1,0 +1,83 @@
+1: 
+DropFilter: Dropout for Convolutions
+  Using a large number of parameters , deep neural networks have achieved
+remarkable performance on computer vison and natural language processing tasks.
+However the networks usually suffer from overfitting by using too much
+parameters. Dropout is a widely use method to deal with overfitting. Although
+dropout can significantly regularize densely connected layers in neural
+networks, it leads to suboptimal results when using for convolutional layers.
+To track this problem, we propose DropFilter, a new dropout method for
+convolutional layers. DropFilter randomly suppresses the outputs of some
+filters. Because it is observed that co-adaptions are more likely to occurs
+inter filters rather than intra filters in convolutional layers. Using
+DropFilter, we remarkably improve the performance of convolutional networks on
+CIFAR and ImageNet.
+
+2: 
+Best Practices for Convolutional Neural Networks Applied to Object
+  Recognition in Images
+  This research project studies the impact of convolutional neural networks
+(CNN) in image classification tasks. We explore different architectures and
+training configurations with the use of ReLUs, Nesterov's accelerated gradient,
+dropout and maxout networks. We work with the CIFAR-10 dataset as part of a
+Kaggle competition to identify objects in images. Initial results show that
+CNNs outperform our baseline by acting as invariant feature detectors.
+Comparisons between different preprocessing procedures show better results for
+global contrast normalization and ZCA whitening. ReLUs are much faster than
+tanh units and outperform sigmoids. We provide extensive details about our
+training hyperparameters, providing intuition for their selection that could
+help enhance learning in similar situations. We design 4 models of
+convolutional neural networks that explore characteristics such as depth,
+number of feature maps, size and overlap of kernels, pooling regions, and
+different subsampling techniques. Results favor models of moderate depth that
+use an extensive number of parameters in both convolutional and dense layers.
+Maxout networks are able to outperform rectifiers on some models but introduce
+too much noise as the complexity of the fully-connected layers increases. The
+final discussion explains our results and provides additional techniques that
+could improve performance.
+
+3: 
+Some Improvements on Deep Convolutional Neural Network Based Image
+  Classification
+  We investigate multiple techniques to improve upon the current state of the
+art deep convolutional neural network based image classification pipeline. The
+techiques include adding more image transformations to training data, adding
+more transformations to generate additional predictions at test time and using
+complementary models applied to higher resolution images. This paper summarizes
+our entry in the Imagenet Large Scale Visual Recognition Challenge 2013. Our
+system achieved a top 5 classification error rate of 13.55% using no external
+data which is over a 20% relative improvement on the previous year's winner.
+
+4: 
+Stochastic Optimization of Plain Convolutional Neural Networks with
+  Simple methods
+  Convolutional neural networks have been achieving the best possible
+accuracies in many visual pattern classification problems. However, due to the
+model capacity required to capture such representations, they are often
+oversensitive to overfitting and therefore require proper regularization to
+generalize well. In this paper, we present a combination of regularization
+techniques which work together to get better performance, we built plain CNNs,
+and then we used data augmentation, dropout and customized early stopping
+function, we tested and evaluated these techniques by applying models on five
+famous datasets, MNIST, CIFAR10, CIFAR100, SVHN, STL10, and we achieved three
+state-of-the-art-of (MNIST, SVHN, STL10) and very high-Accuracy on the other
+two datasets.
+
+5: 
+Residual Squeeze VGG16
+  Deep learning has given way to a new era of machine learning, apart from
+computer vision. Convolutional neural networks have been implemented in image
+classification, segmentation and object detection. Despite recent advancements,
+we are still in the very early stages and have yet to settle on best practices
+for network architecture in terms of deep design, small in size and a short
+training time. In this work, we propose a very deep neural network comprised of
+16 Convolutional layers compressed with the Fire Module adapted from the
+SQUEEZENET model. We also call for the addition of residual connections to help
+suppress degradation. This model can be implemented on almost every neural
+network model with fully incorporated residual learning. This proposed model
+Residual-Squeeze-VGG16 (ResSquVGG16) trained on the large-scale MIT
+Places365-Standard scene dataset. In our tests, the model performed with
+accuracy similar to the pre-trained VGG16 model in Top-1 and Top-5 validation
+accuracy while also enjoying a 23.86% reduction in training time and an 88.4%
+reduction in size. In our tests, this model was trained from scratch.
+

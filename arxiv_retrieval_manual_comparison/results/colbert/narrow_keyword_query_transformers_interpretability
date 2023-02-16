@@ -1,0 +1,57 @@
+Query:
+transformers interpretability
+
+Results:
+1: 
+Title: The World as Evolving Information
+Abstract:
+  This paper discusses the benefits of describing the world as information, especially in the study of the evolution of life and cognition. Traditional studies encounter problems because it is difficult to describe life and cognition in terms of matter and energy, since their laws are valid only at the physical scale. However, if matter and energy, as well as life and cognition, are described in terms of information, evolution can be described consistently as information becoming more complex.   The paper presents eight tentative laws of information, valid at multiple scales, which are generalizations of Darwinian, cybernetic, thermodynamic, psychological, philosophical, and complexity principles. These are further used to discuss the notions of life, cognition and their evolution. 
+
+2: 
+Title: Evolving Symbolic Controllers
+Abstract:
+  The idea of symbolic controllers tries to bridge the gap between the top-down manual design of the controller architecture, as advocated in Brooks' subsumption architecture, and the bottom-up designer-free approach that is now standard within the Evolutionary Robotics community. The designer provides a set of elementary behavior, and evolution is given the goal of assembling them to solve complex tasks. Two experiments are presented, demonstrating the efficiency and showing the recursiveness of this approach. In particular, the sensitivity with respect to the proposed elementary behaviors, and the robustness w.r.t. generalization of the resulting controllers are studied in detail. 
+
+3: 
+Title: MI image registration using prior knowledge
+Abstract:
+  Subtraction of aligned images is a means to assess changes in a wide variety of clinical applications. In this paper we explore the information theoretical origin of Mutual Information (MI), which is based on Shannon's entropy.However, the interpretation of standard MI registration as a communication channel suggests that MI is too restrictive a criterion. In this paper the concept of Mutual Information (MI) is extended to (Normalized) Focussed Mutual Information (FMI) to incorporate prior knowledge to overcome some shortcomings of MI. We use this to develop new methodologies to successfully address specific registration problems, the follow-up of dental restorations, cephalometry, and the monitoring of implants. 
+
+4: 
+Title: Network statistics on early English Syntax: Structural criteria
+Abstract:
+  This paper includes a reflection on the role of networks in the study of English language acquisition, as well as a collection of practical criteria to annotate free-speech corpora from children utterances. At the theoretical level, the main claim of this paper is that syntactic networks should be interpreted as the outcome of the use of the syntactic machinery. Thus, the intrinsic features of such machinery are not accessible directly from (known) network properties. Rather, what one can see are the global patterns of its use and, thus, a global view of the power and organization of the underlying grammar. Taking a look into more practical issues, the paper examines how to build a net from the projection of syntactic relations. Recall that, as opposed to adult grammars, early-child language has not a well-defined concept of structure. To overcome such difficulty, we develop a set of systematic criteria assuming constituency hierarchy and a grammar based on lexico-thematic relations. At the end, what we obtain is a well defined corpora annotation that enables us i) to perform statistics on the size of structures and ii) to build a network from syntactic relations over which we can perform the standard measures of complexity. We also provide a detailed example. 
+
+5: 
+Title: HMM Speaker Identification Using Linear and Non-linear Merging
+  Techniques
+Abstract:
+  Speaker identification is a powerful, non-invasive and in-expensive biometric technique. The recognition accuracy, however, deteriorates when noise levels affect a specific band of frequency. In this paper, we present a sub-band based speaker identification that intends to improve the live testing performance. Each frequency sub-band is processed and classified independently. We also compare the linear and non-linear merging techniques for the sub-bands recognizer. Support vector machines and Gaussian Mixture models are the non-linear merging techniques that are investigated. Results showed that the sub-band based method used with linear merging techniques enormously improved the performance of the speaker identification over the performance of wide-band recognizers when tested live. A live testing improvement of 9.78% was achieved 
+
+6: 
+Title: Non-Computability of Consciousness
+Abstract:
+  With the great success in simulating many intelligent behaviors using computing devices, there has been an ongoing debate whether all conscious activities are computational processes. In this paper, the answer to this question is shown to be no. A certain phenomenon of consciousness is demonstrated to be fully represented as a computational process using a quantum computer. Based on the computability criterion discussed with Turing machines, the model constructed is shown to necessarily involve a non-computable element. The concept that this is solely a quantum effect and does not work for a classical case is also discussed. 
+
+7: 
+Title: Using Genetic Algorithms to Optimise Rough Set Partition Sizes for HIV
+  Data Analysis
+Abstract:
+  In this paper, we present a method to optimise rough set partition sizes, to which rule extraction is performed on HIV data. The genetic algorithm optimisation technique is used to determine the partition sizes of a rough set in order to maximise the rough sets prediction accuracy. The proposed method is tested on a set of demographic properties of individuals obtained from the South African antenatal survey. Six demographic variables were used in the analysis, these variables are; race, age of mother, education, gravidity, parity, and age of father, with the outcome or decision being either HIV positive or negative. Rough set theory is chosen based on the fact that it is easy to interpret the extracted rules. The prediction accuracy of equal width bin partitioning is 57.7% while the accuracy achieved after optimising the partitions is 72.8%. Several other methods have been used to analyse the HIV data and their results are stated and compared to that of rough set theory (RST). 
+
+8: 
+Title: Ensemble Learning for Free with Evolutionary Algorithms ?
+Abstract:
+  Evolutionary Learning proceeds by evolving a population of classifiers, from which it generally returns (with some notable exceptions) the single best-of-run classifier as final result. In the meanwhile, Ensemble Learning, one of the most efficient approaches in supervised Machine Learning for the last decade, proceeds by building a population of diverse classifiers. Ensemble Learning with Evolutionary Computation thus receives increasing attention. The Evolutionary Ensemble Learning (EEL) approach presented in this paper features two contributions. First, a new fitness function, inspired by co-evolution and enforcing the classifier diversity, is presented. Further, a new selection criterion based on the classification margin is proposed. This criterion is used to extract the classifier ensemble from the final population only (Off-line) or incrementally along evolution (On-line). Experiments on a set of benchmark problems show that Off-line outperforms single-hypothesis evolutionary learning and state-of-art Boosting and generates smaller classifier ensembles. 
+
+9: 
+Title: Multi-Dimensional Recurrent Neural Networks
+Abstract:
+  Recurrent neural networks (RNNs) have proved effective at one dimensional sequence learning tasks, such as speech and online handwriting recognition. Some of the properties that make RNNs suitable for such tasks, for example robustness to input warping, and the ability to access contextual information, are also desirable in multidimensional domains. However, there has so far been no direct way of applying RNNs to data with more than one spatio-temporal dimension. This paper introduces multi-dimensional recurrent neural networks (MDRNNs), thereby extending the potential applicability of RNNs to vision, video processing, medical imaging and many other areas, while avoiding the scaling problems that have plagued other multi-dimensional models. Experimental results are provided for two image segmentation tasks. 
+
+10: 
+Title: Structural Health Monitoring Using Neural Network Based Vibrational
+  System Identification
+Abstract:
+  Composite fabrication technologies now provide the means for producing high-strength, low-weight panels, plates, spars and other structural components which use embedded fiber optic sensors and piezoelectric transducers. These materials, often referred to as smart structures, make it possible to sense internal characteristics, such as delaminations or structural degradation. In this effort we use neural network based techniques for modeling and analyzing dynamic structural information for recognizing structural defects. This yields an adaptable system which gives a measure of structural integrity for composite structures. 
+

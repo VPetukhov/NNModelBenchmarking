@@ -1,0 +1,91 @@
+1: 
+Bayesian approach to rough set
+  This paper proposes an approach to training rough set models using Bayesian
+framework trained using Markov Chain Monte Carlo (MCMC) method. The prior
+probabilities are constructed from the prior knowledge that good rough set
+models have fewer rules. Markov Chain Monte Carlo sampling is conducted through
+sampling in the rough set granule space and Metropolis algorithm is used as an
+acceptance criteria. The proposed method is tested to estimate the risk of HIV
+given demographic data. The results obtained shows that the proposed approach
+is able to achieve an average accuracy of 58% with the accuracy varying up to
+66%. In addition the Bayesian rough set give the probabilities of the estimated
+HIV status as well as the linguistic rules describing how the demographic
+parameters drive the risk of HIV.
+
+2: 
+A tutorial on conformal prediction
+  Conformal prediction uses past experience to determine precise levels of
+confidence in new predictions. Given an error probability $\epsilon$, together
+with a method that makes a prediction $\hat{y}$ of a label $y$, it produces a
+set of labels, typically containing $\hat{y}$, that also contains $y$ with
+probability $1-\epsilon$. Conformal prediction can be applied to any method for
+producing $\hat{y}$: a nearest-neighbor method, a support-vector machine, ridge
+regression, etc.
+  Conformal prediction is designed for an on-line setting in which labels are
+predicted successively, each one being revealed before the next is predicted.
+The most novel and valuable feature of conformal prediction is that if the
+successive examples are sampled independently from the same distribution, then
+the successive predictions will be right $1-\epsilon$ of the time, even though
+they are based on an accumulating dataset rather than on independent datasets.
+  In addition to the model under which successive examples are sampled
+independently, other on-line compression models can also use conformal
+prediction. The widely used Gaussian linear model is one of these.
+  This tutorial presents a self-contained account of the theory of conformal
+prediction and works through several numerical examples. A more comprehensive
+treatment of the topic is provided in "Algorithmic Learning in a Random World",
+by Vladimir Vovk, Alex Gammerman, and Glenn Shafer (Springer, 2005).
+
+3: 
+Fault Classification in Cylinders Using Multilayer Perceptrons, Support
+  Vector Machines and Guassian Mixture Models
+  Gaussian mixture models (GMM) and support vector machines (SVM) are
+introduced to classify faults in a population of cylindrical shells. The
+proposed procedures are tested on a population of 20 cylindrical shells and
+their performance is compared to the procedure, which uses multi-layer
+perceptrons (MLP). The modal properties extracted from vibration data are used
+to train the GMM, SVM and MLP. It is observed that the GMM produces 98%, SVM
+produces 94% classification accuracy while the MLP produces 88% classification
+rates.
+
+4: 
+Fault Classification using Pseudomodal Energies and Neuro-fuzzy
+  modelling
+  This paper presents a fault classification method which makes use of a
+Takagi-Sugeno neuro-fuzzy model and Pseudomodal energies calculated from the
+vibration signals of cylindrical shells. The calculation of Pseudomodal
+Energies, for the purposes of condition monitoring, has previously been found
+to be an accurate method of extracting features from vibration signals. This
+calculation is therefore used to extract features from vibration signals
+obtained from a diverse population of cylindrical shells. Some of the cylinders
+in the population have faults in different substructures. The pseudomodal
+energies calculated from the vibration signals are then used as inputs to a
+neuro-fuzzy model. A leave-one-out cross-validation process is used to test the
+performance of the model. It is found that the neuro-fuzzy model is able to
+classify faults with an accuracy of 91.62%, which is higher than the previously
+used multilayer perceptron.
+
+5: 
+Virtual Sensor Based Fault Detection and Classification on a Plasma Etch
+  Reactor
+  The SEMATECH sponsored J-88-E project teaming Texas Instruments with
+NeuroDyne (et al.) focused on Fault Detection and Classification (FDC) on a Lam
+9600 aluminum plasma etch reactor, used in the process of semiconductor
+fabrication. Fault classification was accomplished by implementing a series of
+virtual sensor models which used data from real sensors (Lam Station sensors,
+Optical Emission Spectroscopy, and RF Monitoring) to predict recipe setpoints
+and wafer state characteristics. Fault detection and classification were
+performed by comparing predicted recipe and wafer state values with expected
+values. Models utilized include linear PLS, Polynomial PLS, and Neural Network
+PLS. Prediction of recipe setpoints based upon sensor data provides a
+capability for cross-checking that the machine is maintaining the desired
+setpoints. Wafer state characteristics such as Line Width Reduction and
+Remaining Oxide were estimated on-line using these same process sensors (Lam,
+OES, RFM). Wafer-to-wafer measurement of these characteristics in a production
+setting (where typically this information may be only sparsely available, if at
+all, after batch processing runs with numerous wafers have been completed)
+would provide important information to the operator that the process is or is
+not producing wafers within acceptable bounds of product quality. Production
+yield is increased, and correspondingly per unit cost is reduced, by providing
+the operator with the opportunity to adjust the process or machine before
+etching more wafers.
+

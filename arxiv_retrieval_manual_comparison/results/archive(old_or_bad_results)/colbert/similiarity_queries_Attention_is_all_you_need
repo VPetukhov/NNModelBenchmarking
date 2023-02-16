@@ -1,0 +1,76 @@
+1: 
+Multi-Dimensional Recurrent Neural Networks
+  Recurrent neural networks (RNNs) have proved effective at one dimensional
+sequence learning tasks, such as speech and online handwriting recognition.
+Some of the properties that make RNNs suitable for such tasks, for example
+robustness to input warping, and the ability to access contextual information,
+are also desirable in multidimensional domains. However, there has so far been
+no direct way of applying RNNs to data with more than one spatio-temporal
+dimension. This paper introduces multi-dimensional recurrent neural networks
+(MDRNNs), thereby extending the potential applicability of RNNs to vision,
+video processing, medical imaging and many other areas, while avoiding the
+scaling problems that have plagued other multi-dimensional models. Experimental
+results are provided for two image segmentation tasks.
+
+2: 
+Robust Multi-Cellular Developmental Design
+  This paper introduces a continuous model for Multi-cellular Developmental
+Design. The cells are fixed on a 2D grid and exchange "chemicals" with their
+neighbors during the growth process. The quantity of chemicals that a cell
+produces, as well as the differentiation value of the cell in the phenotype,
+are controlled by a Neural Network (the genotype) that takes as inputs the
+chemicals produced by the neighboring cells at the previous time step. In the
+proposed model, the number of iterations of the growth process is not
+pre-determined, but emerges during evolution: only organisms for which the
+growth process stabilizes give a phenotype (the stable state), others are
+declared nonviable. The optimization of the controller is done using the NEAT
+algorithm, that optimizes both the topology and the weights of the Neural
+Networks. Though each cell only receives local information from its neighbors,
+the experimental results of the proposed approach on the 'flags' problems (the
+phenotype must match a given 2D pattern) are almost as good as those of a
+direct regression approach using the same model with global information.
+Moreover, the resulting multi-cellular organisms exhibit almost perfect
+self-healing characteristics.
+
+3: 
+Mixed membership stochastic blockmodels
+  Observations consisting of measurements on relationships for pairs of objects
+arise in many settings, such as protein interaction and gene regulatory
+networks, collections of author-recipient email, and social networks. Analyzing
+such data with probabilisic models can be delicate because the simple
+exchangeability assumptions underlying many boilerplate models no longer hold.
+In this paper, we describe a latent variable model of such data called the
+mixed membership stochastic blockmodel. This model extends blockmodels for
+relational data to ones which capture mixed membership latent relational
+structure, thus providing an object-specific low-dimensional representation. We
+develop a general variational inference algorithm for fast approximate
+posterior inference. We explore applications to social and protein interaction
+networks.
+
+4: 
+A neural network approach to ordinal regression
+  Ordinal regression is an important type of learning, which has properties of
+both classification and regression. Here we describe a simple and effective
+approach to adapt a traditional neural network to learn ordinal categories. Our
+approach is a generalization of the perceptron method for ordinal regression.
+On several benchmark datasets, our method (NNRank) outperforms a neural network
+classification method. Compared with the ordinal regression methods using
+Gaussian processes and support vector machines, NNRank achieves comparable
+performance. Moreover, NNRank has the advantages of traditional neural
+networks: learning in both online and batch modes, handling very large training
+datasets, and making rapid predictions. These features make NNRank a useful and
+complementary tool for large-scale data processing tasks such as information
+retrieval, web page ranking, collaborative filtering, and protein ranking in
+Bioinformatics.
+
+5: 
+Loop corrections for message passing algorithms in continuous variable
+  models
+  In this paper we derive the equations for Loop Corrected Belief Propagation
+on a continuous variable Gaussian model. Using the exactness of the averages
+for belief propagation for Gaussian models, a different way of obtaining the
+covariances is found, based on Belief Propagation on cavity graphs. We discuss
+the relation of this loop correction algorithm to Expectation Propagation
+algorithms for the case in which the model is no longer Gaussian, but slightly
+perturbed by nonlinear terms.
+

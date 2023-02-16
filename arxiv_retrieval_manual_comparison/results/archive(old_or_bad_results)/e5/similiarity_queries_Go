@@ -1,0 +1,98 @@
+1: 
+Move Evaluation in Go Using Deep Convolutional Neural Networks
+  The game of Go is more challenging than other board games, due to the
+difficulty of constructing a position or move evaluation function. In this
+paper we investigate whether deep convolutional networks can be used to
+directly represent and learn this knowledge. We train a large 12-layer
+convolutional neural network by supervised learning from a database of human
+professional games. The network correctly predicts the expert move in 55% of
+positions, equalling the accuracy of a 6 dan human player. When the trained
+convolutional network was used directly to play games of Go, without any
+search, it beat the traditional search program GnuGo in 97% of games, and
+matched the performance of a state-of-the-art Monte-Carlo tree search that
+simulates a million positions per move.
+
+2: 
+Playing Go without Game Tree Search Using Convolutional Neural Networks
+  The game of Go has a long history in East Asian countries, but the field of
+Computer Go has yet to catch up to humans until the past couple of years. While
+the rules of Go are simple, the strategy and combinatorics of the game are
+immensely complex. Even within the past couple of years, new programs that rely
+on neural networks to evaluate board positions still explore many orders of
+magnitude more board positions per second than a professional can. We attempt
+to mimic human intuition in the game by creating a convolutional neural policy
+network which, without any sort of tree search, should play the game at or
+above the level of most humans. We introduce three structures and training
+methods that aim to create a strong Go player: non-rectangular convolutions,
+which will better learn the shapes on the board, supervised learning, training
+on a data set of 53,000 professional games, and reinforcement learning,
+training on games played between different versions of the network. Our network
+has already surpassed the skill level of intermediate amateurs simply using
+supervised learning. Further training and implementation of non-rectangular
+convolutions and reinforcement learning will likely increase this skill level
+much further.
+
+3: 
+Teaching Deep Convolutional Neural Networks to Play Go
+  Mastering the game of Go has remained a long standing challenge to the field
+of AI. Modern computer Go systems rely on processing millions of possible
+future positions to play well, but intuitively a stronger and more 'humanlike'
+way to play the game would be to rely on pattern recognition abilities rather
+then brute force computation. Following this sentiment, we train deep
+convolutional neural networks to play Go by training them to predict the moves
+made by expert Go players. To solve this problem we introduce a number of novel
+techniques, including a method of tying weights in the network to 'hard code'
+symmetries that are expect to exist in the target function, and demonstrate in
+an ablation study they considerably improve performance. Our final networks are
+able to achieve move prediction accuracies of 41.1% and 44.4% on two different
+Go datasets, surpassing previous state of the art on this task by significant
+margins. Additionally, while previous move prediction programs have not yielded
+strong Go playing programs, we show that the networks trained in this work
+acquired high levels of skill. Our convolutional neural networks can
+consistently defeat the well known Go program GNU Go, indicating it is state of
+the art among programs that do not use Monte Carlo Tree Search. It is also able
+to win some games against state of the art Go playing program Fuego while using
+a fraction of the play time. This success at playing Go indicates high level
+principles of the game were learned.
+
+4: 
+Mastering Chess and Shogi by Self-Play with a General Reinforcement
+  Learning Algorithm
+  The game of chess is the most widely-studied domain in the history of
+artificial intelligence. The strongest programs are based on a combination of
+sophisticated search techniques, domain-specific adaptations, and handcrafted
+evaluation functions that have been refined by human experts over several
+decades. In contrast, the AlphaGo Zero program recently achieved superhuman
+performance in the game of Go, by tabula rasa reinforcement learning from games
+of self-play. In this paper, we generalise this approach into a single
+AlphaZero algorithm that can achieve, tabula rasa, superhuman performance in
+many challenging domains. Starting from random play, and given no domain
+knowledge except the game rules, AlphaZero achieved within 24 hours a
+superhuman level of play in the games of chess and shogi (Japanese chess) as
+well as Go, and convincingly defeated a world-champion program in each case.
+
+5: 
+Are AlphaZero-like Agents Robust to Adversarial Perturbations?
+  The success of AlphaZero (AZ) has demonstrated that neural-network-based Go
+AIs can surpass human performance by a large margin. Given that the state space
+of Go is extremely large and a human player can play the game from any legal
+state, we ask whether adversarial states exist for Go AIs that may lead them to
+play surprisingly wrong actions. In this paper, we first extend the concept of
+adversarial examples to the game of Go: we generate perturbed states that are
+``semantically'' equivalent to the original state by adding meaningless moves
+to the game, and an adversarial state is a perturbed state leading to an
+undoubtedly inferior action that is obvious even for Go beginners. However,
+searching the adversarial state is challenging due to the large, discrete, and
+non-differentiable search space. To tackle this challenge, we develop the first
+adversarial attack on Go AIs that can efficiently search for adversarial states
+by strategically reducing the search space. This method can also be extended to
+other board games such as NoGo. Experimentally, we show that the actions taken
+by both Policy-Value neural network (PV-NN) and Monte Carlo tree search (MCTS)
+can be misled by adding one or two meaningless stones; for example, on 58\% of
+the AlphaGo Zero self-play games, our method can make the widely used KataGo
+agent with 50 simulations of MCTS plays a losing action by adding two
+meaningless stones. We additionally evaluated the adversarial examples found by
+our algorithm with amateur human Go players and 90\% of examples indeed lead
+the Go agent to play an obviously inferior action. Our code is available at
+\url{https://PaperCode.cc/GoAttack}.
+

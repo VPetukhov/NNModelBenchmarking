@@ -1,0 +1,56 @@
+Query:
+explainable machine learning
+
+Results:
+1: 
+Title: An Adaptive Strategy for the Classification of G-Protein Coupled
+  Receptors
+Abstract:
+  One of the major problems in computational biology is the inability of existing classification models to incorporate expanding and new domain knowledge. This problem of static classification models is addressed in this paper by the introduction of incremental learning for problems in bioinformatics. Many machine learning tools have been applied to this problem using static machine learning structures such as neural networks or support vector machines that are unable to accommodate new information into their existing models. We utilize the fuzzy ARTMAP as an alternate machine learning system that has the ability of incrementally learning new data as it becomes available. The fuzzy ARTMAP is found to be comparable to many of the widespread machine learning systems. The use of an evolutionary strategy in the selection and combination of individual classifiers into an ensemble system, coupled with the incremental learning ability of the fuzzy ARTMAP is proven to be suitable as a pattern classifier. The algorithm presented is tested using data from the G-Coupled Protein Receptors Database and shows good accuracy of 83%. The system presented is also generally applicable, and can be used in problems in genomics and proteomics. 
+
+2: 
+Title: Ensemble Learning for Free with Evolutionary Algorithms ?
+Abstract:
+  Evolutionary Learning proceeds by evolving a population of classifiers, from which it generally returns (with some notable exceptions) the single best-of-run classifier as final result. In the meanwhile, Ensemble Learning, one of the most efficient approaches in supervised Machine Learning for the last decade, proceeds by building a population of diverse classifiers. Ensemble Learning with Evolutionary Computation thus receives increasing attention. The Evolutionary Ensemble Learning (EEL) approach presented in this paper features two contributions. First, a new fitness function, inspired by co-evolution and enforcing the classifier diversity, is presented. Further, a new selection criterion based on the classification margin is proposed. This criterion is used to extract the classifier ensemble from the final population only (Off-line) or incrementally along evolution (On-line). Experiments on a set of benchmark problems show that Off-line outperforms single-hypothesis evolutionary learning and state-of-art Boosting and generates smaller classifier ensembles. 
+
+3: 
+Title: Parametric Learning and Monte Carlo Optimization
+Abstract:
+  This paper uncovers and explores the close relationship between Monte Carlo Optimization of a parametrized integral (MCO), Parametric machine-Learning (PL), and `blackbox' or `oracle'-based optimization (BO). We make four contributions. First, we prove that MCO is mathematically identical to a broad class of PL problems. This identity potentially provides a new application domain for all broadly applicable PL techniques: MCO. Second, we introduce immediate sampling, a new version of the Probability Collectives (PC) algorithm for blackbox optimization. Immediate sampling transforms the original BO problem into an MCO problem. Accordingly, by combining these first two contributions, we can apply all PL techniques to BO. In our third contribution we validate this way of improving BO by demonstrating that cross-validation and bagging improve immediate sampling. Finally, conventional MC and MCO procedures ignore the relationship between the sample point locations and the associated values of the integrand; only the values of the integrand at those locations are considered. We demonstrate that one can exploit the sample location information using PL techniques, for example by forming a fit of the sample locations to the associated values of the integrand. This provides an additional way to apply PL techniques to improve MCO. 
+
+4: 
+Title: A neural network approach to ordinal regression
+Abstract:
+  Ordinal regression is an important type of learning, which has properties of both classification and regression. Here we describe a simple and effective approach to adapt a traditional neural network to learn ordinal categories. Our approach is a generalization of the perceptron method for ordinal regression. On several benchmark datasets, our method (NNRank) outperforms a neural network classification method. Compared with the ordinal regression methods using Gaussian processes and support vector machines, NNRank achieves comparable performance. Moreover, NNRank has the advantages of traditional neural networks: learning in both online and batch modes, handling very large training datasets, and making rapid predictions. These features make NNRank a useful and complementary tool for large-scale data processing tasks such as information retrieval, web page ranking, collaborative filtering, and protein ranking in Bioinformatics. 
+
+5: 
+Title: Statistical Mechanics of Nonlinear On-line Learning for Ensemble
+  Teachers
+Abstract:
+  We analyze the generalization performance of a student in a model composed of nonlinear perceptrons: a true teacher, ensemble teachers, and the student. We calculate the generalization error of the student analytically or numerically using statistical mechanics in the framework of on-line learning. We treat two well-known learning rules: Hebbian learning and perceptron learning. As a result, it is proven that the nonlinear model shows qualitatively different behaviors from the linear model. Moreover, it is clarified that Hebbian learning and perceptron learning show qualitatively different behaviors from each other. In Hebbian learning, we can analytically obtain the solutions. In this case, the generalization error monotonically decreases. The steady value of the generalization error is independent of the learning rate. The larger the number of teachers is and the more variety the ensemble teachers have, the smaller the generalization error is. In perceptron learning, we have to numerically obtain the solutions. In this case, the dynamical behaviors of the generalization error are non-monotonic. The smaller the learning rate is, the larger the number of teachers is; and the more variety the ensemble teachers have, the smaller the minimum value of the generalization error is. 
+
+6: 
+Title: Learning from compressed observations
+Abstract:
+  The problem of statistical learning is to construct a predictor of a random variable $Y$ as a function of a related random variable $X$ on the basis of an i.i.d. training sample from the joint distribution of $(X,Y)$. Allowable predictors are drawn from some specified class, and the goal is to approach asymptotically the performance (expected loss) of the best predictor in the class. We consider the setting in which one has perfect observation of the $X$-part of the sample, while the $Y$-part has to be communicated at some finite bit rate. The encoding of the $Y$-values is allowed to depend on the $X$-values. Under suitable regularity conditions on the admissible predictors, the underlying family of probability distributions and the loss function, we give an information-theoretic characterization of achievable predictor performance in terms of conditional distortion-rate functions. The ideas are illustrated on the example of nonparametric regression in Gaussian noise. 
+
+7: 
+Title: Non-Computability of Consciousness
+Abstract:
+  With the great success in simulating many intelligent behaviors using computing devices, there has been an ongoing debate whether all conscious activities are computational processes. In this paper, the answer to this question is shown to be no. A certain phenomenon of consciousness is demonstrated to be fully represented as a computational process using a quantum computer. Based on the computability criterion discussed with Turing machines, the model constructed is shown to necessarily involve a non-computable element. The concept that this is solely a quantum effect and does not work for a classical case is also discussed. 
+
+8: 
+Title: On-Line Condition Monitoring using Computational Intelligence
+Abstract:
+  This paper presents bushing condition monitoring frameworks that use multi-layer perceptrons (MLP), radial basis functions (RBF) and support vector machines (SVM) classifiers. The first level of the framework determines if the bushing is faulty or not while the second level determines the type of fault. The diagnostic gases in the bushings are analyzed using the dissolve gas analysis. MLP gives superior performance in terms of accuracy and training time than SVM and RBF. In addition, an on-line bushing condition monitoring approach, which is able to adapt to newly acquired data are introduced. This approach is able to accommodate new classes that are introduced by incoming data and is implemented using an incremental learning algorithm that uses MLP. The testing results improved from 67.5% to 95.8% as new data were introduced and the testing results improved from 60% to 95.3% as new conditions were introduced. On average the confidence value of the framework on its decision was 0.92. 
+
+9: 
+Title: A tutorial on conformal prediction
+Abstract:
+  Conformal prediction uses past experience to determine precise levels of confidence in new predictions. Given an error probability $\epsilon$, together with a method that makes a prediction $\hat{y}$ of a label $y$, it produces a set of labels, typically containing $\hat{y}$, that also contains $y$ with probability $1-\epsilon$. Conformal prediction can be applied to any method for producing $\hat{y}$: a nearest-neighbor method, a support-vector machine, ridge regression, etc.   Conformal prediction is designed for an on-line setting in which labels are predicted successively, each one being revealed before the next is predicted. The most novel and valuable feature of conformal prediction is that if the successive examples are sampled independently from the same distribution, then the successive predictions will be right $1-\epsilon$ of the time, even though they are based on an accumulating dataset rather than on independent datasets.   In addition to the model under which successive examples are sampled independently, other on-line compression models can also use conformal prediction. The widely used Gaussian linear model is one of these.   This tutorial presents a self-contained account of the theory of conformal prediction and works through several numerical examples. A more comprehensive treatment of the topic is provided in "Algorithmic Learning in a Random World", by Vladimir Vovk, Alex Gammerman, and Glenn Shafer (Springer, 2005). 
+
+10: 
+Title: The Parameter-Less Self-Organizing Map algorithm
+Abstract:
+  The Parameter-Less Self-Organizing Map (PLSOM) is a new neural network algorithm based on the Self-Organizing Map (SOM). It eliminates the need for a learning rate and annealing schemes for learning rate and neighbourhood size. We discuss the relative performance of the PLSOM and the SOM and demonstrate some tasks in which the SOM fails but the PLSOM performs satisfactory. Finally we discuss some example applications of the PLSOM and present a proof of ordering under certain limited conditions. 
+

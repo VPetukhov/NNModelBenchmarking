@@ -1,0 +1,59 @@
+Query:
+prompt engineering
+
+Results:
+1: 
+Title: Unsupervised Prompt Learning for Vision-Language Models
+Abstract:
+  Contrastive vision-language models like CLIP have shown great progress in transfer learning. In the inference stage, the proper text description, also known as prompt, needs to be carefully designed to correctly classify the given images. In order to avoid laborious prompt engineering, recent works such as CoOp, CLIP-Adapter and Tip-Adapter propose to adapt vision-language models for downstream image recognition tasks on a small set of labeled data. Though promising improvements are achieved, requiring labeled data from the target datasets may restrict the scalability. In this paper, we explore a different scenario, in which the labels of the target datasets are unprovided, and we present an unsupervised prompt learning (UPL) approach to avoid prompt engineering while simultaneously improving transfer performance of CLIP-like vision-language models. As far as we know, UPL is the first work to introduce unsupervised learning into prompt learning. Experimentally, our UPL outperforms original CLIP with prompt engineering on ImageNet as well as other 10 datasets. An enhanced version of UPL is even competitive with the 8-shot CoOp and the 8-shot TIP-Adapter on most datasets. Code and models are available at https://github.com/tonyhuang2022/UPL. 
+
+2: 
+Title: An Information-theoretic Approach to Prompt Engineering Without Ground
+  Truth Labels
+Abstract:
+  Pre-trained language models derive substantial linguistic and factual knowledge from the massive corpora on which they are trained, and prompt engineering seeks to align these models to specific tasks. Unfortunately, existing prompt engineering methods require significant amounts of labeled data, access to model parameters, or both. We introduce a new method for selecting prompt templates \textit{without labeled examples} and \textit{without direct access to the model}. Specifically, over a set of candidate templates, we choose the template that maximizes the mutual information between the input and the corresponding model output. Across 8 datasets representing 7 distinct NLP tasks, we show that when a template has high mutual information, it also has high accuracy on the task. On the largest model, selecting prompts with our method gets 90\% of the way from the average prompt accuracy to the best prompt accuracy and requires no ground truth labels. 
+
+3: 
+Title: What GPT Knows About Who is Who
+Abstract:
+  Coreference resolution -- which is a crucial task for understanding discourse and language at large -- has yet to witness widespread benefits from large language models (LLMs). Moreover, coreference resolution systems largely rely on supervised labels, which are highly expensive and difficult to annotate, thus making it ripe for prompt engineering. In this paper, we introduce a QA-based prompt-engineering method and discern \textit{generative}, pre-trained LLMs' abilities and limitations toward the task of coreference resolution. Our experiments show that GPT-2 and GPT-Neo can return valid answers, but that their capabilities to identify coreferent mentions are limited and prompt-sensitive, leading to inconsistent results. 
+
+4: 
+Title: A Taxonomy of Prompt Modifiers for Text-To-Image Generation
+Abstract:
+  Text-to-image generation has seen an explosion of interest since 2021. Today, beautiful and intriguing digital images and artworks can be synthesized from textual inputs ("prompts") with deep generative models. Online communities around text-to-image generation and AI generated art have quickly emerged. This paper identifies six types of prompt modifiers used by practitioners in the online community based on a 3-month ethnographic study. The novel taxonomy of prompt modifiers provides researchers a conceptual starting point for investigating the practice of text-to-image generation, but may also help practitioners of AI generated art improve their images. We further outline how prompt modifiers are applied in the practice of "prompt engineering." We discuss research opportunities of this novel creative practice in the field of Human-Computer Interaction (HCI). The paper concludes with a discussion of broader implications of prompt engineering from the perspective of Human-AI Interaction (HAI) in future applications beyond the use case of text-to-image generation and AI generated art. 
+
+5: 
+Title: The Infinite Index: Information Retrieval on Generative Text-To-Image
+  Models
+Abstract:
+  Conditional generative models such as DALL-E and Stable Diffusion generate images based on a user-defined text, the prompt. Finding and refining prompts that produce a desired image has become the art of prompt engineering. Generative models do not provide a built-in retrieval model for a user's information need expressed through prompts. In light of an extensive literature review, we reframe prompt engineering for generative models as interactive text-based retrieval on a novel kind of "infinite index". We apply these insights for the first time in a case study on image generation for game design with an expert. Finally, we envision how active learning may help to guide the retrieval of generated images. 
+
+6: 
+Title: What Changes Can Large-scale Language Models Bring? Intensive Study on
+  HyperCLOVA: Billions-scale Korean Generative Pretrained Transformers
+Abstract:
+  GPT-3 shows remarkable in-context learning ability of large-scale language models (LMs) trained on hundreds of billion scale data. Here we address some remaining issues less reported by the GPT-3 paper, such as a non-English LM, the performances of different sized models, and the effect of recently introduced prompt optimization on in-context learning. To achieve this, we introduce HyperCLOVA, a Korean variant of 82B GPT-3 trained on a Korean-centric corpus of 560B tokens. Enhanced by our Korean-specific tokenization, HyperCLOVA with our training configuration shows state-of-the-art in-context zero-shot and few-shot learning performances on various downstream tasks in Korean. Also, we show the performance benefits of prompt-based learning and demonstrate how it can be integrated into the prompt engineering pipeline. Then we discuss the possibility of materializing the No Code AI paradigm by providing AI prototyping capabilities to non-experts of ML by introducing HyperCLOVA studio, an interactive prompt engineering interface. Lastly, we demonstrate the potential of our methods with three successful in-house applications. 
+
+7: 
+Title: QaNER: Prompting Question Answering Models for Few-shot Named Entity
+  Recognition
+Abstract:
+  Recently, prompt-based learning for pre-trained language models has succeeded in few-shot Named Entity Recognition (NER) by exploiting prompts as task guidance to increase label efficiency. However, previous prompt-based methods for few-shot NER have limitations such as a higher computational complexity, poor zero-shot ability, requiring manual prompt engineering, or lack of prompt robustness. In this work, we address these shortcomings by proposing a new prompt-based learning NER method with Question Answering (QA), called QaNER. Our approach includes 1) a refined strategy for converting NER problems into the QA formulation; 2) NER prompt generation for QA models; 3) prompt-based tuning with QA models on a few annotated NER examples; 4) zero-shot NER by prompting the QA model. Comparing the proposed approach with previous methods, QaNER is faster at inference, insensitive to the prompt quality, and robust to hyper-parameters, as well as demonstrating significantly better low-resource performance and zero-shot capability. 
+
+8: 
+Title: Arguments to Key Points Mapping with Prompt-based Learning
+Abstract:
+  Handling and digesting a huge amount of information in an efficient manner has been a long-term demand in modern society. Some solutions to map key points (short textual summaries capturing essential information and filtering redundancies) to a large number of arguments/opinions have been provided recently (Bar-Haim et al., 2020). To complement the full picture of the argument-to-keypoint mapping task, we mainly propose two approaches in this paper. The first approach is to incorporate prompt engineering for fine-tuning the pre-trained language models (PLMs). The second approach utilizes prompt-based learning in PLMs to generate intermediary texts, which are then combined with the original argument-keypoint pairs and fed as inputs to a classifier, thereby mapping them. Furthermore, we extend the experiments to cross/in-domain to conduct an in-depth analysis. In our evaluation, we find that i) using prompt engineering in a more direct way (Approach 1) can yield promising results and improve the performance; ii) Approach 2 performs considerably worse than Approach 1 due to the negation issue of the PLM. 
+
+9: 
+Title: Looking for a Handsome Carpenter! Debiasing GPT-3 Job Advertisements
+Abstract:
+  The growing capability and availability of generative language models has enabled a wide range of new downstream tasks. Academic research has identified, quantified and mitigated biases present in language models but is rarely tailored to downstream tasks where wider impact on individuals and society can be felt. In this work, we leverage one popular generative language model, GPT-3, with the goal of writing unbiased and realistic job advertisements. We first assess the bias and realism of zero-shot generated advertisements and compare them to real-world advertisements. We then evaluate prompt-engineering and fine-tuning as debiasing methods. We find that prompt-engineering with diversity-encouraging prompts gives no significant improvement to bias, nor realism. Conversely, fine-tuning, especially on unbiased real advertisements, can improve realism and reduce bias. 
+
+10: 
+Title: Differentiable Prompt Makes Pre-trained Language Models Better Few-shot
+  Learners
+Abstract:
+  Large-scale pre-trained language models have contributed significantly to natural language processing by demonstrating remarkable abilities as few-shot learners. However, their effectiveness depends mainly on scaling the model parameters and prompt design, hindering their implementation in most real-world applications. This study proposes a novel pluggable, extensible, and efficient approach named DifferentiAble pRompT (DART), which can convert small language models into better few-shot learners without any prompt engineering. The main principle behind this approach involves reformulating potential natural language processing tasks into the task of a pre-trained language model and differentially optimizing the prompt template as well as the target label with backpropagation. Furthermore, the proposed approach can be: (i) Plugged to any pre-trained language models; (ii) Extended to widespread classification tasks. A comprehensive evaluation of standard NLP tasks demonstrates that the proposed approach achieves a better few-shot performance. Code is available in https://github.com/zjunlp/DART. 
+

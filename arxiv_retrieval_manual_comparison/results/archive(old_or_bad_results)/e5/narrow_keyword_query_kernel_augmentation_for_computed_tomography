@@ -1,0 +1,91 @@
+1: 
+Lesion Conditional Image Generation for Improved Segmentation of
+  Intracranial Hemorrhage from CT Images
+  Data augmentation can effectively resolve a scarcity of images when training
+machine-learning algorithms. It can make them more robust to unseen images. We
+present a lesion conditional Generative Adversarial Network LcGAN to generate
+synthetic Computed Tomography (CT) images for data augmentation. A lesion
+conditional image (segmented mask) is an input to both the generator and the
+discriminator of the LcGAN during training. The trained model generates
+contextual CT images based on input masks. We quantify the quality of the
+images by using a fully convolutional network (FCN) score and blurriness. We
+also train another classification network to select better synthetic images.
+These synthetic CT images are then augmented to our hemorrhagic lesion
+segmentation network. By applying this augmentation method on 2.5%, 10% and 25%
+of original data, segmentation improved by 12.8%, 6% and 1.6% respectively.
+
+2: 
+Anatomical Data Augmentation For CNN based Pixel-wise Classification
+  In this work we propose a method for anatomical data augmentation that is
+based on using slices of computed tomography (CT) examinations that are
+adjacent to labeled slices as another resource of labeled data for training the
+network. The extended labeled data is used to train a U-net network for a
+pixel-wise classification into different hepatic lesions and normal liver
+tissues. Our dataset contains CT examinations from 140 patients with 333 CT
+images annotated by an expert radiologist. We tested our approach and compared
+it to the conventional training process. Results indicate superiority of our
+method. Using the anatomical data augmentation we achieved an improvement of 3%
+in the success rate, 5% in the classification accuracy, and 4% in Dice.
+
+3: 
+Zero-Shot Domain Adaptation in CT Segmentation by Filtered Back
+  Projection Augmentation
+  Domain shift is one of the most salient challenges in medical computer
+vision. Due to immense variability in scanners' parameters and imaging
+protocols, even images obtained from the same person and the same scanner could
+differ significantly. We address variability in computed tomography (CT) images
+caused by different convolution kernels used in the reconstruction process, the
+critical domain shift factor in CT. The choice of a convolution kernel affects
+pixels' granularity, image smoothness, and noise level. We analyze a dataset of
+paired CT images, where smooth and sharp images were reconstructed from the
+same sinograms with different kernels, thus providing identical anatomy but
+different style. Though identical predictions are desired, we show that the
+consistency, measured as the average Dice between predictions on pairs, is just
+0.54. We propose Filtered Back-Projection Augmentation (FBPAug), a simple and
+surprisingly efficient approach to augment CT images in sinogram space
+emulating reconstruction with different kernels. We apply the proposed method
+in a zero-shot domain adaptation setup and show that the consistency boosts
+from 0.54 to 0.92 outperforming other augmentation approaches. Neither specific
+preparation of source domain data nor target domain data is required, so our
+publicly released FBPAug can be used as a plug-and-play module for zero-shot
+domain adaptation in any CT-based task.
+
+4: 
+Continuous Conversion of CT Kernel using Switchable CycleGAN with AdaIN
+  X-ray computed tomography (CT) uses different filter kernels to highlight
+different structures. Since the raw sinogram data is usually removed after the
+reconstruction, in case there are additional need for other types of kernel
+images that were not previously generated, the patient may need to be scanned
+again. Accordingly, there exists increasing demand for post-hoc image domain
+conversion from one kernel to another without sacrificing the image quality. In
+this paper, we propose a novel unsupervised continuous kernel conversion method
+using cycle-consistent generative adversarial network (cycleGAN) with adaptive
+instance normalization (AdaIN). Even without paired training data, not only can
+our network translate the images between two different kernels, but it can also
+convert images along the interpolation path between the two kernel domains. We
+also show that the quality of generated images can be further improved if
+intermediate kernel domain images are available. Experimental results confirm
+that our method not only enables accurate kernel conversion that is comparable
+to supervised learning methods, but also generates intermediate kernel images
+in the unseen domain that are useful for hypopharyngeal cancer diagnosis.
+
+5: 
+DuDoNet: Dual Domain Network for CT Metal Artifact Reduction
+  Computed tomography (CT) is an imaging modality widely used for medical
+diagnosis and treatment. CT images are often corrupted by undesirable artifacts
+when metallic implants are carried by patients, which creates the problem of
+metal artifact reduction (MAR). Existing methods for reducing the artifacts due
+to metallic implants are inadequate for two main reasons. First, metal
+artifacts are structured and non-local so that simple image domain enhancement
+approaches would not suffice. Second, the MAR approaches which attempt to
+reduce metal artifacts in the X-ray projection (sinogram) domain inevitably
+lead to severe secondary artifact due to sinogram inconsistency. To overcome
+these difficulties, we propose an end-to-end trainable Dual Domain Network
+(DuDoNet) to simultaneously restore sinogram consistency and enhance CT images.
+The linkage between the sigogram and image domains is a novel Radon inversion
+layer that allows the gradients to back-propagate from the image domain to the
+sinogram domain during training. Extensive experiments show that our method
+achieves significant improvements over other single domain MAR approaches. To
+the best of our knowledge, it is the first end-to-end dual-domain network for
+MAR.
+

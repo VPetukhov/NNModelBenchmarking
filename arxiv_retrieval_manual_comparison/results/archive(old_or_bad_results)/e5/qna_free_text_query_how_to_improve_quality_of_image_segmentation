@@ -1,0 +1,77 @@
+1: 
+A Study of Image Pre-processing for Faster Object Recognition
+  Quality of image always plays a vital role in in-creasing object recognition
+or classification rate. A good quality image gives better recognition or
+classification rate than any unprocessed noisy images. It is more difficult to
+extract features from such unprocessed images which in-turn reduces object
+recognition or classification rate. To overcome problems occurred due to low
+quality image, typically pre-processing is done before extracting features from
+the image. Our project proposes an image pre-processing method, so that the
+performance of selected Machine Learning algorithms or Deep Learning algorithms
+increases in terms of increased accuracy or reduced the number of training
+images. In the later part, we compare the performance results by using our
+method with the previous used approaches.
+
+2: 
+Enhanced Sharp-GAN For Histopathology Image Synthesis
+  Histopathology image synthesis aims to address the data shortage issue in
+training deep learning approaches for accurate cancer detection. However,
+existing methods struggle to produce realistic images that have accurate nuclei
+boundaries and less artifacts, which limits the application in downstream
+tasks. To address the challenges, we propose a novel approach that enhances the
+quality of synthetic images by using nuclei topology and contour
+regularization. The proposed approach uses the skeleton map of nuclei to
+integrate nuclei topology and separate touching nuclei. In the loss function,
+we propose two new contour regularization terms that enhance the contrast
+between contour and non-contour pixels and increase the similarity between
+contour pixels. We evaluate the proposed approach on the two datasets using
+image quality metrics and a downstream task (nuclei segmentation). The proposed
+approach outperforms Sharp-GAN in all four image quality metrics on two
+datasets. By integrating 6k synthetic images from the proposed approach into
+training, a nuclei segmentation model achieves the state-of-the-art
+segmentation performance on TNBC dataset and its detection quality (DQ),
+segmentation quality (SQ), panoptic quality (PQ), and aggregated Jaccard index
+(AJI) is 0.855, 0.863, 0.691, and 0.683, respectively.
+
+3: 
+Robust Image Segmentation Quality Assessment
+  Deep learning based image segmentation methods have achieved great success,
+even having human-level accuracy in some applications. However, due to the
+black box nature of deep learning, the best method may fail in some situations.
+Thus predicting segmentation quality without ground truth would be very crucial
+especially in clinical practice. Recently, people proposed to train neural
+networks to estimate the quality score by regression. Although it can achieve
+promising prediction accuracy, the network suffers robustness problem, e.g. it
+is vulnerable to adversarial attacks. In this paper, we propose to alleviate
+this problem by utilizing the difference between the input image and the
+reconstructed image, which is conditioned on the segmentation to be assessed,
+to lower the chance to overfit to the undesired image features from the
+original input image, and thus to increase the robustness. Results on ACDC17
+dataset demonstrated our method is promising.
+
+4: 
+An Estimation Method of Measuring Image Quality for Compressed Images of
+  Human Face
+  Nowadays digital image compression and decompression techniques are very much
+important. So our aim is to calculate the quality of face and other regions of
+the compressed image with respect to the original image. Image segmentation is
+typically used to locate objects and boundaries (lines, curves etc.)in images.
+After segmentation the image is changed into something which is more meaningful
+to analyze. Using Universal Image Quality Index(Q),Structural Similarity
+Index(SSIM) and Gradient-based Structural Similarity Index(G-SSIM) it can be
+shown that face region is less compressed than any other region of the image.
+
+5: 
+Combined Approach for Image Segmentation
+  Many image segmentation techniques have been developed over the past two
+decades for segmenting the images, which help for object recognition, occlusion
+boundary estimation within motion or stereo systems, image compression, image
+editing.
+  In this, there is a combined approach for segmenting the image. By using
+histogram equalization to the input image, from which it gives contrast
+enhancement output image .After that by applying median filtering,which will
+remove noise from contrast output image . At last I applied fuzzy c-mean
+clustering algorithm to denoising output image, which give segmented output
+image. In this way it produce better segmented image with less computation
+time.
+

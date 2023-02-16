@@ -1,0 +1,83 @@
+1: 
+MiQA: A Benchmark for Inference on Metaphorical Questions
+  We propose a benchmark to assess the capability of large language models to
+reason with conventional metaphors. Our benchmark combines the previously
+isolated topics of metaphor detection and commonsense reasoning into a single
+task that requires a model to make inferences by accurately selecting between
+the literal and metaphorical register. We examine the performance of
+state-of-the-art pre-trained models on binary-choice tasks and find a large
+discrepancy between the performance of small and very large models, going from
+chance to near-human level. We also analyse the largest model in a generative
+setting and find that although human performance is approached, careful
+multiple-shot prompting is required.
+
+2: 
+One Billion Word Benchmark for Measuring Progress in Statistical
+  Language Modeling
+  We propose a new benchmark corpus to be used for measuring progress in
+statistical language modeling. With almost one billion words of training data,
+we hope this benchmark will be useful to quickly evaluate novel language
+modeling techniques, and to compare their contribution when combined with other
+advanced techniques. We show performance of several well-known types of
+language models, with the best results achieved with a recurrent neural network
+based language model. The baseline unpruned Kneser-Ney 5-gram model achieves
+perplexity 67.6; a combination of techniques leads to 35% reduction in
+perplexity, or 10% reduction in cross-entropy (bits), over that baseline.
+  The benchmark is available as a code.google.com project; besides the scripts
+needed to rebuild the training/held-out data, it also makes available
+log-probability values for each word in each of ten held-out data sets, for
+each of the baseline n-gram models.
+
+3: 
+LMentry: A Language Model Benchmark of Elementary Language Tasks
+  As the performance of large language models rapidly improves, benchmarks are
+getting larger and more complex as well. We present LMentry, a benchmark that
+avoids this "arms race" by focusing on a compact set of tasks that are trivial
+to humans, e.g. writing a sentence containing a specific word, identifying
+which words in a list belong to a specific category, or choosing which of two
+words is longer. LMentry is specifically designed to provide quick and
+interpretable insights into the capabilities and robustness of large language
+models. Our experiments reveal a wide variety of failure cases that, while
+immediately obvious to humans, pose a considerable challenge for large language
+models, including OpenAI's latest 175B-parameter instruction-tuned model,
+TextDavinci002. LMentry complements contemporary evaluation approaches of large
+language models, providing a quick, automatic, and easy-to-run "unit test",
+without resorting to large benchmark suites of complex tasks.
+
+4: 
+PaLM: Scaling Language Modeling with Pathways
+  Large language models have been shown to achieve remarkable performance
+across a variety of natural language tasks using few-shot learning, which
+drastically reduces the number of task-specific training examples needed to
+adapt the model to a particular application. To further our understanding of
+the impact of scale on few-shot learning, we trained a 540-billion parameter,
+densely activated, Transformer language model, which we call Pathways Language
+Model PaLM. We trained PaLM on 6144 TPU v4 chips using Pathways, a new ML
+system which enables highly efficient training across multiple TPU Pods. We
+demonstrate continued benefits of scaling by achieving state-of-the-art
+few-shot learning results on hundreds of language understanding and generation
+benchmarks. On a number of these tasks, PaLM 540B achieves breakthrough
+performance, outperforming the finetuned state-of-the-art on a suite of
+multi-step reasoning tasks, and outperforming average human performance on the
+recently released BIG-bench benchmark. A significant number of BIG-bench tasks
+showed discontinuous improvements from model scale, meaning that performance
+steeply increased as we scaled to our largest model. PaLM also has strong
+capabilities in multilingual tasks and source code generation, which we
+demonstrate on a wide array of benchmarks. We additionally provide a
+comprehensive analysis on bias and toxicity, and study the extent of training
+data memorization with respect to model scale. Finally, we discuss the ethical
+considerations related to large language models and discuss potential
+mitigation strategies.
+
+5: 
+Paraphrasing with Large Language Models
+  Recently, large language models such as GPT-2 have shown themselves to be
+extremely adept at text generation and have also been able to achieve
+high-quality results in many downstream NLP tasks such as text classification,
+sentiment analysis and question answering with the aid of fine-tuning. We
+present a useful technique for using a large language model to perform the task
+of paraphrasing on a variety of texts and subjects. Our approach is
+demonstrated to be capable of generating paraphrases not only at a sentence
+level but also for longer spans of text such as paragraphs without needing to
+break the text into smaller chunks.
+

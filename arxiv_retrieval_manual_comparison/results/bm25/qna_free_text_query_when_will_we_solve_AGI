@@ -1,0 +1,55 @@
+Query:
+when will we solve AGI
+
+Results:
+1: 
+Title: Asymptotically Unambitious Artificial General Intelligence
+Abstract:
+  General intelligence, the ability to solve arbitrary solvable problems, is supposed by many to be artificially constructible. Narrow intelligence, the ability to solve a given particularly difficult problem, has seen impressive recent development. Notable examples include self-driving cars, Go engines, image classifiers, and translators. Artificial General Intelligence (AGI) presents dangers that narrow intelligence does not: if something smarter than us across every domain were indifferent to our concerns, it would be an existential threat to humanity, just as we threaten many species despite no ill will. Even the theory of how to maintain the alignment of an AGI's goals with our own has proven highly elusive. We present the first algorithm we are aware of for asymptotically unambitious AGI, where "unambitiousness" includes not seeking arbitrary power. Thus, we identify an exception to the Instrumental Convergence Thesis, which is roughly that by default, an AGI would seek power, including over us. 
+
+2: 
+Title: Robustness to fundamental uncertainty in AGI alignment
+Abstract:
+  The AGI alignment problem has a bimodal distribution of outcomes with most outcomes clustering around the poles of total success and existential, catastrophic failure. Consequently, attempts to solve AGI alignment should, all else equal, prefer false negatives (ignoring research programs that would have been successful) to false positives (pursuing research programs that will unexpectedly fail). Thus, we propose adopting a policy of responding to points of philosophical and practical uncertainty associated with the alignment problem by limiting and choosing necessary assumptions to reduce the risk of false positives. Herein we explore in detail two relevant points of uncertainty that AGI alignment research hinges on---meta-ethical uncertainty and uncertainty about mental phenomena---and show how to reduce false positives in response to them. 
+
+3: 
+Title: Mesarovician Abstract Learning Systems
+Abstract:
+  The solution methods used to realize artificial general intelligence (AGI) may not contain the formalism needed to adequately model and characterize AGI. In particular, current approaches to learning hold notions of problem domain and problem task as fundamental precepts, but it is hardly apparent that an AGI encountered in the wild will be discernable into a set of domain-task pairings. Nor is it apparent that the outcomes of AGI in a system can be well expressed in terms of domain and task, or as consequences thereof. Thus, there is both a practical and theoretical use for meta-theories of learning which do not express themselves explicitly in terms of solution methods. General systems theory offers such a meta-theory. Herein, Mesarovician abstract systems theory is used as a super-structure for learning. Abstract learning systems are formulated. Subsequent elaboration stratifies the assumptions of learning systems into a hierarchy and considers the hierarchy such stratification projects onto learning theory. The presented Mesarovician abstract learning systems theory calls back to the founding motivations of artificial intelligence research by focusing on the thinking participants directly, in this case, learning systems, in contrast to the contemporary focus on the problems thinking participants solve. 
+
+4: 
+Title: Future Trends for Human-AI Collaboration: A Comprehensive Taxonomy of
+  AI/AGI Using Multiple Intelligences and Learning Styles
+Abstract:
+  This article discusses some trends and concepts in developing new generation of future Artificial General Intelligence (AGI) systems which relate to complex facets and different types of human intelligence, especially social, emotional, attentional and ethical intelligence. We describe various aspects of multiple human intelligences and learning styles, which may impact on a variety of AI problem domains. Using the concept of 'multiple intelligences' rather than a single type of intelligence, we categorize and provide working definitions of various AGI depending on their cognitive skills or capacities. Future AI systems will be able not only to communicate with human users and each other, but also to efficiently exchange knowledge and wisdom with abilities of cooperation, collaboration and even co-creating something new and valuable and have meta-learning capacities. Multi-agent systems such as these can be used to solve problems that would be difficult to solve by any individual intelligent agent.   Key words: Artificial General Intelligence (AGI), multiple intelligences, learning styles, physical intelligence, emotional intelligence, social intelligence, attentional intelligence, moral-ethical intelligence, responsible decision making, creative-innovative intelligence, cognitive functions, meta-learning of AI systems. 
+
+5: 
+Title: AGI Safety Literature Review
+Abstract:
+  The development of Artificial General Intelligence (AGI) promises to be a major event. Along with its many potential benefits, it also raises serious safety concerns (Bostrom, 2014). The intention of this paper is to provide an easily accessible and up-to-date collection of references for the emerging field of AGI safety. A significant number of safety problems for AGI have been identified. We list these, and survey recent research on solving them. We also cover works on how best to think of AGI from the limited knowledge we have today, predictions for when AGI will first be created, and what will happen after its creation. Finally, we review the current public policy on AGI. 
+
+6: 
+Title: The AGI Containment Problem
+Abstract:
+  There is considerable uncertainty about what properties, capabilities and motivations future AGIs will have. In some plausible scenarios, AGIs may pose security risks arising from accidents and defects. In order to mitigate these risks, prudent early AGI research teams will perform significant testing on their creations before use. Unfortunately, if an AGI has human-level or greater intelligence, testing itself may not be safe; some natural AGI goal systems create emergent incentives for AGIs to tamper with their test environments, make copies of themselves on the internet, or convince developers and operators to do dangerous things. In this paper, we survey the AGI containment problem - the question of how to build a container in which tests can be conducted safely and reliably, even on AGIs with unknown motivations and capabilities that could be dangerous. We identify requirements for AGI containers, available mechanisms, and weaknesses that need to be addressed. 
+
+7: 
+Title: The Embeddings World and Artificial General Intelligence
+Abstract:
+  From early days, a key and controversial question inside the artificial intelligence community was whether Artificial General Intelligence (AGI) is achievable. AGI is the ability of machines and computer programs to achieve human-level intelligence and do all tasks that a human being can. While there exist a number of systems in the literature claiming they realize AGI, several other researchers argue that it is impossible to achieve it. In this paper, we take a different view to the problem. First, we discuss that in order to realize AGI, along with building intelligent machines and programs, an intelligent world should also be constructed which is on the one hand, an accurate approximation of our world and on the other hand, a significant part of reasoning of intelligent machines is already embedded in this world. Then we discuss that AGI is not a product or algorithm, rather it is a continuous process which will become more and more mature over time (like human civilization and wisdom). Then, we argue that pre-trained embeddings play a key role in building this intelligent world and as a result, realizing AGI. We discuss how pre-trained embeddings facilitate achieving several characteristics of human-level intelligence, such as embodiment, common sense knowledge, unconscious knowledge and continuality of learning, by machines. 
+
+8: 
+Title: Approaches to Artificial General Intelligence: An Analysis
+Abstract:
+  This paper is an analysis of the different methods proposed to achieve AGI, including Human Brain Emulation, AIXI and Integrated Cognitive Architecture. First, the definition of AGI as used in this paper has been defined, and its requirements have been stated. For each proposed method mentioned, the method in question was summarized and its key processes were detailed, showcasing how it functioned. Then, each method listed was analyzed, taking various factors into consideration, such as technological requirements, computational ability, and adequacy to the requirements. It was concluded that while there are various methods to achieve AGI that could work, such as Human Brain Emulation and Integrated Cognitive Architectures, the most promising method to achieve AGI is Integrated Cognitive Architectures. This is because Human Brain Emulation was found to require scanning technologies that will most likely not be available until the 2030s, making it unlikely to be created before then. Moreover, Integrated Cognitive Architectures has reduced computational requirements and a suitable functionality for General Intelligence, making it the most likely way to achieve AGI. 
+
+9: 
+Title: Universal Empathy and Ethical Bias for Artificial General Intelligence
+Abstract:
+  Rational agents are usually built to maximize rewards. However, AGI agents can find undesirable ways of maximizing any prior reward function. Therefore value learning is crucial for safe AGI. We assume that generalized states of the world are valuable - not rewards themselves, and propose an extension of AIXI, in which rewards are used only to bootstrap hierarchical value learning. The modified AIXI agent is considered in the multi-agent environment, where other agents can be either humans or other "mature" agents, which values should be revealed and adopted by the "infant" AGI agent. General framework for designing such empathic agent with ethical bias is proposed also as an extension of the universal intelligence model. Moreover, we perform experiments in the simple Markov environment, which demonstrate feasibility of our approach to value learning in safe AGI. 
+
+10: 
+Title: Modeling AGI Safety Frameworks with Causal Influence Diagrams
+Abstract:
+  Proposals for safe AGI systems are typically made at the level of frameworks, specifying how the components of the proposed system should be trained and interact with each other. In this paper, we model and compare the most promising AGI safety frameworks using causal influence diagrams. The diagrams show the optimization objective and causal assumptions of the framework. The unified representation permits easy comparison of frameworks and their assumptions. We hope that the diagrams will serve as an accessible and visual introduction to the main AGI safety frameworks. 
+

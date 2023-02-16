@@ -1,0 +1,98 @@
+1: 
+Deep Residual Learning for Image Recognition
+  Deeper neural networks are more difficult to train. We present a residual
+learning framework to ease the training of networks that are substantially
+deeper than those used previously. We explicitly reformulate the layers as
+learning residual functions with reference to the layer inputs, instead of
+learning unreferenced functions. We provide comprehensive empirical evidence
+showing that these residual networks are easier to optimize, and can gain
+accuracy from considerably increased depth. On the ImageNet dataset we evaluate
+residual nets with a depth of up to 152 layers---8x deeper than VGG nets but
+still having lower complexity. An ensemble of these residual nets achieves
+3.57% error on the ImageNet test set. This result won the 1st place on the
+ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100
+and 1000 layers.
+  The depth of representations is of central importance for many visual
+recognition tasks. Solely due to our extremely deep representations, we obtain
+a 28% relative improvement on the COCO object detection dataset. Deep residual
+nets are foundations of our submissions to ILSVRC & COCO 2015 competitions,
+where we also won the 1st places on the tasks of ImageNet detection, ImageNet
+localization, COCO detection, and COCO segmentation.
+
+2: 
+Improved Residual Networks for Image and Video Recognition
+  Residual networks (ResNets) represent a powerful type of convolutional neural
+network (CNN) architecture, widely adopted and used in various tasks. In this
+work we propose an improved version of ResNets. Our proposed improvements
+address all three main components of a ResNet: the flow of information through
+the network layers, the residual building block, and the projection shortcut.
+We are able to show consistent improvements in accuracy and learning
+convergence over the baseline. For instance, on ImageNet dataset, using the
+ResNet with 50 layers, for top-1 accuracy we can report a 1.19% improvement
+over the baseline in one setting and around 2% boost in another. Importantly,
+these improvements are obtained without increasing the model complexity. Our
+proposed approach allows us to train extremely deep networks, while the
+baseline shows severe optimization issues. We report results on three tasks
+over six datasets: image classification (ImageNet, CIFAR-10 and CIFAR-100),
+object detection (COCO) and video action recognition (Kinetics-400 and
+Something-Something-v2). In the deep learning era, we establish a new milestone
+for the depth of a CNN. We successfully train a 404-layer deep CNN on the
+ImageNet dataset and a 3002-layer network on CIFAR-10 and CIFAR-100, while the
+baseline is not able to converge at such extreme depths. Code is available at:
+https://github.com/iduta/iresnet
+
+3: 
+Multi-Residual Networks: Improving the Speed and Accuracy of Residual
+  Networks
+  In this article, we take one step toward understanding the learning behavior
+of deep residual networks, and supporting the observation that deep residual
+networks behave like ensembles. We propose a new convolutional neural network
+architecture which builds upon the success of residual networks by explicitly
+exploiting the interpretation of very deep networks as an ensemble. The
+proposed multi-residual network increases the number of residual functions in
+the residual blocks. Our architecture generates models that are wider, rather
+than deeper, which significantly improves accuracy. We show that our model
+achieves an error rate of 3.73% and 19.45% on CIFAR-10 and CIFAR-100
+respectively, that outperforms almost all of the existing models. We also
+demonstrate that our model outperforms very deep residual networks by 0.22%
+(top-1 error) on the full ImageNet 2012 classification dataset. Additionally,
+inspired by the parallel structure of multi-residual networks, a model
+parallelism technique has been investigated. The model parallelism method
+distributes the computation of residual blocks among the processors, yielding
+up to 15% computational complexity improvement.
+
+4: 
+Residual Attention Network for Image Classification
+  In this work, we propose "Residual Attention Network", a convolutional neural
+network using attention mechanism which can incorporate with state-of-art feed
+forward network architecture in an end-to-end training fashion. Our Residual
+Attention Network is built by stacking Attention Modules which generate
+attention-aware features. The attention-aware features from different modules
+change adaptively as layers going deeper. Inside each Attention Module,
+bottom-up top-down feedforward structure is used to unfold the feedforward and
+feedback attention process into a single feedforward process. Importantly, we
+propose attention residual learning to train very deep Residual Attention
+Networks which can be easily scaled up to hundreds of layers. Extensive
+analyses are conducted on CIFAR-10 and CIFAR-100 datasets to verify the
+effectiveness of every module mentioned above. Our Residual Attention Network
+achieves state-of-the-art object recognition performance on three benchmark
+datasets including CIFAR-10 (3.90% error), CIFAR-100 (20.45% error) and
+ImageNet (4.8% single model and single crop, top-5 error). Note that, our
+method achieves 0.6% top-1 accuracy improvement with 46% trunk depth and 69%
+forward FLOPs comparing to ResNet-200. The experiment also demonstrates that
+our network is robust against noisy labels.
+
+5: 
+Deep Residual Learning for Weakly-Supervised Relation Extraction
+  Deep residual learning (ResNet) is a new method for training very deep neural
+networks using identity map-ping for shortcut connections. ResNet has won the
+ImageNet ILSVRC 2015 classification task, and achieved state-of-the-art
+performances in many computer vision tasks. However, the effect of residual
+learning on noisy natural language processing tasks is still not well
+understood. In this paper, we design a novel convolutional neural network (CNN)
+with residual learning, and investigate its impacts on the task of distantly
+supervised noisy relation extraction. In contradictory to popular beliefs that
+ResNet only works well for very deep networks, we found that even with 9 layers
+of CNNs, using identity mapping could significantly improve the performance for
+distantly-supervised relation extraction.
+

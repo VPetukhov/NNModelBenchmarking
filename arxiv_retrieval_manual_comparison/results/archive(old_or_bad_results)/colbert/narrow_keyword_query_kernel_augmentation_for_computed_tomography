@@ -1,0 +1,73 @@
+1: 
+An Independent Evaluation of Subspace Face Recognition Algorithms
+  This paper explores a comparative study of both the linear and kernel
+implementations of three of the most popular Appearance-based Face Recognition
+projection classes, these being the methodologies of Principal Component
+Analysis, Linear Discriminant Analysis and Independent Component Analysis. The
+experimental procedure provides a platform of equal working conditions and
+examines the ten algorithms in the categories of expression, illumination,
+occlusion and temporal delay. The results are then evaluated based on a
+sequential combination of assessment tools that facilitate both intuitive and
+statistical decisiveness among the intra and interclass comparisons. The best
+categorical algorithms are then incorporated into a hybrid methodology, where
+the advantageous effects of fusion strategies are considered.
+
+2: 
+Support vector machine for functional data classification
+  In many applications, input data are sampled functions taking their values in
+infinite dimensional spaces rather than standard vectors. This fact has complex
+consequences on data analysis algorithms that motivate modifications of them.
+In fact most of the traditional data analysis tools for regression,
+classification and clustering have been adapted to functional inputs under the
+general name of functional Data Analysis (FDA). In this paper, we investigate
+the use of Support Vector Machines (SVMs) for functional data analysis and we
+focus on the problem of curves discrimination. SVMs are large margin classifier
+tools based on implicit non linear mappings of the considered data into high
+dimensional spaces thanks to kernels. We show how to define simple kernels that
+take into account the unctional nature of the data and lead to consistent
+classification. Experiments conducted on real world data emphasize the benefit
+of taking into account some functional aspects of the problems.
+
+3: 
+Medical Image Segmentation and Localization using Deformable Templates
+  This paper presents deformable templates as a tool for segmentation and
+localization of biological structures in medical images. Structures are
+represented by a prototype template, combined with a parametric warp mapping
+used to deform the original shape. The localization procedure is achieved using
+a multi-stage, multi-resolution algorithm de-signed to reduce computational
+complexity and time. The algorithm initially identifies regions in the image
+most likely to contain the desired objects and then examines these regions at
+progressively increasing resolutions. The final stage of the algorithm involves
+warping the prototype template to match the localized objects. The algorithm is
+presented along with the results of four example applications using MRI, x-ray
+and ultrasound images.
+
+4: 
+The Parameter-Less Self-Organizing Map algorithm
+  The Parameter-Less Self-Organizing Map (PLSOM) is a new neural network
+algorithm based on the Self-Organizing Map (SOM). It eliminates the need for a
+learning rate and annealing schemes for learning rate and neighbourhood size.
+We discuss the relative performance of the PLSOM and the SOM and demonstrate
+some tasks in which the SOM fails but the PLSOM performs satisfactory. Finally
+we discuss some example applications of the PLSOM and present a proof of
+ordering under certain limited conditions.
+
+5: 
+Response Prediction of Structural System Subject to Earthquake Motions
+  using Artificial Neural Network
+  This paper uses Artificial Neural Network (ANN) models to compute response of
+structural system subject to Indian earthquakes at Chamoli and Uttarkashi
+ground motion data. The system is first trained for a single real earthquake
+data. The trained ANN architecture is then used to simulate earthquakes with
+various intensities and it was found that the predicted responses given by ANN
+model are accurate for practical purposes. When the ANN is trained by a part of
+the ground motion data, it can also identify the responses of the structural
+system well. In this way the safeness of the structural systems may be
+predicted in case of future earthquakes without waiting for the earthquake to
+occur for the lessons. Time period and the corresponding maximum response of
+the building for an earthquake has been evaluated, which is again trained to
+predict the maximum response of the building at different time periods. The
+trained time period versus maximum response ANN model is also tested for real
+earthquake data of other place, which was not used in the training and was
+found to be in good agreement.
+

@@ -1,0 +1,55 @@
+Query:
+bayesian neural networks
+
+Results:
+1: 
+Title: Bayesian Neural Networks: Essentials
+Abstract:
+  Bayesian neural networks utilize probabilistic layers that capture uncertainty over weights and activations, and are trained using Bayesian inference. Since these probabilistic layers are designed to be drop-in replacement of their deterministic counter parts, Bayesian neural networks provide a direct and natural way to extend conventional deep neural networks to support probabilistic deep learning. However, it is nontrivial to understand, design and train Bayesian neural networks due to their complexities. We discuss the essentials of Bayesian neural networks including duality (deep neural networks, probabilistic models), approximate Bayesian inference, Bayesian priors, Bayesian posteriors, and deep variational learning. We use TensorFlow Probability APIs and code examples for illustration. The main problem with Bayesian neural networks is that the architecture of deep neural networks makes it quite redundant, and costly, to account for uncertainty for a large number of successive layers. Hybrid Bayesian neural networks, which use few probabilistic layers judicially positioned in the networks, provide a practical solution. 
+
+2: 
+Title: On the Validity of Bayesian Neural Networks for Uncertainty Estimation
+Abstract:
+  Deep neural networks (DNN) are versatile parametric models utilised successfully in a diverse number of tasks and domains. However, they have limitations---particularly from their lack of robustness and over-sensitivity to out of distribution samples. Bayesian Neural Networks, due to their formulation under the Bayesian framework, provide a principled approach to building neural networks that address these limitations. This paper describes a study that empirically evaluates and compares Bayesian Neural Networks to their equivalent point estimate Deep Neural Networks to quantify the predictive uncertainty induced by their parameters, as well as their performance in view of this uncertainty. In this study, we evaluated and compared three point estimate deep neural networks against comparable Bayesian neural network alternatives using two well-known benchmark image classification datasets (CIFAR-10 and SVHN). 
+
+3: 
+Title: The Case for Bayesian Deep Learning
+Abstract:
+  The key distinguishing property of a Bayesian approach is marginalization instead of optimization, not the prior, or Bayes rule. Bayesian inference is especially compelling for deep neural networks. (1) Neural networks are typically underspecified by the data, and can represent many different but high performing models corresponding to different settings of parameters, which is exactly when marginalization will make the biggest difference for both calibration and accuracy. (2) Deep ensembles have been mistaken as competing approaches to Bayesian methods, but can be seen as approximate Bayesian marginalization. (3) The structure of neural networks gives rise to a structured prior in function space, which reflects the inductive biases of neural networks that help them generalize. (4) The observed correlation between parameters in flat regions of the loss and a diversity of solutions that provide good generalization is further conducive to Bayesian marginalization, as flat regions occupy a large volume in a high dimensional space, and each different solution will make a good contribution to a Bayesian model average. (5) Recent practical advances for Bayesian deep learning provide improvements in accuracy and calibration compared to standard training, while retaining scalability. 
+
+4: 
+Title: ZhuSuan: A Library for Bayesian Deep Learning
+Abstract:
+  In this paper we introduce ZhuSuan, a python probabilistic programming library for Bayesian deep learning, which conjoins the complimentary advantages of Bayesian methods and deep learning. ZhuSuan is built upon Tensorflow. Unlike existing deep learning libraries, which are mainly designed for deterministic neural networks and supervised tasks, ZhuSuan is featured for its deep root into Bayesian inference, thus supporting various kinds of probabilistic models, including both the traditional hierarchical Bayesian models and recent deep generative models. We use running examples to illustrate the probabilistic programming on ZhuSuan, including Bayesian logistic regression, variational auto-encoders, deep sigmoid belief networks and Bayesian recurrent neural networks. 
+
+5: 
+Title: Variational Bayes: A report on approaches and applications
+Abstract:
+  Deep neural networks have achieved impressive results on a wide variety of tasks. However, quantifying uncertainty in the network's output is a challenging task. Bayesian models offer a mathematical framework to reason about model uncertainty. Variational methods have been used for approximating intractable integrals that arise in Bayesian inference for neural networks. In this report, we review the major variational inference concepts pertinent to Bayesian neural networks and compare various approximation methods used in literature. We also talk about the applications of variational bayes in Reinforcement learning and continual learning. 
+
+6: 
+Title: Who's Afraid of Thomas Bayes?
+Abstract:
+  In many cases, neural networks perform well on test data, but tend to overestimate their confidence on out-of-distribution data. This has led to adoption of Bayesian neural networks, which better capture uncertainty and therefore more accurately reflect the model's confidence. For machine learning security researchers, this raises the natural question of how making a model Bayesian affects the security of the model. In this work, we explore the interplay between Bayesianism and two measures of security: model privacy and adversarial robustness. We demonstrate that Bayesian neural networks are more vulnerable to membership inference attacks in general, but are at least as robust as their non-Bayesian counterparts to adversarial examples. 
+
+7: 
+Title: On the Relative Expressiveness of Bayesian and Neural Networks
+Abstract:
+  A neural network computes a function. A central property of neural networks is that they are "universal approximators:" for a given continuous function, there exists a neural network that can approximate it arbitrarily well, given enough neurons (and some additional assumptions). In contrast, a Bayesian network is a model, but each of its queries can be viewed as computing a function. In this paper, we identify some key distinctions between the functions computed by neural networks and those by marginal Bayesian network queries, showing that the former are more expressive than the latter. Moreover, we propose a simple augmentation to Bayesian networks (a testing operator), which enables their marginal queries to become "universal approximators." 
+
+8: 
+Title: Adversarial Phenomenon in the Eyes of Bayesian Deep Learning
+Abstract:
+  Deep Learning models are vulnerable to adversarial examples, i.e.\ images obtained via deliberate imperceptible perturbations, such that the model misclassifies them with high confidence. However, class confidence by itself is an incomplete picture of uncertainty. We therefore use principled Bayesian methods to capture model uncertainty in prediction for observing adversarial misclassification. We provide an extensive study with different Bayesian neural networks attacked in both white-box and black-box setups. The behaviour of the networks for noise, attacks and clean test data is compared. We observe that Bayesian neural networks are uncertain in their predictions for adversarial perturbations, a behaviour similar to the one observed for random Gaussian perturbations. Thus, we conclude that Bayesian neural networks can be considered for detecting adversarial examples. 
+
+9: 
+Title: The Relevance of Bayesian Layer Positioning to Model Uncertainty in Deep
+  Bayesian Active Learning
+Abstract:
+  One of the main challenges of deep learning tools is their inability to capture model uncertainty. While Bayesian deep learning can be used to tackle the problem, Bayesian neural networks often require more time and computational power to train than deterministic networks. Our work explores whether fully Bayesian networks are needed to successfully capture model uncertainty. We vary the number and position of Bayesian layers in a network and compare their performance on active learning with the MNIST dataset. We found that we can fully capture the model uncertainty by using only a few Bayesian layers near the output of the network, combining the advantages of deterministic and Bayesian networks. 
+
+10: 
+Title: Implicit Priors for Knowledge Sharing in Bayesian Neural Networks
+Abstract:
+  Bayesian interpretations of neural network have a long history, dating back to early work in the 1990's and have recently regained attention because of their desirable properties like uncertainty estimation, model robustness and regularisation. We want to discuss here the application of Bayesian models to knowledge sharing between neural networks. Knowledge sharing comes in different facets, such as transfer learning, model distillation and shared embeddings. All of these tasks have in common that learned "features" ought to be shared across different networks. Theoretically rooted in the concepts of Bayesian neural networks this work has widespread application to general deep learning. 
+

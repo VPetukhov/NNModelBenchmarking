@@ -1,0 +1,59 @@
+Query:
+explainable machine learning
+
+Results:
+1: 
+Title: Machine Learning Explainability for External Stakeholders
+Abstract:
+  As machine learning is increasingly deployed in high-stakes contexts affecting people's livelihoods, there have been growing calls to open the black box and to make machine learning algorithms more explainable. Providing useful explanations requires careful consideration of the needs of stakeholders, including end-users, regulators, and domain experts. Despite this need, little work has been done to facilitate inter-stakeholder conversation around explainable machine learning. To help address this gap, we conducted a closed-door, day-long workshop between academics, industry experts, legal scholars, and policymakers to develop a shared language around explainability and to understand the current shortcomings of and potential solutions for deploying explainable machine learning in service of transparency goals. We also asked participants to share case studies in deploying explainable machine learning at scale. In this paper, we provide a short summary of various case studies of explainable machine learning, lessons from those studies, and discuss open challenges. 
+
+2: 
+Title: When and How to Fool Explainable Models (and Humans) with Adversarial
+  Examples
+Abstract:
+  Reliable deployment of machine learning models such as neural networks continues to be challenging due to several limitations. Some of the main shortcomings are the lack of interpretability and the lack of robustness against adversarial examples or out-of-distribution inputs. In this paper, we explore the possibilities and limits of adversarial attacks for explainable machine learning models. First, we extend the notion of adversarial examples to fit in explainable machine learning scenarios, in which the inputs, the output classifications and the explanations of the model's decisions are assessed by humans. Next, we propose a comprehensive framework to study whether (and how) adversarial examples can be generated for explainable models under human assessment, introducing novel attack paradigms. In particular, our framework considers a wide range of relevant (yet often ignored) factors such as the type of problem, the user expertise or the objective of the explanations in order to identify the attack strategies that should be adopted in each scenario to successfully deceive the model (and the human). These contributions intend to serve as a basis for a more rigorous and realistic study of adversarial examples in the field of explainable machine learning. 
+
+3: 
+Title: explAIner: A Visual Analytics Framework for Interactive and Explainable
+  Machine Learning
+Abstract:
+  We propose a framework for interactive and explainable machine learning that enables users to (1) understand machine learning models; (2) diagnose model limitations using different explainable AI methods; as well as (3) refine and optimize the models. Our framework combines an iterative XAI pipeline with eight global monitoring and steering mechanisms, including quality monitoring, provenance tracking, model comparison, and trust building. To operationalize the framework, we present explAIner, a visual analytics system for interactive and explainable machine learning that instantiates all phases of the suggested pipeline within the commonly used TensorBoard environment. We performed a user-study with nine participants across different expertise levels to examine their perception of our workflow and to collect suggestions to fill the gap between our system and framework. The evaluation confirms that our tightly integrated system leads to an informed machine learning process while disclosing opportunities for further extensions. 
+
+4: 
+Title: Explainable Multi-class Classification of the CAMH COVID-19 Mental
+  Health Data
+Abstract:
+  Application of Machine Learning algorithms to the medical domain is an emerging trend that helps to advance medical knowledge. At the same time, there is a significant a lack of explainable studies that promote informed, transparent, and interpretable use of Machine Learning algorithms. In this paper, we present explainable multi-class classification of the Covid-19 mental health data. In Machine Learning study, we aim to find the potential factors to influence a personal mental health during the Covid-19 pandemic. We found that Random Forest (RF) and Gradient Boosting (GB) have scored the highest accuracy of 68.08% and 68.19% respectively, with LIME prediction accuracy 65.5% for RF and 61.8% for GB. We then compare a Post-hoc system (Local Interpretable Model-Agnostic Explanations, or LIME) and an Ante-hoc system (Gini Importance) in their ability to explain the obtained Machine Learning results. To the best of these authors knowledge, our study is the first explainable Machine Learning study of the mental health data collected during Covid-19 pandemics. 
+
+5: 
+Title: Pitfalls of Explainable ML: An Industry Perspective
+Abstract:
+  As machine learning (ML) systems take a more prominent and central role in contributing to life-impacting decisions, ensuring their trustworthiness and accountability is of utmost importance. Explanations sit at the core of these desirable attributes of a ML system. The emerging field is frequently called ``Explainable AI (XAI)'' or ``Explainable ML.'' The goal of explainable ML is to intuitively explain the predictions of a ML system, while adhering to the needs to various stakeholders. Many explanation techniques were developed with contributions from both academia and industry. However, there are several existing challenges that have not garnered enough interest and serve as roadblocks to widespread adoption of explainable ML. In this short paper, we enumerate challenges in explainable ML from an industry perspective. We hope these challenges will serve as promising future research directions, and would contribute to democratizing explainable ML. 
+
+6: 
+Title: Explainable Machine Learning Control -- robust control and stability
+  analysis
+Abstract:
+  Recently, the term explainable AI became known as an approach to produce models from artificial intelligence which allow interpretation. Since a long time, there are models of symbolic regression in use that are perfectly explainable and mathematically tractable: in this contribution we demonstrate how to use symbolic regression methods to infer the optimal control of a dynamical system given one or several optimization criteria, or cost functions. In previous publications, network control was achieved by automatized machine learning control using genetic programming. Here, we focus on the subsequent analysis of the analytical expressions which result from the machine learning. In particular, we use AUTO to analyze the stability properties of the controlled oscillator system which served as our model. As a result, we show that there is a considerable advantage of explainable models over less accessible neural networks. 
+
+7: 
+Title: Explainable Machine Learning for Scientific Insights and Discoveries
+Abstract:
+  Machine learning methods have been remarkably successful for a wide range of application areas in the extraction of essential information from data. An exciting and relatively recent development is the uptake of machine learning in the natural sciences, where the major goal is to obtain novel scientific insights and discoveries from observational or simulated data. A prerequisite for obtaining a scientific outcome is domain knowledge, which is needed to gain explainability, but also to enhance scientific consistency. In this article we review explainable machine learning in view of applications in the natural sciences and discuss three core elements which we identified as relevant in this context: transparency, interpretability, and explainability. With respect to these core elements, we provide a survey of recent scientific works that incorporate machine learning and the way that explainable machine learning is used in combination with domain knowledge from the application areas. 
+
+8: 
+Title: Explainable AI for Software Engineering
+Abstract:
+  Artificial Intelligence/Machine Learning techniques have been widely used in software engineering to improve developer productivity, the quality of software systems, and decision-making. However, such AI/ML models for software engineering are still impractical, not explainable, and not actionable. These concerns often hinder the adoption of AI/ML models in software engineering practices. In this article, we first highlight the need for explainable AI in software engineering. Then, we summarize three successful case studies on how explainable AI techniques can be used to address the aforementioned challenges by making software defect prediction models more practical, explainable, and actionable. 
+
+9: 
+Title: Causality in Neural Networks -- An Extended Abstract
+Abstract:
+  Causal reasoning is the main learning and explanation tool used by humans. AI systems should possess causal reasoning capabilities to be deployed in the real world with trust and reliability. Introducing the ideas of causality to machine learning helps in providing better learning and explainable models. Explainability, causal disentanglement are some important aspects of any machine learning model. Causal explanations are required to believe in a model's decision and causal disentanglement learning is important for transfer learning applications. We exploit the ideas of causality to be used in deep learning models to achieve better and causally explainable models that are useful in fairness, disentangled representation, etc. 
+
+10: 
+Title: Evaluating Explainable Methods for Predictive Process Analytics: A
+  Functionally-Grounded Approach
+Abstract:
+  Predictive process analytics focuses on predicting the future states of running instances of a business process. While advanced machine learning techniques have been used to increase accuracy of predictions, the resulting predictive models lack transparency. Current explainable machine learning methods, such as LIME and SHAP, can be used to interpret black box models. However, it is unclear how fit for purpose these methods are in explaining process predictive models. In this paper, we draw on evaluation measures used in the field of explainable AI and propose functionally-grounded evaluation metrics for assessing explainable methods in predictive process analytics. We apply the proposed metrics to evaluate the performance of LIME and SHAP in interpreting process predictive models built on XGBoost, which has been shown to be relatively accurate in process predictions. We conduct the evaluation using three open source, real-world event logs and analyse the evaluation results to derive insights. The research contributes to understanding the trustworthiness of explainable methods for predictive process analytics as a fundamental and key step towards human user-oriented evaluation. 
+

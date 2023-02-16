@@ -1,0 +1,59 @@
+Query:
+kernel augmentation for computed tomography
+
+Results:
+1: 
+Title: Deep kernel learning for integral measurements
+Abstract:
+  Deep kernel learning refers to a Gaussian process that incorporates neural networks to improve the modelling of complex functions. We present a method that makes this approach feasible for problems where the data consists of line integral measurements of the target function. The performance is illustrated on computed tomography reconstruction examples. 
+
+2: 
+Title: Synthetic Data Augmentation using GAN for Improved Liver Lesion
+  Classification
+Abstract:
+  In this paper, we present a data augmentation method that generates synthetic medical images using Generative Adversarial Networks (GANs). We propose a training scheme that first uses classical data augmentation to enlarge the training set and then further enlarges the data size and its diversity by applying GAN techniques for synthetic data augmentation. Our method is demonstrated on a limited dataset of computed tomography (CT) images of 182 liver lesions (53 cysts, 64 metastases and 65 hemangiomas). The classification performance using only classic data augmentation yielded 78.6% sensitivity and 88.4% specificity. By adding the synthetic data augmentation the results significantly increased to 85.7% sensitivity and 92.4% specificity. 
+
+3: 
+Title: Heat Kernel Smoothing in Irregular Image Domains
+Abstract:
+  We present the discrete version of heat kernel smoothing on graph data structure. The method is used to smooth data in an irregularly shaped domains in 3D images.   New statistical properties are derived. As an application, we show how to filter out data in the lung blood vessel trees obtained from computed tomography. The method can be further used in representing the complex vessel trees parametrically and extracting the skeleton representation of the trees. 
+
+4: 
+Title: Zero-Shot Domain Adaptation in CT Segmentation by Filtered Back
+  Projection Augmentation
+Abstract:
+  Domain shift is one of the most salient challenges in medical computer vision. Due to immense variability in scanners' parameters and imaging protocols, even images obtained from the same person and the same scanner could differ significantly. We address variability in computed tomography (CT) images caused by different convolution kernels used in the reconstruction process, the critical domain shift factor in CT. The choice of a convolution kernel affects pixels' granularity, image smoothness, and noise level. We analyze a dataset of paired CT images, where smooth and sharp images were reconstructed from the same sinograms with different kernels, thus providing identical anatomy but different style. Though identical predictions are desired, we show that the consistency, measured as the average Dice between predictions on pairs, is just 0.54. We propose Filtered Back-Projection Augmentation (FBPAug), a simple and surprisingly efficient approach to augment CT images in sinogram space emulating reconstruction with different kernels. We apply the proposed method in a zero-shot domain adaptation setup and show that the consistency boosts from 0.54 to 0.92 outperforming other augmentation approaches. Neither specific preparation of source domain data nor target domain data is required, so our publicly released FBPAug can be used as a plug-and-play module for zero-shot domain adaptation in any CT-based task. 
+
+5: 
+Title: Anatomical Data Augmentation For CNN based Pixel-wise Classification
+Abstract:
+  In this work we propose a method for anatomical data augmentation that is based on using slices of computed tomography (CT) examinations that are adjacent to labeled slices as another resource of labeled data for training the network. The extended labeled data is used to train a U-net network for a pixel-wise classification into different hepatic lesions and normal liver tissues. Our dataset contains CT examinations from 140 patients with 333 CT images annotated by an expert radiologist. We tested our approach and compared it to the conventional training process. Results indicate superiority of our method. Using the anatomical data augmentation we achieved an improvement of 3% in the success rate, 5% in the classification accuracy, and 4% in Dice. 
+
+6: 
+Title: Improved automated lesion segmentation in whole-body FDG/PET-CT via
+  Test-Time Augmentation
+Abstract:
+  Numerous oncology indications have extensively quantified metabolically active tumors using positron emission tomography (PET) and computed tomography (CT). F-fluorodeoxyglucose-positron emission tomography (FDG-PET) is frequently utilized in clinical practice and clinical drug research to detect and measure metabolically active malignancies. The assessment of tumor burden using manual or computer-assisted tumor segmentation in FDG-PET images is widespread. Deep learning algorithms have also produced effective solutions in this area. However, there may be a need to improve the performance of a pre-trained deep learning network without the opportunity to modify this network. We investigate the potential benefits of test-time augmentation for segmenting tumors from PET-CT pairings. We applied a new framework of multilevel and multimodal tumor segmentation techniques that can simultaneously consider PET and CT data. In this study, we improve the network using a learnable composition of test time augmentations. We trained U-Net and Swin U-Netr on the training database to determine how different test time augmentation improved segmentation performance. We also developed an algorithm that finds an optimal test time augmentation contribution coefficient set. Using the newly trained U-Net and Swin U-Netr results, we defined an optimal set of coefficients for test-time augmentation and utilized them in combination with a pre-trained fixed nnU-Net. The ultimate idea is to improve performance at the time of testing when the model is fixed. Averaging the predictions with varying ratios on the augmented data can improve prediction accuracy. Our code will be available at \url{https://github.com/sepidehamiri/pet\_seg\_unet} 
+
+7: 
+Title: Exploring Vanilla U-Net for Lesion Segmentation from Whole-body
+  FDG-PET/CT Scans
+Abstract:
+  Tumor lesion segmentation is one of the most important tasks in medical image analysis. In clinical practice, Fluorodeoxyglucose Positron-Emission Tomography~(FDG-PET) is a widely used technique to identify and quantify metabolically active tumors. However, since FDG-PET scans only provide metabolic information, healthy tissue or benign disease with irregular glucose consumption may be mistaken for cancer. To handle this challenge, PET is commonly combined with Computed Tomography~(CT), with the CT used to obtain the anatomic structure of the patient. The combination of PET-based metabolic and CT-based anatomic information can contribute to better tumor segmentation results. %Computed tomography~(CT) is a popular modality to illustrate the anatomic structure of the patient. The combination of PET and CT is promising to handle this challenge by utilizing metabolic and anatomic information. In this paper, we explore the potential of U-Net for lesion segmentation in whole-body FDG-PET/CT scans from three aspects, including network architecture, data preprocessing, and data augmentation. The experimental results demonstrate that the vanilla U-Net with proper input shape can achieve satisfactory performance. Specifically, our method achieves first place in both preliminary and final leaderboards of the autoPET 2022 challenge. Our code is available at https://github.com/Yejin0111/autoPET2022_Blackbean. 
+
+8: 
+Title: Continuous Conversion of CT Kernel using Switchable CycleGAN with AdaIN
+Abstract:
+  X-ray computed tomography (CT) uses different filter kernels to highlight different structures. Since the raw sinogram data is usually removed after the reconstruction, in case there are additional need for other types of kernel images that were not previously generated, the patient may need to be scanned again. Accordingly, there exists increasing demand for post-hoc image domain conversion from one kernel to another without sacrificing the image quality. In this paper, we propose a novel unsupervised continuous kernel conversion method using cycle-consistent generative adversarial network (cycleGAN) with adaptive instance normalization (AdaIN). Even without paired training data, not only can our network translate the images between two different kernels, but it can also convert images along the interpolation path between the two kernel domains. We also show that the quality of generated images can be further improved if intermediate kernel domain images are available. Experimental results confirm that our method not only enables accurate kernel conversion that is comparable to supervised learning methods, but also generates intermediate kernel images in the unseen domain that are useful for hypopharyngeal cancer diagnosis. 
+
+9: 
+Title: Lesion Conditional Image Generation for Improved Segmentation of
+  Intracranial Hemorrhage from CT Images
+Abstract:
+  Data augmentation can effectively resolve a scarcity of images when training machine-learning algorithms. It can make them more robust to unseen images. We present a lesion conditional Generative Adversarial Network LcGAN to generate synthetic Computed Tomography (CT) images for data augmentation. A lesion conditional image (segmented mask) is an input to both the generator and the discriminator of the LcGAN during training. The trained model generates contextual CT images based on input masks. We quantify the quality of the images by using a fully convolutional network (FCN) score and blurriness. We also train another classification network to select better synthetic images. These synthetic CT images are then augmented to our hemorrhagic lesion segmentation network. By applying this augmentation method on 2.5%, 10% and 25% of original data, segmentation improved by 12.8%, 6% and 1.6% respectively. 
+
+10: 
+Title: Kernel Wasserstein Distance
+Abstract:
+  The Wasserstein distance is a powerful metric based on the theory of optimal transport. It gives a natural measure of the distance between two distributions with a wide range of applications. In contrast to a number of the common divergences on distributions such as Kullback-Leibler or Jensen-Shannon, it is (weakly) continuous, and thus ideal for analyzing corrupted data. To date, however, no kernel methods for dealing with nonlinear data have been proposed via the Wasserstein distance. In this work, we develop a novel method to compute the L2-Wasserstein distance in a kernel space implemented using the kernel trick. The latter is a general method in machine learning employed to handle data in a nonlinear manner. We evaluate the proposed approach in identifying computerized tomography (CT) slices with dental artifacts in head and neck cancer, performing unsupervised hierarchical clustering on the resulting Wasserstein distance matrix that is computed on imaging texture features extracted from each CT slice. Our experiments show that the kernel approach outperforms classical non-kernel approaches in identifying CT slices with artifacts. 
+

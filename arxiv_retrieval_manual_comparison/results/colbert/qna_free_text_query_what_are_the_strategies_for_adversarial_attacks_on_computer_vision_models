@@ -1,0 +1,59 @@
+Query:
+what are the strategies for adversarial attacks on computer vision models
+
+Results:
+1: 
+Title: An Adaptive Strategy for the Classification of G-Protein Coupled
+  Receptors
+Abstract:
+  One of the major problems in computational biology is the inability of existing classification models to incorporate expanding and new domain knowledge. This problem of static classification models is addressed in this paper by the introduction of incremental learning for problems in bioinformatics. Many machine learning tools have been applied to this problem using static machine learning structures such as neural networks or support vector machines that are unable to accommodate new information into their existing models. We utilize the fuzzy ARTMAP as an alternate machine learning system that has the ability of incrementally learning new data as it becomes available. The fuzzy ARTMAP is found to be comparable to many of the widespread machine learning systems. The use of an evolutionary strategy in the selection and combination of individual classifiers into an ensemble system, coupled with the incremental learning ability of the fuzzy ARTMAP is proven to be suitable as a pattern classifier. The algorithm presented is tested using data from the G-Coupled Protein Receptors Database and shows good accuracy of 83%. The system presented is also generally applicable, and can be used in problems in genomics and proteomics. 
+
+2: 
+Title: The on-line shortest path problem under partial monitoring
+Abstract:
+  The on-line shortest path problem is considered under various models of partial monitoring. Given a weighted directed acyclic graph whose edge weights can change in an arbitrary (adversarial) way, a decision maker has to choose in each round of a game a path between two distinguished vertices such that the loss of the chosen path (defined as the sum of the weights of its composing edges) be as small as possible. In a setting generalizing the multi-armed bandit problem, after choosing a path, the decision maker learns only the weights of those edges that belong to the chosen path. For this problem, an algorithm is given whose average cumulative loss in n rounds exceeds that of the best path, matched off-line to the entire sequence of the edge weights, by a quantity that is proportional to 1/\sqrt{n} and depends only polynomially on the number of edges of the graph. The algorithm can be implemented with linear complexity in the number of rounds n and in the number of edges. An extension to the so-called label efficient setting is also given, in which the decision maker is informed about the weights of the edges corresponding to the chosen path at a total of m << n time instances. Another extension is shown where the decision maker competes against a time-varying path, a generalization of the problem of tracking the best expert. A version of the multi-armed bandit setting for shortest path is also discussed where the decision maker learns only the total weight of the chosen path but not the weights of the individual edges on the path. Applications to routing in packet switched networks along with simulation results are also presented. 
+
+3: 
+Title: Comparing Robustness of Pairwise and Multiclass Neural-Network Systems
+  for Face Recognition
+Abstract:
+  Noise, corruptions and variations in face images can seriously hurt the performance of face recognition systems. To make such systems robust, multiclass neuralnetwork classifiers capable of learning from noisy data have been suggested. However on large face data sets such systems cannot provide the robustness at a high level. In this paper we explore a pairwise neural-network system as an alternative approach to improving the robustness of face recognition. In our experiments this approach is shown to outperform the multiclass neural-network system in terms of the predictive accuracy on the face images corrupted by noise. 
+
+4: 
+Title: An Independent Evaluation of Subspace Face Recognition Algorithms
+Abstract:
+  This paper explores a comparative study of both the linear and kernel implementations of three of the most popular Appearance-based Face Recognition projection classes, these being the methodologies of Principal Component Analysis, Linear Discriminant Analysis and Independent Component Analysis. The experimental procedure provides a platform of equal working conditions and examines the ten algorithms in the categories of expression, illumination, occlusion and temporal delay. The results are then evaluated based on a sequential combination of assessment tools that facilitate both intuitive and statistical decisiveness among the intra and interclass comparisons. The best categorical algorithms are then incorporated into a hybrid methodology, where the advantageous effects of fusion strategies are considered. 
+
+5: 
+Title: Multi-Dimensional Recurrent Neural Networks
+Abstract:
+  Recurrent neural networks (RNNs) have proved effective at one dimensional sequence learning tasks, such as speech and online handwriting recognition. Some of the properties that make RNNs suitable for such tasks, for example robustness to input warping, and the ability to access contextual information, are also desirable in multidimensional domains. However, there has so far been no direct way of applying RNNs to data with more than one spatio-temporal dimension. This paper introduces multi-dimensional recurrent neural networks (MDRNNs), thereby extending the potential applicability of RNNs to vision, video processing, medical imaging and many other areas, while avoiding the scaling problems that have plagued other multi-dimensional models. Experimental results are provided for two image segmentation tasks. 
+
+6: 
+Title: Response Prediction of Structural System Subject to Earthquake Motions
+  using Artificial Neural Network
+Abstract:
+  This paper uses Artificial Neural Network (ANN) models to compute response of structural system subject to Indian earthquakes at Chamoli and Uttarkashi ground motion data. The system is first trained for a single real earthquake data. The trained ANN architecture is then used to simulate earthquakes with various intensities and it was found that the predicted responses given by ANN model are accurate for practical purposes. When the ANN is trained by a part of the ground motion data, it can also identify the responses of the structural system well. In this way the safeness of the structural systems may be predicted in case of future earthquakes without waiting for the earthquake to occur for the lessons. Time period and the corresponding maximum response of the building for an earthquake has been evaluated, which is again trained to predict the maximum response of the building at different time periods. The trained time period versus maximum response ANN model is also tested for real earthquake data of other place, which was not used in the training and was found to be in good agreement. 
+
+7: 
+Title: Automatic Detection of Pulmonary Embolism using Computational
+  Intelligence
+Abstract:
+  This article describes the implementation of a system designed to automatically detect the presence of pulmonary embolism in lung scans. These images are firstly segmented, before alignment and feature extraction using PCA. The neural network was trained using the Hybrid Monte Carlo method, resulting in a committee of 250 neural networks and good results are obtained. 
+
+8: 
+Title: Learning to Bluff
+Abstract:
+  The act of bluffing confounds game designers to this day. The very nature of bluffing is even open for debate, adding further complication to the process of creating intelligent virtual players that can bluff, and hence play, realistically. Through the use of intelligent, learning agents, and carefully designed agent outlooks, an agent can in fact learn to predict its opponents reactions based not only on its own cards, but on the actions of those around it. With this wider scope of understanding, an agent can in learn to bluff its opponents, with the action representing not an illogical action, as bluffing is often viewed, but rather as an act of maximising returns through an effective statistical optimisation. By using a tee dee lambda learning algorithm to continuously adapt neural network agent intelligence, agents have been shown to be able to learn to bluff without outside prompting, and even to learn to call each others bluffs in free, competitive play. 
+
+9: 
+Title: Scanning and Sequential Decision Making for Multi-Dimensional Data -
+  Part II: the Noisy Case
+Abstract:
+  We consider the problem of sequential decision making on random fields corrupted by noise. In this scenario, the decision maker observes a noisy version of the data, yet judged with respect to the clean data. In particular, we first consider the problem of sequentially scanning and filtering noisy random fields. In this case, the sequential filter is given the freedom to choose the path over which it traverses the random field (e.g., noisy image or video sequence), thus it is natural to ask what is the best achievable performance and how sensitive this performance is to the choice of the scan. We formally define the problem of scanning and filtering, derive a bound on the best achievable performance and quantify the excess loss occurring when non-optimal scanners are used, compared to optimal scanning and filtering.   We then discuss the problem of sequential scanning and prediction of noisy random fields. This setting is a natural model for applications such as restoration and coding of noisy images. We formally define the problem of scanning and prediction of a noisy multidimensional array and relate the optimal performance to the clean scandictability defined by Merhav and Weissman. Moreover, bounds on the excess loss due to sub-optimal scans are derived, and a universal prediction algorithm is suggested.   This paper is the second part of a two-part paper. The first paper dealt with sequential decision making on noiseless data arrays, namely, when the decision maker is judged with respect to the same data array it observes. 
+
+10: 
+Title: Direct Optimization of Ranking Measures
+Abstract:
+  Web page ranking and collaborative filtering require the optimization of sophisticated performance measures. Current Support Vector approaches are unable to optimize them directly and focus on pairwise comparisons instead. We present a new approach which allows direct optimization of the relevant loss functions. This is achieved via structured estimation in Hilbert spaces. It is most related to Max-Margin-Markov networks optimization of multivariate performance measures. Key to our approach is that during training the ranking problem can be viewed as a linear assignment problem, which can be solved by the Hungarian Marriage algorithm. At test time, a sort operation is sufficient, as our algorithm assigns a relevance score to every (document, query) pair. Experiments show that the our algorithm is fast and that it works very well. 
+

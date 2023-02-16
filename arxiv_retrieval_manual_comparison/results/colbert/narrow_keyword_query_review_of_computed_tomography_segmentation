@@ -1,0 +1,59 @@
+Query:
+review of computed tomography segmentation
+
+Results:
+1: 
+Title: Automatic Detection of Pulmonary Embolism using Computational
+  Intelligence
+Abstract:
+  This article describes the implementation of a system designed to automatically detect the presence of pulmonary embolism in lung scans. These images are firstly segmented, before alignment and feature extraction using PCA. The neural network was trained using the Hybrid Monte Carlo method, resulting in a committee of 250 neural networks and good results are obtained. 
+
+2: 
+Title: Text Line Segmentation of Historical Documents: a Survey
+Abstract:
+  There is a huge amount of historical documents in libraries and in various National Archives that have not been exploited electronically. Although automatic reading of complete pages remains, in most cases, a long-term objective, tasks such as word spotting, text/image alignment, authentication and extraction of specific fields are in use today. For all these tasks, a major step is document segmentation into text lines. Because of the low quality and the complexity of these documents (background noise, artifacts due to aging, interfering lines),automatic text line segmentation remains an open research field. The objective of this paper is to present a survey of existing methods, developed during the last decade, and dedicated to documents of historical interest. 
+
+3: 
+Title: Medical Image Segmentation and Localization using Deformable Templates
+Abstract:
+  This paper presents deformable templates as a tool for segmentation and localization of biological structures in medical images. Structures are represented by a prototype template, combined with a parametric warp mapping used to deform the original shape. The localization procedure is achieved using a multi-stage, multi-resolution algorithm de-signed to reduce computational complexity and time. The algorithm initially identifies regions in the image most likely to contain the desired objects and then examines these regions at progressively increasing resolutions. The final stage of the algorithm involves warping the prototype template to match the localized objects. The algorithm is presented along with the results of four example applications using MRI, x-ray and ultrasound images. 
+
+4: 
+Title: Multi-Dimensional Recurrent Neural Networks
+Abstract:
+  Recurrent neural networks (RNNs) have proved effective at one dimensional sequence learning tasks, such as speech and online handwriting recognition. Some of the properties that make RNNs suitable for such tasks, for example robustness to input warping, and the ability to access contextual information, are also desirable in multidimensional domains. However, there has so far been no direct way of applying RNNs to data with more than one spatio-temporal dimension. This paper introduces multi-dimensional recurrent neural networks (MDRNNs), thereby extending the potential applicability of RNNs to vision, video processing, medical imaging and many other areas, while avoiding the scaling problems that have plagued other multi-dimensional models. Experimental results are provided for two image segmentation tasks. 
+
+5: 
+Title: Truecluster matching
+Abstract:
+  Cluster matching by permuting cluster labels is important in many clustering contexts such as cluster validation and cluster ensemble techniques. The classic approach is to minimize the euclidean distance between two cluster solutions which induces inappropriate stability in certain settings. Therefore, we present the truematch algorithm that introduces two improvements best explained in the crisp case. First, instead of maximizing the trace of the cluster crosstable, we propose to maximize a chi-square transformation of this crosstable. Thus, the trace will not be dominated by the cells with the largest counts but by the cells with the most non-random observations, taking into account the marginals. Second, we suggest a probabilistic component in order to break ties and to make the matching algorithm truly random on random data. The truematch algorithm is designed as a building block of the truecluster framework and scales in polynomial time. First simulation results confirm that the truematch algorithm gives more consistent truecluster results for unequal cluster sizes. Free R software is available. 
+
+6: 
+Title: The Parameter-Less Self-Organizing Map algorithm
+Abstract:
+  The Parameter-Less Self-Organizing Map (PLSOM) is a new neural network algorithm based on the Self-Organizing Map (SOM). It eliminates the need for a learning rate and annealing schemes for learning rate and neighbourhood size. We discuss the relative performance of the PLSOM and the SOM and demonstrate some tasks in which the SOM fails but the PLSOM performs satisfactory. Finally we discuss some example applications of the PLSOM and present a proof of ordering under certain limited conditions. 
+
+7: 
+Title: Scanning and Sequential Decision Making for Multi-Dimensional Data -
+  Part II: the Noisy Case
+Abstract:
+  We consider the problem of sequential decision making on random fields corrupted by noise. In this scenario, the decision maker observes a noisy version of the data, yet judged with respect to the clean data. In particular, we first consider the problem of sequentially scanning and filtering noisy random fields. In this case, the sequential filter is given the freedom to choose the path over which it traverses the random field (e.g., noisy image or video sequence), thus it is natural to ask what is the best achievable performance and how sensitive this performance is to the choice of the scan. We formally define the problem of scanning and filtering, derive a bound on the best achievable performance and quantify the excess loss occurring when non-optimal scanners are used, compared to optimal scanning and filtering.   We then discuss the problem of sequential scanning and prediction of noisy random fields. This setting is a natural model for applications such as restoration and coding of noisy images. We formally define the problem of scanning and prediction of a noisy multidimensional array and relate the optimal performance to the clean scandictability defined by Merhav and Weissman. Moreover, bounds on the excess loss due to sub-optimal scans are derived, and a universal prediction algorithm is suggested.   This paper is the second part of a two-part paper. The first paper dealt with sequential decision making on noiseless data arrays, namely, when the decision maker is judged with respect to the same data array it observes. 
+
+8: 
+Title: Intelligent location of simultaneously active acoustic emission sources:
+  Part II
+Abstract:
+  Part I describes an intelligent acoustic emission locator, while Part II discusses blind source separation, time delay estimation and location of two continuous acoustic emission sources.   Acoustic emission (AE) analysis is used for characterization and location of developing defects in materials. AE sources often generate a mixture of various statistically independent signals. A difficult problem of AE analysis is separation and characterization of signal components when the signals from various sources and the mode of mixing are unknown. Recently, blind source separation (BSS) by independent component analysis (ICA) has been used to solve these problems. The purpose of this paper is to demonstrate the applicability of ICA to locate two independent simultaneously active acoustic emission sources on an aluminum band specimen. The method is promising for non-destructive testing of aircraft frame structures by acoustic emission analysis. 
+
+9: 
+Title: Fault Classification using Pseudomodal Energies and Neuro-fuzzy
+  modelling
+Abstract:
+  This paper presents a fault classification method which makes use of a Takagi-Sugeno neuro-fuzzy model and Pseudomodal energies calculated from the vibration signals of cylindrical shells. The calculation of Pseudomodal Energies, for the purposes of condition monitoring, has previously been found to be an accurate method of extracting features from vibration signals. This calculation is therefore used to extract features from vibration signals obtained from a diverse population of cylindrical shells. Some of the cylinders in the population have faults in different substructures. The pseudomodal energies calculated from the vibration signals are then used as inputs to a neuro-fuzzy model. A leave-one-out cross-validation process is used to test the performance of the model. It is found that the neuro-fuzzy model is able to classify faults with an accuracy of 91.62%, which is higher than the previously used multilayer perceptron. 
+
+10: 
+Title: Intelligent location of simultaneously active acoustic emission sources:
+  Part I
+Abstract:
+  The intelligent acoustic emission locator is described in Part I, while Part II discusses blind source separation, time delay estimation and location of two simultaneously active continuous acoustic emission sources.   The location of acoustic emission on complicated aircraft frame structures is a difficult problem of non-destructive testing. This article describes an intelligent acoustic emission source locator. The intelligent locator comprises a sensor antenna and a general regression neural network, which solves the location problem based on learning from examples. Locator performance was tested on different test specimens. Tests have shown that the accuracy of location depends on sound velocity and attenuation in the specimen, the dimensions of the tested area, and the properties of stored data. The location accuracy achieved by the intelligent locator is comparable to that obtained by the conventional triangulation method, while the applicability of the intelligent locator is more general since analysis of sonic ray paths is avoided. This is a promising method for non-destructive testing of aircraft frame structures by the acoustic emission method. 
+

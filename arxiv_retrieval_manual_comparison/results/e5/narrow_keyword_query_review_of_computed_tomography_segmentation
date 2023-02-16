@@ -1,0 +1,63 @@
+Query:
+review of computed tomography segmentation
+
+Results:
+1: 
+Title: CT Image Enhancement Using Stacked Generative Adversarial Networks and
+  Transfer Learning for Lesion Segmentation Improvement
+Abstract:
+  Automated lesion segmentation from computed tomography (CT) is an important and challenging task in medical image analysis. While many advancements have been made, there is room for continued improvements. One hurdle is that CT images can exhibit high noise and low contrast, particularly in lower dosages. To address this, we focus on a preprocessing method for CT images that uses stacked generative adversarial networks (SGAN) approach. The first GAN reduces the noise in the CT image and the second GAN generates a higher resolution image with enhanced boundaries and high contrast. To make up for the absence of high quality CT images, we detail how to synthesize a large number of low- and high-quality natural images and use transfer learning with progressively larger amounts of CT images. We apply both the classic GrabCut method and the modern holistically nested network (HNN) to lesion segmentation, testing whether SGAN can yield improved lesion segmentation. Experimental results on the DeepLesion dataset demonstrate that the SGAN enhancements alone can push GrabCut performance over HNN trained on original images. We also demonstrate that HNN + SGAN performs best compared against four other enhancement methods, including when using only a single GAN. 
+
+2: 
+Title: An automatic COVID-19 CT segmentation network using spatial and channel
+  attention mechanism
+Abstract:
+  The coronavirus disease (COVID-19) pandemic has led to a devastating effect on the global public health. Computed Tomography (CT) is an effective tool in the screening of COVID-19. It is of great importance to rapidly and accurately segment COVID-19 from CT to help diagnostic and patient monitoring. In this paper, we propose a U-Net based segmentation network using attention mechanism. As not all the features extracted from the encoders are useful for segmentation, we propose to incorporate an attention mechanism including a spatial and a channel attention, to a U-Net architecture to re-weight the feature representation spatially and channel-wise to capture rich contextual relationships for better feature representation. In addition, the focal tversky loss is introduced to deal with small lesion segmentation. The experiment results, evaluated on a COVID-19 CT segmentation dataset where 473 CT slices are available, demonstrate the proposed method can achieve an accurate and rapid segmentation on COVID-19 segmentation. The method takes only 0.29 second to segment a single CT slice. The obtained Dice Score, Sensitivity and Specificity are 83.1%, 86.7% and 99.3%, respectively. 
+
+3: 
+Title: Spark in the Dark: Evaluating Encoder-Decoder Pairs for COVID-19 CT's
+  Semantic Segmentation
+Abstract:
+  With the COVID-19 global pandemic, computerassisted diagnoses of medical images have gained a lot of attention, and robust methods of Semantic Segmentation of Computed Tomography (CT) turned highly desirable. Semantic Segmentation of CT is one of many research fields of automatic detection of Covid-19 and was widely explored since the Covid19 outbreak. In the robotic field, Semantic Segmentation of organs and CTs are widely used in robots developed for surgery tasks. As new methods and new datasets are proposed quickly, it becomes apparent the necessity of providing an extensive evaluation of those methods. To provide a standardized comparison of different architectures across multiple recently proposed datasets, we propose in this paper an extensive benchmark of multiple encoders and decoders with a total of 120 architectures evaluated in five datasets, with each dataset being validated through a five-fold cross-validation strategy, totaling 3.000 experiments. To the best of our knowledge, this is the largest evaluation in number of encoders, decoders, and datasets proposed in the field of Covid-19 CT segmentation. 
+
+4: 
+Title: Interactive segmentation of medical images through fully convolutional
+  neural networks
+Abstract:
+  Image segmentation plays an essential role in medicine for both diagnostic and interventional tasks. Segmentation approaches are either manual, semi-automated or fully-automated. Manual segmentation offers full control over the quality of the results, but is tedious, time consuming and prone to operator bias. Fully automated methods require no human effort, but often deliver sub-optimal results without providing users with the means to make corrections. Semi-automated approaches keep users in control of the results by providing means for interaction, but the main challenge is to offer a good trade-off between precision and required interaction. In this paper we present a deep learning (DL) based semi-automated segmentation approach that aims to be a "smart" interactive tool for region of interest delineation in medical images. We demonstrate its use for segmenting multiple organs on computed tomography (CT) of the abdomen. Our approach solves some of the most pressing clinical challenges: (i) it requires only one to a few user clicks to deliver excellent 2D segmentations in a fast and reliable fashion; (ii) it can generalize to previously unseen structures and "corner cases"; (iii) it delivers results that can be corrected quickly in a smart and intuitive way up to an arbitrary degree of precision chosen by the user and (iv) ensures high accuracy. We present our approach and compare it to other techniques and previous work to show the advantages brought by our method. 
+
+5: 
+Title: A Bottom-Up Approach for Automatic Pancreas Segmentation in Abdominal CT
+  Scans
+Abstract:
+  Organ segmentation is a prerequisite for a computer-aided diagnosis (CAD) system to detect pathologies and perform quantitative analysis. For anatomically high-variability abdominal organs such as the pancreas, previous segmentation works report low accuracies when comparing to organs like the heart or liver. In this paper, a fully-automated bottom-up method is presented for pancreas segmentation, using abdominal computed tomography (CT) scans. The method is based on a hierarchical two-tiered information propagation by classifying image patches. It labels superpixels as pancreas or not via pooling patch-level confidences on 2D CT slices over-segmented by the Simple Linear Iterative Clustering approach. A supervised random forest (RF) classifier is trained on the patch level and a two-level cascade of RFs is applied at the superpixel level, coupled with multi-channel feature extraction, respectively. On six-fold cross-validation using 80 patient CT volumes, we achieved 68.8% Dice coefficient and 57.2% Jaccard Index, comparable to or slightly better than published state-of-the-art methods. 
+
+6: 
+Title: An Automatic Method for Complete Brain Matter Segmentation from
+  Multislice CT scan
+Abstract:
+  Computed tomography imaging is well accepted for its imaging speed, image contrast & resolution and cost. Thus it has wide use in detection and diagnosis of brain diseases. But unfortunately reported works on CT segmentation is not very significant. In this paper, a robust automatic segmentation system is presented which is capable of segment complete brain matter from CT slices, without any lose in information. The proposed method is simple, fast, accurate and completely automatic. It can handle multislice CT scan in single run. From a given multislice CT dataset, one slice is selected automatically to form masks for segmentation. Two types of masks are created to handle nasal slices in a better way. Masks are created from selected reference slice using automatic seed point selection and region growing technique. One mask is designed for brain matter and another includes the skull of the reference slice. This second mask is used as global reference mask for all slices whereas the brain matter mask is implemented on only adjacent slices and continuously modified for better segmentation. Slices in given dataset are divided into two batches, before reference slice and after reference slice. Each batch segmented separately. Successive propagation of brain matter mask has demonstrated very high potential in reported segmentation. Presented result shows highest sensitivity and more than 96% accuracy in all cases. Resulted segmented images can be used for any brain disease diagnosis or further image analysis. 
+
+7: 
+Title: Towards whole-body CT Bone Segmentation
+Abstract:
+  Bone segmentation from CT images is a task that has been worked on for decades. It is an important ingredient to several diagnostics or treatment planning approaches and relevant to various diseases. As high-quality manual and semi-automatic bone segmentation is very time-consuming, a reliable and fully automatic approach would be of great interest in many scenarios. In this publication, we propose a UNet inspired architecture to address the task using Deep Learning. We evaluated the approach on whole-body CT scans of patients suffering from multiple myeloma. As the disease decomposes the bone, an accurate segmentation is of utmost importance for the evaluation of bone density, disease staging and localization of focal lesions. The method was evaluated on an in-house data-set of 6000 2D image slices taken from 15 whole-body CT scans, achieving a dice score of 0.96 and an IOU of 0.94. 
+
+8: 
+Title: Automatic Intracranial Brain Segmentation from Computed Tomography Head
+  Images
+Abstract:
+  Fast and automatic algorithm to segment Brain (intracranial region) from computed tomography (CT) head images using combination of HU thresholding, identification of intracranial voxels through ray intersection with cranium, special binary erosion and connected components per slice. 
+
+9: 
+Title: Automatic segmentation and determining radiodensity of the liver in a
+  large-scale CT database
+Abstract:
+  This study proposes an automatic technique for liver segmentation in computed tomography (CT) images. Localization of the liver volume is based on the correlation with an optimized set of liver templates developed by the authors that allows clear geometric interpretation. Radiodensity values are calculated based on the boundaries of the segmented liver, which allows identifying liver abnormalities. The performance of the technique was evaluated on 700 CT images from dataset of the Unified Radiological Information System (URIS) of Moscow. Despite the decrease in accuracy, the technique is applicable to CT volumes with a partially visible region of the liver. The technique can be used to process CT images obtained in various patient positions in a wide range of exposition parameters. It is capable in dealing with low dose CT scans in real large-scale medical database with over 1 million of studies. 
+
+10: 
+Title: Level set image segmentation with velocity term learned from data with
+  applications to lung nodule segmentation
+Abstract:
+  Purpose: Lung nodule segmentation, i.e., the algorithmic delineation of the lung nodule surface, is a fundamental component of computational nodule analysis pipelines. We propose a new method for segmentation that is a machine learning based extension of current approaches, using labeled image examples to improve its accuracy.   Approach: We introduce an extension of the standard level set image segmentation method where the velocity function is learned from data via machine learning regression methods, rather than a priori designed. Instead, the method employs a set of features to learn a velocity function that guides the level set evolution from initialization.   Results: We apply the method to image volumes of lung nodules from CT scans in the publicly available LIDC dataset, obtaining an average intersection over union score of 0.7185($\pm$0.1114), which is competitive with other methods. We analyze segmentation performance by anatomical and appearance-based categories of the nodules, finding that the method performs better for isolated nodules with well-defined margins. We find that the segmentation performance for nodules in more complex surroundings and having more complex CT appearance is improved with the addition of combined global-local features.   Conclusions: The level set machine learning segmentation approach proposed herein is competitive with current methods. It provides accurate lung nodule segmentation results in a variety of anatomical contexts. 
+

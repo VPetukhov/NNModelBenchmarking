@@ -1,0 +1,74 @@
+1: 
+Text Line Segmentation of Historical Documents: a Survey
+  There is a huge amount of historical documents in libraries and in various
+National Archives that have not been exploited electronically. Although
+automatic reading of complete pages remains, in most cases, a long-term
+objective, tasks such as word spotting, text/image alignment, authentication
+and extraction of specific fields are in use today. For all these tasks, a
+major step is document segmentation into text lines. Because of the low quality
+and the complexity of these documents (background noise, artifacts due to
+aging, interfering lines),automatic text line segmentation remains an open
+research field. The objective of this paper is to present a survey of existing
+methods, developed during the last decade, and dedicated to documents of
+historical interest.
+
+2: 
+Enhancement of Noisy Planar Nuclear Medicine Images using Mean Field
+  Annealing
+  Nuclear medicine (NM) images inherently suffer from large amounts of noise
+and blur. The purpose of this research is to reduce the noise and blur while
+maintaining image integrity for improved diagnosis. The proposed solution is to
+increase image quality after the standard pre- and post-processing undertaken
+by a gamma camera system. Mean Field Annealing (MFA) is the image processing
+technique used in this research. It is a computational iterative technique that
+makes use of the Point Spread Function (PSF) and the noise associated with the
+NM image. MFA is applied to NM images with the objective of reducing noise
+while not compromising edge integrity. Using a sharpening filter as a
+post-processing technique (after MFA) yields image enhancement of planar NM
+images.
+
+3: 
+Medical Image Segmentation and Localization using Deformable Templates
+  This paper presents deformable templates as a tool for segmentation and
+localization of biological structures in medical images. Structures are
+represented by a prototype template, combined with a parametric warp mapping
+used to deform the original shape. The localization procedure is achieved using
+a multi-stage, multi-resolution algorithm de-signed to reduce computational
+complexity and time. The algorithm initially identifies regions in the image
+most likely to contain the desired objects and then examines these regions at
+progressively increasing resolutions. The final stage of the algorithm involves
+warping the prototype template to match the localized objects. The algorithm is
+presented along with the results of four example applications using MRI, x-ray
+and ultrasound images.
+
+4: 
+Multi-Dimensional Recurrent Neural Networks
+  Recurrent neural networks (RNNs) have proved effective at one dimensional
+sequence learning tasks, such as speech and online handwriting recognition.
+Some of the properties that make RNNs suitable for such tasks, for example
+robustness to input warping, and the ability to access contextual information,
+are also desirable in multidimensional domains. However, there has so far been
+no direct way of applying RNNs to data with more than one spatio-temporal
+dimension. This paper introduces multi-dimensional recurrent neural networks
+(MDRNNs), thereby extending the potential applicability of RNNs to vision,
+video processing, medical imaging and many other areas, while avoiding the
+scaling problems that have plagued other multi-dimensional models. Experimental
+results are provided for two image segmentation tasks.
+
+5: 
+Evolutionary Optimisation Methods for Template Based Image Registration
+  This paper investigates the use of evolutionary optimisation techniques to
+register a template with a scene image. An error function is created to measure
+the correspondence of the template to the image. The problem presented here is
+to optimise the horizontal, vertical and scaling parameters that register the
+template with the scene. The Genetic Algorithm, Simulated Annealing and
+Particle Swarm Optimisations are compared to a Nelder-Mead Simplex optimisation
+with starting points chosen in a pre-processing stage. The paper investigates
+the precision and accuracy of each method and shows that all four methods
+perform favourably for image registration. SA is the most precise, GA is the
+most accurate. PSO is a good mix of both and the Simplex method returns local
+minima the most. A pre-processing stage should be investigated for the
+evolutionary methods in order to improve performance. Discrete versions of the
+optimisation methods should be investigated to further improve computational
+performance.
+

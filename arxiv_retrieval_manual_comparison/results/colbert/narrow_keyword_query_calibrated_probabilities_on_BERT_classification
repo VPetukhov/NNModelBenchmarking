@@ -1,0 +1,60 @@
+Query:
+calibrated probabilities on BERT classification
+
+Results:
+1: 
+Title: Bayesian approach to rough set
+Abstract:
+  This paper proposes an approach to training rough set models using Bayesian framework trained using Markov Chain Monte Carlo (MCMC) method. The prior probabilities are constructed from the prior knowledge that good rough set models have fewer rules. Markov Chain Monte Carlo sampling is conducted through sampling in the rough set granule space and Metropolis algorithm is used as an acceptance criteria. The proposed method is tested to estimate the risk of HIV given demographic data. The results obtained shows that the proposed approach is able to achieve an average accuracy of 58% with the accuracy varying up to 66%. In addition the Bayesian rough set give the probabilities of the estimated HIV status as well as the linguistic rules describing how the demographic parameters drive the risk of HIV. 
+
+2: 
+Title: A tutorial on conformal prediction
+Abstract:
+  Conformal prediction uses past experience to determine precise levels of confidence in new predictions. Given an error probability $\epsilon$, together with a method that makes a prediction $\hat{y}$ of a label $y$, it produces a set of labels, typically containing $\hat{y}$, that also contains $y$ with probability $1-\epsilon$. Conformal prediction can be applied to any method for producing $\hat{y}$: a nearest-neighbor method, a support-vector machine, ridge regression, etc.   Conformal prediction is designed for an on-line setting in which labels are predicted successively, each one being revealed before the next is predicted. The most novel and valuable feature of conformal prediction is that if the successive examples are sampled independently from the same distribution, then the successive predictions will be right $1-\epsilon$ of the time, even though they are based on an accumulating dataset rather than on independent datasets.   In addition to the model under which successive examples are sampled independently, other on-line compression models can also use conformal prediction. The widely used Gaussian linear model is one of these.   This tutorial presents a self-contained account of the theory of conformal prediction and works through several numerical examples. A more comprehensive treatment of the topic is provided in "Algorithmic Learning in a Random World", by Vladimir Vovk, Alex Gammerman, and Glenn Shafer (Springer, 2005). 
+
+3: 
+Title: Fault Classification in Cylinders Using Multilayer Perceptrons, Support
+  Vector Machines and Guassian Mixture Models
+Abstract:
+  Gaussian mixture models (GMM) and support vector machines (SVM) are introduced to classify faults in a population of cylindrical shells. The proposed procedures are tested on a population of 20 cylindrical shells and their performance is compared to the procedure, which uses multi-layer perceptrons (MLP). The modal properties extracted from vibration data are used to train the GMM, SVM and MLP. It is observed that the GMM produces 98%, SVM produces 94% classification accuracy while the MLP produces 88% classification rates. 
+
+4: 
+Title: Fault Classification using Pseudomodal Energies and Neuro-fuzzy
+  modelling
+Abstract:
+  This paper presents a fault classification method which makes use of a Takagi-Sugeno neuro-fuzzy model and Pseudomodal energies calculated from the vibration signals of cylindrical shells. The calculation of Pseudomodal Energies, for the purposes of condition monitoring, has previously been found to be an accurate method of extracting features from vibration signals. This calculation is therefore used to extract features from vibration signals obtained from a diverse population of cylindrical shells. Some of the cylinders in the population have faults in different substructures. The pseudomodal energies calculated from the vibration signals are then used as inputs to a neuro-fuzzy model. A leave-one-out cross-validation process is used to test the performance of the model. It is found that the neuro-fuzzy model is able to classify faults with an accuracy of 91.62%, which is higher than the previously used multilayer perceptron. 
+
+5: 
+Title: Virtual Sensor Based Fault Detection and Classification on a Plasma Etch
+  Reactor
+Abstract:
+  The SEMATECH sponsored J-88-E project teaming Texas Instruments with NeuroDyne (et al.) focused on Fault Detection and Classification (FDC) on a Lam 9600 aluminum plasma etch reactor, used in the process of semiconductor fabrication. Fault classification was accomplished by implementing a series of virtual sensor models which used data from real sensors (Lam Station sensors, Optical Emission Spectroscopy, and RF Monitoring) to predict recipe setpoints and wafer state characteristics. Fault detection and classification were performed by comparing predicted recipe and wafer state values with expected values. Models utilized include linear PLS, Polynomial PLS, and Neural Network PLS. Prediction of recipe setpoints based upon sensor data provides a capability for cross-checking that the machine is maintaining the desired setpoints. Wafer state characteristics such as Line Width Reduction and Remaining Oxide were estimated on-line using these same process sensors (Lam, OES, RFM). Wafer-to-wafer measurement of these characteristics in a production setting (where typically this information may be only sparsely available, if at all, after batch processing runs with numerous wafers have been completed) would provide important information to the operator that the process is or is not producing wafers within acceptable bounds of product quality. Production yield is increased, and correspondingly per unit cost is reduced, by providing the operator with the opportunity to adjust the process or machine before etching more wafers. 
+
+6: 
+Title: Sensor Networks with Random Links: Topology Design for Distributed
+  Consensus
+Abstract:
+  In a sensor network, in practice, the communication among sensors is subject to:(1) errors or failures at random times; (3) costs; and(2) constraints since sensors and networks operate under scarce resources, such as power, data rate, or communication. The signal-to-noise ratio (SNR) is usually a main factor in determining the probability of error (or of communication failure) in a link. These probabilities are then a proxy for the SNR under which the links operate. The paper studies the problem of designing the topology, i.e., assigning the probabilities of reliable communication among sensors (or of link failures) to maximize the rate of convergence of average consensus, when the link communication costs are taken into account, and there is an overall communication budget constraint. To consider this problem, we address a number of preliminary issues: (1) model the network as a random topology; (2) establish necessary and sufficient conditions for mean square sense (mss) and almost sure (a.s.) convergence of average consensus when network links fail; and, in particular, (3) show that a necessary and sufficient condition for both mss and a.s. convergence is for the algebraic connectivity of the mean graph describing the network topology to be strictly positive. With these results, we formulate topology design, subject to random link failures and to a communication cost constraint, as a constrained convex optimization problem to which we apply semidefinite programming techniques. We show by an extensive numerical study that the optimal design improves significantly the convergence speed of the consensus algorithm and can achieve the asymptotic performance of a non-random network at a fraction of the communication cost. 
+
+7: 
+Title: IDF revisited: A simple new derivation within the Robertson-Sp\"arck
+  Jones probabilistic model
+Abstract:
+  There have been a number of prior attempts to theoretically justify the effectiveness of the inverse document frequency (IDF). Those that take as their starting point Robertson and Sparck Jones's probabilistic model are based on strong or complex assumptions. We show that a more intuitively plausible assumption suffices. Moreover, the new assumption, while conceptually very simple, provides a solution to an estimation problem that had been deemed intractable by Robertson and Walker (1997). 
+
+8: 
+Title: An Adaptive Strategy for the Classification of G-Protein Coupled
+  Receptors
+Abstract:
+  One of the major problems in computational biology is the inability of existing classification models to incorporate expanding and new domain knowledge. This problem of static classification models is addressed in this paper by the introduction of incremental learning for problems in bioinformatics. Many machine learning tools have been applied to this problem using static machine learning structures such as neural networks or support vector machines that are unable to accommodate new information into their existing models. We utilize the fuzzy ARTMAP as an alternate machine learning system that has the ability of incrementally learning new data as it becomes available. The fuzzy ARTMAP is found to be comparable to many of the widespread machine learning systems. The use of an evolutionary strategy in the selection and combination of individual classifiers into an ensemble system, coupled with the incremental learning ability of the fuzzy ARTMAP is proven to be suitable as a pattern classifier. The algorithm presented is tested using data from the G-Coupled Protein Receptors Database and shows good accuracy of 83%. The system presented is also generally applicable, and can be used in problems in genomics and proteomics. 
+
+9: 
+Title: A neural network approach to ordinal regression
+Abstract:
+  Ordinal regression is an important type of learning, which has properties of both classification and regression. Here we describe a simple and effective approach to adapt a traditional neural network to learn ordinal categories. Our approach is a generalization of the perceptron method for ordinal regression. On several benchmark datasets, our method (NNRank) outperforms a neural network classification method. Compared with the ordinal regression methods using Gaussian processes and support vector machines, NNRank achieves comparable performance. Moreover, NNRank has the advantages of traditional neural networks: learning in both online and batch modes, handling very large training datasets, and making rapid predictions. These features make NNRank a useful and complementary tool for large-scale data processing tasks such as information retrieval, web page ranking, collaborative filtering, and protein ranking in Bioinformatics. 
+
+10: 
+Title: Fuzzy and Multilayer Perceptron for Evaluation of HV Bushings
+Abstract:
+  The work proposes the application of fuzzy set theory (FST) to diagnose the condition of high voltage bushings. The diagnosis uses dissolved gas analysis (DGA) data from bushings based on IEC60599 and IEEE C57-104 criteria for oil impregnated paper (OIP) bushings. FST and neural networks are compared in terms of accuracy and computational efficiency. Both FST and NN simulations were able to diagnose the bushings condition with 10% error. By using fuzzy theory, the maintenance department can classify bushings and know the extent of degradation in the component. 
+

@@ -1,0 +1,59 @@
+Query:
+vanishing gradient
+
+Results:
+1: 
+Title: Inception Score, Label Smoothing, Gradient Vanishing and -log(D(x))
+  Alternative
+Abstract:
+  In this article, we mathematically study several GAN related topics, including Inception score, label smoothing, gradient vanishing and the -log(D(x)) alternative.   ---   An advanced version is included in arXiv:1703.02000 "Activation Maximization Generative Adversarial Nets".   Please refer Section 6 in 1703.02000 for detailed analysis on Inception Score, and refer its appendix for the discussions on Label Smoothing, Gradient Vanishing and -log(D(x)) Alternative. 
+
+2: 
+Title: Mitigating Noise-Induced Gradient Vanishing in Variational Quantum
+  Algorithm Training
+Abstract:
+  Variational quantum algorithms are expected to demonstrate the advantage of quantum computing on near-term noisy quantum computers. However, training such variational quantum algorithms suffers from gradient vanishing as the size of the algorithm increases. Previous work cannot handle the gradient vanishing induced by the inevitable noise effects on realistic quantum hardware. In this paper, we propose a novel training scheme to mitigate such noise-induced gradient vanishing. We first introduce a new cost function of which the gradients are significantly augmented by employing traceless observables in truncated subspace. We then prove that the same minimum can be reached by optimizing the original cost function with the gradients from the new cost function. Experiments show that our new training scheme is highly effective for major variational quantum algorithms of various tasks. 
+
+3: 
+Title: Towards Efficient Ansatz Architecture for Variational Quantum Algorithms
+Abstract:
+  Variational quantum algorithms are expected to demonstrate the advantage of quantum computing on near-term noisy quantum computers. However, training such variational quantum algorithms suffers from gradient vanishing as the size of the algorithm increases. Previous work cannot handle the gradient vanishing induced by the inevitable noise effects on realistic quantum hardware. In this paper, we propose a novel training scheme to mitigate such noise-induced gradient vanishing. We first introduce a new cost function of which the gradients are significantly augmented by employing traceless observables in truncated subspace. We then prove that the same minimum can be reached by optimizing the original cost function with the gradients from the new cost function. Experiments show that our new training scheme is highly effective for major variational quantum algorithms of various tasks. 
+
+4: 
+Title: Analysis on Gradient Propagation in Batch Normalized Residual Networks
+Abstract:
+  We conduct mathematical analysis on the effect of batch normalization (BN) on gradient backpropogation in residual network training, which is believed to play a critical role in addressing the gradient vanishing/explosion problem, in this work. By analyzing the mean and variance behavior of the input and the gradient in the forward and backward passes through the BN and residual branches, respectively, we show that they work together to confine the gradient variance to a certain range across residual blocks in backpropagation. As a result, the gradient vanishing/explosion problem is avoided. We also show the relative importance of batch normalization w.r.t. the residual branches in residual networks. 
+
+5: 
+Title: GAN-QP: A Novel GAN Framework without Gradient Vanishing and Lipschitz
+  Constraint
+Abstract:
+  We know SGAN may have a risk of gradient vanishing. A significant improvement is WGAN, with the help of 1-Lipschitz constraint on discriminator to prevent from gradient vanishing. Is there any GAN having no gradient vanishing and no 1-Lipschitz constraint on discriminator? We do find one, called GAN-QP.   To construct a new framework of Generative Adversarial Network (GAN) usually includes three steps: 1. choose a probability divergence; 2. convert it into a dual form; 3. play a min-max game. In this articles, we demonstrate that the first step is not necessary. We can analyse the property of divergence and even construct new divergence in dual space directly. As a reward, we obtain a simpler alternative of WGAN: GAN-QP. We demonstrate that GAN-QP have a better performance than WGAN in theory and practice. 
+
+6: 
+Title: Regularization and Reparameterization Avoid Vanishing Gradients in
+  Sigmoid-Type Networks
+Abstract:
+  Deep learning requires several design choices, such as the nodes' activation functions and the widths, types, and arrangements of the layers. One consideration when making these choices is the vanishing-gradient problem, which is the phenomenon of algorithms getting stuck at suboptimal points due to small gradients. In this paper, we revisit the vanishing-gradient problem in the context of sigmoid-type activation. We use mathematical arguments to highlight two different sources of the phenomenon, namely large individual parameters and effects across layers, and to illustrate two simple remedies, namely regularization and rescaling. We then demonstrate the effectiveness of the two remedies in practice. In view of the vanishing-gradient problem being a main reason why tanh and other sigmoid-type activation has become much less popular than relu-type activation, our results bring sigmoid-type activation back to the table. 
+
+7: 
+Title: Escaping from the Barren Plateau via Gaussian Initializations in Deep
+  Variational Quantum Circuits
+Abstract:
+  Variational quantum circuits have been widely employed in quantum simulation and quantum machine learning in recent years. However, quantum circuits with random structures have poor trainability due to the exponentially vanishing gradient with respect to the circuit depth and the qubit number. This result leads to a general standpoint that deep quantum circuits would not be feasible for practical tasks. In this work, we propose an initialization strategy with theoretical guarantees for the vanishing gradient problem in general deep quantum circuits. Specifically, we prove that under proper Gaussian initialized parameters, the norm of the gradient decays at most polynomially when the qubit number and the circuit depth increase. Our theoretical results hold for both the local and the global observable cases, where the latter was believed to have vanishing gradients even for very shallow circuits. Experimental results verify our theoretical findings in the quantum simulation and quantum chemistry. 
+
+8: 
+Title: On the difficulty of training Recurrent Neural Networks
+Abstract:
+  There are two widely known issues with properly training Recurrent Neural Networks, the vanishing and the exploding gradient problems detailed in Bengio et al. (1994). In this paper we attempt to improve the understanding of the underlying issues by exploring these problems from an analytical, a geometric and a dynamical systems perspective. Our analysis is used to justify a simple yet effective solution. We propose a gradient norm clipping strategy to deal with exploding gradients and a soft constraint for the vanishing gradients problem. We validate empirically our hypothesis and proposed solutions in the experimental section. 
+
+9: 
+Title: Shapley Interpretation and Activation in Neural Networks
+Abstract:
+  We propose a novel Shapley value approach to help address neural networks' interpretability and "vanishing gradient" problems. Our method is based on an accurate analytical approximation to the Shapley value of a neuron with ReLU activation. This analytical approximation admits a linear propagation of relevance across neural network layers, resulting in a simple, fast and sensible interpretation of neural networks' decision making process.   We then derived a globally continuous and non-vanishing Shapley gradient, which can replace the conventional gradient in training neural network layers with ReLU activation, and leading to better training performance. We further derived a Shapley Activation (SA) function, which is a close approximation to ReLU but features the Shapley gradient. The SA is easy to implement in existing machine learning frameworks. Numerical tests show that SA consistently outperforms ReLU in training convergence, accuracy and stability. 
+
+10: 
+Title: Improved Gradient based Adversarial Attacks for Quantized Networks
+Abstract:
+  Neural network quantization has become increasingly popular due to efficient memory consumption and faster computation resulting from bitwise operations on the quantized networks. Even though they exhibit excellent generalization capabilities, their robustness properties are not well-understood. In this work, we systematically study the robustness of quantized networks against gradient based adversarial attacks and demonstrate that these quantized models suffer from gradient vanishing issues and show a fake sense of robustness. By attributing gradient vanishing to poor forward-backward signal propagation in the trained network, we introduce a simple temperature scaling approach to mitigate this issue while preserving the decision boundary. Despite being a simple modification to existing gradient based adversarial attacks, experiments on multiple image classification datasets with multiple network architectures demonstrate that our temperature scaled attacks obtain near-perfect success rate on quantized networks while outperforming original attacks on adversarially trained models as well as floating-point networks. Code is available at https://github.com/kartikgupta-at-anu/attack-bnn. 
+

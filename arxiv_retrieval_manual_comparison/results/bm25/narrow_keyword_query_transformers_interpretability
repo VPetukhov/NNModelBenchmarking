@@ -1,0 +1,63 @@
+Query:
+transformers interpretability
+
+Results:
+1: 
+Title: On the interplay of adversarial robustness and architecture components:
+  patches, convolution and attention
+Abstract:
+  In recent years novel architecture components for image classification have been developed, starting with attention and patches used in transformers. While prior works have analyzed the influence of some aspects of architecture components on the robustness to adversarial attacks, in particular for vision transformers, the understanding of the main factors is still limited. We compare several (non)-robust classifiers with different architectures and study their properties, including the effect of adversarial training on the interpretability of the learnt features and robustness to unseen threat models. An ablation from ResNet to ConvNeXt reveals key architectural changes leading to almost $10\%$ higher $\ell_\infty$-robustness. 
+
+2: 
+Title: AbductionRules: Training Transformers to Explain Unexpected Inputs
+Abstract:
+  Transformers have recently been shown to be capable of reliably performing logical reasoning over facts and rules expressed in natural language, but abductive reasoning - inference to the best explanation of an unexpected observation - has been underexplored despite significant applications to scientific discovery, common-sense reasoning, and model interpretability.   We present AbductionRules, a group of natural language datasets designed to train and test generalisable abduction over natural-language knowledge bases. We use these datasets to finetune pretrained Transformers and discuss their performance, finding that our models learned generalisable abductive techniques but also learned to exploit the structure of our data. Finally, we discuss the viability of this approach to abductive reasoning and ways in which it may be improved in future work. 
+
+3: 
+Title: ETSformer: Exponential Smoothing Transformers for Time-series
+  Forecasting
+Abstract:
+  Transformers have been actively studied for time-series forecasting in recent years. While often showing promising results in various scenarios, traditional Transformers are not designed to fully exploit the characteristics of time-series data and thus suffer some fundamental limitations, e.g., they generally lack of decomposition capability and interpretability, and are neither effective nor efficient for long-term forecasting. In this paper, we propose ETSFormer, a novel time-series Transformer architecture, which exploits the principle of exponential smoothing in improving Transformers for time-series forecasting. In particular, inspired by the classical exponential smoothing methods in time-series forecasting, we propose the novel exponential smoothing attention (ESA) and frequency attention (FA) to replace the self-attention mechanism in vanilla Transformers, thus improving both accuracy and efficiency. Based on these, we redesign the Transformer architecture with modular decomposition blocks such that it can learn to decompose the time-series data into interpretable time-series components such as level, growth and seasonality. Extensive experiments on various time-series benchmarks validate the efficacy and advantages of the proposed method. Code is available at https://github.com/salesforce/ETSformer. 
+
+4: 
+Title: Towards Opening the Black Box of Neural Machine Translation: Source and
+  Target Interpretations of the Transformer
+Abstract:
+  In Neural Machine Translation (NMT), each token prediction is conditioned on the source sentence and the target prefix (what has been previously translated at a decoding step). However, previous work on interpretability in NMT has mainly focused solely on source sentence tokens' attributions. Therefore, we lack a full understanding of the influences of every input token (source sentence and target prefix) in the model predictions. In this work, we propose an interpretability method that tracks input tokens' attributions for both contexts. Our method, which can be extended to any encoder-decoder Transformer-based model, allows us to better comprehend the inner workings of current NMT models. We apply the proposed method to both bilingual and multilingual Transformers and present insights into their behaviour. 
+
+5: 
+Title: Towards Better Input Masking for Convolutional Neural Networks
+Abstract:
+  The ability to remove features from the input of machine learning models is very important to understand and interpret model predictions. However, this is non-trivial for vision models since masking out parts of the input image and replacing them with a baseline color like black or grey typically causes large distribution shifts. Masking may even make the model focus on the masking patterns for its prediction rather than the unmasked portions of the image. In recent work, it has been shown that vision transformers are less affected by such issues as one can simply drop the tokens corresponding to the masked image portions. They are thus more easily interpretable using techniques like LIME which rely on input perturbation. Using the same intuition, we devise a masking technique for CNNs called layer masking, which simulates running the CNN on only the unmasked input. We find that our method is (i) much less disruptive to the model's output and its intermediate activations, and (ii) much better than commonly used masking techniques for input perturbation based interpretability techniques like LIME. Thus, layer masking is able to close the interpretability gap between CNNs and transformers, and even make CNNs more interpretable in many cases. 
+
+6: 
+Title: XAI for Transformers: Better Explanations through Conservative
+  Propagation
+Abstract:
+  Transformers have become an important workhorse of machine learning, with numerous applications. This necessitates the development of reliable methods for increasing their transparency. Multiple interpretability methods, often based on gradient information, have been proposed. We show that the gradient in a Transformer reflects the function only locally, and thus fails to reliably identify the contribution of input features to the prediction. We identify Attention Heads and LayerNorm as main reasons for such unreliable explanations and propose a more stable way for propagation through these layers. Our proposal, which can be seen as a proper extension of the well-established LRP method to Transformers, is shown both theoretically and empirically to overcome the deficiency of a simple gradient-based approach, and achieves state-of-the-art explanation performance on a broad range of Transformer models and datasets. 
+
+7: 
+Title: Towards Interpretable Sleep Stage Classification Using Cross-Modal
+  Transformers
+Abstract:
+  Accurate sleep stage classification is significant for sleep health assessment. In recent years, several deep learning and machine learning based sleep staging algorithms have been developed and they have achieved performance on par with human annotation. Despite improved performance, a limitation of most deep-learning based algorithms is their Black-box behavior, which which have limited their use in clinical settings. Here, we propose Cross-Modal Transformers, which is a transformer-based method for sleep stage classification. Our models achieve both competitive performance with the state-of-the-art approaches and eliminates the Black-box behavior of deep-learning models by utilizing the interpretability aspect of the attention modules. The proposed cross-modal transformers consist of a novel cross-modal transformer encoder architecture along with a multi-scale 1-dimensional convolutional neural network for automatic representation learning. Our sleep stage classifier based on this design was able to achieve sleep stage classification performance on par with or better than the state-of-the-art approaches, along with interpretability, a fourfold reduction in the number of parameters and a reduced training time compared to the current state-of-the-art. Our code is available at https://github.com/Jathurshan0330/Cross-Modal-Transformer. 
+
+8: 
+Title: An Attention Matrix for Every Decision: Faithfulness-based Arbitration
+  Among Multiple Attention-Based Interpretations of Transformers in Text
+  Classification
+Abstract:
+  Transformers are widely used in natural language processing, where they consistently achieve state-of-the-art performance. This is mainly due to their attention-based architecture, which allows them to model rich linguistic relations between (sub)words. However, transformers are difficult to interpret. Being able to provide reasoning for its decisions is an important property for a model in domains where human lives are affected. With transformers finding wide use in such fields, the need for interpretability techniques tailored to them arises. We propose a new technique that selects the most faithful attention-based interpretation among the several ones that can be obtained by combining different head, layer and matrix operations. In addition, two variations are introduced towards (i) reducing the computational complexity, thus being faster and friendlier to the environment, and (ii) enhancing the performance in multi-label data. We further propose a new faithfulness metric that is more suitable for transformer models and exhibits high correlation with the area under the precision-recall curve based on ground truth rationales. We validate the utility of our contributions with a series of quantitative and qualitative experiments on seven datasets. 
+
+9: 
+Title: Transformers Can Be Translated to First-Order Logic with Majority
+  Quantifiers
+Abstract:
+  Characterizing the implicit structure of the computation within neural networks is a foundational problem in the area of deep learning interpretability. Can their inner decision process be captured symbolically in some familiar logic? We show that any transformer neural network can be translated into an equivalent fixed-size first-order logic formula which may also use majority quantifiers. The idea is to simulate transformers with highly uniform threshold circuits and leverage known theoretical connections between circuits and logic. Our findings also reveal the surprising fact that the entire transformer computation can be reduced merely to the division of two (large) integers. While our results are most pertinent for transformers, they apply equally to a broader class of neural network architectures, namely those with a fixed-depth uniform computation graph made up of standard neural net components, which includes feedforward and convolutional networks. 
+
+10: 
+Title: SleepTransformer: Automatic Sleep Staging with Interpretability and
+  Uncertainty Quantification
+Abstract:
+  Background: Black-box skepticism is one of the main hindrances impeding deep-learning-based automatic sleep scoring from being used in clinical environments. Methods: Towards interpretability, this work proposes a sequence-to-sequence sleep-staging model, namely SleepTransformer. It is based on the transformer backbone and offers interpretability of the model's decisions at both the epoch and sequence level. We further propose a simple yet efficient method to quantify uncertainty in the model's decisions. The method, which is based on entropy, can serve as a metric for deferring low-confidence epochs to a human expert for further inspection. Results: Making sense of the transformer's self-attention scores for interpretability, at the epoch level, the attention scores are encoded as a heat map to highlight sleep-relevant features captured from the input EEG signal. At the sequence level, the attention scores are visualized as the influence of different neighboring epochs in an input sequence (i.e. the context) to recognition of a target epoch, mimicking the way manual scoring is done by human experts. Conclusion: Additionally, we demonstrate that SleepTransformer performs on par with existing methods on two databases of different sizes. Significance: Equipped with interpretability and the ability of uncertainty quantification, SleepTransformer holds promise for being integrated into clinical settings. 
+

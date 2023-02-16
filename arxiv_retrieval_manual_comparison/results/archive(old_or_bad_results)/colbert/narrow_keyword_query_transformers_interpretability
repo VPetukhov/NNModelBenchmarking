@@ -1,0 +1,75 @@
+1: 
+The World as Evolving Information
+  This paper discusses the benefits of describing the world as information,
+especially in the study of the evolution of life and cognition. Traditional
+studies encounter problems because it is difficult to describe life and
+cognition in terms of matter and energy, since their laws are valid only at the
+physical scale. However, if matter and energy, as well as life and cognition,
+are described in terms of information, evolution can be described consistently
+as information becoming more complex.
+  The paper presents eight tentative laws of information, valid at multiple
+scales, which are generalizations of Darwinian, cybernetic, thermodynamic,
+psychological, philosophical, and complexity principles. These are further used
+to discuss the notions of life, cognition and their evolution.
+
+2: 
+Evolving Symbolic Controllers
+  The idea of symbolic controllers tries to bridge the gap between the top-down
+manual design of the controller architecture, as advocated in Brooks'
+subsumption architecture, and the bottom-up designer-free approach that is now
+standard within the Evolutionary Robotics community. The designer provides a
+set of elementary behavior, and evolution is given the goal of assembling them
+to solve complex tasks. Two experiments are presented, demonstrating the
+efficiency and showing the recursiveness of this approach. In particular, the
+sensitivity with respect to the proposed elementary behaviors, and the
+robustness w.r.t. generalization of the resulting controllers are studied in
+detail.
+
+3: 
+MI image registration using prior knowledge
+  Subtraction of aligned images is a means to assess changes in a wide variety
+of clinical applications. In this paper we explore the information theoretical
+origin of Mutual Information (MI), which is based on Shannon's entropy.However,
+the interpretation of standard MI registration as a communication channel
+suggests that MI is too restrictive a criterion. In this paper the concept of
+Mutual Information (MI) is extended to (Normalized) Focussed Mutual Information
+(FMI) to incorporate prior knowledge to overcome some shortcomings of MI. We
+use this to develop new methodologies to successfully address specific
+registration problems, the follow-up of dental restorations, cephalometry, and
+the monitoring of implants.
+
+4: 
+Network statistics on early English Syntax: Structural criteria
+  This paper includes a reflection on the role of networks in the study of
+English language acquisition, as well as a collection of practical criteria to
+annotate free-speech corpora from children utterances. At the theoretical
+level, the main claim of this paper is that syntactic networks should be
+interpreted as the outcome of the use of the syntactic machinery. Thus, the
+intrinsic features of such machinery are not accessible directly from (known)
+network properties. Rather, what one can see are the global patterns of its use
+and, thus, a global view of the power and organization of the underlying
+grammar. Taking a look into more practical issues, the paper examines how to
+build a net from the projection of syntactic relations. Recall that, as opposed
+to adult grammars, early-child language has not a well-defined concept of
+structure. To overcome such difficulty, we develop a set of systematic criteria
+assuming constituency hierarchy and a grammar based on lexico-thematic
+relations. At the end, what we obtain is a well defined corpora annotation that
+enables us i) to perform statistics on the size of structures and ii) to build
+a network from syntactic relations over which we can perform the standard
+measures of complexity. We also provide a detailed example.
+
+5: 
+HMM Speaker Identification Using Linear and Non-linear Merging
+  Techniques
+  Speaker identification is a powerful, non-invasive and in-expensive biometric
+technique. The recognition accuracy, however, deteriorates when noise levels
+affect a specific band of frequency. In this paper, we present a sub-band based
+speaker identification that intends to improve the live testing performance.
+Each frequency sub-band is processed and classified independently. We also
+compare the linear and non-linear merging techniques for the sub-bands
+recognizer. Support vector machines and Gaussian Mixture models are the
+non-linear merging techniques that are investigated. Results showed that the
+sub-band based method used with linear merging techniques enormously improved
+the performance of the speaker identification over the performance of wide-band
+recognizers when tested live. A live testing improvement of 9.78% was achieved
+

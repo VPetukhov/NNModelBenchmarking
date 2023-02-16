@@ -1,0 +1,57 @@
+Query:
+generative adversarial network
+
+Results:
+1: 
+Title: Effects of Dataset properties on the training of GANs
+Abstract:
+  Generative Adversarial Networks are a new family of generative models, frequently used for generating photorealistic images. The theory promises for the GAN to eventually reach an equilibrium where generator produces pictures indistinguishable for the training set. In practice, however, a range of problems frequently prevents the system from reaching this equilibrium, with training not progressing ahead due to instabilities or mode collapse. This paper describes a series of experiments trying to identify patterns in regard to the effect of the training set on the dynamics and eventual outcome of the training. 
+
+2: 
+Title: A game-theoretic approach for Generative Adversarial Networks
+Abstract:
+  Generative adversarial networks (GANs) are a class of generative models, known for producing accurate samples. The key feature of GANs is that there are two antagonistic neural networks: the generator and the discriminator. The main bottleneck for their implementation is that the neural networks are very hard to train. One way to improve their performance is to design reliable algorithms for the adversarial process. Since the training can be cast as a stochastic Nash equilibrium problem, we rewrite it as a variational inequality and introduce an algorithm to compute an approximate solution. Specifically, we propose a stochastic relaxed forward-backward algorithm for GANs. We prove that when the pseudogradient mapping of the game is monotone, we have convergence to an exact solution or in a neighbourhood of it. 
+
+3: 
+Title: The Inductive Bias of Restricted f-GANs
+Abstract:
+  Generative adversarial networks are a novel method for statistical inference that have achieved much empirical success; however, the factors contributing to this success remain ill-understood. In this work, we attempt to analyze generative adversarial learning -- that is, statistical inference as the result of a game between a generator and a discriminator -- with the view of understanding how it differs from classical statistical inference solutions such as maximum likelihood inference and the method of moments.   Specifically, we provide a theoretical characterization of the distribution inferred by a simple form of generative adversarial learning called restricted f-GANs -- where the discriminator is a function in a given function class, the distribution induced by the generator is restricted to lie in a pre-specified distribution class and the objective is similar to a variational form of the f-divergence. A consequence of our result is that for linear KL-GANs -- that is, when the discriminator is a linear function over some feature space and f corresponds to the KL-divergence -- the distribution induced by the optimal generator is neither the maximum likelihood nor the method of moments solution, but an interesting combination of both. 
+
+4: 
+Title: Some Theoretical Properties of GANs
+Abstract:
+  Generative Adversarial Networks (GANs) are a class of generative algorithms that have been shown to produce state-of-the art samples, especially in the domain of image creation. The fundamental principle of GANs is to approximate the unknown distribution of a given data set by optimizing an objective function through an adversarial game between a family of generators and a family of discriminators. In this paper, we offer a better theoretical understanding of GANs by analyzing some of their mathematical and statistical properties. We study the deep connection between the adversarial principle underlying GANs and the Jensen-Shannon divergence, together with some optimality characteristics of the problem. An analysis of the role of the discriminator family via approximation arguments is also provided. In addition, taking a statistical point of view, we study the large sample properties of the estimated distribution and prove in particular a central limit theorem. Some of our results are illustrated with simulated examples. 
+
+5: 
+Title: Generative Adversarial Nets: Can we generate a new dataset based on only
+  one training set?
+Abstract:
+  A generative adversarial network (GAN) is a class of machine learning frameworks designed by Goodfellow et al. in 2014. In the GAN framework, the generative model is pitted against an adversary: a discriminative model that learns to determine whether a sample is from the model distribution or the data distribution. GAN generates new samples from the same distribution as the training set. In this work, we aim to generate a new dataset that has a different distribution from the training set. In addition, the Jensen-Shannon divergence between the distributions of the generative and training datasets can be controlled by some target $\delta \in [0, 1]$. Our work is motivated by applications in generating new kinds of rice that have similar characteristics as good rice. 
+
+6: 
+Title: Auxiliary-Classifier GAN for Malware Analysis
+Abstract:
+  Generative adversarial networks (GAN) are a class of powerful machine learning techniques, where both a generative and discriminative model are trained simultaneously. GANs have been used, for example, to successfully generate "deep fake" images. A recent trend in malware research consists of treating executables as images and employing image-based analysis techniques. In this research, we generate fake malware images using auxiliary classifier GANs (AC-GAN), and we consider the effectiveness of various techniques for classifying the resulting images. Our results indicate that the resulting multiclass classification problem is challenging, yet we can obtain strong results when restricting the problem to distinguishing between real and fake samples. While the AC-GAN generated images often appear to be very similar to real malware images, we conclude that from a deep learning perspective, the AC-GAN generated samples do not rise to the level of deep fake malware images. 
+
+7: 
+Title: Generative Multi-Adversarial Networks
+Abstract:
+  Generative adversarial networks (GANs) are a framework for producing a generative model by way of a two-player minimax game. In this paper, we propose the \emph{Generative Multi-Adversarial Network} (GMAN), a framework that extends GANs to multiple discriminators. In previous work, the successful training of GANs requires modifying the minimax objective to accelerate training early on. In contrast, GMAN can be reliably trained with the original, untampered objective. We explore a number of design perspectives with the discriminator role ranging from formidable adversary to forgiving teacher. Image generation tasks comparing the proposed framework to standard GANs demonstrate GMAN produces higher quality samples in a fraction of the iterations when measured by a pairwise GAM-type metric. 
+
+8: 
+Title: Generative Adversarial Networks (GANs): Challenges, Solutions, and
+  Future Directions
+Abstract:
+  Generative Adversarial Networks (GANs) is a novel class of deep generative models which has recently gained significant attention. GANs learns complex and high-dimensional distributions implicitly over images, audio, and data. However, there exists major challenges in training of GANs, i.e., mode collapse, non-convergence and instability, due to inappropriate design of network architecture, use of objective function and selection of optimization algorithm. Recently, to address these challenges, several solutions for better design and optimization of GANs have been investigated based on techniques of re-engineered network architectures, new objective functions and alternative optimization algorithms. To the best of our knowledge, there is no existing survey that has particularly focused on broad and systematic developments of these solutions. In this study, we perform a comprehensive survey of the advancements in GANs design and optimization solutions proposed to handle GANs challenges. We first identify key research issues within each design and optimization technique and then propose a new taxonomy to structure solutions by key research issues. In accordance with the taxonomy, we provide a detailed discussion on different GANs variants proposed within each solution and their relationships. Finally, based on the insights gained, we present the promising research directions in this rapidly growing field. 
+
+9: 
+Title: Guiding GANs: How to control non-conditional pre-trained GANs for
+  conditional image generation
+Abstract:
+  Generative Adversarial Networks (GANs) are an arrange of two neural networks -- the generator and the discriminator -- that are jointly trained to generate artificial data, such as images, from random inputs. The quality of these generated images has recently reached such levels that can often lead both machines and humans into mistaking fake for real examples. However, the process performed by the generator of the GAN has some limitations when we want to condition the network to generate images from subcategories of a specific class. Some recent approaches tackle this \textit{conditional generation} by introducing extra information prior to the training process, such as image semantic segmentation or textual descriptions. While successful, these techniques still require defining beforehand the desired subcategories and collecting large labeled image datasets representing them to train the GAN from scratch. In this paper we present a novel and alternative method for guiding generic non-conditional GANs to behave as conditional GANs. Instead of re-training the GAN, our approach adds into the mix an encoder network to generate the high-dimensional random input vectors that are fed to the generator network of a non-conditional GAN to make it generate images from a specific subcategory. In our experiments, when compared to training a conditional GAN from scratch, our guided GAN is able to generate artificial images of perceived quality comparable to that of non-conditional GANs after training the encoder on just a few hundreds of images, which substantially accelerates the process and enables adding new subcategories seamlessly. 
+
+10: 
+Title: Latent Space Conditioning on Generative Adversarial Networks
+Abstract:
+  Generative adversarial networks are the state of the art approach towards learned synthetic image generation. Although early successes were mostly unsupervised, bit by bit, this trend has been superseded by approaches based on labelled data. These supervised methods allow a much finer-grained control of the output image, offering more flexibility and stability. Nevertheless, the main drawback of such models is the necessity of annotated data. In this work, we introduce an novel framework that benefits from two popular learning techniques, adversarial training and representation learning, and takes a step towards unsupervised conditional GANs. In particular, our approach exploits the structure of a latent space (learned by the representation learning) and employs it to condition the generative model. In this way, we break the traditional dependency between condition and label, substituting the latter by unsupervised features coming from the latent space. Finally, we show that this new technique is able to produce samples on demand keeping the quality of its supervised counterpart. 
+

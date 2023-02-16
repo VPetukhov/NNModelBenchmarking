@@ -1,0 +1,58 @@
+Query:
+model training on multiple GPUs
+
+Results:
+1: 
+Title: Deep Learning Training on Multi-Instance GPUs
+Abstract:
+  Deep learning training is an expensive process that extensively uses GPUs, but not all model training saturates the modern powerful GPUs. Multi-Instance GPU (MIG) is a new technology introduced by NVIDIA that can partition a GPU to better fit workloads that don't require all the memory and compute resources of a full GPU. In this paper, we examine the performance of a MIG-enabled A100 GPU under deep learning workloads of three sizes focusing on image recognition training with ResNet models. We investigate the behavior of these workloads when running in isolation on a variety of MIG instances allowed by the GPU in addition to running them in parallel on homogeneous instances co-located on the same GPU.   Our results demonstrate that employing MIG can significantly improve the utilization of the GPU when the workload is too small to utilize the whole GPU in isolation. By training multiple small models in parallel, more work can be performed by the GPU per unit of time, despite the increase in time-per-epoch, leading to $\sim$3 times the throughput. In contrast, for medium and large-sized workloads, which already utilize the whole GPU well on their own, MIG only provides marginal performance improvements. Nevertheless, we observe that training models in parallel using separate MIG partitions does not exhibit interference underlining the value of having a functionality like MIG on modern GPUs. 
+
+2: 
+Title: A Multigrid Method for Efficiently Training Video Models
+Abstract:
+  Training competitive deep video models is an order of magnitude slower than training their counterpart image models. Slow training causes long research cycles, which hinders progress in video understanding research. Following standard practice for training image models, video model training assumes a fixed mini-batch shape: a specific number of clips, frames, and spatial size. However, what is the optimal shape? High resolution models perform well, but train slowly. Low resolution models train faster, but they are inaccurate. Inspired by multigrid methods in numerical optimization, we propose to use variable mini-batch shapes with different spatial-temporal resolutions that are varied according to a schedule. The different shapes arise from resampling the training data on multiple sampling grids. Training is accelerated by scaling up the mini-batch size and learning rate when shrinking the other dimensions. We empirically demonstrate a general and robust grid schedule that yields a significant out-of-the-box training speedup without a loss in accuracy for different models (I3D, non-local, SlowFast), datasets (Kinetics, Something-Something, Charades), and training settings (with and without pre-training, 128 GPUs or 1 GPU). As an illustrative example, the proposed multigrid method trains a ResNet-50 SlowFast network 4.5x faster (wall-clock time, same hardware) while also improving accuracy (+0.8% absolute) on Kinetics-400 compared to the baseline training method. Code is available online. 
+
+3: 
+Title: XGBoost: Scalable GPU Accelerated Learning
+Abstract:
+  We describe the multi-GPU gradient boosting algorithm implemented in the XGBoost library (https://github.com/dmlc/xgboost). Our algorithm allows fast, scalable training on multi-GPU systems with all of the features of the XGBoost library. We employ data compression techniques to minimise the usage of scarce GPU memory while still allowing highly efficient implementation. Using our algorithm we show that it is possible to process 115 million training instances in under three minutes on a publicly available cloud computing instance. The algorithm is implemented using end-to-end GPU parallelism, with prediction, gradient calculation, feature quantisation, decision tree construction and evaluation phases all computed on device. 
+
+4: 
+Title: Data-parallel distributed training of very large models beyond GPU
+  capacity
+Abstract:
+  GPUs have limited memory and it is difficult to train wide and/or deep models that cause the training process to go out of memory. It is shown in this paper how an open source tool called Large Model Support (LMS) can utilize a high bandwidth NVLink connection between CPUs and GPUs to accomplish training of deep convolutional networks. LMS performs tensor swapping between CPU memory and GPU memory such that only a minimal number of tensors required in a training step are kept in the GPU memory. It is also shown how LMS can be combined with an MPI based distributed deep learning module to train models in a data-parallel fashion across multiple GPUs, such that each GPU is utilizing the CPU memory for tensor swapping. The hardware architecture that enables the high bandwidth GPU link with the CPU is discussed as well as the associated set of software tools that are available as the PowerAI package. 
+
+5: 
+Title: Scaling Neural Machine Translation
+Abstract:
+  Sequence to sequence learning models still require several days to reach state of the art performance on large benchmark datasets using a single machine. This paper shows that reduced precision and large batch training can speedup training by nearly 5x on a single 8-GPU machine with careful tuning and implementation. On WMT'14 English-German translation, we match the accuracy of Vaswani et al. (2017) in under 5 hours when training on 8 GPUs and we obtain a new state of the art of 29.3 BLEU after training for 85 minutes on 128 GPUs. We further improve these results to 29.8 BLEU by training on the much larger Paracrawl dataset. On the WMT'14 English-French task, we obtain a state-of-the-art BLEU of 43.2 in 8.5 hours on 128 GPUs. 
+
+6: 
+Title: MG-GCN: Scalable Multi-GPU GCN Training Framework
+Abstract:
+  Full batch training of Graph Convolutional Network (GCN) models is not feasible on a single GPU for large graphs containing tens of millions of vertices or more. Recent work has shown that, for the graphs used in the machine learning community, communication becomes a bottleneck and scaling is blocked outside of the single machine regime. Thus, we propose MG-GCN, a multi-GPU GCN training framework taking advantage of the high-speed communication links between the GPUs present in multi-GPU systems. MG-GCN employs multiple High-Performance Computing optimizations, including efficient re-use of memory buffers to reduce the memory footprint of training GNN models, as well as communication and computation overlap. These optimizations enable execution on larger datasets, that generally do not fit into memory of a single GPU in state-of-the-art implementations. Furthermore, they contribute to achieve superior speedup compared to the state-of-the-art. For example, MG-GCN achieves super-linear speedup with respect to DGL, on the Reddit graph on both DGX-1 (V100) and DGX-A100. 
+
+7: 
+Title: Decentralized Training of Foundation Models in Heterogeneous
+  Environments
+Abstract:
+  Training foundation models, such as GPT-3 and PaLM, can be extremely expensive, often involving tens of thousands of GPUs running continuously for months. These models are typically trained in specialized clusters featuring fast, homogeneous interconnects and using carefully designed software systems that support both data parallelism and model/pipeline parallelism. Such dedicated clusters can be costly and difficult to obtain. Can we instead leverage the much greater amount of decentralized, heterogeneous, and lower-bandwidth interconnected compute? Previous works examining the heterogeneous, decentralized setting focus on relatively small models that can be trained in a purely data parallel manner. State-of-the-art schemes for model parallel foundation model training, such as Megatron, only consider the homogeneous data center setting. In this paper, we present the first study of training large foundation models with model parallelism in a decentralized regime over a heterogeneous network. Our key technical contribution is a scheduling algorithm that allocates different computational "tasklets" in the training of foundation models to a group of decentralized GPU devices connected by a slow heterogeneous network. We provide a formal cost model and further propose an efficient evolutionary algorithm to find the optimal allocation strategy. We conduct extensive experiments that represent different scenarios for learning over geo-distributed devices simulated using real-world network measurements. In the most extreme case, across 8 different cities spanning 3 continents, our approach is 4.8X faster than prior state-of-the-art training systems (Megatron). 
+
+8: 
+Title: Stop Wasting My Time! Saving Days of ImageNet and BERT Training with
+  Latest Weight Averaging
+Abstract:
+  Training vision or language models on large datasets can take days, if not weeks. We show that averaging the weights of the k latest checkpoints, each collected at the end of an epoch, can speed up the training progression in terms of loss and accuracy by dozens of epochs, corresponding to time savings up to ~68 and ~30 GPU hours when training a ResNet50 on ImageNet and RoBERTa-Base model on WikiText-103, respectively. We also provide the code and model checkpoint trajectory to reproduce the results and facilitate research on reusing historical weights for faster convergence. 
+
+9: 
+Title: One weird trick for parallelizing convolutional neural networks
+Abstract:
+  I present a new way to parallelize the training of convolutional neural networks across multiple GPUs. The method scales significantly better than all alternatives when applied to modern convolutional neural networks. 
+
+10: 
+Title: Experiments on Parallel Training of Deep Neural Network using Model
+  Averaging
+Abstract:
+  In this work we apply model averaging to parallel training of deep neural network (DNN). Parallelization is done in a model averaging manner. Data is partitioned and distributed to different nodes for local model updates, and model averaging across nodes is done every few minibatches. We use multiple GPUs for data parallelization, and Message Passing Interface (MPI) for communication between nodes, which allows us to perform model averaging frequently without losing much time on communication. We investigate the effectiveness of Natural Gradient Stochastic Gradient Descent (NG-SGD) and Restricted Boltzmann Machine (RBM) pretraining for parallel training in model-averaging framework, and explore the best setups in term of different learning rate schedules, averaging frequencies and minibatch sizes. It is shown that NG-SGD and RBM pretraining benefits parameter-averaging based model training. On the 300h Switchboard dataset, a 9.3 times speedup is achieved using 16 GPUs and 17 times speedup using 32 GPUs with limited decoding accuracy loss. 
+

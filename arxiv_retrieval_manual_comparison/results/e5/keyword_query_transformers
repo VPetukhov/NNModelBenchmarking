@@ -1,0 +1,56 @@
+Query:
+transformers
+
+Results:
+1: 
+Title: When BERT Fails -- The Limits of EHR Classification
+Abstract:
+  Transformers are powerful text representation learners, useful for all kinds of clinical decision support tasks. Although they outperform baselines on readmission prediction, they are not infallible. Here, we look into one such failure case, and report patterns that lead to inferior predictive performance. 
+
+2: 
+Title: Vision Transformers: State of the Art and Research Challenges
+Abstract:
+  Transformers have achieved great success in natural language processing. Due to the powerful capability of self-attention mechanism in transformers, researchers develop the vision transformers for a variety of computer vision tasks, such as image recognition, object detection, image segmentation, pose estimation, and 3D reconstruction. This paper presents a comprehensive overview of the literature on different architecture designs and training tricks (including self-supervised learning) for vision transformers. Our goal is to provide a systematic review with the open research opportunities. 
+
+3: 
+Title: Tensor-to-Image: Image-to-Image Translation with Vision Transformers
+Abstract:
+  Transformers gain huge attention since they are first introduced and have a wide range of applications. Transformers start to take over all areas of deep learning and the Vision transformers paper also proved that they can be used for computer vision tasks. In this paper, we utilized a vision transformer-based custom-designed model, tensor-to-image, for the image to image translation. With the help of self-attention, our model was able to generalize and apply to different problems without a single modification. 
+
+4: 
+Title: HuggingFace's Transformers: State-of-the-art Natural Language Processing
+Abstract:
+  Recent progress in natural language processing has been driven by advances in both model architecture and model pretraining. Transformer architectures have facilitated building higher-capacity models and pretraining has made it possible to effectively utilize this capacity for a wide variety of tasks. \textit{Transformers} is an open-source library with the goal of opening up these advances to the wider machine learning community. The library consists of carefully engineered state-of-the art Transformer architectures under a unified API. Backing this library is a curated collection of pretrained models made by and available for the community. \textit{Transformers} is designed to be extensible by researchers, simple for practitioners, and fast and robust in industrial deployments. The library is available at \url{https://github.com/huggingface/transformers}. 
+
+5: 
+Title: Fine-tuning Vision Transformers for the Prediction of State Variables in
+  Ising Models
+Abstract:
+  Transformers are state-of-the-art deep learning models that are composed of stacked attention and point-wise, fully connected layers designed for handling sequential data. Transformers are not only ubiquitous throughout Natural Language Processing (NLP), but, recently, they have inspired a new wave of Computer Vision (CV) applications research. In this work, a Vision Transformer (ViT) is applied to predict the state variables of 2-dimensional Ising model simulations. Our experiments show that ViT outperform state-of-the-art Convolutional Neural Networks (CNN) when using a small number of microstate images from the Ising model corresponding to various boundary conditions and temperatures. This work opens the possibility of applying ViT to other simulations, and raises interesting research directions on how attention maps can learn about the underlying physics governing different phenomena. 
+
+6: 
+Title: A Survey of Transformers
+Abstract:
+  Transformers have achieved great success in many artificial intelligence fields, such as natural language processing, computer vision, and audio processing. Therefore, it is natural to attract lots of interest from academic and industry researchers. Up to the present, a great variety of Transformer variants (a.k.a. X-formers) have been proposed, however, a systematic and comprehensive literature review on these Transformer variants is still missing. In this survey, we provide a comprehensive review of various X-formers. We first briefly introduce the vanilla Transformer and then propose a new taxonomy of X-formers. Next, we introduce the various X-formers from three perspectives: architectural modification, pre-training, and applications. Finally, we outline some potential directions for future research. 
+
+7: 
+Title: Random Feature Attention
+Abstract:
+  Transformers are state-of-the-art models for a variety of sequence modeling tasks. At their core is an attention function which models pairwise interactions between the inputs at every timestep. While attention is powerful, it does not scale efficiently to long sequences due to its quadratic time and space complexity in the sequence length. We propose RFA, a linear time and space attention that uses random feature methods to approximate the softmax function, and explore its application in transformers. RFA can be used as a drop-in replacement for conventional softmax attention and offers a straightforward way of learning with recency bias through an optional gating mechanism. Experiments on language modeling and machine translation demonstrate that RFA achieves similar or better performance compared to strong transformer baselines. In the machine translation experiment, RFA decodes twice as fast as a vanilla transformer. Compared to existing efficient transformer variants, RFA is competitive in terms of both accuracy and efficiency on three long text classification datasets. Our analysis shows that RFA's efficiency gains are especially notable on long sequences, suggesting that RFA will be particularly useful in tasks that require working with large inputs, fast decoding speed, or low memory footprints. 
+
+8: 
+Title: A Survey on Vision Transformer
+Abstract:
+  Transformer, first applied to the field of natural language processing, is a type of deep neural network mainly based on the self-attention mechanism. Thanks to its strong representation capabilities, researchers are looking at ways to apply transformer to computer vision tasks. In a variety of visual benchmarks, transformer-based models perform similar to or better than other types of networks such as convolutional and recurrent neural networks. Given its high performance and less need for vision-specific inductive bias, transformer is receiving more and more attention from the computer vision community. In this paper, we review these vision transformer models by categorizing them in different tasks and analyzing their advantages and disadvantages. The main categories we explore include the backbone network, high/mid-level vision, low-level vision, and video processing. We also include efficient transformer methods for pushing transformer into real device-based applications. Furthermore, we also take a brief look at the self-attention mechanism in computer vision, as it is the base component in transformer. Toward the end of this paper, we discuss the challenges and provide several further research directions for vision transformers. 
+
+9: 
+Title: DearKD: Data-Efficient Early Knowledge Distillation for Vision
+  Transformers
+Abstract:
+  Transformers are successfully applied to computer vision due to their powerful modeling capacity with self-attention. However, the excellent performance of transformers heavily depends on enormous training images. Thus, a data-efficient transformer solution is urgently needed. In this work, we propose an early knowledge distillation framework, which is termed as DearKD, to improve the data efficiency required by transformers. Our DearKD is a two-stage framework that first distills the inductive biases from the early intermediate layers of a CNN and then gives the transformer full play by training without distillation. Further, our DearKD can be readily applied to the extreme data-free case where no real images are available. In this case, we propose a boundary-preserving intra-divergence loss based on DeepInversion to further close the performance gap against the full-data counterpart. Extensive experiments on ImageNet, partial ImageNet, data-free setting and other downstream tasks prove the superiority of DearKD over its baselines and state-of-the-art methods. 
+
+10: 
+Title: Probabilistic Transformers
+Abstract:
+  We show that Transformers are Maximum Posterior Probability estimators for Mixtures of Gaussian Models. This brings a probabilistic point of view to Transformers and suggests extensions to other probabilistic cases. 
+

@@ -1,0 +1,58 @@
+Similiarity query for paper Go
+Query:
+The game of Go has long been viewed as the most challenging of classic games for artificial intelligence owing to its enormous search space and the difficulty of evaluating board positions and moves. Here we introduce a new approach to computer Go that uses ‘value networks’ to evaluate board positions and ‘policy networks’ to select moves. These deep neural networks are trained by a novel combination of supervised learning from human expert games, and reinforcement learning from games of self-play. Without any lookahead search, the neural networks play Go at the level of state-of-the-art Monte Carlo tree search programs that simulate thousands of random games of self-play. We also introduce a new search algorithm that combines Monte Carlo simulation with value and policy networks. Using this search algorithm, our program AlphaGo achieved a 99.8% winning rate against other Go programs, and defeated the human European Go champion by 5 games to 0. This is the first time that a computer program has defeated a human professional player in the full-sized game of Go, a feat previously thought to be at least a decade away.
+
+Results:
+1: 
+Title: Learning to Bluff
+Abstract:
+  The act of bluffing confounds game designers to this day. The very nature of bluffing is even open for debate, adding further complication to the process of creating intelligent virtual players that can bluff, and hence play, realistically. Through the use of intelligent, learning agents, and carefully designed agent outlooks, an agent can in fact learn to predict its opponents reactions based not only on its own cards, but on the actions of those around it. With this wider scope of understanding, an agent can in learn to bluff its opponents, with the action representing not an illogical action, as bluffing is often viewed, but rather as an act of maximising returns through an effective statistical optimisation. By using a tee dee lambda learning algorithm to continuously adapt neural network agent intelligence, agents have been shown to be able to learn to bluff without outside prompting, and even to learn to call each others bluffs in free, competitive play. 
+
+2: 
+Title: An Adaptive Strategy for the Classification of G-Protein Coupled
+  Receptors
+Abstract:
+  One of the major problems in computational biology is the inability of existing classification models to incorporate expanding and new domain knowledge. This problem of static classification models is addressed in this paper by the introduction of incremental learning for problems in bioinformatics. Many machine learning tools have been applied to this problem using static machine learning structures such as neural networks or support vector machines that are unable to accommodate new information into their existing models. We utilize the fuzzy ARTMAP as an alternate machine learning system that has the ability of incrementally learning new data as it becomes available. The fuzzy ARTMAP is found to be comparable to many of the widespread machine learning systems. The use of an evolutionary strategy in the selection and combination of individual classifiers into an ensemble system, coupled with the incremental learning ability of the fuzzy ARTMAP is proven to be suitable as a pattern classifier. The algorithm presented is tested using data from the G-Coupled Protein Receptors Database and shows good accuracy of 83%. The system presented is also generally applicable, and can be used in problems in genomics and proteomics. 
+
+3: 
+Title: Non-Computability of Consciousness
+Abstract:
+  With the great success in simulating many intelligent behaviors using computing devices, there has been an ongoing debate whether all conscious activities are computational processes. In this paper, the answer to this question is shown to be no. A certain phenomenon of consciousness is demonstrated to be fully represented as a computational process using a quantum computer. Based on the computability criterion discussed with Turing machines, the model constructed is shown to necessarily involve a non-computable element. The concept that this is solely a quantum effect and does not work for a classical case is also discussed. 
+
+4: 
+Title: Experimenting with recursive queries in database and logic programming
+  systems
+Abstract:
+  This paper considers the problem of reasoning on massive amounts of (possibly distributed) data. Presently, existing proposals show some limitations: {\em (i)} the quantity of data that can be handled contemporarily is limited, due to the fact that reasoning is generally carried out in main-memory; {\em (ii)} the interaction with external (and independent) DBMSs is not trivial and, in several cases, not allowed at all; {\em (iii)} the efficiency of present implementations is still not sufficient for their utilization in complex reasoning tasks involving massive amounts of data. This paper provides a contribution in this setting; it presents a new system, called DLV$^{DB}$, which aims to solve these problems. Moreover, the paper reports the results of a thorough experimental analysis we have carried out for comparing our system with several state-of-the-art systems (both logic and databases) on some classical deductive problems; the other tested systems are: LDL++, XSB, Smodels and three top-level commercial DBMSs. DLV$^{DB}$ significantly outperforms even the commercial Database Systems on recursive queries. To appear in Theory and Practice of Logic Programming (TPLP) 
+
+5: 
+Title: Resource modalities in game semantics
+Abstract:
+  The description of resources in game semantics has never achieved the simplicity and precision of linear logic, because of a misleading conception: the belief that linear logic is more primitive than game semantics. We advocate instead the contrary: that game semantics is conceptually more primitive than linear logic. Starting from this revised point of view, we design a categorical model of resources in game semantics, and construct an arena game model where the usual notion of bracketing is extended to multi- bracketing in order to capture various resource policies: linear, af&#64257;ne and exponential. 
+
+6: 
+Title: The Road to Quantum Artificial Intelligence
+Abstract:
+  This paper overviews the basic principles and recent advances in the emerging field of Quantum Computation (QC), highlighting its potential application to Artificial Intelligence (AI). The paper provides a very brief introduction to basic QC issues like quantum registers, quantum gates and quantum algorithms and then it presents references, ideas and research guidelines on how QC can be used to deal with some basic AI problems, such as search and pattern matching, as soon as quantum computers become widely available. 
+
+7: 
+Title: Epistemic Analysis of Strategic Games with Arbitrary Strategy Sets
+Abstract:
+  We provide here an epistemic analysis of arbitrary strategic games based on the possibility correspondences. Such an analysis calls for the use of transfinite iterations of the corresponding operators. Our approach is based on Tarski's Fixpoint Theorem and applies both to the notions of rationalizability and the iterated elimination of strictly dominated strategies. 
+
+8: 
+Title: Modeling Epidemic Spread in Synthetic Populations - Virtual Plagues in
+  Massively Multiplayer Online Games
+Abstract:
+  A virtual plague is a process in which a behavior-affecting property spreads among characters in a Massively Multiplayer Online Game (MMOG). The MMOG individuals constitute a synthetic population, and the game can be seen as a form of interactive executable model for studying disease spread, albeit of a very special kind. To a game developer maintaining an MMOG, recognizing, monitoring, and ultimately controlling a virtual plague is important, regardless of how it was initiated. The prospect of using tools, methods and theory from the field of epidemiology to do this seems natural and appealing. We will address the feasibility of such a prospect, first by considering some basic measures used in epidemiology, then by pointing out the differences between real world epidemics and virtual plagues. We also suggest directions for MMOG developer control through epidemiological modeling. Our aim is understanding the properties of virtual plagues, rather than trying to eliminate them or mitigate their effects, as would be in the case of real infectious disease. 
+
+9: 
+Title: The on-line shortest path problem under partial monitoring
+Abstract:
+  The on-line shortest path problem is considered under various models of partial monitoring. Given a weighted directed acyclic graph whose edge weights can change in an arbitrary (adversarial) way, a decision maker has to choose in each round of a game a path between two distinguished vertices such that the loss of the chosen path (defined as the sum of the weights of its composing edges) be as small as possible. In a setting generalizing the multi-armed bandit problem, after choosing a path, the decision maker learns only the weights of those edges that belong to the chosen path. For this problem, an algorithm is given whose average cumulative loss in n rounds exceeds that of the best path, matched off-line to the entire sequence of the edge weights, by a quantity that is proportional to 1/\sqrt{n} and depends only polynomially on the number of edges of the graph. The algorithm can be implemented with linear complexity in the number of rounds n and in the number of edges. An extension to the so-called label efficient setting is also given, in which the decision maker is informed about the weights of the edges corresponding to the chosen path at a total of m << n time instances. Another extension is shown where the decision maker competes against a time-varying path, a generalization of the problem of tracking the best expert. A version of the multi-armed bandit setting for shortest path is also discussed where the decision maker learns only the total weight of the chosen path but not the weights of the individual edges on the path. Applications to routing in packet switched networks along with simulation results are also presented. 
+
+10: 
+Title: Ensemble Learning for Free with Evolutionary Algorithms ?
+Abstract:
+  Evolutionary Learning proceeds by evolving a population of classifiers, from which it generally returns (with some notable exceptions) the single best-of-run classifier as final result. In the meanwhile, Ensemble Learning, one of the most efficient approaches in supervised Machine Learning for the last decade, proceeds by building a population of diverse classifiers. Ensemble Learning with Evolutionary Computation thus receives increasing attention. The Evolutionary Ensemble Learning (EEL) approach presented in this paper features two contributions. First, a new fitness function, inspired by co-evolution and enforcing the classifier diversity, is presented. Further, a new selection criterion based on the classification margin is proposed. This criterion is used to extract the classifier ensemble from the final population only (Off-line) or incrementally along evolution (On-line). Experiments on a set of benchmark problems show that Off-line outperforms single-hypothesis evolutionary learning and state-of-art Boosting and generates smaller classifier ensembles. 
+

@@ -1,0 +1,66 @@
+1: 
+Architecture for Pseudo Acausal Evolvable Embedded Systems
+  Advances in semiconductor technology are contributing to the increasing
+complexity in the design of embedded systems. Architectures with novel
+techniques such as evolvable nature and autonomous behavior have engrossed lot
+of attention. This paper demonstrates conceptually evolvable embedded systems
+can be characterized basing on acausal nature. It is noted that in acausal
+systems, future input needs to be known, here we make a mechanism such that the
+system predicts the future inputs and exhibits pseudo acausal nature. An
+embedded system that uses theoretical framework of acausality is proposed. Our
+method aims at a novel architecture that features the hardware evolability and
+autonomous behavior alongside pseudo acausality. Various aspects of this
+architecture are discussed in detail along with the limitations.
+
+2: 
+Towards understanding and modelling office daily life
+  Measuring and modeling human behavior is a very complex task. In this paper
+we present our initial thoughts on modeling and automatic recognition of some
+human activities in an office. We argue that to successfully model human
+activities, we need to consider both individual behavior and group dynamics. To
+demonstrate these theoretical approaches, we introduce an experimental system
+for analyzing everyday activity in our office.
+
+3: 
+Direct Optimization of Ranking Measures
+  Web page ranking and collaborative filtering require the optimization of
+sophisticated performance measures. Current Support Vector approaches are
+unable to optimize them directly and focus on pairwise comparisons instead. We
+present a new approach which allows direct optimization of the relevant loss
+functions. This is achieved via structured estimation in Hilbert spaces. It is
+most related to Max-Margin-Markov networks optimization of multivariate
+performance measures. Key to our approach is that during training the ranking
+problem can be viewed as a linear assignment problem, which can be solved by
+the Hungarian Marriage algorithm. At test time, a sort operation is sufficient,
+as our algorithm assigns a relevance score to every (document, query) pair.
+Experiments show that the our algorithm is fast and that it works very well.
+
+4: 
+On the monotonization of the training set
+  We consider the problem of minimal correction of the training set to make it
+consistent with monotonic constraints. This problem arises during analysis of
+data sets via techniques that require monotone data. We show that this problem
+is NP-hard in general and is equivalent to finding a maximal independent set in
+special orgraphs. Practically important cases of that problem considered in
+detail. These are the cases when a partial order given on the replies set is a
+total order or has a dimension 2. We show that the second case can be reduced
+to maximization of a quadratic convex function on a convex set. For this case
+we construct an approximate polynomial algorithm based on convex optimization.
+
+5: 
+Artificial Neural Networks and Support Vector Machines for Water Demand
+  Time Series Forecasting
+  Water plays a pivotal role in many physical processes, and most importantly
+in sustaining human life, animal life and plant life. Water supply entities
+therefore have the responsibility to supply clean and safe water at the rate
+required by the consumer. It is therefore necessary to implement mechanisms and
+systems that can be employed to predict both short-term and long-term water
+demands. The increasingly growing field of computational intelligence
+techniques has been proposed as an efficient tool in the modelling of dynamic
+phenomena. The primary objective of this paper is to compare the efficiency of
+two computational intelligence techniques in water demand forecasting. The
+techniques under comparison are the Artificial Neural Networks (ANNs) and the
+Support Vector Machines (SVMs). In this study it was observed that the ANNs
+perform better than the SVMs. This performance is measured against the
+generalisation ability of the two.
+

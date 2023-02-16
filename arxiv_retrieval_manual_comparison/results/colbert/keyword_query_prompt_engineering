@@ -1,0 +1,51 @@
+Query:
+prompt engineering
+
+Results:
+1: 
+Title: On the Development of Text Input Method - Lessons Learned
+Abstract:
+  Intelligent Input Methods (IM) are essential for making text entries in many East Asian scripts, but their application to other languages has not been fully explored. This paper discusses how such tools can contribute to the development of computer processing of other oriental languages. We propose a design philosophy that regards IM as a text service platform, and treats the study of IM as a cross disciplinary subject from the perspectives of software engineering, human-computer interaction (HCI), and natural language processing (NLP). We discuss these three perspectives and indicate a number of possible future research directions. 
+
+2: 
+Title: Exploiting Social Annotation for Automatic Resource Discovery
+Abstract:
+  Information integration applications, such as mediators or mashups, that require access to information resources currently rely on users manually discovering and integrating them in the application. Manual resource discovery is a slow process, requiring the user to sift through results obtained via keyword-based search. Although search methods have advanced to include evidence from document contents, its metadata and the contents and link structure of the referring pages, they still do not adequately cover information sources -- often called ``the hidden Web''-- that dynamically generate documents in response to a query. The recently popular social bookmarking sites, which allow users to annotate and share metadata about various information sources, provide rich evidence for resource discovery. In this paper, we describe a probabilistic model of the user annotation process in a social bookmarking system del.icio.us. We then use the model to automatically find resources relevant to a particular information domain. Our experimental results on data obtained from \emph{del.icio.us} show this approach as a promising method for helping automate the resource discovery task. 
+
+3: 
+Title: Evolving Symbolic Controllers
+Abstract:
+  The idea of symbolic controllers tries to bridge the gap between the top-down manual design of the controller architecture, as advocated in Brooks' subsumption architecture, and the bottom-up designer-free approach that is now standard within the Evolutionary Robotics community. The designer provides a set of elementary behavior, and evolution is given the goal of assembling them to solve complex tasks. Two experiments are presented, demonstrating the efficiency and showing the recursiveness of this approach. In particular, the sensitivity with respect to the proposed elementary behaviors, and the robustness w.r.t. generalization of the resulting controllers are studied in detail. 
+
+4: 
+Title: Architecture for Pseudo Acausal Evolvable Embedded Systems
+Abstract:
+  Advances in semiconductor technology are contributing to the increasing complexity in the design of embedded systems. Architectures with novel techniques such as evolvable nature and autonomous behavior have engrossed lot of attention. This paper demonstrates conceptually evolvable embedded systems can be characterized basing on acausal nature. It is noted that in acausal systems, future input needs to be known, here we make a mechanism such that the system predicts the future inputs and exhibits pseudo acausal nature. An embedded system that uses theoretical framework of acausality is proposed. Our method aims at a novel architecture that features the hardware evolability and autonomous behavior alongside pseudo acausality. Various aspects of this architecture are discussed in detail along with the limitations. 
+
+5: 
+Title: Structural Health Monitoring Using Neural Network Based Vibrational
+  System Identification
+Abstract:
+  Composite fabrication technologies now provide the means for producing high-strength, low-weight panels, plates, spars and other structural components which use embedded fiber optic sensors and piezoelectric transducers. These materials, often referred to as smart structures, make it possible to sense internal characteristics, such as delaminations or structural degradation. In this effort we use neural network based techniques for modeling and analyzing dynamic structural information for recognizing structural defects. This yields an adaptable system which gives a measure of structural integrity for composite structures. 
+
+6: 
+Title: Learning to Bluff
+Abstract:
+  The act of bluffing confounds game designers to this day. The very nature of bluffing is even open for debate, adding further complication to the process of creating intelligent virtual players that can bluff, and hence play, realistically. Through the use of intelligent, learning agents, and carefully designed agent outlooks, an agent can in fact learn to predict its opponents reactions based not only on its own cards, but on the actions of those around it. With this wider scope of understanding, an agent can in learn to bluff its opponents, with the action representing not an illogical action, as bluffing is often viewed, but rather as an act of maximising returns through an effective statistical optimisation. By using a tee dee lambda learning algorithm to continuously adapt neural network agent intelligence, agents have been shown to be able to learn to bluff without outside prompting, and even to learn to call each others bluffs in free, competitive play. 
+
+7: 
+Title: Robust Multi-Cellular Developmental Design
+Abstract:
+  This paper introduces a continuous model for Multi-cellular Developmental Design. The cells are fixed on a 2D grid and exchange "chemicals" with their neighbors during the growth process. The quantity of chemicals that a cell produces, as well as the differentiation value of the cell in the phenotype, are controlled by a Neural Network (the genotype) that takes as inputs the chemicals produced by the neighboring cells at the previous time step. In the proposed model, the number of iterations of the growth process is not pre-determined, but emerges during evolution: only organisms for which the growth process stabilizes give a phenotype (the stable state), others are declared nonviable. The optimization of the controller is done using the NEAT algorithm, that optimizes both the topology and the weights of the Neural Networks. Though each cell only receives local information from its neighbors, the experimental results of the proposed approach on the 'flags' problems (the phenotype must match a given 2D pattern) are almost as good as those of a direct regression approach using the same model with global information. Moreover, the resulting multi-cellular organisms exhibit almost perfect self-healing characteristics. 
+
+8: 
+Title: Sensor Networks with Random Links: Topology Design for Distributed
+  Consensus
+Abstract:
+  In a sensor network, in practice, the communication among sensors is subject to:(1) errors or failures at random times; (3) costs; and(2) constraints since sensors and networks operate under scarce resources, such as power, data rate, or communication. The signal-to-noise ratio (SNR) is usually a main factor in determining the probability of error (or of communication failure) in a link. These probabilities are then a proxy for the SNR under which the links operate. The paper studies the problem of designing the topology, i.e., assigning the probabilities of reliable communication among sensors (or of link failures) to maximize the rate of convergence of average consensus, when the link communication costs are taken into account, and there is an overall communication budget constraint. To consider this problem, we address a number of preliminary issues: (1) model the network as a random topology; (2) establish necessary and sufficient conditions for mean square sense (mss) and almost sure (a.s.) convergence of average consensus when network links fail; and, in particular, (3) show that a necessary and sufficient condition for both mss and a.s. convergence is for the algebraic connectivity of the mean graph describing the network topology to be strictly positive. With these results, we formulate topology design, subject to random link failures and to a communication cost constraint, as a constrained convex optimization problem to which we apply semidefinite programming techniques. We show by an extensive numerical study that the optimal design improves significantly the convergence speed of the consensus algorithm and can achieve the asymptotic performance of a non-random network at a fraction of the communication cost. 
+
+9: 
+Title: Resource modalities in game semantics
+Abstract:
+  The description of resources in game semantics has never achieved the simplicity and precision of linear logic, because of a misleading conception: the belief that linear logic is more primitive than game semantics. We advocate instead the contrary: that game semantics is conceptually more primitive than linear logic. Starting from this revised point of view, we design a categorical model of resources in game semantics, and construct an arena game model where the usual notion of bracketing is extended to multi- bracketing in order to capture various resource policies: linear, af&#64257;ne and exponential. 
+

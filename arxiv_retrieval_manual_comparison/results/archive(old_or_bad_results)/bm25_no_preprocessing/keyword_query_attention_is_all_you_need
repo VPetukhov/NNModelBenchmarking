@@ -1,0 +1,57 @@
+Query:
+attention is all you need
+
+Results:
+1: 
+Title: The Matrix Calculus You Need For Deep Learning
+Abstract:
+  This paper is an attempt to explain all the matrix calculus you need in order to understand the training of deep neural networks. We assume no math knowledge beyond what you learned in calculus 1, and provide links to help you refresh the necessary math where needed. Note that you do not need to understand this material before you start learning to train and use deep learning in practice; rather, this material is for those who are already familiar with the basics of neural networks, and wish to deepen their understanding of the underlying math. Don't worry if you get stuck at some point along the way---just go back and reread the previous section, and try writing down and working through some examples. And if you're still stuck, we're happy to answer your questions in the Theory category at forums.fast.ai. Note: There is a reference section at the end of the paper summarizing all the key matrix calculus rules and terminology discussed here. See related articles at http://explained.ai 
+
+2: 
+Title: PyCSP3: Modeling Combinatorial Constrained Problems in Python
+Abstract:
+  In this document, we introduce PyCSP$3$, a Python library that allows us to write models of combinatorial constrained problems in a declarative manner. Currently, with PyCSP$3$, you can write models of constraint satisfaction and optimization problems. More specifically, you can build CSP (Constraint Satisfaction Problem) and COP (Constraint Optimization Problem) models. Importantly, there is a complete separation between the modeling and solving phases: you write a model, you compile it (while providing some data) in order to generate an XCSP$3$ instance (file), and you solve that problem instance by means of a constraint solver. You can also directly pilot the solving procedure in PyCSP$3$, possibly conducting an incremental solving strategy. In this document, you will find all that you need to know about PyCSP$3$, with more than 50 illustrative models. 
+
+3: 
+Title: Influence Patterns for Explaining Information Flow in BERT
+Abstract:
+  While attention is all you need may be proving true, we do not know why: attention-based transformer models such as BERT are superior but how information flows from input tokens to output predictions are unclear. We introduce influence patterns, abstractions of sets of paths through a transformer model. Patterns quantify and localize the flow of information to paths passing through a sequence of model nodes. Experimentally, we find that significant portion of information flow in BERT goes through skip connections instead of attention heads. We further show that consistency of patterns across instances is an indicator of BERT's performance. Finally, We demonstrate that patterns account for far more model performance than previous attention-based and layer-based methods. 
+
+4: 
+Title: Model Weight Theft With Just Noise Inputs: The Curious Case of the
+  Petulant Attacker
+Abstract:
+  This paper explores the scenarios under which an attacker can claim that 'Noise and access to the softmax layer of the model is all you need' to steal the weights of a convolutional neural network whose architecture is already known. We were able to achieve 96% test accuracy using the stolen MNIST model and 82% accuracy using the stolen KMNIST model learned using only i.i.d. Bernoulli noise inputs. We posit that this theft-susceptibility of the weights is indicative of the complexity of the dataset and propose a new metric that captures the same. The goal of this dissemination is to not just showcase how far knowing the architecture can take you in terms of model stealing, but to also draw attention to this rather idiosyncratic weight learnability aspects of CNNs spurred by i.i.d. noise input. We also disseminate some initial results obtained with using the Ising probability distribution in lieu of the i.i.d. Bernoulli distribution. 
+
+5: 
+Title: Hierarchies in Dictionary Definition Space
+Abstract:
+  A dictionary defines words in terms of other words. Definitions can tell you the meanings of words you don't know, but only if you know the meanings of the defining words. How many words do you need to know (and which ones) in order to be able to learn all the rest from definitions? We reduced dictionaries to their "grounding kernels" (GKs), about 10% of the dictionary, from which all the other words could be defined. The GK words turned out to have psycholinguistic correlates: they were learned at an earlier age and more concrete than the rest of the dictionary. But one can compress still more: the GK turns out to have internal structure, with a strongly connected "kernel core" (KC) and a surrounding layer, from which a hierarchy of definitional distances can be derived, all the way out to the periphery of the full dictionary. These definitional distances, too, are correlated with psycholinguistic variables (age of acquisition, concreteness, imageability, oral and written frequency) and hence perhaps with the "mental lexicon" in each of our heads. 
+
+6: 
+Title: We Built a Fake News & Click-bait Filter: What Happened Next Will Blow
+  Your Mind!
+Abstract:
+  It is completely amazing! Fake news and click-baits have totally invaded the cyber space. Let us face it: everybody hates them for three simple reasons. Reason #2 will absolutely amaze you. What these can achieve at the time of election will completely blow your mind! Now, we all agree, this cannot go on, you know, somebody has to stop it. So, we did this research on fake news/click-bait detection and trust us, it is totally great research, it really is! Make no mistake. This is the best research ever! Seriously, come have a look, we have it all: neural networks, attention mechanism, sentiment lexicons, author profiling, you name it. Lexical features, semantic features, we absolutely have it all. And we have totally tested it, trust us! We have results, and numbers, really big numbers. The best numbers ever! Oh, and analysis, absolutely top notch analysis. Interested? Come read the shocking truth about fake news and click-bait in the Bulgarian cyber space. You won't believe what we have found! 
+
+7: 
+Title: Log-Precision Transformers are Constant-Depth Uniform Threshold Circuits
+Abstract:
+  We prove that transformer neural networks with logarithmic precision in the input length (and where the feedforward subnetworks are computable using linear space in their input length) can be simulated by constant-depth uniform threshold circuits. Thus, such transformers only recognize formal languages in $\mathsf{TC}^0$, the class of languages defined by constant-depth, poly-size threshold circuits. This demonstrates a connection between a practical claim in NLP and a theoretical conjecture in computational complexity theory: "attention is all you need" (Vaswani et al., 2017), i.e., transformers are capable of all efficient computation, only if all efficiently computable problems can be solved with log space, i.e., $\mathsf L = \mathsf P$. We also construct a transformer that can evaluate any constant-depth threshold circuit on any input, proving that transformers can follow instructions that are representable in $\mathsf{TC}^0$. 
+
+8: 
+Title: Object Counting: You Only Need to Look at One
+Abstract:
+  This paper aims to tackle the challenging task of one-shot object counting. Given an image containing novel, previously unseen category objects, the goal of the task is to count all instances in the desired category with only one supporting bounding box example. To this end, we propose a counting model by which you only need to Look At One instance (LaoNet). First, a feature correlation module combines the Self-Attention and Correlative-Attention modules to learn both inner-relations and inter-relations. It enables the network to be robust to the inconsistency of rotations and sizes among different instances. Second, a Scale Aggregation mechanism is designed to help extract features with different scale information. Compared with existing few-shot counting methods, LaoNet achieves state-of-the-art results while learning with a high convergence speed. The code will be available soon. 
+
+9: 
+Title: Should attention be all we need? The epistemic and ethical implications
+  of unification in machine learning
+Abstract:
+  "Attention is all you need" has become a fundamental precept in machine learning research. Originally designed for machine translation, transformers and the attention mechanisms that underpin them now find success across many problem domains. With the apparent domain-agnostic success of transformers, many researchers are excited that similar model architectures can be successfully deployed across diverse applications in vision, language and beyond. We consider the benefits and risks of these waves of unification on both epistemic and ethical fronts. On the epistemic side, we argue that many of the arguments in favor of unification in the natural sciences fail to transfer over to the machine learning case, or transfer over only under assumptions that might not hold. Unification also introduces epistemic risks related to portability, path dependency, methodological diversity, and increased black-boxing. On the ethical side, we discuss risks emerging from epistemic concerns, further marginalizing underrepresented perspectives, the centralization of power, and having fewer models across more domains of application 
+
+10: 
+Title: Attention-based Quantum Tomography
+Abstract:
+  With rapid progress across platforms for quantum systems, the problem of many-body quantum state reconstruction for noisy quantum states becomes an important challenge. Recent works found promise in recasting the problem of quantum state reconstruction to learning the probability distribution of quantum state measurement vectors using generative neural network models. Here we propose the "Attention-based Quantum Tomography" (AQT), a quantum state reconstruction using an attention mechanism-based generative network that learns the mixed state density matrix of a noisy quantum state. The AQT is based on the model proposed in "Attention is all you need" by Vishwani et al (2017) that is designed to learn long-range correlations in natural language sentences and thereby outperform previous natural language processing models. We demonstrate not only that AQT outperforms earlier neural-network-based quantum state reconstruction on identical tasks but that AQT can accurately reconstruct the density matrix associated with a noisy quantum state experimentally realized in an IBMQ quantum computer. We speculate the success of the AQT stems from its ability to model quantum entanglement across the entire quantum system much as the attention model for natural language processing captures the correlations among words in a sentence. 
+

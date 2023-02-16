@@ -1,0 +1,58 @@
+Similiarity query for paper BERT
+Query:
+We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).
+
+Results:
+1: 
+Title: Morphing Ensemble Kalman Filters
+Abstract:
+  A new type of ensemble filter is proposed, which combines an ensemble Kalman filter (EnKF) with the ideas of morphing and registration from image processing. This results in filters suitable for nonlinear problems whose solutions exhibit moving coherent features, such as thin interfaces in wildfire modeling. The ensemble members are represented as the composition of one common state with a spatial transformation, called registration mapping, plus a residual. A fully automatic registration method is used that requires only gridded data, so the features in the model state do not need to be identified by the user. The morphing EnKF operates on a transformed state consisting of the registration mapping and the residual. Essentially, the morphing EnKF uses intermediate states obtained by morphing instead of linear combinations of the states. 
+
+2: 
+Title: Arabic Speech Recognition System using CMU-Sphinx4
+Abstract:
+  In this paper we present the creation of an Arabic version of Automated Speech Recognition System (ASR). This system is based on the open source Sphinx-4, from the Carnegie Mellon University. Which is a speech recognition system based on discrete hidden Markov models (HMMs). We investigate the changes that must be made to the model to adapt Arabic voice recognition.   Keywords: Speech recognition, Acoustic model, Arabic language, HMMs, CMUSphinx-4, Artificial intelligence. 
+
+3: 
+Title: Introduction to Arabic Speech Recognition Using CMUSphinx System
+Abstract:
+  In this paper Arabic was investigated from the speech recognition problem point of view. We propose a novel approach to build an Arabic Automated Speech Recognition System (ASR). This system is based on the open source CMU Sphinx-4, from the Carnegie Mellon University. CMU Sphinx is a large-vocabulary; speaker-independent, continuous speech recognition system based on discrete Hidden Markov Models (HMMs). We build a model using utilities from the OpenSource CMU Sphinx. We will demonstrate the possible adaptability of this system to Arabic voice recognition. 
+
+4: 
+Title: HMM Speaker Identification Using Linear and Non-linear Merging
+  Techniques
+Abstract:
+  Speaker identification is a powerful, non-invasive and in-expensive biometric technique. The recognition accuracy, however, deteriorates when noise levels affect a specific band of frequency. In this paper, we present a sub-band based speaker identification that intends to improve the live testing performance. Each frequency sub-band is processed and classified independently. We also compare the linear and non-linear merging techniques for the sub-bands recognizer. Support vector machines and Gaussian Mixture models are the non-linear merging techniques that are investigated. Results showed that the sub-band based method used with linear merging techniques enormously improved the performance of the speaker identification over the performance of wide-band recognizers when tested live. A live testing improvement of 9.78% was achieved 
+
+5: 
+Title: Temporal Reasoning without Transitive Tables
+Abstract:
+  Representing and reasoning about qualitative temporal information is an essential part of many artificial intelligence tasks. Lots of models have been proposed in the litterature for representing such temporal information. All derive from a point-based or an interval-based framework. One fundamental reasoning task that arises in applications of these frameworks is given by the following scheme: given possibly indefinite and incomplete knowledge of the binary relationships between some temporal objects, find the consistent scenarii between all these objects. All these models require transitive tables -- or similarly inference rules-- for solving such tasks. We have defined an alternative model, S-languages - to represent qualitative temporal information, based on the only two relations of \emph{precedence} and \emph{simultaneity}. In this paper, we show how this model enables to avoid transitive tables or inference rules to handle this kind of problem. 
+
+6: 
+Title: Mixed membership stochastic blockmodels
+Abstract:
+  Observations consisting of measurements on relationships for pairs of objects arise in many settings, such as protein interaction and gene regulatory networks, collections of author-recipient email, and social networks. Analyzing such data with probabilisic models can be delicate because the simple exchangeability assumptions underlying many boilerplate models no longer hold. In this paper, we describe a latent variable model of such data called the mixed membership stochastic blockmodel. This model extends blockmodels for relational data to ones which capture mixed membership latent relational structure, thus providing an object-specific low-dimensional representation. We develop a general variational inference algorithm for fast approximate posterior inference. We explore applications to social and protein interaction networks. 
+
+7: 
+Title: Fault Classification in Cylinders Using Multilayer Perceptrons, Support
+  Vector Machines and Guassian Mixture Models
+Abstract:
+  Gaussian mixture models (GMM) and support vector machines (SVM) are introduced to classify faults in a population of cylindrical shells. The proposed procedures are tested on a population of 20 cylindrical shells and their performance is compared to the procedure, which uses multi-layer perceptrons (MLP). The modal properties extracted from vibration data are used to train the GMM, SVM and MLP. It is observed that the GMM produces 98%, SVM produces 94% classification accuracy while the MLP produces 88% classification rates. 
+
+8: 
+Title: General-Purpose Computing on a Semantic Network Substrate
+Abstract:
+  This article presents a model of general-purpose computing on a semantic network substrate. The concepts presented are applicable to any semantic network representation. However, due to the standards and technological infrastructure devoted to the Semantic Web effort, this article is presented from this point of view. In the proposed model of computing, the application programming interface, the run-time program, and the state of the computing virtual machine are all represented in the Resource Description Framework (RDF). The implementation of the concepts presented provides a practical computing paradigm that leverages the highly-distributed and standardized representational-layer of the Semantic Web. 
+
+9: 
+Title: Joint universal lossy coding and identification of stationary mixing
+  sources
+Abstract:
+  The problem of joint universal source coding and modeling, treated in the context of lossless codes by Rissanen, was recently generalized to fixed-rate lossy coding of finitely parametrized continuous-alphabet i.i.d. sources. We extend these results to variable-rate lossy block coding of stationary ergodic sources and show that, for bounded metric distortion measures, any finitely parametrized family of stationary sources satisfying suitable mixing, smoothness and Vapnik-Chervonenkis learnability conditions admits universal schemes for joint lossy source coding and identification. We also give several explicit examples of parametric sources satisfying the regularity conditions. 
+
+10: 
+Title: On complexity of optimized crossover for binary representations
+Abstract:
+  We consider the computational complexity of producing the best possible offspring in a crossover, given two solutions of the parents. The crossover operators are studied on the class of Boolean linear programming problems, where the Boolean vector of variables is used as the solution representation. By means of efficient reductions of the optimized gene transmitting crossover problems (OGTC) we show the polynomial solvability of the OGTC for the maximum weight set packing problem, the minimum weight set partition problem and for one of the versions of the simple plant location problem. We study a connection between the OGTC for linear Boolean programming problem and the maximum weight independent set problem on 2-colorable hypergraph and prove the NP-hardness of several special cases of the OGTC problem in Boolean linear programming. 
+
