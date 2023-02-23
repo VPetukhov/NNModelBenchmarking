@@ -4,6 +4,8 @@ Correct total: [10/19]
 
 - \[easy\]: [7/8]
 - \[medium\]: [3/11]
+- \[hard\]: [0/7]
+- \[column insertion\]: [0/4] (this model seems to only be capable of selects)
 
 ---
 
@@ -194,6 +196,120 @@ Schema: `| warehousing | warehouses : warehouse_id, location, max_storage_volume
 Response: `warehousing | select t1.id from packages as t1 join warehouses as t2 on t1.warehouse_id = t2.warehouse_id where t1.requires_temperature_control = 'No'`
 
 Is correct?: No 🟡
+
+---
+
+Question [hard]: Which singers participated in at least 3 rock concerts in Chicago in 2020? Sort them by name and gender.
+
+Schema: `| concert_singer | stadium : stadium_id, location, name, capacity, highest, lowest, average | singer : singer_id, name, country, song_name, song_release_year, age, is_male | concert : concert_id, concert_name, theme, stadium_id, year | singer_in_concert : concert_id, singer_id`
+
+Response: `concert_singer | select t2.name, t2.is_male from singer_in_concert as t1 join singer as t2 on t1.singer_id = t2.singer_id join concert as t3 on t3.concert_id = t1.concert_id where t3.year = 2020 and t3.concert_name = "Chicago" order by t2.name, t2.is_male`
+
+Is correct?: No 🔴
+
+---
+
+Question [hard]: Which singers participated in at least 3 rock concerts in Chicago in 2020, but never participated in pop concerts?
+
+Schema: `| concert_singer | stadium : stadium_id, location, name, capacity, highest, lowest, average | singer : singer_id, name, country, song_name, song_release_year, age, is_male | concert : concert_id, concert_name, theme, stadium_id, year | singer_in_concert : concert_id, singer_id`
+
+Response: `concert_singer | select t2.name from singer_in_concert as t1 join singer as t2 on t1.singer_id = t2.singer_id join concert as t3 on t3.concert_id = t1.concert_id where t3.year = 2020 and t3.theme = "Rock" except select t2.name from singer_in_concert as t1 join concert as t2 on t1.concert2.concert3.concert1.singer_id = t2.singer_id join pop concert as t3 on t3.concert3.concert3.concert3.concert3.concert3.concert3.concert3.concert3.concert3.theme = "Pop"`
+
+Is correct?: No 🔴
+
+---
+
+Question [hard]: Which singers participated in at least 3 rock concerts in Chicago in 2020, but never participated in pop concerts? Sort them by their total number of performances.
+
+Schema: `| concert_singer | stadium : stadium_id, location, name, capacity, highest, lowest, average | singer : singer_id, name, country, song_name, song_release_year, age, is_male | concert : concert_id, concert_name, theme, stadium_id, year | singer_in_concert : concert_id, singer_id`
+
+Response: `concert_singer | select t2.name from singer_in_concert as t1 join singer as t2 on t1.singer_id = t2.singer_id join concert as t3 on t3.concert_id = t1.concert_id where t3.year = 2020 and t2.theme = "Rock" order by count(*)`
+
+Is correct?: No 🔴
+
+---
+
+Question [hard]: Extract top-5 customers, who ordered at least two of the following items last year: "Lego technic kit 23422", "Ninja pocket knife pro", "Pearl necklace 342". Order them by their names.
+
+Schema: `| sales_data | sales: transaction_id, volume, product_id, product_price_at_the_moment_of_transaction_per_unit, datetime, customer_id | customers: customer_id, name, location | products: id, name, current_price, amount_in_stock`
+
+Response: `sales_data | select t1.name from customers as t1 join sales as t2 on t1.customer_id = t2.customer_id join products as t3 on t2.product_id = t3.id where t3.name like "%lego technic kit 23422%" group by t1.customer_id having count(*) >= 5`
+
+Is correct?: No 🔴
+
+---
+
+Question [hard]: Extract top-5 customers, who ordered at least two of the following items last year: "Lego technic kit 23422", "Ninja pocket knife pro", "Pearl necklace 342". Order them by their total spendings.
+
+Schema: `| sales_data | sales: transaction_id, volume, product_id, product_price_at_the_moment_of_transaction_per_unit, datetime, customer_id | customers: customer_id, name, location | products: id, name, current_price, amount_in_stock`
+
+Response: `sales_data | select t1.name from customers as t1 join sales as t2 on t1.customer_id = t2.customer_id join products as t3 on t2.product_id = t3.id where t3.name like "%lego technic kit 23422%" group by t1.customer_id order by sum(t2.spending)`
+
+Is correct?: No 🔴
+
+---
+
+Question [hard]: Extract top-3 clients, whose packages are stored in violation of temperature conditions?
+
+Schema: `| warehousing | warehouses : warehouse_id, location, max_storage_volume, has_temperature_control | packages : id, warehouse_id, package_volume, requires_temperature_control, stored_until_date, owner_id | owners : id, name`
+
+Response: `warehousing | select t1.name from owners as t1 join packages as t2 on t1.id = t2.owner_id where t2.requires_temperature_control = 'No' group by t1.id order by count(*) desc limit 3`
+
+Is correct?: No 🔴
+
+---
+
+Question [hard]: Extract top-3 clients, ordered by amount of their packages that are stored in violation of temperature conditions?
+
+Schema: `| warehousing | warehouses : warehouse_id, location, max_storage_volume, has_temperature_control | packages : id, warehouse_id, package_volume, requires_temperature_control, stored_until_date, owner_id | owners : id, name`
+
+Response: `warehousing | select t2.name from packages as t1 join owners as t2 on t1.owner_id = t2.id where t1.requires_temperature_control = 'No' group by t2.name order by sum(t1.package_volume)`
+
+Is correct?:  No 🔴
+
+---
+
+# Column inserting
+
+---
+
+Question [medium]: Add new column to the table "concert", with the amount of singers performed at each concert
+
+Schema: `| concert_singer | stadium : stadium_id, location, name, capacity, highest, lowest, average | singer : singer_id, name, country, song_name, song_release_year, age, is_male | concert : concert_id, concert_name, theme, stadium_id, year | singer_in_concert : concert_id, singer_id`
+
+Response: `concert_singer | select count(*), t1.concert_id from concert as t1 join singer_in_concert as t2 on t1.concert_id = t2.concert_id group by t1.concert_id`
+
+Is correct?:  No 🔴
+
+---
+
+Question [easy]: Add new column to the table "stadium", equal to 2 * stadium.capacity
+
+Schema: `| concert_singer | stadium : stadium_id, location, name, capacity, highest, lowest, average | singer : singer_id, name, country, song_name, song_release_year, age, is_male | concert : concert_id, concert_name, theme, stadium_id, year | singer_in_concert : concert_id, singer_id`
+
+Response: `concert_singer | select capacity from stadium`
+
+Is correct?:  No 🔴
+
+---
+
+Question [easy]: Add new column to the table "stadium": double_capacity = 2 * stadium.capacity
+
+Schema: `| concert_singer | stadium : stadium_id, location, name, capacity, highest, lowest, average | singer : singer_id, name, country, song_name, song_release_year, age, is_male | concert : concert_id, concert_name, theme, stadium_id, year | singer_in_concert : concert_id, singer_id`
+
+Response: `concert_singer | select double_capacity from stadium`
+
+Is correct?:  No 🔴
+
+---
+
+Question [easy]: Add new column to the table "stadium": double_capacity = stadium.capacity / sum(stadium.capacity)
+
+Schema: `| concert_singer | stadium : stadium_id, location, name, capacity, highest, lowest, average | singer : singer_id, name, country, song_name, song_release_year, age, is_male | concert : concert_id, concert_name, theme, stadium_id, year | singer_in_concert : concert_id, singer_id`
+
+Response: `concert_singer | select double_capacity from stadium`
+
+Is correct?:  No 🔴
 
 ---
 
