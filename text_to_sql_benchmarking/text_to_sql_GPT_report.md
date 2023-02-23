@@ -1,10 +1,12 @@
 ## Model: code-davinchi-002
 
-Correct total: [15/19]
+Correct total: [20/26]
 
 - \[easy\]: [6/8]
 - \[medium\]: [9/11]
 - \[hard\]: [5/7]
+
+
 - \[column insertion\]: [3/4]
 
 ---

@@ -1,10 +1,12 @@
 ## Model: T5-3B, finetuned on spider
 
-Correct total: [10/19]
+Correct total: [10/26]
 
 - \[easy\]: [7/8]
 - \[medium\]: [3/11]
 - \[hard\]: [0/7]
+
+
 - \[column insertion\]: [0/4] (this model seems to only be capable of selects)
 
 ---
